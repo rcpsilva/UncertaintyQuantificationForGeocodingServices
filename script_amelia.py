@@ -11,7 +11,7 @@ import pickle
 df = pd.read_csv('modeloJoinville.csv')
 
 df = df.dropna()
-df = df.sample(n = 1000)
+df = df.sample(n = 2000)
 
 X = df[['lat', 'lon']].to_numpy()
 y1 = df['lat_api'].to_numpy()
