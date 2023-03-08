@@ -26,7 +26,7 @@ regressorLon = GaussianProcessRegressor()
 regressorLat.fit(X, y1)
 regressorLon.fit(X, y2)
 
-with open('models.pkl', 'wb') as file:
+with open(f'models_{n}.pkl', 'wb') as file:
     pickle.dump(regressorLat, file)
     pickle.dump(regressorLon, file)
 
