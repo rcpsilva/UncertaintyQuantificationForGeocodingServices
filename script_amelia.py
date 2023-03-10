@@ -27,8 +27,7 @@ regressorLat.fit(X, y1)
 regressorLon.fit(X, y2)
 
 with open(f'models_{n}.pkl', 'wb') as file:
-    pickle.dump(regressorLat, file)
-    pickle.dump(regressorLon, file)
+    pickle.dump([regressorLat,regressorLon], file)
 
 file.close()
 
