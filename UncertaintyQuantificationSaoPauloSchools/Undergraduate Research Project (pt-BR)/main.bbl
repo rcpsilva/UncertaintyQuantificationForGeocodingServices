@@ -1,3 +1,49 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{cetl2018comparison}
+V~Cetl, T~Kliment, and T~Jogun.
+\newblock A comparison of address geocoding techniques--case study of the city
+  of zagreb, croatia.
+\newblock {\em Survey Review}, 50(359):97--106, 2018.
+
+\bibitem{cortes2021improving}
+Taísa~Rodrigues Cortes, Ismael Henrique~da Silveira, and Washington~Leite
+  Junger.
+\newblock Improving geocoding matching rates of structured addresses in rio de
+  janeiro, brazil.
+\newblock {\em Cadernos de Saúde Pública}, 37(7), 2021.
+
+\bibitem{davis2011evaluation}
+Clodoveu~A. Davis~Jr. and Renato~O. de~Alencar.
+\newblock Evaluation of the quality of an online geocoding resource in the
+  context of a large brazilian city.
+\newblock {\em Transactions in GIS}, 15(5):851--868, 2011.
+
+\bibitem{de2013deployment}
+Carlos~Jos{\'e} de~Armas~Garc{\'\i}a and Andrei~Abel Cruz~Guti{\'e}rrez.
+\newblock Deployment of a national geocoding service: Cuban experience.
+\newblock {\em Journal of the Urban \& Regional Information Systems
+  Association}, 25(1), 2013.
+
+\bibitem{kilic2020accuracy}
+Batuhan Kilic and Fatih G{\"u}lgen.
+\newblock Accuracy and similarity aspects in online geocoding services: A
+  comparative evaluation for google and bing maps.
+\newblock {\em International Journal of Engineering and Geosciences},
+  5(2):109--119, 2020.
+
+\bibitem{martins2012geocodificacao}
+Douglas Martins, Clodoveu~A. Davis~Jr., and Frederico~T. Fonseca.
+\newblock Geocodificação de endereços urbanos com indicação de qualidade.
+\newblock In {\em Proceedings XIII GEOINFO}, pages 36--41, Campos do Jordão,
+  Brazil, November 2012. Universidade Federal de Minas Gerais.
+\newblock Department of Computer Science.
+
+\bibitem{pietro2017online}
+Gianfranco~Di Pietro and Fabio Rinnone.
+\newblock Online geocoding services: A benchmarking analysis to some european
+  cities.
+\newblock In {\em 2017 Baltic Geodetic Congress (BGC Geomatics)}, pages
+  273--281, 2017.
 
 \end{thebibliography}

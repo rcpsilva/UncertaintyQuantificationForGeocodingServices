@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  23 MAY 2023 22:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  25 MAY 2023 20:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -116,26 +116,92 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 32.
- [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./main.bbl
 
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
+Package natbib Warning: Citation `kilic2020accuracy' on page 1 undefined on input line 46.
 
-) [4] (./main.aux) ) 
+
+Package natbib Warning: Citation `cortes2021improving' on page 1 undefined on input line 46.
+
+
+Package natbib Warning: Citation `cetl2018comparison' on page 1 undefined on input line 46.
+
+
+Package natbib Warning: Citation `kilic2020accuracy' on page 1 undefined on input line 46.
+
+
+Package natbib Warning: Citation `pietro2017online' on page 1 undefined on input line 46.
+
+[1
+
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `davis2011evaluation' on page 2 undefined on input line 48.
+
+
+Package natbib Warning: Citation `martins2012geocodificacao' on page 2 undefined on input line 48.
+
+
+Package natbib Warning: Citation `kilic2020accuracy' on page 2 undefined on input line 62.
+
+
+Package natbib Warning: Citation `cortes2021improving' on page 2 undefined on input line 62.
+
+
+Package natbib Warning: Citation `martins2012geocodificacao' on page 2 undefined on input line 62.
+
+
+Package natbib Warning: Citation `davis2011evaluation' on page 2 undefined on input line 62.
+
+[2]
+
+Package natbib Warning: Citation `cortes2021improving' on page 3 undefined on input line 66.
+
+
+Package natbib Warning: Citation `de2013deployment' on page 3 undefined on input line 70.
+
+
+Package natbib Warning: Citation `davis2011evaluation' on page 3 undefined on input line 74.
+
+
+Package natbib Warning: Citation `martins2012geocodificacao' on page 3 undefined on input line 74.
+
+[3] (./main.bbl [4])
+
+Package natbib Warning: There were undefined citations.
+
+[5] (./main.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+
+./main.aux:27: Package natbib Error: Bibliography not compatible with author-year citations.
+(natbib)                Press <return> to continue in numerical citation style.
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...mand\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+Check the bibliography entries for non-compliant syntax,
+or select author-year BibTeX style, e.g. plainnat
+
+) ) 
 Here is how much of TeX's memory you used:
- 2961 strings out of 476024
- 47757 string characters out of 5794016
+ 2990 strings out of 476024
+ 48413 string characters out of 5794016
  1858382 words of memory out of 5000000
- 23409 multiletter control sequences out of 15000+600000
- 518861 words of font info for 46 fonts, out of 8000000 for 9000
+ 23436 multiletter control sequences out of 15000+600000
+ 520323 words of font info for 48 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 57i,6n,62p,1051b,208s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on main.pdf (4 pages, 80939 bytes).
+ 57i,6n,62p,1088b,223s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on main.pdf (5 pages, 127749 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
