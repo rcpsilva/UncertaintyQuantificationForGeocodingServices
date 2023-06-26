@@ -1,4 +1,29 @@
 \chapter{Desenvolvimento} \label{desenvolvimento}
 
 
-Neste capítulo deve ser definido o tipo de pesquisa e como será realizada. Devem ser detalhados todos os instrumentos e procedimentos metodológicos, apresentados ou não na fundamentação teórica, que serão utilizados para alcançar o objetivo proposto. 
+Para avaliar a qualidade das APIs de geocodificação utilizadas no TerraLAB duas bases de dados padrão ouro foram usadas como referência. Chamaremos essas bases de Bases Gold. Com as bases, foi obtida a medida de erro e realizadas métricas diversas utilizando essa medida.
+
+\section{Bases de Dados}
+Foram coletadas duas bases de dados distintas para o presente trabalho.
+
+A primeira base coletada foi a base do \href{https://centrodametropole.fflch.usp.br/pt-br}{Centro de Estudos da Metrópole (CEM)}. A base consiste 12.500 endereços de escolas públicas e particulares do ensino básico da região metropolitana de São Paulo. Essa base foi coletada de forma manual pelo CEM utilizando o GPS para a coleta das coordenadas. Além de informações sobre o endereço, a base também conta com informações diversas sobre as escolas, permitindo com que se façam avaliações diversas em relação a esses dados. O CEM também disponibilizou um \href{http://200.144.244.241:3002/geolocation}{mapa de cluster}, com todas as escolas, permitindo uma melhor vizualização da localização de cada uma delas e da densidade das escolas em São Paulo e região.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Figuras/siteCEM.jpeg}
+    \caption{Mapa de clusters que mostra a quantidade de escolas em cada região. Ao aproximar o mapa, o usuário consegue ver a localização de cada uma das escolas presentes no banco de dados.}
+    \label{fig:siteCEM}
+\end{figure}
+
+A segunda base coletada foi a base de dados da \href{https://prefeitura.pbh.gov.br/prodabel}{Prodabel}, empresa de informática e informação da prefeitura de Belo Horizonte. A base de dados foi descoberta por meio da referência 1. É uma base de dados mantida e atualizada mensalmente por 27 empresas públicas e privadas de Belo Horizonte. As empresas têm a responsabilidade de reportar qualquer inconsistência que encontrarem, bem como fornecer novos dados a medida que são adquiridos por ela. É uma base considerada confiável pois é constantemente atualizada e é utilizada por diversos serviços da prefeitura. Um exemplo de serviço que utiliza a base de dados é a distribuição dos alunos da rede pública por meio de georeferenciamento. A base conta com 740.000 endereços na data de coleta. A prefeitura também disponibiliza \href{https://bhmap.pbh.gov.br}{site com um mapa} para vizualização do endereços registrados. O endereço está posicionado em cima do edifício representado. Isso pode gerar erro de alguns metros devido a maioria da APIs colocar o endereço na frente do edifício representado. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Figuras/siteProdabel.jpeg}
+    \caption{Mapa que mostra a cidade de Belo Horizonte, desenvolvido pela Prodabel. Na barra de pesquisa, é possível pesquisar os endereços e marcá-los no mapa.}
+    \label{fig:siteProdabel}
+\end{figure}
+
+
+
+
