@@ -1,0 +1,44 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[ABNT 2002]{NBR6023:2002}
+\abntrefinfo{ABNT}{ABNT}{2002}
+{ABNT. \emph{{NBR} 6023}: Informação e documentação - referências -
+  elaboração.
+Rio de Janeiro, 2002. 24~p.}
+
+\bibitem[Associa{\c c}\~ao Brasileira de Normas TÉcnicas 2003]{NBR6028:2003}
+\abntrefinfo{ABNT}{ABNT}{2003}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS TÉCNICAS. \emph{{ABNT NBR} 6028:2003}:
+  Informação e documentação -- resumo -- apresentação.
+Rio de Janeiro, 2003. 2~p.}
+
+\bibitem[Associa{\c c}\~ao Brasileira de Normas TÉcnicas 2011]{NBR14724:2011}
+\abntrefinfo{ABNT}{ABNT}{2011}
+{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS TÉCNICAS. \emph{{ABNT NBR}
+  14724:2011}: Informação e documentação -- trabalhos acadêmicos --
+  apresentação.
+Rio de Janeiro, 2011. 15~p.}
+
+\bibitem[Carvalho 1989]{Carvalho1989}
+\abntrefinfo{Carvalho}{CARVALHO}{1989}
+{CARVALHO, M. de. \emph{Construindo o saber: t{\'e}cnicas de metodologia
+  cient{\'\i}fica}. [S.l.]: Papirus Editora, 1989.
+ISBN 9788530800710.}
+
+\bibitem[Marconi e Lakatos 2003]{marconi2003}
+\abntrefinfo{Marconi e Lakatos}{MARCONI; LAKATOS}{2003}
+{MARCONI, M. d.~A.; LAKATOS, E.~M. \emph{Fundamentos de Metodologia
+  Científica}. 5. ed.. ed. São Paulo: Atlas, 2003.}
+
+\bibitem[Rampazzo 2005]{Rampazzo2005}
+\abntrefinfo{Rampazzo}{RAMPAZZO}{2005}
+{RAMPAZZO, L. \emph{Metodologia cient{\'\i}fica}. [S.l.]: Edi{\c{c}}{\~o}es
+  Loyola, 2005.
+ISBN 9788515024988.}
+
+\end{thebibliography}
