@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  26 JUN 2023 23:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  27 JUN 2023 21:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -989,10 +989,10 @@ l.77 \pdfbookmark[0]{\listalgorithmcfname}{lof}
 \openout2 = `Capitulos/Cap3-Desenvolvimento.aux'.
 
  (Capitulos/Cap3-Desenvolvimento.tex
-<Figuras/siteCEM.jpeg, id=195, 1371.1225pt x 631.35875pt>
+<Figuras/siteCEM.jpeg, id=197, 1371.1225pt x 631.35875pt>
 File: Figuras/siteCEM.jpeg Graphic file (type jpg)
 <use Figuras/siteCEM.jpeg>
-Package pdftex.def Info: Figuras/siteCEM.jpeg  used on input line 13.
+Package pdftex.def Info: Figuras/siteCEM.jpeg  used on input line 14.
 (pdftex.def)             Requested size: 455.0pt x 209.51471pt.
  [5
 
@@ -1000,20 +1000,20 @@ Package pdftex.def Info: Figuras/siteCEM.jpeg  used on input line 13.
 
 
  <./Figuras/siteCEM.jpeg>]
-<Figuras/siteProdabel.jpeg, id=202, 1371.1225pt x 623.32875pt>
+<Figuras/siteProdabel.jpeg, id=204, 1371.1225pt x 623.32875pt>
 File: Figuras/siteProdabel.jpeg Graphic file (type jpg)
 <use Figuras/siteProdabel.jpeg>
-Package pdftex.def Info: Figuras/siteProdabel.jpeg  used on input line 22.
+Package pdftex.def Info: Figuras/siteProdabel.jpeg  used on input line 23.
 (pdftex.def)             Requested size: 455.0pt x 206.84998pt.
-
-Overfull \hbox (94.7932pt too wide) in paragraph at lines 30--31
-\T1/qtm/m/n/12 (-20) reço. Esse erro é cal-cu-lado como a dis-tân-cia en-tre o ponto de re-fe-rên-cia $\OML/cmm/m/it/12 obtidomanualmentenabasededadosdoCEM$
- []
-
-) [6 <./Figuras/siteProdabel.jpeg>] [7]
+<Figuras/diagrama monografia.drawio.png, id=205, 493.845pt x 416.55624pt>
+File: Figuras/diagrama monografia.drawio.png Graphic file (type png)
+<use Figuras/diagrama monografia.drawio.png>
+Package pdftex.def Info: Figuras/diagrama monografia.drawio.png  used on input line 40.
+(pdftex.def)             Requested size: 455.0pt x 383.78937pt.
+ [6 <./Figuras/siteProdabel.jpeg>]) [7 <./Figuras/diagrama monografia.drawio.png>] [8]
 \openout2 = `Capitulos/Cap4-Resultados.aux'.
 
- (Capitulos/Cap4-Resultados.tex) [8
+ (Capitulos/Cap4-Resultados.tex) [9
 
 
 
@@ -1021,38 +1021,38 @@ Overfull \hbox (94.7932pt too wide) in paragraph at lines 30--31
 ]
 \openout2 = `Capitulos/Cap5-Conclusao.aux'.
 
- (Capitulos/Cap5-Conclusao.tex) [9
+ (Capitulos/Cap5-Conclusao.tex) [10
 
 
 
 
 ] (Monografia.bbl
 bibitemlist
-) [10
+) [11
 
 
 
 ]
 \openout2 = `PosTextuais/Apendice.aux'.
 
- (PosTextuais/Apendice.tex [11
+ (PosTextuais/Apendice.tex [12
 
 
 
-] [12
+] [13
 
-]) [13
+]) [14
 
 ]
 \openout2 = `PosTextuais/Anexo.aux'.
 
- (PosTextuais/Anexo.tex [14
+ (PosTextuais/Anexo.tex [15
 
 
 
 
 
-]) [15
+]) [16
 
 ] (Monografia.ind)
 \tf@lof=\write5
@@ -1075,17 +1075,17 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 20312 strings out of 476331
- 346202 string characters out of 5787765
+ 20333 strings out of 476331
+ 346628 string characters out of 5787765
  1862660 words of memory out of 5000000
- 40151 multiletter control sequences out of 15000+600000
- 549301 words of font info for 110 fonts, out of 8000000 for 9000
+ 40158 multiletter control sequences out of 15000+600000
+ 549831 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,12n,90p,1284b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on Monografia.pdf (30 pages, 759780 bytes).
+Output written on Monografia.pdf (31 pages, 780661 bytes).
 PDF statistics:
- 415 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 23859 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 425 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 23864 words of extra memory for PDF output out of 24883 (max. 10000000)
 
