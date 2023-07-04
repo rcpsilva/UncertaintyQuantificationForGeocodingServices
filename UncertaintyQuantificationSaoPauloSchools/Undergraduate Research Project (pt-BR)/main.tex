@@ -26,6 +26,7 @@ Bolsista: Ana Luiza Almeida Soares}
 
 \usepackage{natbib}
 \usepackage{graphicx}
+\usepackage{amsmath}
 
 \begin{document}
 
@@ -98,12 +99,91 @@ A forma como a base de dados foi coletada é a mais precisa que temos atualmente
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=\textwidth]{diagrama monografia.drawio.png}
+    \includegraphics[width=0.5\textwidth]{diagrama monografia.drawio.png}
     \caption{Diagrama que esquematiza os processos necessários para a pesquisa}
     \label{fig:diagramaGeo}
   \end{figure}
 
-%\section{Resultados Preliminares}
+\subsection{Metrícas de Avaliação}
+A principal métrica utilizada para avaliar a qualidade da geocodificação é o erro do endereço. Esse erro é calculado como a distância entre o ponto gold e o ponto geocodificado pela GeoAPI. Como os pontos estão representados com latitude e longitude, foi utilizada a função distance da biblioteca geopy de python.
+
+\begin{equation}
+  e = D(p_{\text{Gold}}, p_{\text{Geo}})
+  \end{equation}
+  
+  onde:
+  \begin{itemize}
+    \item $e$ é o erro da geocodificação,
+    \item $D$ é uma função que calcula a distância em km,
+    \item $p_{\text{Gold}}$ é o ponto da base Gold, e
+    \item $p_{\text{Geo}}$ é o ponto resultante da geocodificação.
+  \end{itemize}
+
+Com base nesse erro, calcularemos medidas estatísticas, como a média, a mediana, o desvio padrão e a média aparada em 5\%, para analisar a precisão das GeoAPIs.
+
+Outra métrica utilizada é a taxa de resposta por API. Para alguns endereços da base de dados, as GeoAPIs podem retornar um erro, não fornecendo uma geocodificação válida. Nesse caso, nada é inserido no banco de dados. A taxa de resposta é calculada como a quantidade de endereços geocodificados dividida pela quantidade de endereços originais na base de dados. Esse valor, normalmente entre 0 e 1, é convertido em uma porcentagem para facilitar a compreensão dos resultados.
+
+\begin{equation}
+  \text{tx}_{\text{Resp}} = \frac{n_{\text{Geo}} \times 100}{n_{\text{Gold}}}
+  \end{equation}
+  
+  onde:
+  \begin{itemize}
+    \item $\text{T}_{\text{Resp}}$ é a taxa de resposta da API,
+    \item $n_{\text{Geo}}$ é a quantidade de endereços geocodificados em determinada API, e
+    \item $n_{\text{Gold}}$ é a quantidade de endereços da base gold que foram inseridos para geocodificação.
+  \end{itemize}
+  
+\section{Resultados Preliminares}
+
+\subsection{Distribuição Espacial dos Pontos Geocodificados}
+Para melhor visualização dos pontos geocodificados em comparação com o banco de referência, foram gerados mapas com a identificação dos pontos para cada uma das APIs. Seguem os mapas. 
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{mapapontos1.png}
+  \caption{Mapa da Distribuição Espacial dos Pontos da base Gold e Geocodificados pela Mapbox}
+  \label{fig:mapapontos1}
+\end{figure}
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{mapapontos2.png}
+  \caption{Mapa da Distribuição Espacial dos Pontos da base Gold e Geocodificados pela Here}
+  \label{fig:mapapontos2}
+\end{figure}
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{mapapontos3.png}
+  \caption{Mapa da Distribuição Espacial dos Pontos da base Gold e Geocodificados pela TomTom}
+  \label{fig:mapapontos3}
+\end{figure}
+
+Não é possível tirar muitas conclusões definitivas apenas com essa visualização, no entanto, é possível observar a densidade dos pontos e identificar quais GeoAPIs processaram a maior quantidade de pontos. Além disso, pode-se notar que os pontos classificados como "Gold" estão concentrados na região metropolitana de São Paulo, enquanto alguns pontos geocodificados estão localizados fora dessa região, em outras cidades do estado. Essa disparidade provavelmente reflete alguns erros de geocodificação, conhecidos como outliers.
+
+\subsection{Metrícas do Erro}
+Após essa análise, o erro foi calculado para cada um dos pontos, sendo expresso em quilômetros.
+
+Com essa informação, foram calculadas as métricas mencionadas anteriormente. É notável que a API TomTom obteve a maior taxa de resposta, com um índice superior a 80\%. Além disso, apresentou a melhor média aparada em 5\%. Por outro lado, a API Here obteve um desempenho superior na média tradicional, apesar de possuir uma taxa de resposta muito baixa. De forma geral, esses resultados foram considerados insatisfatórios. Ao longo do relatório, iremos analisar outras questões em detalhes.
+
+TABELA DE MÉTRICAS AQUI
+
+\subsection{Distribuição do Erro}
+Em seguida, tentamos analisar a distribuição do erro para cada uma das GeoAPIs. Para isso, utilizamos histogramas de erro individualmente para cada API e combinando todas elas. No entanto, devido à presença de alguns erros exorbitantes, esses histogramas não eram muito representativos, pois a maior parte do erro se concentrava entre 0 km e 50 km. Diante disso, decidimos realizar um corte nos dados, limitando o erro em 0.5 km ou 500 metros. Em seguida, repetimos o processo, agora gerando um único histograma que representa a distribuição do erro para todas as APIs em conjunto.
+
+Com base nos histogramas, pudemos observar que a maioria dos erros está concentrada entre 0 e 200 metros. Levando em consideração nossas pesquisas, consideramos um erro aceitável de até 150 metros, o que corresponde aproximadamente a um quarteirão. Portanto, com base apenas na análise da distribuição de erros, todas as APIs apresentam resultados satisfatórios.
+
+HISTOGRAMAS AQUI
+
+\subsection{Distribuição Espacial do Erro}
+Além disso, realizamos uma análise adicional para visualizar como esse erro se comporta no espaço. Para isso, criamos mapas de altitude, onde o erro foi utilizado como medida de altitude. Nessa representação, cores mais próximas do vermelho indicam erros mais altos, enquanto cores mais próximas do azul escuro indicam erros mais baixos. Também plotamos os pontos geocodificados no mapa para avaliar a representatividade das cores. Dessa forma, pudemos verificar se uma determinada área apresenta muitos pontos geocodificados ou se há poucos pontos com erros grandes.
+
+Ao analisar os resultados, observamos que a maioria do mapa apresenta erros menores que 34 km, conforme esperado. No entanto, identificamos alguns pontos com erros grandes, que serão avaliados individualmente posteriormente. É importante ressaltar que encontramos uma limitação devido à presença de erros exorbitantes, ou outliers, o que restringe nossa capacidade de tirar conclusões significativas. Para obter uma melhor compreensão do contraste e da distribuição geográfica do erro, planejamos repetir o experimento realizando um corte em 34 km.
+
+É válido destacar que o mapa é interativo no projeto original, permitindo uma visualização mais detalhada das informações apresentadas.
+
+MAPAS E GRÉFICOS AQUI
 %(Apenas em caso de renovação)
 %(Limite 1500 caracteres)	
    
