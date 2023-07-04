@@ -42,16 +42,18 @@ Os resultados deste projeto de pesquisa terão implicações significativas para
 Geocodificação, Análise espacial, Serviços de geocodificação online
    
 \section{Introdução}
-	
-Geocodificação, o processo de transformar endereços em coordenadas geográficas, é um componente fundamental dos serviços de localização e da análise espacial moderna. Com a crescente demanda por informações de geolocalização precisas e eficientes, os serviços de geocodificação online se tornaram ferramentas cruciais para uma ampla variedade de aplicações, incluindo sistemas de navegação, plataformas de mídia social, gestão logística, planejamento urbano e muitas outras \cite{kilic2020accuracy,cortes2021improving}. No entanto, a qualidade e confiabilidade dos resultados de geocodificação dos diferentes provedores de serviço pode variar devido a diferenças nos algoritmos subjacentes, fontes de dados e técnicas de processamento, tornando essencial avaliar e comparar o desempenho desses serviços \cite{cetl2018comparison,kilic2020accuracy,pietro2017online}. 
 
-Este projeto de pesquisa tem como objetivo estimar a qualidade de diferentes serviços de geocodificação online para cidades brasileiras. O Brasil, sendo um país vasto e diverso com um sistema de endereçamento complexo, apresenta desafios únicos para as aplicações de geocodificação. Além disso, os estudos mais recentes  sobre a qualidade destes serviços para cidades brasileiras são de 2011 e 2012 \cite{davis2011evaluation,martins2012geocodificacao} e, possivelmente, já não refletem mais a condição atual da tecnologia.   
+\subsection{O problema}
+Ao representar locais reais em um computador, é necessário realizar a tradução do endereço (uma sequência de palavras e números) para coordenadas no espaço (latitude e longitude). Esse processo é conhecido como geocodificação. Atualmente, a geocodificação utilizando GeoAPIs online é uma abordagem comum.
 
-A precisão e a exatidão dos serviços de geocodificação nesse contexto têm implicações significativas para vários setores, como transporte, serviços de emergência e operações comerciais. Portanto, compreender os pontos fortes e limitações dos serviços de geocodificação disponíveis é de extrema importância tanto para a pesquisa acadêmica quanto para as aplicações práticas.	
-   
+No entanto, as GeoAPIs utilizam diferentes métodos para identificar as coordenadas espaciais, e não há garantia de que todas elas sejam precisas. Portanto, é essencial medir a precisão dessas GeoAPIs, a fim de avaliar a qualidade da geocodificação fornecida por cada uma delas.
+
+\subsection{A importância}
+A geocodificação de endereços tem aplicações em diversas áreas, tanto dentro quanto fora da computação. A capacidade de mapear um endereço no espaço é crucial para tomadas de decisão, otimização de rotas, planejamento de rotas de fuga, entre outros. É fundamental ter confiança de que os endereços geocodificados realmente representam o local desejado no espaço ou entender quando podem não ser precisos. Isso ajuda a melhorar a confiabilidade do serviço e permite uma tomada de decisão consciente dos riscos envolvidos.
+
 \section{Objetivos}
 
-O objetivo principal deste projeto de pesquisa é desenvolver uma metodologia abrangente para estimar a qualidade de diferentes serviços de geocodificação online para cidades brasileiras. Ao avaliar e comparar rigorosamente seu desempenho, pretendemos fornecer insights valiosos sobre os pontos fortes e limitações de cada serviço, permitindo que os usuários façam escolhas informadas com base em seus requisitos específicos. O projeto abrangerá uma variedade de dimensões, incluindo precisão, completude, velocidade, confiabilidade e facilidade de integração, para fornecer uma avaliação holística da qualidade dos serviços de geocodificação.
+O objetivo deste estudo é avaliar a qualidade da geocodificação fornecida por cinco GeoAPIs utilizadas no laboratório TerraLAB. As GeoAPIs selecionadas para análise são: TomTom, Mapbox, Open Route Service, Google Maps e Here.
    
 \section{Justificativa/Relevância}
 
@@ -73,27 +75,33 @@ A geocodificação precisa é crucial para iniciativas de desenvolvimento de inf
 
 Embora a pesquisa em geocodificação tenha sido amplamente estudada em vários contextos, há uma falta de avaliações recentes específicas para as cidades brasileiras. Os trabalhos mais atuais são de 2011 e 2012 \cite{davis2011evaluation,martins2012geocodificacao}. Este projeto de pesquisa preenche a lacuna na pesquisa ao se concentrar nos desafios únicos e nos requisitos da geocodificação no contexto brasileiro. Os resultados contribuirão para o conhecimento existente na pesquisa de geocodificação, enriquecendo a compreensão da qualidade e desempenho da geocodificação em sistemas geográficos e de endereçamento diversos.
    
-\section{Atividades/Metodologias}
+\section{Metodologia}
 
-Para alcançar nossos objetivos de pesquisa, seguiremos uma metodologia sistemática e abrangente. Os seguintes passos serão realizados:
+\subsection{Base de Endereços}
+Para avaliar a qualidade das GeoAPIs, utilizaremos uma base de dados confiável que contém endereços completos, tanto verbalmente quanto com suas coordenadas geográficas. Essa base de dados será usada como referência para comparação. Dentro da área, uma base com essas características é chamada de Base Padrão ou Gold Standard Dataset. Sendo assim, iremos nos referir como Base Gold ou Pontos Gold, a base utilizada como referência e os pontos vindos dela.  
 
-1. Coleta de Dados: Vamos reunir um conjunto de dados diversificado e representativo, consistindo em endereços de várias cidades brasileiras. Este conjunto de dados incluirá uma combinação de endereços urbanos e rurais, diferentes formatos de endereço e uma variedade de complexidade de endereços para garantir uma avaliação abrangente.
+A escolha recaiu sobre a base de dados coletada pelo Centro de Estudos da Metrópole (CEM), que inclui mais de 12 mil endereços de escolas na região metropolitana de São Paulo. Essa base foi coletada manualmente por membros do grupo, que visitaram pessoalmente as escolas e utilizaram GPS para obter as coordenadas.
 
-2. Seleção dos Serviços de Geocodificação: Vamos identificar e selecionar um conjunto de serviços populares de geocodificação online disponíveis para cidades brasileiras. Esses serviços serão escolhidos com base em sua ampla utilização, disponibilidade de APIs documentadas e reputação na comunidade geoespacial.
+\subsection{Motivo de Escolha da Base de Endereços}
+A forma como a base de dados foi coletada é a mais precisa que temos atualmente para obter a localização espacial real de cada endereço. Embora possa haver algum erro devido à precisão do GPS, não existe uma técnica comprovadamente mais eficaz para identificar dados geográficos de um endereço do que a coleta manual. Portanto, utilizaremos essa base como referência, considerando-a o ponto de referência mais próximo da verdadeira localização terrestre. Ao considerar essa base como a correta, poderemos quantificar o erro e calcular métricas com base nisso.
 
-3. Experimentos de Geocodificação: Utilizando o conjunto de dados coletados, iremos realizar experimentos de geocodificação, enviando os endereços para cada serviço de geocodificação selecionado. Registraremos os resultados de geocodificação, incluindo as coordenadas de latitude e longitude, retornados por cada serviço para análises posteriores.
+\subsection{Processo de Geocodificação}
 
-4. Dados de Referência: Para validar a precisão dos serviços de geocodificação, obteremos coordenadas de referência para um subconjunto de endereços a partir de fontes confiáveis, como bancos de dados governamentais, mapas oficiais ou conjuntos de dados geoespaciais autoritativos. Essas coordenadas de referência servirão como base para avaliar a precisão de cada serviço de geocodificação.
+\begin{description}
+    \item [Seleção dos campos relevantes da base de dados:] A partir da base de dados selecionada, foram identificados os campos que contêm informações sobre o nome da rua, número, bairro, CEP e cidade.
+    \item [Homogeneização dos dados:] Os dados obtidos passaram por um processo de homogeneização, no qual foram removidas abreviações comumente utilizadas. Para garantir melhores respostas das GeoAPIs, a equipe decidiu substituir abreviações por suas versões completas. Foi criado um dicionário de abreviações contendo as palavras mais comuns em português e suas formas completas correspondentes. O algoritmo percorre a base de dados e substitui as abreviações encontradas pelas formas completas correspondentes.
+    \item [Inserção dos endereços no banco de dados do Crawler:] Os endereços, já homogeneizados, são inseridos no banco de dados do Crawler, que foi desenvolvido pela equipe de Back-end do TerraLAB.
+    \item [Realização da geocodificação:] O banco de dados do Crawler é utilizado para realizar a geocodificação dos endereços. A geocodificação consiste em atribuir coordenadas geográficas (latitude e longitude) a cada endereço.O processo de geocodificação é executado utilizando as ferramentas disponíveis no Crawler.
+    \item [Armazenamento dos endereços geocodificados:] 
+    Os endereços geocodificados são salvos no banco de dados, juntamente com suas coordenadas geográficas.
+\end{description}
 
-5. Análise e Comparação: Com base nos resultados de geocodificação coletados e nas métricas de avaliação, iremos analisar e comparar o desempenho de diferentes serviços de geocodificação. Essa análise envolverá a identificação de pontos fortes e fracos, determinação dos serviços mais precisos, e compreensão de quaisquer variações regionais no desempenho.
-
-6. Análise Estatística: Empregaremos técnicas estatísticas para validar a significância das diferenças observadas nas métricas de desempenho entre os serviços de geocodificação. Essa análise fornecerá insights sobre a confiabilidade e consistência dos serviços avaliados.
-
-7. Análise de Sensibilidade: Realizaremos análises de sensibilidade para investigar o impacto de fatores variados, como complexidade do endereço, tamanho do conjunto de dados e distribuição geográfica, no desempenho dos serviços de geocodificação. Essa análise ajudará a identificar cenários em que determinados serviços se destacam ou enfrentam dificuldades, proporcionando uma compreensão mais profunda de seus pontos fortes e limitações.
-
-8. Validação e Testes de Robustez: Para garantir a robustez de nossas descobertas, realizaremos testes de validação, como validação cruzada e bootstrap, para avaliar a estabilidade e generalizabilidade dos resultados obtidos.
-
-9. Recomendações: Com base na análise e comparação abrangente dos serviços de geocodificação, forneceremos recomendações sobre os serviços mais adequados para diferentes aplicações e destacaremos áreas para melhoria no cenário de geocodificação para cidades brasileiras.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{diagrama monografia.drawio.png}
+    \caption{Diagrama que esquematiza os processos necessários para a pesquisa}
+    \label{fig:diagramaGeo}
+  \end{figure}
 
 %\section{Resultados Preliminares}
 %(Apenas em caso de renovação)
