@@ -27,6 +27,8 @@ Bolsista: Ana Luiza Almeida Soares}
 \usepackage{natbib}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{makecell}
+\usepackage{subfigure}
 
 \begin{document}
 
@@ -97,7 +99,7 @@ A forma como a base de dados foi coletada é a mais precisa que temos atualmente
     Os endereços geocodificados são salvos no banco de dados, juntamente com suas coordenadas geográficas.
 \end{description}
 
-\begin{figure}[ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{diagrama monografia.drawio.png}
     \caption{Diagrama que esquematiza os processos necessários para a pesquisa}
@@ -139,21 +141,21 @@ Outra métrica utilizada é a taxa de resposta por API. Para alguns endereços d
 \subsection{Distribuição Espacial dos Pontos Geocodificados}
 Para melhor visualização dos pontos geocodificados em comparação com o banco de referência, foram gerados mapas com a identificação dos pontos para cada uma das APIs. Seguem os mapas. 
 
-\begin{figure}[ht]
+\begin{figure}[h]
   \centering
   \includegraphics[width=\textwidth]{mapapontos1.png}
   \caption{Mapa da Distribuição Espacial dos Pontos da base Gold e Geocodificados pela Mapbox}
   \label{fig:mapapontos1}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[h]
   \centering
   \includegraphics[width=\textwidth]{mapapontos2.png}
   \caption{Mapa da Distribuição Espacial dos Pontos da base Gold e Geocodificados pela Here}
   \label{fig:mapapontos2}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[h]
   \centering
   \includegraphics[width=\textwidth]{mapapontos3.png}
   \caption{Mapa da Distribuição Espacial dos Pontos da base Gold e Geocodificados pela TomTom}
@@ -167,14 +169,60 @@ Após essa análise, o erro foi calculado para cada um dos pontos, sendo express
 
 Com essa informação, foram calculadas as métricas mencionadas anteriormente. É notável que a API TomTom obteve a maior taxa de resposta, com um índice superior a 80\%. Além disso, apresentou a melhor média aparada em 5\%. Por outro lado, a API Here obteve um desempenho superior na média tradicional, apesar de possuir uma taxa de resposta muito baixa. De forma geral, esses resultados foram considerados insatisfatórios. Ao longo do relatório, iremos analisar outras questões em detalhes.
 
-TABELA DE MÉTRICAS AQUI
+\begin{table}
+  \centering
+  \caption{Métricas de Erro e Resposta}
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{|c|c|c|c|c|c|c|}
+  \hline
+  \makecell{API} & \makecell{Média \\(km)} & \makecell{Mediana \\(km)} & \makecell{Desvio \\Padrão (km)} & \makecell{Média \\Aparada (km)}(km) & \makecell{Taxa de \\Resposta (\%)} & \makecell{Taxa de \\Acerto(\%)}\\
+  \hline
+  Mapbox & 9.7544 & 0.1084 & 46.7664 & 1.8349 & 53.3829 & 30.1903 \\
+  Tomtom & 5.0701 & 0.0560 & 35.6215 & 0.2373 & 83.1894 & 9.2051 \\
+  Here & 2.2372 & 0.0632 & 13.7984 & 0.4365 & 13.9075 & 9.2051 \\
+  \hline
+  \end{tabular}
+\end{table}
 
 \subsection{Distribuição do Erro}
 Em seguida, tentamos analisar a distribuição do erro para cada uma das GeoAPIs. Para isso, utilizamos histogramas de erro individualmente para cada API e combinando todas elas. No entanto, devido à presença de alguns erros exorbitantes, esses histogramas não eram muito representativos, pois a maior parte do erro se concentrava entre 0 km e 50 km. Diante disso, decidimos realizar um corte nos dados, limitando o erro em 0.5 km ou 500 metros. Em seguida, repetimos o processo, agora gerando um único histograma que representa a distribuição do erro para todas as APIs em conjunto.
 
 Com base nos histogramas, pudemos observar que a maioria dos erros está concentrada entre 0 e 200 metros. Levando em consideração nossas pesquisas, consideramos um erro aceitável de até 150 metros, o que corresponde aproximadamente a um quarteirão. Portanto, com base apenas na análise da distribuição de erros, todas as APIs apresentam resultados satisfatórios.
 
-HISTOGRAMAS AQUI
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{hist1.png}
+  \caption{Histograma do erro calculado com os pontos da Mapbox}
+  \label{fig:hist1}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{hist2.png}
+  \caption{Histograma do erro calculado com os pontos da Here}
+  \label{fig:hist2}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{hist3.png}
+  \caption{Histograma do erro calculado com os pontos da TomTom}
+  \label{fig:hist3}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{hist4.png}
+  \caption{Histograma comparativo do erro das APIs}
+  \label{fig:hist4}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{hist5.png}
+  \caption{Histograma comparativo do erro das APIs com limitação em 500 metros}
+  \label{fig:hist5}
+\end{figure}
 
 \subsection{Distribuição Espacial do Erro}
 Além disso, realizamos uma análise adicional para visualizar como esse erro se comporta no espaço. Para isso, criamos mapas de altitude, onde o erro foi utilizado como medida de altitude. Nessa representação, cores mais próximas do vermelho indicam erros mais altos, enquanto cores mais próximas do azul escuro indicam erros mais baixos. Também plotamos os pontos geocodificados no mapa para avaliar a representatividade das cores. Dessa forma, pudemos verificar se uma determinada área apresenta muitos pontos geocodificados ou se há poucos pontos com erros grandes.
@@ -183,7 +231,41 @@ Ao analisar os resultados, observamos que a maioria do mapa apresenta erros meno
 
 É válido destacar que o mapa é interativo no projeto original, permitindo uma visualização mais detalhada das informações apresentadas.
 
-MAPAS E GRÉFICOS AQUI
+\begin{figure}[h]
+  \centering
+  \subfigure[Mapa]{
+    \includegraphics[width=0.45\textwidth]{Mapa.jpeg}
+  }
+  \subfigure[Gráfico de altitude]{
+    \includegraphics[width=0.45\textwidth]{graficoAltHere.png}
+  }
+  \caption{Mapa e gráfico de altitude, considerando o erro da Here como a medida de altitude}
+  \label{fig:alt1}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \subfigure[Mapa]{
+    \includegraphics[width=0.45\textwidth]{MapaHere.jpeg}
+  }
+  \subfigure[Gráfico de altitude]{
+    \includegraphics[width=0.45\textwidth]{graficoAltMapbox.png}
+  }
+  \caption{Mapa e gráfico de altitude, considerando o erro da Mapbox como a medida de altitude}
+  \label{fig:alt2}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \subfigure[Mapa]{
+    \includegraphics[width=0.45\textwidth]{Mapatomtom.jpeg}
+  }
+  \subfigure[Gráfico de altitude]{
+    \includegraphics[width=0.45\textwidth]{graficoAltTomtom.png}
+  }
+  \caption{Mapa e gráfico de altitude, considerando o erro da TomTom como a medida de altitude}
+  \label{fig:alt3}
+\end{figure}
 %(Apenas em caso de renovação)
 %(Limite 1500 caracteres)	
    
