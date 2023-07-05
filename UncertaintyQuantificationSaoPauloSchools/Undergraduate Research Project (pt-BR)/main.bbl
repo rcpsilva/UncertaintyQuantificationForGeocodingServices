@@ -1,11 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{cetl2018comparison}
-V~Cetl, T~Kliment, and T~Jogun.
-\newblock A comparison of address geocoding techniques--case study of the city
-  of zagreb, croatia.
-\newblock {\em Survey Review}, 50(359):97--106, 2018.
-
 \bibitem{cortes2021improving}
 Taísa~Rodrigues Cortes, Ismael Henrique~da Silveira, and Washington~Leite
   Junger.
@@ -37,12 +31,5 @@ Douglas Martins, Clodoveu~A. Davis~Jr., and Frederico~T. Fonseca.
 \newblock Geocodificação de endereços urbanos com indicação de qualidade.
 \newblock In {\em Proceedings XIII GEOINFO}, pages 36--41, Campos do Jordão,
   Brazil, November 2012. Universidade Federal de Minas Gerais.
-
-\bibitem{pietro2017online}
-Gianfranco~Di Pietro and Fabio Rinnone.
-\newblock Online geocoding services: A benchmarking analysis to some european
-  cities.
-\newblock In {\em 2017 Baltic Geodetic Congress (BGC Geomatics)}, volume~1,
-  pages 273--281, 2017.
 
 \end{thebibliography}

@@ -1,48 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2022)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
-Warning--can't use both volume and number fields in pietro2017online
-You've used 7 entries,
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            547 strings with 5487 characters,
-and the built_in function-call counts, 2468 in all, are:
-= -- 245
-> -- 106
-< -- 3
-+ -- 42
-- -- 34
-* -- 179
-:= -- 404
-add.period$ -- 22
-call.type$ -- 7
-change.case$ -- 38
+            532 strings with 5115 characters,
+and the built_in function-call counts, 1654 in all, are:
+= -- 164
+> -- 75
+< -- 1
++ -- 29
+- -- 24
+* -- 120
+:= -- 283
+add.period$ -- 16
+call.type$ -- 5
+change.case$ -- 27
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 97
-empty$ -- 194
-format.name$ -- 34
-if$ -- 526
+cite$ -- 5
+duplicate$ -- 63
+empty$ -- 127
+format.name$ -- 24
+if$ -- 347
 int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 7
-newline$ -- 38
-num.names$ -- 14
-pop$ -- 31
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 28
+num.names$ -- 10
+pop$ -- 21
 preamble$ -- 1
-purify$ -- 31
+purify$ -- 22
 quote$ -- 0
-skip$ -- 77
+skip$ -- 48
 stack$ -- 0
-substring$ -- 152
-swap$ -- 26
-text.length$ -- 3
+substring$ -- 91
+swap$ -- 12
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 28
-warning$ -- 1
-while$ -- 23
-width$ -- 8
-write$ -- 82
-(There was 1 warning)
+type$ -- 20
+warning$ -- 0
+while$ -- 15
+width$ -- 6
+write$ -- 59
