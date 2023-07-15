@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  27 JUN 2023 21:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  15 JUL 2023 16:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -989,7 +989,7 @@ l.77 \pdfbookmark[0]{\listalgorithmcfname}{lof}
 \openout2 = `Capitulos/Cap3-Desenvolvimento.aux'.
 
  (Capitulos/Cap3-Desenvolvimento.tex
-<Figuras/siteCEM.jpeg, id=197, 1371.1225pt x 631.35875pt>
+<Figuras/siteCEM.jpeg, id=195, 1371.1225pt x 631.35875pt>
 File: Figuras/siteCEM.jpeg Graphic file (type jpg)
 <use Figuras/siteCEM.jpeg>
 Package pdftex.def Info: Figuras/siteCEM.jpeg  used on input line 14.
@@ -1000,12 +1000,12 @@ Package pdftex.def Info: Figuras/siteCEM.jpeg  used on input line 14.
 
 
  <./Figuras/siteCEM.jpeg>]
-<Figuras/siteProdabel.jpeg, id=204, 1371.1225pt x 623.32875pt>
+<Figuras/siteProdabel.jpeg, id=202, 1371.1225pt x 623.32875pt>
 File: Figuras/siteProdabel.jpeg Graphic file (type jpg)
 <use Figuras/siteProdabel.jpeg>
 Package pdftex.def Info: Figuras/siteProdabel.jpeg  used on input line 23.
 (pdftex.def)             Requested size: 455.0pt x 206.84998pt.
-<Figuras/diagrama monografia.drawio.png, id=205, 493.845pt x 416.55624pt>
+<Figuras/diagrama monografia.drawio.png, id=203, 493.845pt x 416.55624pt>
 File: Figuras/diagrama monografia.drawio.png Graphic file (type png)
 <use Figuras/diagrama monografia.drawio.png>
 Package pdftex.def Info: Figuras/diagrama monografia.drawio.png  used on input line 40.
@@ -1079,13 +1079,13 @@ Here is how much of TeX's memory you used:
  346628 string characters out of 5787765
  1862660 words of memory out of 5000000
  40158 multiletter control sequences out of 15000+600000
- 549831 words of font info for 115 fonts, out of 8000000 for 9000
+ 549834 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,12n,90p,1284b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,90p,1284b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on Monografia.pdf (31 pages, 780661 bytes).
+Output written on Monografia.pdf (31 pages, 780435 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
+ 423 PDF objects out of 1000 (max. 8388607)
  95 named destinations out of 1000 (max. 500000)
  23864 words of extra memory for PDF output out of 24883 (max. 10000000)
 
