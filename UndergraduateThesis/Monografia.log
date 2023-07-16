@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  15 JUL 2023 16:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  16 JUL 2023 11:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -980,40 +980,40 @@ l.77 \pdfbookmark[0]{\listalgorithmcfname}{lof}
 ]) [2]
 \openout2 = `Capitulos/Cap2-RevisaoBibliografica.aux'.
 
- (Capitulos/Cap2-RevisaoBibliografica.tex [3
+ (Capitulos/Cap2-RevisaoBibliografica.tex) [3
 
 
 
 
-]) [4]
+]
 \openout2 = `Capitulos/Cap3-Desenvolvimento.aux'.
 
  (Capitulos/Cap3-Desenvolvimento.tex
-<Figuras/siteCEM.jpeg, id=195, 1371.1225pt x 631.35875pt>
+<Figuras/siteCEM.jpeg, id=193, 1371.1225pt x 631.35875pt>
 File: Figuras/siteCEM.jpeg Graphic file (type jpg)
 <use Figuras/siteCEM.jpeg>
 Package pdftex.def Info: Figuras/siteCEM.jpeg  used on input line 14.
 (pdftex.def)             Requested size: 455.0pt x 209.51471pt.
- [5
+ [4
 
 
 
 
  <./Figuras/siteCEM.jpeg>]
-<Figuras/siteProdabel.jpeg, id=202, 1371.1225pt x 623.32875pt>
+<Figuras/siteProdabel.jpeg, id=201, 1371.1225pt x 623.32875pt>
 File: Figuras/siteProdabel.jpeg Graphic file (type jpg)
 <use Figuras/siteProdabel.jpeg>
 Package pdftex.def Info: Figuras/siteProdabel.jpeg  used on input line 23.
 (pdftex.def)             Requested size: 455.0pt x 206.84998pt.
-<Figuras/diagrama monografia.drawio.png, id=203, 493.845pt x 416.55624pt>
+<Figuras/diagrama monografia.drawio.png, id=202, 493.845pt x 416.55624pt>
 File: Figuras/diagrama monografia.drawio.png Graphic file (type png)
 <use Figuras/diagrama monografia.drawio.png>
 Package pdftex.def Info: Figuras/diagrama monografia.drawio.png  used on input line 40.
 (pdftex.def)             Requested size: 455.0pt x 383.78937pt.
- [6 <./Figuras/siteProdabel.jpeg>]) [7 <./Figuras/diagrama monografia.drawio.png>] [8]
+ [5 <./Figuras/siteProdabel.jpeg>]) [6 <./Figuras/diagrama monografia.drawio.png>] [7]
 \openout2 = `Capitulos/Cap4-Resultados.aux'.
 
- (Capitulos/Cap4-Resultados.tex) [9
+ (Capitulos/Cap4-Resultados.tex) [8
 
 
 
@@ -1021,38 +1021,38 @@ Package pdftex.def Info: Figuras/diagrama monografia.drawio.png  used on input l
 ]
 \openout2 = `Capitulos/Cap5-Conclusao.aux'.
 
- (Capitulos/Cap5-Conclusao.tex) [10
+ (Capitulos/Cap5-Conclusao.tex) [9
 
 
 
 
 ] (Monografia.bbl
 bibitemlist
-) [11
+) [10
 
 
 
 ]
 \openout2 = `PosTextuais/Apendice.aux'.
 
- (PosTextuais/Apendice.tex [12
+ (PosTextuais/Apendice.tex [11
 
 
 
-] [13
+] [12
 
-]) [14
+]) [13
 
 ]
 \openout2 = `PosTextuais/Anexo.aux'.
 
- (PosTextuais/Anexo.tex [15
+ (PosTextuais/Anexo.tex [14
 
 
 
 
 
-]) [16
+]) [15
 
 ] (Monografia.ind)
 \tf@lof=\write5
@@ -1075,17 +1075,17 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 20333 strings out of 476331
- 346628 string characters out of 5787765
+ 20334 strings out of 476331
+ 346625 string characters out of 5787765
  1862660 words of memory out of 5000000
- 40158 multiletter control sequences out of 15000+600000
- 549834 words of font info for 115 fonts, out of 8000000 for 9000
+ 40160 multiletter control sequences out of 15000+600000
+ 549811 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,12n,90p,1284b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,90p,1284b,575s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on Monografia.pdf (31 pages, 780435 bytes).
+Output written on Monografia.pdf (30 pages, 779666 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
- 23864 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 425 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 23880 words of extra memory for PDF output out of 24883 (max. 10000000)
 
