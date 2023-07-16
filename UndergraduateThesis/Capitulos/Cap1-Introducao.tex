@@ -1,21 +1,20 @@
 \chapter{Introdução} \label{Introducao}
 
-Constantemente é necessário que representemos endereços físicos de forma computacional. Para que isso seja feito, é necessário traduzir o endereço, que geralmente é representado por uma sequência de palavras, para coordenadas de um plano. A forma mais comum dessas coordenadas é a representação por latitude e longitude. 
-Ess processo de tradução do endereço se chama Geocodificação. E como todos os processos, ele possui erro. 
-O presente trabalho pretende avaliar a qualidade da geocodificação de diferentes tecnologias para duas cidades grandes do Brasil, usando um base de referência e analisando o erro, a discrepância e a acurácia de cada uma das tecnologias.
+A representação computacional de endereços físicos é uma necessidade constante. Para realizar essa tarefa, é preciso traduzir os endereços, geralmente expressos em sequências de palavras, para coordenadas em um plano. A forma mais comum de representar essas coordenadas é através de latitude e longitude. Esse processo de tradução é conhecido como Geocodificação e, como qualquer processo, está sujeito a erros.
+
+O presente trabalho tem como objetivo avaliar a qualidade da geocodificação de diferentes tecnologias em duas grandes cidades do Brasil. Para isso, será utilizada uma base de referência para analisar o erro, a discrepância e a acurácia de cada uma das tecnologias empregadas.
 
 \section{Justificativa}
 
-A representação dos endereços é utilizada em diversas aplicações, desde as mais obvias, como softwares de roteamento e pesquisa de enderços. Até aplicacações mais complexas como a indicação de produtos por meio de inteligência artificial, que por vezes utiliza de informações geográficas. 
-Sendo assim, é de extrema importância que os softwares que realizam a tarefa de traduzir endereços façam isso com a melhor qualidade possível. É importante também ter consciência da qualidade das APIs para conseguir tomar a melhor decisão de acordo com a aplicação. 
-Outro ponto relevante é a melhoria das aplicações em que se utiliza os endereços geocodificados, temos que saber onde e quando as APIs falham para conseguirmos fazer aplicações que contornem isso. 
+A representação de endereços é amplamente utilizada em diversas aplicações, desde funções mais óbvias, como softwares de roteamento e pesquisa de endereços, até aplicações mais complexas, como o uso de informações geográficas em sistemas de inteligência artificial para indicação de produtos.
+
+Nesse contexto, é de extrema importância que os softwares responsáveis pela tradução de endereços apresentem alta qualidade em suas respostas. Compreender a qualidade das APIs utilizadas é fundamental para tomar decisões adequadas de acordo com a aplicação em questão. Além disso, conhecer as falhas dessas APIs é relevante para aprimorar as aplicações que dependem de geocodificação.
 
 \section{Objetivos}
 
-O principal objetivo do trabalho é avaliar o erro, a discrepância e a acurácia das cinco APIs utilizadas no laboratório de pesquisa e capacitação em desenvolvimento de software - \href{https://www.exemplo.com}{TerraLAB}. As APIs utilizadas são: Google Maps, TomTom, Open Route Service (ORS), Mapbox e Here. O erro é a análise de quanto as APIs dão a resposta fora do que é esperado. A discrepânciadiz o quanto a APIs discordam entre si. Por fim, a acurácia mede o quanto as APIs realmente acertam quando dizem que acertaram. 
+O principal objetivo deste trabalho é avaliar o erro, a discrepância e a acurácia de cinco APIs utilizadas no laboratório de pesquisa e capacitação em desenvolvimento de software - \href{http://www2.decom.ufop.br/terralab/}{TerraLAB}. As APIs em análise são: Google Maps, TomTom, Open Route Service (ORS), Mapbox e Here. O erro será analisado quanto às respostas fornecidas pelas APIs diferirem do esperado. A discrepância medirá o nível de discordância entre as APIs. Por fim, a acurácia será utilizada para verificar a precisão das respostas fornecidas pelas APIs.
 
-Um ponto importanteno trabalho é entender onde essas APIs erram, então o trabalho terá bastente foco na análise espacial dessas medidas. 
-
+Uma parte essencial do trabalho é compreender os pontos onde essas APIs apresentam falhas, e, portanto, a análise espacial dessas medidas terá grande destaque na pesquisa.
 
 \section{Organização do Trabalho}
 
