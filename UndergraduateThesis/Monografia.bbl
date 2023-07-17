@@ -5,12 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[ABNT 2002]{NBR6023:2002}
-\abntrefinfo{ABNT}{ABNT}{2002}
-{ABNT. \emph{{NBR} 6023}: Informação e documentação - referências -
-  elaboração.
-Rio de Janeiro, 2002. 24~p.}
-
 \bibitem[Associa{\c c}\~ao Brasileira de Normas TÉcnicas 2003]{NBR6028:2003}
 \abntrefinfo{ABNT}{ABNT}{2003}
 {ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS TÉCNICAS. \emph{{ABNT NBR} 6028:2003}:
@@ -23,10 +17,5 @@ Rio de Janeiro, 2003. 2~p.}
   14724:2011}: Informação e documentação -- trabalhos acadêmicos --
   apresentação.
 Rio de Janeiro, 2011. 15~p.}
-
-\bibitem[Marconi e Lakatos 2003]{marconi2003}
-\abntrefinfo{Marconi e Lakatos}{MARCONI; LAKATOS}{2003}
-{MARCONI, M. d.~A.; LAKATOS, E.~M. \emph{Fundamentos de Metodologia
-  Científica}. 5. ed.. ed. São Paulo: Atlas, 2003.}
 
 \end{thebibliography}
