@@ -29,4 +29,9 @@ Rio de Janeiro, 2011. 15~p.}
 {MARCONI, M. d.~A.; LAKATOS, E.~M. \emph{Fundamentos de Metodologia
   Científica}. 5. ed.. ed. São Paulo: Atlas, 2003.}
 
+\bibitem[{TerraLab}]{terralab}
+\abntrefinfo{{TerraLab}}{{TerraLab}}{}
+{{TerraLab}. \url{http://www2.decom.ufop.br/terralab/}.
+Acesso em: 16 de julho. 2023.}
+
 \end{thebibliography}
