@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  5 JUL 2023 18:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  20 JUL 2023 11:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -303,59 +303,44 @@ Package pdftex.def Info: hist5.png  used on input line 222.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./hist1.png>]
-<Mapa.jpeg, id=53, 695.59875pt x 343.2825pt>
-File: Mapa.jpeg Graphic file (type jpg)
-<use Mapa.jpeg>
-Package pdftex.def Info: Mapa.jpeg  used on input line 238.
-(pdftex.def)             Requested size: 155.24895pt x 76.6119pt.
-<graficoAltHere.png, id=54, 384.4764pt x 253.6677pt>
-File: graficoAltHere.png Graphic file (type png)
-<use graficoAltHere.png>
-Package pdftex.def Info: graficoAltHere.png  used on input line 241.
-(pdftex.def)             Requested size: 155.24895pt x 102.42906pt.
+<graficoAltPontosMapbox.png, id=53, 390.9807pt x 253.6677pt>
+File: graficoAltPontosMapbox.png Graphic file (type png)
+<use graficoAltPontosMapbox.png>
+Package pdftex.def Info: graficoAltPontosMapbox.png  used on input line 236.
+(pdftex.def)             Requested size: 345.0pt x 223.83981pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<MapaHere.jpeg, id=55, 702.625pt x 331.2375pt>
-File: MapaHere.jpeg Graphic file (type jpg)
-<use MapaHere.jpeg>
-Package pdftex.def Info: MapaHere.jpeg  used on input line 250.
-(pdftex.def)             Requested size: 155.24895pt x 73.18584pt.
-<graficoAltMapbox.png, id=56, 390.258pt x 253.6677pt>
-File: graficoAltMapbox.png Graphic file (type png)
-<use graficoAltMapbox.png>
-Package pdftex.def Info: graficoAltMapbox.png  used on input line 253.
-(pdftex.def)             Requested size: 155.24895pt x 100.91177pt.
+<graficoAltPontosHere.png, id=54, 384.4764pt x 255.8358pt>
+File: graficoAltPontosHere.png Graphic file (type png)
+<use graficoAltPontosHere.png>
+Package pdftex.def Info: graficoAltPontosHere.png  used on input line 243.
+(pdftex.def)             Requested size: 345.0pt x 229.57083pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Mapatomtom.jpeg, id=57, 692.5875pt x 331.2375pt>
-File: Mapatomtom.jpeg Graphic file (type jpg)
-<use Mapatomtom.jpeg>
-Package pdftex.def Info: Mapatomtom.jpeg  used on input line 262.
-(pdftex.def)             Requested size: 155.24895pt x 74.24722pt.
-<graficoAltTomtom.png, id=58, 390.258pt x 253.6677pt>
-File: graficoAltTomtom.png Graphic file (type png)
-<use graficoAltTomtom.png>
-Package pdftex.def Info: graficoAltTomtom.png  used on input line 265.
-(pdftex.def)             Requested size: 155.24895pt x 100.91177pt.
+<graficoAltPontosTomtom.png, id=55, 390.9807pt x 258.0039pt>
+File: graficoAltPontosTomtom.png Graphic file (type png)
+<use graficoAltPontosTomtom.png>
+Package pdftex.def Info: graficoAltPontosTomtom.png  used on input line 250.
+(pdftex.def)             Requested size: 345.0pt x 227.66614pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(main.bbl [9 <./hist2.png>]) [10 <./hist3.png>] [11 <./hist4.png>] [12 <./hist5.png> <./Mapa.jpeg> <./graficoAltHere.png>] [13 <./MapaHere.jpeg> <./graficoAltMapbox.png> <./Mapatomtom.jpeg> <./graficoAltTomtom.png>] (main.aux) ) 
+(main.bbl [9 <./hist2.png>]) [10 <./hist3.png>] [11 <./hist4.png>] [12 <./hist5.png>] [13 <./graficoAltPontosMapbox.png> <./graficoAltPontosHere.png>] [14 <./graficoAltPontosTomtom.png>] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 4261 strings out of 476331
- 68212 string characters out of 5787765
+ 4236 strings out of 476331
+ 67967 string characters out of 5787765
  1860660 words of memory out of 5000000
- 24638 multiletter control sequences out of 15000+600000
- 524860 words of font info for 58 fonts, out of 8000000 for 9000
+ 24618 multiletter control sequences out of 15000+600000
+ 524096 words of font info for 57 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,15n,62p,1038b,285s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (13 pages, 2095904 bytes).
+ <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\analu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (14 pages, 1809492 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
+ 407 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
