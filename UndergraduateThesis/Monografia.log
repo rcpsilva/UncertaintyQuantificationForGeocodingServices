@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  17 JUL 2023 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  2 AUG 2023 17:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -773,8 +773,26 @@ Package: tgtermes 2009/09/27 v1.2 TeX Gyre Termes as default roman family
 
 
 Writing index file Monografia.idx 
-LaTeX Font Info:    Trying to load font information for T1+qtm on input line 48.
-(c:/texlive/2022/texmf-dist/tex/latex/tex-gyre/t1qtm.fd
+(c:/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+LaTeX Font Info:    Trying to load font information for T1+qtm on input line 53.
+ (c:/texlive/2022/texmf-dist/tex/latex/tex-gyre/t1qtm.fd
 File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
 ) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
@@ -783,25 +801,25 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (./Monografia.aux (./PreTextuais/FichaCatalografica.aux) (./PreTextuais/Errata.aux) (./PreTextuais/FichaAprovacao.aux) (./PreTextuais/Dedicatoria.aux) (./PreTextuais/Agradecimento.aux) (./PreTextuais/Epigrafe.aux) (./PreTextuais/Resumo.aux) (./PreTextuais/ListaSiglas.aux) (./PreTextuais/ListaSimbolos.aux) (./Capitulos/Cap1-Introducao.aux) (./Capitulos/Cap2-RevisaoBibliografica.aux) (./Capitulos/Cap3-Desenvolvimento.aux) (./Capitulos/Cap4-Resultados.aux) (./Capitulos/Cap5-Conclusao.aux) (./PosTextuais/Apendice.aux) (./PosTextuais/Anexo.aux))
 \openout1 = `Monografia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-Package hyperref Info: Link coloring ON on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+Package hyperref Info: Link coloring ON on input line 53.
 \myptabbox=\box71
 \myptabboxwidth=\skip286
  (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -823,19 +841,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \microtypecontext on input line 48.
-Package microtype Info: Applying patch `item' on input line 48.
-Package microtype Info: Applying patch `toc' on input line 48.
-Package microtype Info: Applying patch `eqnum' on input line 48.
-Package microtype Info: Applying patch `footnote' on input line 48.
-Package microtype Info: Applying patch `verbatim' on input line 48.
+LaTeX Info: Redefining \microtypecontext on input line 53.
+Package microtype Info: Applying patch `item' on input line 53.
+Package microtype Info: Applying patch `toc' on input line 53.
+Package microtype Info: Applying patch `eqnum' on input line 53.
+Package microtype Info: Applying patch `footnote' on input line 53.
+Package microtype Info: Applying patch `verbatim' on input line 53.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 48.
+LaTeX Info: Redefining \showhyphens on input line 53.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -852,7 +870,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )) [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
@@ -862,7 +880,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.58 \include{PreTextuais/FichaCatalografica}
+l.63 \include{PreTextuais/FichaCatalografica}
                                               [1
 
 
@@ -941,7 +959,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--31
 pdfTeX warning (ext4): destination with the same identifier (name{lof.0}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.77 \pdfbookmark[0]{\listalgorithmcfname}{lof}
+l.82 \pdfbookmark[0]{\listalgorithmcfname}{lof}
                                                 (./Monografia.loa) [11
 
 
@@ -1069,15 +1087,15 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 20293 strings out of 476024
- 336598 string characters out of 5794016
+ 20717 strings out of 476024
+ 341822 string characters out of 5794016
  1862382 words of memory out of 5000000
- 40144 multiletter control sequences out of 15000+600000
+ 40560 multiletter control sequences out of 15000+600000
  549788 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,12n,90p,1297b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on Monografia.pdf (30 pages, 736992 bytes).
+Output written on Monografia.pdf (30 pages, 736884 bytes).
 PDF statistics:
  413 PDF objects out of 1000 (max. 8388607)
  360 compressed objects within 4 object streams
