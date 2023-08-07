@@ -19,12 +19,5 @@
 \contentsline {section}{\numberline {5.2}Trabalhos Futuros}{9}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Publicações Realizadas}{9}{section.5.3}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Refer\^encias}{10}{chapter*.19}%
-\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
-\contentsline {part}{Ap\^endices}{11}{section*.20}%
-\contentsline {appendix}{\chapternumberline {A}Diferença entre Anexo e Apêndice}{12}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}Formatação}{13}{appendix.B}%
-\cftinsert {AAA}
-\renewcommand *{\cftappendixname }{ANEXO \space }
-\contentsline {part}{Anexos}{14}{section*.21}%
-\contentsline {appendix}{\chapternumberline {A}Exemplo}{15}{appendix.anexochapback.1}%
+\contentsline {chapter}{Refer\^encias}{10}{chapter*.12}%
+\vspace {\cftbeforepartskip }

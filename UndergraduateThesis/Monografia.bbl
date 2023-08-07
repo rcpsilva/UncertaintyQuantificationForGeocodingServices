@@ -5,19 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[Associa{\c c}\~ao Brasileira de Normas TÉcnicas 2003]{NBR6028:2003}
-\abntrefinfo{ABNT}{ABNT}{2003}
-{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS TÉCNICAS. \emph{{ABNT NBR} 6028:2003}:
-  Informação e documentação -- resumo -- apresentação.
-Rio de Janeiro, 2003. 0-2~p.}
-
-\bibitem[Associa{\c c}\~ao Brasileira de Normas TÉcnicas 2011]{NBR14724:2011}
-\abntrefinfo{ABNT}{ABNT}{2011}
-{ASSOCIA{\c C}\~AO BRASILEIRA DE NORMAS TÉCNICAS. \emph{{ABNT NBR}
-  14724:2011}: Informação e documentação -- trabalhos acadêmicos --
-  apresentação.
-Rio de Janeiro, 2011. 0-15~p.}
-
 \bibitem[Chow, Lin e Chan 2011]{Chow2011}
 \abntrefinfo{Chow, Lin e Chan}{CHOW; LIN; CHAN}{2011}
 {CHOW, T.~E.; LIN, Y.; CHAN, W.-y.~D. The development of a web-based
@@ -41,10 +28,19 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Hay et al.}{HAY et al.}{2009}
 {HAY, G.; KYPRI, K.; WHIGHAM, P.; LANGLEY, J. Potential biases due to geocoding
   error in spatial analyses of official data.
-\emph{Health & Place}, v.~15, n.~2, p. 562--567, 2009.
+\emph{Health and Place}, v.~15, n.~2, p. 562--567, 2009.
 ISSN 1353-8292.
 Dispon{\'\i}vel em:
   \url{https://www.sciencedirect.com/science/article/pii/S1353829208001081}.}
+
+\bibitem[Krieger et al. 2001]{AmericaJournal2001}
+\abntrefinfo{Krieger et al.}{KRIEGER et al.}{2001}
+{KRIEGER, N.; WATERMAN, P.; LEMIEUX, K.; ZIERLER, S.; HOGAN, J.~W. On the wrong
+  side of the tracts? evaluating the accuracy of geocoding in public health
+  research.
+\emph{American Journal of Public Health}, v.~91, n.~7, p. 1114--1116, 2001.
+PMID: 11441740.
+Dispon{\'\i}vel em: \url{https://doi.org/10.2105/AJPH.91.7.1114}.}
 
 \bibitem[Mazumdar et al. 2008]{Mazumdar2008}
 \abntrefinfo{Mazumdar et al.}{MAZUMDAR et al.}{2008}
@@ -61,20 +57,11 @@ Dispon{\'\i}vel em:
   Monsey, NY: Criminal Justice Press, 1998,  (Crime Prevention Studies, v.~8).
   p. 313--347.}
 
-\bibitem[On the wrong side of the tracts? Evaluating the accuracy of geocoding
-  in public health research 2001]{AmericaJournal2001}
-\abntrefinfo{On\ldots}{ON\ldots}{2001}
-{ON the wrong side of the tracts? Evaluating the accuracy of geocoding in
-  public health research.
-\emph{American Journal of Public Health}, v.~91, n.~7, p. 1114--1116, 2001.
-PMID: 11441740.
-Dispon{\'\i}vel em: \url{https://doi.org/10.2105/AJPH.91.7.1114}.}
-
 \bibitem[Whitsel et al. 2006]{Whitsel2006}
 \abntrefinfo{Whitsel et al.}{WHITSEL et al.}{2006}
 {WHITSEL, E.~A.; QUIBRERA, P.~M.; SMITH, R.~L. et al. Accuracy of commercial
   geocoding: Assessment and implications.
-\emph{Epidemiologic Perspectives & Innovations}, v.~3, n.~1, p.~8, 2006.
+\emph{Epidemiologic Perspectives and Innovations}, v.~3, n.~1, p.~8, 2006.
 Dispon{\'\i}vel em:
   \url{https://epi-perspectives.biomedcentral.com/articles/10.1186/1742-5573-3-8}.}
 
