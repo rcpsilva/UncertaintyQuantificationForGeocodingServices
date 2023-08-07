@@ -8,7 +8,7 @@
   month        = aug,
   year         = {2002},
   org-short    = {ABNT},
-  pages        = {24},
+  pages        = {0-24},
   subtitle     = {Informação e documentação - Referências - Elaboração}
 }
 
@@ -19,7 +19,7 @@
   month        = mar,
   year         = {2011},
   org-short    = {ABNT},
-  pages        = {15},
+  pages        = {0-15},
   subtitle     = {Informação e documentação -- Trabalhos acadêmicos -- Apresentação},
 }
 
@@ -30,7 +30,7 @@
   month        = nov,
   year         = {2003},
   org-short    = {ABNT},
-  pages        = {2},
+  pages        = {0-2},
   subtitle     = {Informação e documentação -- Resumo -- Apresentação},
 }
 
@@ -65,12 +65,119 @@
   journal = {UFOP},
   year    = {2018},
   volume  = {1},
-  pages   = {35},
+  pages   = {0-35},
 }
 @Comment{jabref-meta: databaseType:bibtex;}
 
-@misc{terralab,
-  title = {{TerraLab}},
-  howpublished = {\url{http://www2.decom.ufop.br/terralab/}},
-  note = {Acesso em: 16 de julho. 2023}
+@article{Zamberg2009,
+author = {Zandbergen, Paul A.},
+title = {Geocoding Quality and Implications for Spatial Analysis},
+journal = {Geography Compass},
+volume = {3},
+number = {2},
+pages = {647-680},
+doi = {https://doi.org/10.1111/j.1749-8198.2008.00205.x},
+url = {https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/j.1749-8198.2008.00205.x},
+eprint = {https://compass.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1749-8198.2008.00205.x},
+abstract = {Abstract Many spatial analysis techniques rely on the ability to geocode individual locations based on addresses or other descriptive information. The quality of geocoding and its effect on spatial analysis have received some attention in the literature, in particular in the field of health. This article reviews the foundation of geocoding and presents a framework for evaluating geocoding quality. Errors introduced by street gecoding include incompleteness, positional error, and incorrect assignment to geographic units. A review of empirical studies suggests that these errors are neither small nor random in nature and that substantial bias may be introduced in spatial analysis that employs the results of geocoding. Several alternatives have also emerged, including the use of address points and parcels, and these are gradually becoming more widely used. Several areas for future research on geocoding have been identified: (i) refinements of address data models to incorporate complex addressing situations; (ii) development of error propagation techniques to determine the level of geocoding quality required for a particular analysis scenario; (iii) development of measures of reliability for geocoding results; (iv) comparative analysis of geocoding quality across different jurisdictions; and (v) validation of online geocoding services and volunteered geographic information.},
+year = {2009}
 }
+
+@article{AmericaJournal2001,
+title = {On the wrong side of the tracts? Evaluating the accuracy of geocoding in public health research},
+journal = {American Journal of Public Health},
+volume = {91},
+number = {7},
+pages = {1114-1116},
+year = {2001},
+doi = {10.2105/AJPH.91.7.1114},
+    note ={PMID: 11441740},
+URL = {https://doi.org/10.2105/AJPH.91.7.1114},
+eprint = {https://doi.org/10.2105/AJPH.91.7.1114},
+abstract = { OBJECTIVES: This study sought to determine the accuracy of geocoding for public health databases. METHODS: A test file of 70 addresses, 50 of which involved errors, was generated, and the file was geocoded to the census tract and block group levels by 4 commercial geocoding firms. Also, the "real world" accuracy of the best-performing firm was evaluated. RESULTS: Accuracy rates in regard to geocoding of the test file ranged from 44\% (95\% confidence interval [CI] = 32\%, 56\%) to 84\% (95\% CI = 73\%, 92\%). The geocoding firm identified as having the best accuracy rate correctly geocoded 96\% of the addresses obtained from the public health databases. CONCLUSIONS: Public health studies involving geocoded databases should evaluate and report on methods used to verify accuracy. }
+}
+
+
+@article{ Kypri2009,
+title = {Potential biases due to geocoding error in spatial analyses of official data},
+journal = {Health & Place},
+volume = {15},
+number = {2},
+pages = {562-567},
+year = {2009},
+issn = {1353-8292},
+doi = {https://doi.org/10.1016/j.healthplace.2008.09.002},
+url = {https://www.sciencedirect.com/science/article/pii/S1353829208001081},
+author = {Geoff Hay and Kypros Kypri and Peter Whigham and John Langley},
+keywords = {Outlet density, Alcohol, Crime, GIS, Geospatial, Bias},
+abstract = {Geospatial methods have been used extensively to examine associations between alcohol outlet density and various harms; however, the literature offers too little methodological detail to assess possible geocoding biases in these studies. We used New Zealand liquor licensing and crime data to assess geocoding error. For the year with the best data, 69\% of offences could be accurately mapped (91\% of those in urban areas, 38\% in rural areas). There was considerable urban–rural variation in the accuracy and specificity of location data. If similar error exists in other jurisdictions, previous findings may be biased. Greater consideration should be given to the effects of data quality in geospatial studies, and geocoding methods should be reported explicitly.}
+}
+
+@article{Gilboa2006,
+title = {Comparison of residential geocoding methods in population-based study of air quality and birth defects},
+journal = {Environmental Research},
+volume = {101},
+number = {2},
+pages = {256-262},
+year = {2006},
+note = {Women's Occupational and Environmental Health},
+issn = {0013-9351},
+doi = {https://doi.org/10.1016/j.envres.2006.01.004},
+url = {https://www.sciencedirect.com/science/article/pii/S001393510600020X},
+author = {Suzanne M. Gilboa and Pauline Mendola and Andrew F. Olshan and Catherine Harness and Dana Loomis and Peter H. Langlois and David A. Savitz and Amy H. Herring},
+keywords = {Geographic information systems, Bias (epidemiology)},
+abstract = {Our population-based case control study of air quality and birth defects in Texas relied on the geocoding of maternal residence from vital records for the assignment of air pollution exposures during early pregnancy. We attempted to geocode the maternal addresses for 5338 birth defect cases and 4574 frequency-matched controls using an automated procedure with standard matching criteria in ArcGIS 8.2 and 8.3. Initially, we matched 7266 observations (73\%). To increase the proportion of successful matches, we used an interactive procedure for the 2646 addresses that were initially not geocoded by the software. This yielded an additional 985 matches (37\%). Using the same 2646 initially unmatched addresses, we compared the results of this interactive procedure to those of an automated procedure using lower standards. The automated procedure with lower standards yielded more matches (n=1559, 59\%) but with questionable accuracy. We included the interactively geocoded observations in our final data set. Their inclusion did not affect the estimates of air pollution exposure but increased our statistical power to detect associations between air quality and risk of selected birth defects. The geocoded and not geocoded populations differed in the distribution of Latino ethnicity (51\% vs 59\%) and ethnicity was independently associated with air pollution exposures (P<0.05). Geocoding status also appeared to modify the association between ethnicity and risk of birth defects; Latina women appeared to have a slightly lower risk of birth defects than non-Latina women in the geocoded population and to have a slightly higher risk in the not geocoded population. Incomplete geocoding may have resulted in a selection bias because of the underrepresentation of Latinas in our study population.}
+}
+
+@article{Whitsel2006,
+author = {Whitsel, Eric A. and Quibrera, P. Miguel and Smith, Richard L. and others},
+title = {Accuracy of Commercial Geocoding: Assessment and Implications},
+journal = {Epidemiologic Perspectives & Innovations},
+volume = {3},
+number = {1},
+pages = {8},
+year = {2006},
+doi = {https://doi.org/10.1186/1742-5573-3-8},
+url = {https://epi-perspectives.biomedcentral.com/articles/10.1186/1742-5573-3-8},
+}
+
+@article{Chow2011,
+author = {Chow, Taeyoung Edward and Lin, Yu and Chan, Wing-yan Deolinda},
+title = {The Development of a Web-based Demographic Data Extraction Tool for Population Monitoring},
+journal = {Transactions in GIS},
+volume = {15},
+number = {4},
+pages = {479-494},
+year = {2011},
+doi = {https://doi.org/10.1111/j.1467-9671.2011.01274.x},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9671.2011.01274.x},
+abstract = {This paper presents the development of a web-based data extraction tool for monitoring demographic data. The tool, known as Web-based Monitoring System of Demographics (WMSD), can automate the extraction and update process of a large number of demographic datasets. The system architecture consists of three main components: a Demographic Data Management Server (DDMS), a Web-based Geographical Information System (WebGIS) and a Web-based User Interface. The DDMS handles the data extraction and updates tasks by using a back-end database to manage the data while the WebGIS manages the geographic information for mapping the demographic data. The User Interface allows users to manipulate, view and manage the data. The WMSD has been implemented to extract data from the Hong Kong Census and Statistics Department and it is capable of handling a vast amount of demographic data of different geographical scales, temporal intervals, and formats. It has the advantage of keeping demographic data updated and increasing the efficiency of extracting data for the purpose of monitoring demographic data. The WMSD is accessible over the Internet and is widely used by professionals from different fields.},
+}
+
+@article{Mazumdar2008,
+author = {Mazumdar, Soumya and Rushton, Gerard and Smith, Britton J. and others},
+title = {Geocoding Accuracy and the Recovery of Relationships Between Environmental Exposures and Health},
+journal = {International Journal of Health Geographics},
+volume = {7},
+number = {1},
+pages = {13},
+year = {2008},
+doi = {https://doi.org/10.1186/1476-072X-7-13},
+url = {https://ij-healthgeographics.biomedcentral.com/articles/10.1186/1476-072X-7-13},
+abstract = {Background: The use of geographic information systems (GIS) in the analysis of relationships between environmental exposures and health has become increasingly common. As datasets have grown larger, so too has the need to rely on the positional accuracy of the geocoded locations of these addresses. We studied the positional accuracy of the geocoded address and determined its relationship to the spatial distribution of both the socioeconomic and environmental variables, and also to the risk of disease. Methods: Addresses of families in Durham County, North Carolina were obtained from birth and death certificates. Automated geocoding was performed and all addresses were subject to "smart" geocoding, a procedure involving address verification by a mailing house and local knowledge. A random sample of the geocoded addresses was ground-truthed. We considered the positional discrepancy to be the difference between the locations of the geocoded address and the "true" (actual) location. We considered any positional discrepancy of over 2 kilometers to be substantial. We considered the risk of a child dying before the first birthday from different causes to be our outcome of interest. These risks were then modeled using geocoded address-derived variables and socioeconomic and environmental variables from the 2000 US Census, the 2000 North Carolina land cover dataset, and the 1997 North Carolina State Center for Health Statistics. Results: Address variables (such as urban/rural status and indicator variables for those addresses with any substantial positional discrepancy) and US Census-derived socioeconomic and environmental variables (such as household income, percentage of population that was African American, percentage of population that was white, percentage of population that was living in poverty, and percentage of population that was unemployed) were included in our models. Only for those deaths which occurred due to preterm birth/low birth weight was a substantial positional discrepancy a significant predictor of the risk of death. In contrast, both univariate and multivariate analyses suggested that US Census-derived socioeconomic and environmental variables were significantly related to the risk of preterm birth/low birth weight and infant mortality. Conclusion: Positional discrepancies did not exert a major impact on our analyses. Furthermore, socioeconomic and environmental variables of the US Census-derived variables were more powerful predictors of infant mortality and preterm birth/low birth weight in the study area than the positional discrepancy.},
+}
+
+@incollection{Olligschlaeger1998,
+author = {Olligschlaeger, Anja M.},
+title = {Artificial Neural Networks and Crime Mapping},
+booktitle = {Crime Mapping and Crime Prevention},
+editor = {Weisburd, David and McEwen, Tom},
+series = {Crime Prevention Studies},
+volume = {8},
+pages = {313-347},
+publisher = {Criminal Justice Press},
+address = {Monsey, NY},
+year = {1998},
+}
+
+
