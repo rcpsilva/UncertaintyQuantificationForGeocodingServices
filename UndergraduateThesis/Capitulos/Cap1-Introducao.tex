@@ -17,9 +17,15 @@
 
 
 % OBS: Toda afirmação deve ter uma referência.
-Segundo o \cite{Zamberg2009} endereço é a principal forma de de conceitualizar localização no mundo atual. Isso se deve ao fato dos endereços serem utilizados em diversas aplicações de diferentes campos de estudo, como na saúde \cite{AmericaJournal2001,Kypri2009,Mazumdar2008}, nas ciências sociais \cite{Chow2011}, na análise de criminal ou judiciária \cite{Olligschlaeger1998}, na análise ambiental \cite{Gilboa2006}, na ciência da computação \cite{Zamberg2009}, na economia \cite{Whitsel2006} entre outras.  
-A representação computacional de endereços físicos é uma necessidade constante pois possui diversas aplicações em muitas áreas da sociedade. 
-Como  Para realizar essa tarefa, é preciso traduzir os endereços, geralmente expressos em sequências de palavras, para coordenadas em um plano. A forma mais comum de representar essas coordenadas é através de latitude e longitude. Esse processo de tradução é conhecido como Geocodificação e, como qualquer processo, está sujeito a erros.
+Segundo o \cite{Zamberg2009} endereço é a principal forma de de conceitualizar localização no mundo atual. Isso se deve ao fato dos endereços serem utilizados em diversas aplicações de diferentes campos de estudo, como na saúde \cite{AmericaJournal2001,Kypri2009,Mazumdar2008}, nas ciências sociais \cite{Chow2011}, na análise de criminal ou judiciária \cite{Olligschlaeger1998}, na análise ambiental \cite{Gilboa2006}, na ciência da computação \cite{Zamberg2009}, na economia \cite{Whitsel2006} entre outras.
+
+Para isso, é necessário gerar a representação computacional do endereço, de forma com que as aplicações possam utilizá-lo. A representaçãomais comum segundo \cite{Zamberg2009} é a representação por meio de coordenadas x e y em um plano, geralmente a medida é latitude e longitude. O processo de tranformação em um endereço nessas coordenadas é chamado de Geocodificação. Para \cite{Zamberg2009} esse processo consiste em 3 etapas:
+\begin{itemize}
+   \item Processamento do endereço de entrada: o endereço será lido, dividido em componentes (rua, número, bairro, etc), padronizado, cada campo é atribuído a uma categoria e por fim, serão indexadas as categorias necessárias; 
+   \item Busca na base referência: de acordo com o algoritmo escolhido, será realizada uma busca na base referência afim de selecionar e classificar potenciais canditados para resposta;
+   \item Seleção do(s) canditado(s) para resposta: com a busca realizada será feita uma análise da classificação gerada por ela e serão escolhidos os melhores canditados.
+\end{itemize}
+Todas as etapas podem imprimir erro no resultado final, fazendo com que a geocodificação não seja confiável ou tenha uma qualidade ruim. Fazendo com que muitos usários tenham que realizar o trabalho de tradução manualmente, geralmente por meio de GPS e mapeamento em campo, o que é um trabalho custoso e pouco produtivo. No artigo de \cite{Zamberg2009} 
 
 O presente trabalho tem como objetivo avaliar a qualidade da geocodificação de diferentes tecnologias em duas grandes cidades do Brasil. Para isso, será utilizada uma base de referência para analisar o erro, a discrepância e a acurácia de cada uma das tecnologias empregadas.
 
