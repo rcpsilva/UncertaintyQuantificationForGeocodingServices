@@ -1,18 +1,18 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.20)  7 AUG 2023 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  10 AUG 2023 14:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/rcpsi/source/repos/UncertaintyQuantificationForGeocodingServices/UndergraduateThesis/Monografia.tex
-(c:/Users/rcpsi/source/repos/UncertaintyQuantificationForGeocodingServices/UndergraduateThesis/Monografia.tex
+**"c:/Users/analu/Projetos pyhton/Gaussian Process Regression/UncertaintyQuantificationForGeocodingServices/UndergraduateThesis/Monografia.tex"
+(c:/Users/analu/Projetos pyhton/Gaussian Process Regression/UncertaintyQuantificationForGeocodingServices/UndergraduateThesis/Monografia.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22> (./abntex2.cls
+L3 programming layer <2023-03-30> (abntex2.cls
 Document Class: abntex2 2016/02/26 v-1.9.6 abnTeX2
-(c:/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+(C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (c:/texlive/2022/texmf-dist/tex/latex/memoir/memoir.cls
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memoir.cls
 Document Class: memoir 2022/11/17 v3.7.19 configurable book, report, article document class
-(c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count185
 )
@@ -21,14 +21,14 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \xlvchars=\skip50
 \@memcnta=\count186
 \c@@memmarkcntra=\count187
- (c:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 \stockheight=\dimen140
 \stockwidth=\dimen141
 \trimtop=\skip51
 \trimedge=\skip52
- (c:/texlive/2022/texmf-dist/tex/latex/memoir/mem12.clo
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/memoir\mem12.clo
 File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 )
 \binding=\skip53
@@ -118,7 +118,7 @@ File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 \beforePoemTitleskip=\skip113
 \midPoemTitleskip=\skip114
 \afterPoemTitleskip=\skip115
- (c:/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen147
 \ar@mcellbox=\box51
@@ -127,11 +127,11 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip116
 \backup@length=\skip117
 \ar@cellbox=\box52
-) (c:/texlive/2022/texmf-dist/tex/latex/tools/dcolumn.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
-) (c:/texlive/2022/texmf-dist/tex/latex/tools/delarray.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tools\delarray.sty
 Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
-) (c:/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@col@width=\dimen149
 \TX@old@table=\dimen150
@@ -290,7 +290,7 @@ LaTeX Info: Redefining \emph on input line 7663.
 \c@sheetsequence=\count303
 \c@lastsheet=\count304
 \c@lastpage=\count305
- (c:/texlive/2022/texmf-dist/tex/latex/textcase/textcase.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
 Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
 Package textcase Info: Defining Legacy names on input line 20.
 )
@@ -334,40 +334,40 @@ Package tocloft [2008/07/23] emulated by memoir.
 Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
-) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
- (c:/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (c:/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (c:/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks24
-) (c:/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (c:/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (c:/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (c:/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (c:/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (c:/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
- (c:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (c:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count310
@@ -375,17 +375,17 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \@linkdim=\dimen187
 \Hy@linkcounter=\count311
 \Hy@pagecounter=\count312
- (c:/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (c:/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (c:/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count313
- (c:/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -398,15 +398,15 @@ Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4425.
 \c@Hy@tempcnt=\count314
- (c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen188
- (c:/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (c:/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count315
@@ -419,7 +419,7 @@ Package hyperref Info: backreferencing OFF on input line 6057.
 Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
- (c:/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -428,23 +428,23 @@ package with kernel methods
 \c@Hfootnote=\count318
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
- (c:/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
 \Fld@listcount=\count319
 \c@bookmark@seq@number=\count320
- (c:/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (c:/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip190
-) (c:/texlive/2022/texmf-dist/tex/latex/memoir/memhfixc.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfixc.sty
 Package: memhfixc 2022/11/17 v1.20 nameref/hyperref package fixes for memoir class
 
 Redoing nameref's sectioning
@@ -452,36 +452,42 @@ Redoing nameref's label
 LaTeX Info: Redefining \nameref on input line 106.
 \c@memhycontfloat=\count321
 \c@Hpagenote=\count322
-) (c:/texlive/2022/texmf-dist/tex/latex/bookmark/bookmark.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
- (c:/texlive/2022/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count323
-)) (c:/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2023/02/13 3.86 The Babel package
+)) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/03/28 3.87 The Babel package
 \babel@savecnt=\count324
 \U@D=\dimen191
-\l@unhyphenated=\language87
- (c:/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
+\l@unhyphenated=\language79
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 \bbl@dirlevel=\count325
- (c:/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language21). Reported on input line 105.
+(babel)             (\language73). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language21). Reported on input line 108.
-) (c:/texlive/2022/texmf-dist/tex/generic/babel-portuges/brazil.ldf
+(babel)             (\language73). Reported on input line 108.
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazil.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
-(babel)             (\language70). Reported on input line 111.
+(babel)             (\language56). Reported on input line 111.
 Package babel Info: Making " an active character on input line 143.
-)) (c:/texlive/2022/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+)) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
-) (c:/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip191
 \enit@outerparindent=\dimen192
@@ -489,7 +495,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box56
 \enit@count@id=\count326
 \enitdp@description=\count327
-) (c:/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count328
 \calc@Bcount=\count329
@@ -536,43 +542,43 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 \ABNTEXsignwidth=\skip198
 \ABNTEXsignthickness=\skip199
 \ABNTEXsignskip=\skip256
-) (./structure.tex (c:/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+) (structure.tex (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (c:/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks26
 \inpenc@posthook=\toks27
-) (c:/texlive/2022/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2023/03/07 v2.0a lastpage: 2.09 or 2e? (HMM)
- (c:/texlive/2022/texmf-dist/tex/latex/lastpage/lastpage2e.sty
-Package: lastpage2e 2023/03/07 v2.0a Decide which 2e lastpage version to use (HMM)
- (c:/texlive/2022/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
-Package: lastpagemodern 2023-03-07 v2.0a Refers to last page's name (HMM; JPG)
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+Package: lastpage 2023/04/12 v2.0b lastpage: 2.09 or 2e? (HMM)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.sty
+Package: lastpage2e 2023/04/12 v2.0b Decide which 2e lastpage version to use (HMM)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemodern.sty
+Package: lastpagemodern 2023-04-12 v2.0b Refers to last page's name (HMM; JPG)
 ) 
-)) (c:/texlive/2022/texmf-dist/tex/latex/tools/indentfirst.sty
+)) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (c:/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
- (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (c:/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-) (c:/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (c:/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen195
 \Gin@req@width=\dimen196
-) (c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
 Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
 \MT@toks=\toks28
 \MT@tempbox=\box57
@@ -585,26 +591,26 @@ LaTeX Info: Redefining \textls on input line 1368.
 \MT@outer@kern=\dimen197
 LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
 \MT@listname@count=\count340
- (c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
 File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 902.
 LaTeX Info: Redefining \lslig on input line 902.
 \MT@outer@space=\skip257
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype.cfg
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
 File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
-)) (c:/texlive/2022/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+)) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
- (c:/texlive/2022/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \ESO@tempdima=\dimen198
 \ESO@tempdimb=\dimen199
 )
 \AM@pagewidth=\dimen256
 \AM@pageheight=\dimen257
 \AM@fboxrule=\dimen258
- (c:/texlive/2022/texmf-dist/tex/latex/pdfpages/pppdftex.def
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count341
@@ -615,21 +621,21 @@ File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks32
 \c@AM@survey=\count343
 \AM@templatesizebox=\box59
-) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip258
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks33
 \ex@=\dimen259
-)) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen260
-) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count344
@@ -679,7 +685,7 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks37
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (c:/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks38
 \thm@bodyfont=\toks39
@@ -690,17 +696,17 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip262
 \thm@headsep=\skip263
 \dth@everypar=\toks43
-) (c:/texlive/2022/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
 \c@AlgoLine=\count356
 \algocf@hangindent=\skip264
- (c:/texlive/2022/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 \c@checkoddpage=\count357
 LaTeX Info: Redefining \checkoddpage on input line 45.
-) (c:/texlive/2022/texmf-dist/tex/latex/tools/xspace.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-) (c:/texlive/2022/texmf-dist/tex/latex/relsize/relsize.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \skiptotal=\skip265
@@ -738,16 +744,16 @@ Package: relsize 2013/03/29 ver 4.1
 \c@algocf=\count360
 \algocf@algoframe=\box68
 \algocf@algobox=\box69
-) (./abntex2cite.sty
+) (abntex2cite.sty
 Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
- (./abntex2abrev.sty)
+ (abntex2abrev.sty)
 \minimumbiblabelwidth=\skip283
 \ABCIauxlen=\skip284
 \c@ABCIaux=\count361
 \c@ABCImax=\count362
- (c:/texlive/2022/texmf-dist/tex/generic/iftex/ifpdf.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-) (c:/texlive/2022/texmf-dist/tex/generic/iftex/ifxetex.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
 \biblabelsep=\skip285
@@ -755,8 +761,8 @@ LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks44
 )
-Package color Info: Redefining color blue on input line 31.
-Package hyperref Info: Option `colorlinks' set `true' on input line 46.
+Package color Info: Redefining color blue on input line 32.
+Package hyperref Info: Option `colorlinks' set `true' on input line 47.
 \c@teorema=\count363
 \c@axioma=\count364
 \c@corolario=\count365
@@ -765,7 +771,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 46.
 \c@definicao=\count368
 \c@exemplo=\count369
 \c@observacao=\count370
- (c:/texlive/2022/texmf-dist/tex/latex/tex-gyre/tgtermes.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\tgtermes.sty
 Package: tgtermes 2009/09/27 v1.2 TeX Gyre Termes as default roman family
 ))
 \Monografia@idxfile=\write4
@@ -773,14 +779,14 @@ Package: tgtermes 2009/09/27 v1.2 TeX Gyre Termes as default roman family
 
 
 Writing index file Monografia.idx 
-(c:/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+(C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 LaTeX Info: Redefining \color on input line 711.
- (c:/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -792,13 +798,13 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
 LaTeX Font Info:    Trying to load font information for T1+qtm on input line 53.
- (c:/texlive/2022/texmf-dist/tex/latex/tex-gyre/t1qtm.fd
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qtm.fd
 File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
-) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count371
 \l__pdf_internal_box=\box70
-) (./Monografia.aux (./PreTextuais/FichaCatalografica.aux) (./PreTextuais/Resumo.aux) (./PreTextuais/ListaSiglas.aux) (./PreTextuais/ListaSimbolos.aux) (./Capitulos/Cap1-Introducao.aux) (./Capitulos/Cap2-RevisaoBibliografica.aux) (./Capitulos/Cap3-Desenvolvimento.aux) (./Capitulos/Cap4-Resultados.aux) (./Capitulos/Cap5-Conclusao.aux))
+) (Monografia.aux (PreTextuais/FichaCatalografica.aux) (PreTextuais/Resumo.aux) (PreTextuais/ListaSiglas.aux) (PreTextuais/ListaSimbolos.aux) (Capitulos/Cap1-Introducao.aux) (Capitulos/Cap2-RevisaoBibliografica.aux) (Capitulos/Cap3-Desenvolvimento.aux) (Capitulos/Cap4-Resultados.aux) (Capitulos/Cap5-Conclusao.aux))
 \openout1 = `Monografia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -822,7 +828,7 @@ LaTeX Font Info:    ... okay on input line 53.
 Package hyperref Info: Link coloring ON on input line 53.
 \myptabbox=\box71
 \myptabboxwidth=\skip286
- (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count372
 \scratchdimen=\dimen274
@@ -835,11 +841,11 @@ Package hyperref Info: Link coloring ON on input line 53.
 \MPnumerator=\count376
 \makeMPintoPDFobject=\count377
 \everyMPtoPDFconversion=\toks46
-) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Info: Redefining \microtypecontext on input line 53.
 Package microtype Info: Applying patch `item' on input line 53.
@@ -857,24 +863,24 @@ LaTeX Info: Redefining \showhyphens on input line 53.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
-) (c:/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (c:/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (c:/texlive/2022/texmf-dist/tex/latex/graphics/lscape.sty
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )) [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{C:/Users/analu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}]
 Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
  []
 
-(c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
@@ -887,10 +893,10 @@ l.63 \include{PreTextuais/FichaCatalografica}
 ]
 \openout2 = `PreTextuais/FichaCatalografica.aux'.
 
- (./PreTextuais/FichaCatalografica.tex)
+ (PreTextuais/FichaCatalografica.tex)
 \openout2 = `PreTextuais/Resumo.aux'.
 
- (./PreTextuais/Resumo.tex
+ (PreTextuais/Resumo.tex
 
 LaTeX Warning: Citation `NBR6028:2003' on page ii undefined on input line 7.
 
@@ -901,54 +907,64 @@ LaTeX Warning: Citation `NBR6028:2003' on page ii undefined on input line 7.
 
 ] [3
 
-]) (./Monografia.lof) [4
+]) (Monografia.lof) [4
 
 
 
-] (./Monografia.lot) [5
+] (Monografia.lot) [5
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{lof.0}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.82 \pdfbookmark[0]{\listalgorithmcfname}{lof}
-                                                (./Monografia.loa) [6
+                                                (Monografia.loa) [6
 
 
 ]
 \openout2 = `PreTextuais/ListaSiglas.aux'.
 
- (./PreTextuais/ListaSiglas.tex [7
+ (PreTextuais/ListaSiglas.tex [7
 
 
 ])
 \openout2 = `PreTextuais/ListaSimbolos.aux'.
 
- (./PreTextuais/ListaSimbolos.tex [8
+ (PreTextuais/ListaSimbolos.tex [8
 
 
 
 
 
-]) (./Monografia.toc) [9
+]) (Monografia.toc) [9
 
 
 
 ]
 \openout2 = `Capitulos/Cap1-Introducao.aux'.
 
- (./Capitulos/Cap1-Introducao.tex
-LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 24.
- (c:/texlive/2022/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
+ (Capitulos/Cap1-Introducao.tex
+LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 15.
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ts1qtm.fd
 File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
 ) [1
 
 
 
-]) [2]
+{C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+<Figuras/incertezaLivro.jpeg, id=168, 730.73pt x 421.575pt>
+File: Figuras/incertezaLivro.jpeg Graphic file (type jpg)
+<use Figuras/incertezaLivro.jpeg>
+Package pdftex.def Info: Figuras/incertezaLivro.jpeg  used on input line 39.
+(pdftex.def)             Requested size: 455.0pt x 262.49951pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2] [3 <./Figuras/incertezaLivro.jpeg>]) [4]
 \openout2 = `Capitulos/Cap2-RevisaoBibliografica.aux'.
 
- (./Capitulos/Cap2-RevisaoBibliografica.tex) [3
+ (Capitulos/Cap2-RevisaoBibliografica.tex) [5
 
 
 
@@ -956,32 +972,32 @@ File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
 ]
 \openout2 = `Capitulos/Cap3-Desenvolvimento.aux'.
 
- (./Capitulos/Cap3-Desenvolvimento.tex
-<Figuras/siteCEM.jpeg, id=168, 1371.1225pt x 631.35875pt>
+ (Capitulos/Cap3-Desenvolvimento.tex
+<Figuras/siteCEM.jpeg, id=197, 1371.1225pt x 631.35875pt>
 File: Figuras/siteCEM.jpeg Graphic file (type jpg)
 <use Figuras/siteCEM.jpeg>
 Package pdftex.def Info: Figuras/siteCEM.jpeg  used on input line 14.
 (pdftex.def)             Requested size: 455.0pt x 209.51471pt.
- [4
+ [6
 
 
 
 
  <./Figuras/siteCEM.jpeg>]
-<Figuras/siteProdabel.jpeg, id=175, 1371.1225pt x 623.32875pt>
+<Figuras/siteProdabel.jpeg, id=204, 1371.1225pt x 623.32875pt>
 File: Figuras/siteProdabel.jpeg Graphic file (type jpg)
 <use Figuras/siteProdabel.jpeg>
 Package pdftex.def Info: Figuras/siteProdabel.jpeg  used on input line 23.
 (pdftex.def)             Requested size: 455.0pt x 206.84998pt.
-<Figuras/diagrama monografia.drawio.png, id=176, 493.845pt x 416.55624pt>
+<Figuras/diagrama monografia.drawio.png, id=205, 493.845pt x 416.55624pt>
 File: Figuras/diagrama monografia.drawio.png Graphic file (type png)
 <use Figuras/diagrama monografia.drawio.png>
 Package pdftex.def Info: Figuras/diagrama monografia.drawio.png  used on input line 33.
 (pdftex.def)             Requested size: 455.0pt x 383.78937pt.
- [5 <./Figuras/siteProdabel.jpeg>] [6 <./Figuras/diagrama monografia.drawio.png>]) [7]
+ [7 <./Figuras/siteProdabel.jpeg>] [8 <./Figuras/diagrama monografia.drawio.png>]) [9]
 \openout2 = `Capitulos/Cap4-Resultados.aux'.
 
- (./Capitulos/Cap4-Resultados.tex) [8
+ (Capitulos/Cap4-Resultados.tex) [10
 
 
 
@@ -989,14 +1005,14 @@ Package pdftex.def Info: Figuras/diagrama monografia.drawio.png  used on input l
 ]
 \openout2 = `Capitulos/Cap5-Conclusao.aux'.
 
- (./Capitulos/Cap5-Conclusao.tex) [9
+ (Capitulos/Cap5-Conclusao.tex) [11
 
 
 
 
-] (./Monografia.bbl
+] (Monografia.bbl
 bibitemlist
-) (./Monografia.ind) [10
+) (Monografia.ind) [12
 
 
 
@@ -1015,7 +1031,7 @@ bibitemlist
 
  
 enddocument/afterlastpage: lastpage setting LastPage.
-(./Monografia.aux (./PreTextuais/FichaCatalografica.aux) (./PreTextuais/Resumo.aux) (./PreTextuais/ListaSiglas.aux) (./PreTextuais/ListaSimbolos.aux) (./Capitulos/Cap1-Introducao.aux) (./Capitulos/Cap2-RevisaoBibliografica.aux) (./Capitulos/Cap3-Desenvolvimento.aux) (./Capitulos/Cap4-Resultados.aux) (./Capitulos/Cap5-Conclusao.aux))
+(Monografia.aux (PreTextuais/FichaCatalografica.aux) (PreTextuais/Resumo.aux) (PreTextuais/ListaSiglas.aux) (PreTextuais/ListaSimbolos.aux) (Capitulos/Cap1-Introducao.aux) (Capitulos/Cap2-RevisaoBibliografica.aux) (Capitulos/Cap3-Desenvolvimento.aux) (Capitulos/Cap4-Resultados.aux) (Capitulos/Cap5-Conclusao.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1024,18 +1040,17 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 20507 strings out of 476024
- 334122 string characters out of 5794016
- 1864382 words of memory out of 5000000
- 40410 multiletter control sequences out of 15000+600000
- 549032 words of font info for 115 fonts, out of 8000000 for 9000
+ 20558 strings out of 476331
+ 344837 string characters out of 5787765
+ 1866660 words of memory out of 5000000
+ 40431 multiletter control sequences out of 15000+600000
+ 552936 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,13n,90p,1297b,574s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on Monografia.pdf (20 pages, 735523 bytes).
+ 90i,12n,90p,1330b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
+Output written on Monografia.pdf (22 pages, 802210 bytes).
 PDF statistics:
- 347 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
- 70 named destinations out of 1000 (max. 500000)
- 22248 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 380 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
+ 24821 words of extra memory for PDF output out of 24883 (max. 10000000)
 
