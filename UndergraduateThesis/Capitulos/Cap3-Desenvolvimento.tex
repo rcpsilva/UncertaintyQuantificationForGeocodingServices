@@ -48,4 +48,17 @@ Portanto, a preparação de dados e geocodificação são etapas essenciais para
 
 A principal métrica utilizada para avaliar a qualidade da geocodificação é o erro do endereço. Esse erro é calculado como a distância entre o ponto de referência e o ponto geocodificado pela GeoAPI. Com base nesse erro, calcularemos medidas estatísticas, como a média, a mediana, o desvio padrão e a média aparada em 5\%, para analisar a precisão das GeoAPIs.
 
+\begin{equation}
+    e = D(p_{\text{Gold}}, p_{\text{Geo}})
+    \end{equation}
+    
+    onde:
+    \begin{itemize}
+      \item $e$ é o erro da geocodificação,
+      \item $D$ é uma função que calcula a distância em km,
+      \item $p_{\text{Gold}}$ é o ponto da base Gold, e
+      \item $p_{\text{Geo}}$ é o ponto resultante da geocodificação.
+    \end{itemize}
+
+    
 Outra métrica utilizada é a taxa de resposta por API. Para alguns endereços da base de dados, as GeoAPIs podem retornar um erro, não fornecendo uma geocodificação válida. Nesse caso, nada é inserido no banco de dados. A taxa de resposta é calculada como a quantidade de endereços geocodificados dividida pela quantidade de endereços originais na base de dados. Esse valor, normalmente entre 0 e 1, é convertido em uma porcentagem para facilitar a compreensão dos resultados.
