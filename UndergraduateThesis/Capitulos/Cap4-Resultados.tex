@@ -1,5 +1,5 @@
 \chapter{Resultados} \label{resultado}
-Para a primeira etapa do projeto, fizemos a análise espacial para os dados de São Paulo. Por problemas na aplicação que coleta as geocodificações, obtivemos resultados apenas para 3 APIs (TomTom, Mapbox e Here). Abaixo serão apresentados os resultados obtidos.
+Para a primeira etapa do projeto, fizemos a análise do erro e discrepância para os dados de São Paulo. Por problemas na aplicação que coleta as geocodificações, obtivemos resultados apenas para 3 APIs (TomTom, Mapbox e Here). Abaixo serão apresentados os resultados obtidos.
 
 \section{Distribuição Espacial dos Pontos Geocodificados}
 Após a geodificação dos dados, era interessante vizualizar como os pontos geocodificados estavam distribuídos no espaço e o quão diferente era dos pontos ouro. Para isso, foram gerados mapas com a identificação dos pontos para cada uma das APIs.
@@ -38,9 +38,10 @@ Já a \ref{fig:mapapontos3} mostra a distribuição espacial dos pontos geocodif
 \section{Metrícas do Erro}
 A próxima etapa foi o calculo do erro para cada um dos pontos, sendo este expresso em quilômetros (Km).
 
-Com o erro de cada um dos pontos, foram calculadas as métricas mencionadas anteriormente. A \ref{tab:tabelaDeMetricas} mostra esses resultados. 
+Com o erro de cada um dos pontos, foram calculadas as métricas mencionadas anteriormente. A \ref{tab:tabelaDeMetricas} mostra esses resultados.
+
 Em relação a taxa de resposta, ou seja, a quantidade de endereços que foram geocodificados, a TomTom tem o melhor resultado, com um índice superior a 80\%, seguida pela Mapbox, com taxa de 53,38\%. A Here obteve uma taxa de resposta baixa, como esperado pela análises anteriores. Apesar de ter uma API com taxa de resposta alta, esse resultado foi considerado limitante para equipe pois nos impede de fazer algumas análises.
-Outra métrica importante é a taxa de acerto. Foi considerado como acerto aqueles endereços que tiveram erro menor que 150m (0.015Km). A taxa de acerto foi baixíssima para todas as APIs, sendo a melhor 30.19\%. Esse é um resultado muito ruim para os dados acumulados. Porém, devido a baixa quantidade de dados não é possível concluir que as APIs em questão tem uma performance ruim. Na próxima etapa do projeto iremos fazer a análise comparativa dos resultados com as outras APIs e com uma maior quantidade de dados. 
+Outra métrica importante é a taxa de acerto. Foi considerado como acerto aqueles endereços que tiveram erro menor que 150m (0.015Km). A taxa de acerto foi baixíssima para todas as APIs, sendo a melhor 30.19\%. Esse é um resultado péssimo para os dados acumulados. Porém, devido a baixa quantidade de dados não é possível concluir que as APIs em questão tem uma performance ruim. Na próxima etapa do projeto iremos fazer a análise comparativa dos resultados com as outras APIs e com uma maior quantidade de dados. 
 
 Outras métricas interessantes obtidas foram as métricas de média, mediana e desvio padrão. Com elas é possível ver o comportamento geral do erro em cada uma das APIs. As médias foram muito altas, indo de 2Km a 10Km. O desvio padrão também foi alto, mostrando que há uma grande veriação no erro. Apesar disso, a mediana foi bem baixa, alcançando resultados desejáveis na nossa pesquisa. A média aparada obteve resultados muito bons, o que indica que com a retirada dos outliers as métricas tendem a melhorar. Como trabalho futuro, pretendendo refazer as análises com o corte em 50km de erro. De forma geral, esses resultados foram considerados insatisfatórios. Ao longo do relatório, iremos analisar outras questões em detalhes.
 
@@ -61,58 +62,69 @@ Outras métricas interessantes obtidas foram as métricas de média, mediana e d
 \end{table}
 
 \subsection{Distribuição do Erro}
-Em seguida, tentamos analisar a distribuição do erro para cada uma das GeoAPIs. Para isso, utilizamos histogramas de erro individualmente para cada API e combinando todas elas. No entanto, devido à presença de alguns erros exorbitantes, esses histogramas não eram muito representativos, pois a maior parte do erro se concentrava entre 0 km e 50 km. Diante disso, decidimos realizar um corte nos dados, limitando o erro em 0.5 km ou 500 metros. Em seguida, repetimos o processo, agora gerando um único histograma que representa a distribuição do erro para todas as APIs em conjunto.
 
-Com base nos histogramas, pudemos observar que a maioria dos erros está concentrada entre 0 e 200 metros. Levando em consideração nossas pesquisas, consideramos um erro aceitável de até 150 metros, o que corresponde aproximadamente a um quarteirão. Portanto, com base apenas na análise da distribuição de erros, todas as APIs apresentam resultados satisfatórios.
+Em seguida, foi realizada a análise da distribuição do erro para cada uma das GeoAPIs. 
 
-\begin{figure}[h]
+Para isso, utilizamos histogramas de erro individualmente para cada API e combinando todas elas. Na \ref{fig:hist-global} é mostrado os histogramas para cada uma das APIs e o histograma que é a combinação de todas elas. No entanto, devido à presença de alguns erros exorbitantes, esses histogramas não são muito representativos, pois a maior parte do erro se concentrava entre 0 km e 50 km. O que é considerado um erro muito grande, sendo assim, não se pode tirar conclusões firmes. 
+
+\begin{figure}[ht]
   \centering
-  \includegraphics[width=\textwidth]{Figuras/hist1.png}
-  \caption{Histograma do erro calculado com os pontos da Mapbox}
-  \label{fig:hist1}
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/hist1.png}
+    \caption{Mapbox}
+    \label{fig:hist1}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/hist2.png}
+    \caption{Here}
+    \label{fig:hist2}
+  \end{subfigure}
+
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/hist3.png}
+    \caption{TomTom}
+    \label{fig:hist3}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/hist4.png}
+    \caption{Comparativo entre as APIs}
+    \label{fig:hist4}
+  \end{subfigure}
+  
+  \caption{Histogramas do erro das 3 APIs para o todos os dados.}
+  \label{fig:hist-global}
 \end{figure}
 
+Diante disso, decidimos realizar um corte nos dados, limitando o erro em 0.5 km ou 500 metros. Em seguida, repetimos o processo, agora gerando um único histograma que representa a distribuição do erro para todas as APIs em conjunto. A \ref{fig:histLimitado} apresenta esse histograma. Nele observamos que a maior parte dos dados concentra-se entre erro de 0.0 Km e 0.1 Km. Corroborando assim com a hipótese de que as métricas se comportariam melhor com a retirada dos outliers. Em relação as APIs, nessa faixa de erro a TomTom tem um comportamento melhor, já que a curva está mais estreita e próximo de 0. Poréma diferença entre as APIs não é grande, fazendo com que essa diferença não seja tão significativa. 
+ 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=\textwidth]{Figuras/hist2.png}
-  \caption{Histograma do erro calculado com os pontos da Here}
-  \label{fig:hist2}
+  \includegraphics[width=0.8\textwidth]{Figuras/hist5.png}
+  \caption{Histograma comparativo do erro das APIs limitado em 500 metros}
+  \label{fig:histLimitado}
 \end{figure}
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\textwidth]{Figuras/hist3.png}
-  \caption{Histograma do erro calculado com os pontos da TomTom}
-  \label{fig:hist3}
-\end{figure}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\textwidth]{Figuras/hist4.png}
-  \caption{Histograma comparativo do erro das APIs}
-  \label{fig:hist4}
-\end{figure}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\textwidth]{Figuras/hist5.png}
-  \caption{Histograma comparativo do erro das APIs com limitação em 500 metros}
-  \label{fig:hist5}
-\end{figure}
+De forma geral, apesar do histograma ser uma ferramenta poderosa para análise da distribuição do erro, nesse caso ela não foi tão eficiente por apresentar limitações na presença de valores excessivamente altos. 
 
 \subsection{Distribuição Espacial do Erro}
 Além disso, realizamos uma análise adicional para visualizar como esse erro se comporta no espaço. Para isso, criamos mapas de altitude, onde o erro foi utilizado como medida de altitude. Nessa representação, cores mais próximas do vermelho indicam erros mais altos, enquanto cores mais próximas do azul escuro indicam erros mais baixos. Também plotamos os pontos geocodificados no mapa para avaliar a representatividade das cores. Dessa forma, pudemos verificar se uma determinada área apresenta muitos pontos geocodificados ou se há poucos pontos com erros grandes.
 
-Ao analisar os resultados, observamos que a maioria do mapa apresenta erros menores que 34 km, conforme esperado. No entanto, identificamos alguns pontos com erros grandes, que serão avaliados individualmente posteriormente. É importante ressaltar que encontramos uma limitação devido à presença de erros exorbitantes, ou outliers, o que restringe nossa capacidade de tirar conclusões significativas. Para obter uma melhor compreensão do contraste e da distribuição geográfica do erro, planejamos repetir o experimento realizando um corte em 34 km.
+Ao analisar os resultados, observamos que a maioria do mapa apresenta erros menores que 34 km, conforme observado nos histogramas acima. No entanto, identificamos alguns pontos com erros grandes, que serão avaliados individualmente posteriormente. É importante ressaltar que encontramos uma limitação devido à presença de erros exorbitantes, ou outliers, o que restringe nossa capacidade de tirar conclusões significativas. Para obter uma melhor compreensão do contraste e da distribuição geográfica do erro, planejamos repetir o experimento realizando um corte em 34 km.
 
 É válido destacar que o mapa é interativo no projeto original, permitindo uma visualização mais detalhada das informações apresentadas.
 
-\begin{figure}[h]
+Na \ref{fig:grafAltM} conseguimos ver a abrangência da geocodificação da Mapbox, ou seja, os pontos geocodificados conseguiram abranger boa parte da região metropolitana de São Paulo. Além disso, o erro ficou concentrado em 25 Km na maior parte do gráfico. Em alguns pontos ela apresentou erros ente 50 km e 100 km, o que já é considerado um ponto preocupante. Existiram alguns erros na faixa de 300 km nas periferias da cidade. Porém, se pode observar que há uma baixíma concentração de pontos, o que indica que existem poucos pontos com erro baixo, que causaram essa vizualização. No centro, existem alguns pontos avermelhados que possuem uma grande concentração de pontos, esse é um dado preocupante pois indica que a API realmente está errando bastante em relação aos dados referência naquela região.
+
+\begin{figure}[h] 
   \centering
   \includegraphics[width=\textwidth]{Figuras/graficoAltPontosMapbox.png}
   \caption{Gráfico de altitude do erro (km) da geocodificação da Mapbox.}
   \label{fig:grafAltM}
 \end{figure}
+
+Já a \ref{fig:grafAltH} demostra a baixa abrangência da geocodificação da Here. Como apresentado anteriormente, essa GeoAPI teve a menor texa de resposta e a vizualização pelo gráfico de altitude só confirma isso. Sendo assim, qualquer análise realizada será inviesada. É possível observar uma grande concentração de azul, ou seja, os dados tem erro pequeno. Tem alguns picos, com erro elevado, porém somente um apresenta pontos suficientes para considerar que a região tem erro alto. 
 
 \begin{figure}[h]
   \centering
@@ -121,6 +133,7 @@ Ao analisar os resultados, observamos que a maioria do mapa apresenta erros meno
   \label{fig:grafAltH}
 \end{figure}
 
+PAREI AQUI
 \begin{figure}[h]
   \centering
   \includegraphics[width=\textwidth]{Figuras/graficoAltPontosTomtom.png}

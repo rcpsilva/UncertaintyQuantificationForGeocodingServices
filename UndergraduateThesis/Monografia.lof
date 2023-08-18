@@ -1,16 +1,13 @@
 \babel@toc {brazil}{}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Retirada do livro \cite {longley2013}. Visão conceitual da incerteza, onde os filtros I1, I2, I3 distorcem a informação original}}{3}{figure.1.1}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Mapa de clusters que mostra a quantidade de escolas em cada região. Ao aproximar o mapa, o usuário consegue ver a localização de cada uma das escolas presentes no banco de dados.}}{7}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Mapa que mostra a cidade de Belo Horizonte, desenvolvido pela Prodabel. Na barra de pesquisa, é possível pesquisar os endereços e marcá-los no mapa.}}{8}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Esquematização do processo de preparação e geocodificação dos dados}}{9}{figure.2.3}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Mapa da Distribuição Espacial dos Pontos da base Gold e Geocodificados pela Mapbox}}{11}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Mapa da Distribuição Espacial dos Pontos da base Gold e Geocodificados pela Here}}{12}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Mapa da Distribuição Espacial dos Pontos da base Gold e Geocodificados pela TomTom}}{13}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Histograma do erro calculado com os pontos da Mapbox}}{14}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Histograma do erro calculado com os pontos da Here}}{15}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Histograma do erro calculado com os pontos da TomTom}}{16}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Histograma comparativo do erro das APIs}}{17}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Histograma comparativo do erro das APIs com limitação em 500 metros}}{18}{figure.3.8}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Gráfico de altitude do erro (km) da geocodificação da Mapbox.}}{19}{figure.3.9}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Gráfico de altitude do erro (km) da geocodificação da Here.}}{19}{figure.3.10}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Gráfico de altitude do erro (km) da geocodificação da TomTom.}}{20}{figure.3.11}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Retirada do livro \cite {longley2013}. Visão conceitual da incerteza, onde os filtros I1, I2, I3 distorcem a informação original\relax }}{3}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Mapa de clusters que mostra a quantidade de escolas em cada região. Ao aproximar o mapa, o usuário consegue ver a localização de cada uma das escolas presentes no banco de dados.\relax }}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Mapa que mostra a cidade de Belo Horizonte, desenvolvido pela Prodabel. Na barra de pesquisa, é possível pesquisar os endereços e marcá-los no mapa.\relax }}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Esquematização do processo de preparação e geocodificação dos dados\relax }}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Mapa da Distribuição Espacial dos Pontos da base Gold e Geocodificados pela Mapbox\relax }}{11}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Mapa da Distribuição Espacial dos Pontos da base Gold e Geocodificados pela Here\relax }}{12}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Mapa da Distribuição Espacial dos Pontos da base Gold e Geocodificados pela TomTom\relax }}{12}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Histogramas do erro das 3 APIs para o todos os dados.\relax }}{14}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Histograma comparativo do erro das APIs limitado em 500 metros\relax }}{15}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Gráfico de altitude do erro (km) da geocodificação da Mapbox.\relax }}{16}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Gráfico de altitude do erro (km) da geocodificação da Here.\relax }}{17}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Gráfico de altitude do erro (km) da geocodificação da TomTom.\relax }}{17}{figure.caption.20}%

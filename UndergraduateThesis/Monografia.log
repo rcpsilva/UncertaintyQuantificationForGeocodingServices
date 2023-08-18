@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  17 AUG 2023 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  18 AUG 2023 18:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -427,3 +427,885 @@ package with kernel methods
 \c@Item=\count317
 \c@Hfootnote=\count318
 )
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count319
+\c@bookmark@seq@number=\count320
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip190
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfixc.sty
+Package: memhfixc 2022/11/17 v1.20 nameref/hyperref package fixes for memoir class
+
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 106.
+\c@memhycontfloat=\count321
+\c@Hpagenote=\count322
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count323
+)) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/03/28 3.87 The Babel package
+\babel@savecnt=\count324
+\U@D=\dimen191
+\l@unhyphenated=\language79
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count325
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazil.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language56). Reported on input line 111.
+Package babel Info: Making " an active character on input line 143.
+)) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip191
+\enit@outerparindent=\dimen192
+\enit@toks=\toks25
+\enit@inbox=\box56
+\enit@count@id=\count326
+\enitdp@description=\count327
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count328
+\calc@Bcount=\count329
+\calc@Adimen=\dimen193
+\calc@Bdimen=\dimen194
+\calc@Askip=\skip192
+\calc@Bskip=\skip193
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count330
+\calc@Cskip=\skip194
+)
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 708pt by 455pt
+Spine and edge margins: 85.35826pt and 56.9055pt
+Upper and lower margins: 85.35826pt and 51.68858pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 42.9055pt
+Sidecapsep and sidecapwidth: 7pt and 42pt
+Sidebarhsep and sidebarwidth: 7pt and 42pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 42pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+\c@abntex@bookmarkcounter=\count331
+\cftlastnumwidth=\skip195
+\chapternamenumlength=\skip196
+\ABNTEXcitacaorecuo=\skip197
+\c@alineasi=\count332
+\c@alineasii=\count333
+\enitdp@alineas=\count334
+\c@subalineasi=\count335
+\enitdp@subalineas=\count336
+\c@incisosi=\count337
+\enitdp@incisos=\count338
+\ABNTEXsignwidth=\skip198
+\ABNTEXsignthickness=\skip199
+\ABNTEXsignskip=\skip256
+) (structure.tex (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+Package: lastpage 2023/04/12 v2.0b lastpage: 2.09 or 2e? (HMM)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.sty
+Package: lastpage2e 2023/04/12 v2.0b Decide which 2e lastpage version to use (HMM)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemodern.sty
+Package: lastpagemodern 2023-04-12 v2.0b Refers to last page's name (HMM; JPG)
+) 
+)) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen195
+\Gin@req@width=\dimen196
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+\MT@toks=\toks28
+\MT@tempbox=\box57
+\MT@count=\count339
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks29
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen197
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count340
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip257
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+)) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen198
+\ESO@tempdimb=\dimen199
+)
+\AM@pagewidth=\dimen256
+\AM@pageheight=\dimen257
+\AM@fboxrule=\dimen258
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count341
+\AM@pagebox=\box58
+\AM@global@opts=\toks30
+\AM@pagecnt=\count342
+\AM@toc@title=\toks31
+\AM@lof@heading=\toks32
+\c@AM@survey=\count343
+\AM@templatesizebox=\box59
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip258
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen259
+)) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen260
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count344
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count345
+\leftroot@=\count346
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count347
+\DOTSCASE@=\count348
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen261
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count349
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count350
+\dotsspace@=\muskip17
+\c@parentequation=\count351
+\dspbrk@lvl=\count352
+\tag@help=\toks34
+\row@=\count353
+\column@=\count354
+\maxfields@=\count355
+\andhelp@=\toks35
+\eqnshift@=\dimen262
+\alignsep@=\dimen263
+\tagshift@=\dimen264
+\tagwidth@=\dimen265
+\totwidth@=\dimen266
+\lineht@=\dimen267
+\@envbody=\toks36
+\multlinegap=\skip259
+\multlinetaggap=\skip260
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks38
+\thm@bodyfont=\toks39
+\thm@headfont=\toks40
+\thm@notefont=\toks41
+\thm@headpunct=\toks42
+\thm@preskip=\skip261
+\thm@postskip=\skip262
+\thm@headsep=\skip263
+\dth@everypar=\toks43
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count356
+\algocf@hangindent=\skip264
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count357
+LaTeX Info: Redefining \checkoddpage on input line 45.
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip265
+\skiplinenumber=\skip266
+\skiprule=\skip267
+\skiphlne=\skip268
+\skiptext=\skip269
+\skiplength=\skip270
+\algomargin=\skip271
+\skipalgocfslide=\skip272
+\algowidth=\dimen268
+\inoutsize=\dimen269
+\inoutindent=\dimen270
+\interspacetitleruled=\dimen271
+\interspacealgoruled=\dimen272
+\interspacetitleboxruled=\dimen273
+\algocf@ruledwidth=\skip273
+\algocf@inoutbox=\box62
+\algocf@inputbox=\box63
+\AlCapSkip=\skip274
+\AlCapHSkip=\skip275
+\algoskipindent=\skip276
+\algocf@nlbox=\box64
+\algocf@hangingbox=\box65
+\algocf@untilbox=\box66
+\algocf@skipuntil=\skip277
+\algocf@capbox=\box67
+\algocf@lcaptionbox=\skip278
+\algoheightruledefault=\skip279
+\algoheightrule=\skip280
+\algotitleheightruledefault=\skip281
+\algotitleheightrule=\skip282
+\c@algocfline=\count358
+\c@algocfproc=\count359
+\c@algocf=\count360
+\algocf@algoframe=\box68
+\algocf@algobox=\box69
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen274
+\c@nlinenum=\count361
+\TeXr@lab=\toks44
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen275
+\captionmargin=\dimen276
+\caption@leftmargin=\dimen277
+\caption@rightmargin=\dimen278
+\caption@width=\dimen279
+\caption@indent=\dimen280
+\caption@parindent=\dimen281
+\caption@hangindent=\dimen282
+Package caption Info: memoir document class detected.
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-memoir.sto
+File: caption-memoir.sto 2022/03/02 v2.2b Adaption of the caption package to the memoir document class (AR)
+))
+\c@caption@flags=\count362
+\c@continuedfloat=\count363
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen283
+\caption@adjustwidth@linewidth=\dimen284
+Package caption Info: hyperref package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 239.
+\c@subfigure=\count364
+Package caption Info: New subtype `subtable' on input line 239.
+\c@subtable=\count365
+) (abntex2cite.sty
+Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
+ (abntex2abrev.sty)
+\minimumbiblabelwidth=\skip283
+\ABCIauxlen=\skip284
+\c@ABCIaux=\count366
+\c@ABCImax=\count367
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+\biblabelsep=\skip285
+LaTeX Info: Redefining \newblock on input line 591.
+LaTeX Info: Redefining \cite on input line 618.
+\ABCItoken=\toks45
+)
+Package color Info: Redefining color blue on input line 37.
+Package hyperref Info: Option `colorlinks' set `true' on input line 52.
+\c@teorema=\count368
+\c@axioma=\count369
+\c@corolario=\count370
+\c@lema=\count371
+\c@proposicao=\count372
+\c@definicao=\count373
+\c@exemplo=\count374
+\c@observacao=\count375
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\tgtermes.sty
+Package: tgtermes 2009/09/27 v1.2 TeX Gyre Termes as default roman family
+))
+\Monografia@idxfile=\write4
+\openout4 = `Monografia.idx'.
+
+
+Writing index file Monografia.idx 
+(C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+LaTeX Font Info:    Trying to load font information for T1+qtm on input line 53.
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qtm.fd
+File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count376
+\l__pdf_internal_box=\box70
+) (Monografia.aux)
+\openout1 = `Monografia.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+Package hyperref Info: Link coloring ON on input line 53.
+\myptabbox=\box71
+\myptabboxwidth=\skip286
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count377
+\scratchdimen=\dimen285
+\scratchbox=\box72
+\nofMPsegments=\count378
+\nofMParguments=\count379
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count380
+\MPscratchDim=\dimen286
+\MPnumerator=\count381
+\makeMPintoPDFobject=\count382
+\everyMPtoPDFconversion=\toks47
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Info: Redefining \microtypecontext on input line 53.
+Package microtype Info: Applying patch `item' on input line 53.
+Package microtype Info: Applying patch `toc' on input line 53.
+Package microtype Info: Applying patch `eqnum' on input line 53.
+Package microtype Info: Applying patch `footnote' on input line 53.
+Package microtype Info: Applying patch `verbatim' on input line 53.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 53.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+) (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ [1
+
+{C:/Users/analu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+
+ []
+
+(C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 \include{PreTextuais/FichaCatalografica}
+                                              [1
+
+
+]
+\openout2 = `PreTextuais/FichaCatalografica.aux'.
+
+ (PreTextuais/FichaCatalografica.tex)
+\openout2 = `PreTextuais/Resumo.aux'.
+
+ (PreTextuais/Resumo.tex
+
+LaTeX Warning: Citation `NBR6028:2003' on page ii undefined on input line 7.
+
+[2
+
+
+
+
+] [3
+
+])
+No file Monografia.lof.
+[4
+
+
+
+]
+No file Monografia.lot.
+[5
+
+]
+\openout2 = `PreTextuais/ListaSiglas.aux'.
+
+ (PreTextuais/ListaSiglas.tex [6
+
+
+
+])
+No file Monografia.toc.
+[7
+
+
+
+]
+\openout2 = `Capitulos/Cap1-Introducao.aux'.
+
+ (Capitulos/Cap1-Introducao.tex
+
+LaTeX Warning: Citation `longley2013' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation `longley2013' on page 1 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Zamberg2009' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Citation `AmericaJournal2001' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Kypri2009' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Mazumdar2008' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Chow2011' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Olligschlaeger1998' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Gilboa2006' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Zamberg2009' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Whitsel2006' on page 1 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Zamberg2009' on page 1 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Zamberg2009' on page 1 undefined on input line 13.
+
+LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 16.
+(C:\Users\analu\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ts1qtm.fd
+File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
+)
+
+LaTeX Warning: Citation `longley2013' on page 1 undefined on input line 21.
+
+[1
+
+
+
+{C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+
+LaTeX Warning: Citation `longley2013' on page 2 undefined on input line 29.
+
+
+LaTeX Warning: Citation `longley2013' on page 2 undefined on input line 38.
+
+<Figuras/incertezaLivro.jpeg, id=58, 730.73pt x 421.575pt>
+File: Figuras/incertezaLivro.jpeg Graphic file (type jpg)
+<use Figuras/incertezaLivro.jpeg>
+Package pdftex.def Info: Figuras/incertezaLivro.jpeg  used on input line 42.
+(pdftex.def)             Requested size: 455.0pt x 262.49951pt.
+
+LaTeX Warning: Citation `longley2013' on page 2 undefined on input line 43.
+
+
+LaTeX Warning: Citation `longley2013' on page 2 undefined on input line 43.
+
+
+LaTeX Warning: Citation `terralab' on page 2 undefined on input line 49.
+
+
+LaTeX Warning: Citation `stein2021geoprocessamento' on page 2 undefined on input line 53.
+
+[2]
+
+LaTeX Warning: Citation `Chow2016' on page 3 undefined on input line 55.
+
+
+LaTeX Warning: Citation `Chow2016' on page 3 undefined on input line 56.
+
+[3 <./Figuras/incertezaLivro.jpeg>]
+
+LaTeX Warning: Citation `Chow2016' on page 4 undefined on input line 73.
+
+
+LaTeX Warning: Citation `Clodoveu2011' on page 4 undefined on input line 77.
+
+
+LaTeX Warning: Citation `GCP' on page 4 undefined on input line 77.
+
+
+LaTeX Warning: Citation `Prodabel' on page 4 undefined on input line 77.
+
+[4] [5]
+
+LaTeX Warning: Reference `RevisaoBibliografica' on page 6 undefined on input line 119.
+
+
+LaTeX Warning: Reference `desenvolvimento' on page 6 undefined on input line 120.
+
+
+LaTeX Warning: Reference `resultado' on page 6 undefined on input line 121.
+
+
+LaTeX Warning: Reference `conclusao' on page 6 undefined on input line 122.
+
+) [6]
+\openout2 = `Capitulos/Cap3-Desenvolvimento.aux'.
+
+ (Capitulos/Cap3-Desenvolvimento.tex
+<Figuras/siteCEM.jpeg, id=97, 1371.1225pt x 631.35875pt>
+File: Figuras/siteCEM.jpeg Graphic file (type jpg)
+<use Figuras/siteCEM.jpeg>
+Package pdftex.def Info: Figuras/siteCEM.jpeg  used on input line 14.
+(pdftex.def)             Requested size: 455.0pt x 209.51471pt.
+ [7
+
+
+
+
+ <./Figuras/siteCEM.jpeg>]
+<Figuras/siteProdabel.jpeg, id=107, 1371.1225pt x 623.32875pt>
+File: Figuras/siteProdabel.jpeg Graphic file (type jpg)
+<use Figuras/siteProdabel.jpeg>
+Package pdftex.def Info: Figuras/siteProdabel.jpeg  used on input line 23.
+(pdftex.def)             Requested size: 455.0pt x 206.84998pt.
+<Figuras/diagrama monografia.drawio.png, id=108, 493.845pt x 416.55624pt>
+File: Figuras/diagrama monografia.drawio.png Graphic file (type png)
+<use Figuras/diagrama monografia.drawio.png>
+Package pdftex.def Info: Figuras/diagrama monografia.drawio.png  used on input line 33.
+(pdftex.def)             Requested size: 455.0pt x 383.78937pt.
+ [8 <./Figuras/siteProdabel.jpeg>] [9 <./Figuras/diagrama monografia.drawio.png>]) [10]
+\openout2 = `Capitulos/Cap4-Resultados.aux'.
+
+ (Capitulos/Cap4-Resultados.tex
+
+LaTeX Warning: Reference `fig:mapapontos1' on page 11 undefined on input line 9.
+
+<Figuras/mapapontos1.png, id=129, 999.735pt x 451.6875pt>
+File: Figuras/mapapontos1.png Graphic file (type png)
+<use Figuras/mapapontos1.png>
+Package pdftex.def Info: Figuras/mapapontos1.png  used on input line 13.
+(pdftex.def)             Requested size: 455.0pt x 205.57326pt.
+
+LaTeX Warning: Reference `fig:mapapontos2' on page 11 undefined on input line 18.
+
+[11
+
+
+
+
+ <./Figuras/mapapontos1.png>]
+<Figuras/mapapontos2.png, id=139, 999.735pt x 451.6875pt>
+File: Figuras/mapapontos2.png Graphic file (type png)
+<use Figuras/mapapontos2.png>
+Package pdftex.def Info: Figuras/mapapontos2.png  used on input line 22.
+(pdftex.def)             Requested size: 455.0pt x 205.57326pt.
+
+
+LaTeX Warning: Reference `fig:mapapontos3' on page 12 undefined on input line 27.
+
+
+LaTeX Warning: Reference `fig:mapapontos3' on page 12 undefined on input line 27.
+
+<Figuras/mapapontos3.png, id=140, 999.735pt x 451.6875pt>
+File: Figuras/mapapontos3.png Graphic file (type png)
+<use Figuras/mapapontos3.png>
+Package pdftex.def Info: Figuras/mapapontos3.png  used on input line 31.
+(pdftex.def)             Requested size: 455.0pt x 205.57326pt.
+[12 <./Figuras/mapapontos2.png> <./Figuras/mapapontos3.png>]
+
+LaTeX Warning: Reference `tab:tabelaDeMetricas' on page 13 undefined on input line 41.
+
+
+LaTeX Warning: Reference `fig:hist-global' on page 13 undefined on input line 68.
+
+[13]
+<Figuras/hist1.png, id=156, 419.166pt x 328.8285pt>
+File: Figuras/hist1.png Graphic file (type png)
+<use Figuras/hist1.png>
+Package pdftex.def Info: Figuras/hist1.png  used on input line 73.
+(pdftex.def)             Requested size: 204.74861pt x 160.6206pt.
+<Figuras/hist2.png, id=157, 419.8887pt x 328.8285pt>
+File: Figuras/hist2.png Graphic file (type png)
+<use Figuras/hist2.png>
+Package pdftex.def Info: Figuras/hist2.png  used on input line 79.
+(pdftex.def)             Requested size: 204.74861pt x 160.34966pt.
+<Figuras/hist3.png, id=158, 425.6703pt x 328.8285pt>
+File: Figuras/hist3.png Graphic file (type png)
+<use Figuras/hist3.png>
+Package pdftex.def Info: Figuras/hist3.png  used on input line 85.
+(pdftex.def)             Requested size: 204.74861pt x 158.17206pt.
+<Figuras/hist4.png, id=159, 416.2752pt x 328.8285pt>
+File: Figuras/hist4.png Graphic file (type png)
+<use Figuras/hist4.png>
+Package pdftex.def Info: Figuras/hist4.png  used on input line 91.
+(pdftex.def)             Requested size: 204.74861pt x 161.7395pt.
+
+
+LaTeX Warning: Reference `fig:histLimitado' on page 14 undefined on input line 100.
+
+<Figuras/hist5.png, id=160, 423.5022pt x 328.8285pt>
+File: Figuras/hist5.png Graphic file (type png)
+<use Figuras/hist5.png>
+Package pdftex.def Info: Figuras/hist5.png  used on input line 104.
+(pdftex.def)             Requested size: 364.00139pt x 282.62643pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14 <./Figuras/hist1.png> <./Figuras/hist2.png> <./Figuras/hist3.png> <./Figuras/hist4.png>]
+
+LaTeX Warning: Reference `fig:grafAltM' on page 15 undefined on input line 118.
+
+[15 <./Figuras/hist5.png>]
+<Figuras/graficoAltPontosMapbox.png, id=177, 390.9807pt x 253.6677pt>
+File: Figuras/graficoAltPontosMapbox.png Graphic file (type png)
+<use Figuras/graficoAltPontosMapbox.png>
+Package pdftex.def Info: Figuras/graficoAltPontosMapbox.png  used on input line 122.
+(pdftex.def)             Requested size: 455.0pt x 295.21077pt.
+
+
+LaTeX Warning: Reference `fig:grafAltH' on page 16 undefined on input line 127.
+
+<Figuras/graficoAltPontosHere.png, id=178, 384.4764pt x 255.8358pt>
+File: Figuras/graficoAltPontosHere.png Graphic file (type png)
+<use Figuras/graficoAltPontosHere.png>
+Package pdftex.def Info: Figuras/graficoAltPontosHere.png  used on input line 131.
+(pdftex.def)             Requested size: 455.0pt x 302.76587pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figuras/graficoAltPontosTomtom.png, id=179, 390.9807pt x 258.0039pt>
+File: Figuras/graficoAltPontosTomtom.png Graphic file (type png)
+<use Figuras/graficoAltPontosTomtom.png>
+Package pdftex.def Info: Figuras/graficoAltPontosTomtom.png  used on input line 139.
+(pdftex.def)             Requested size: 455.0pt x 300.25713pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16 <./Figuras/graficoAltPontosMapbox.png>] [17 <./Figuras/graficoAltPontosHere.png> <./Figuras/graficoAltPontosTomtom.png>]
+\openout2 = `Capitulos/Cap5-Conclusao.aux'.
+
+ (Capitulos/Cap5-Conclusao.tex) [18
+
+
+
+
+] (Monografia.bbl
+bibitemlist
+)
+Runaway argument?
+{{Terralab\ldots }{{Terralab\ldots }{} {{Terralab - Laboratório de G\ETC.
+c:/Users/analu/UncertaintyQuantificationForGeocodingServices/UndergraduateThesis/Monografia.tex:106: File ended while scanning use of \abntrefinfo.
+<inserted text> 
+                \par 
+l.106 \bibliography{bibliografia}
+                                  % Referências bibliográficas
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+c:/Users/analu/UncertaintyQuantificationForGeocodingServices/UndergraduateThesis/Monografia.tex:106: Extra }, or forgotten \endgroup.
+\bibliography ...}\fi } \@input@ {\jobname .bbl} }
+                                                   
+l.106 \bibliography{bibliografia}
+                                  % Referências bibliográficas
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+No file Monografia.ind.
+[19
+
+
+
+]
+\tf@lof=\write5
+\openout5 = `Monografia.lof'.
+
+\tf@lot=\write6
+\openout6 = `Monografia.lot'.
+
+\tf@toc=\write7
+\openout7 = `Monografia.toc'.
+
+
+
+c:/Users/analu/UncertaintyQuantificationForGeocodingServices/UndergraduateThesis/Monografia.tex:111: LaTeX Error: \begin{bibitemlist} on input line 3 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 \end{document}
+                      % fim do documento
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+enddocument/afterlastpage: lastpage setting LastPage.
+(Monografia.aux (PreTextuais/FichaCatalografica.aux) (PreTextuais/Resumo.aux) (PreTextuais/ListaSiglas.aux) (Capitulos/Cap1-Introducao.aux) (Capitulos/Cap3-Desenvolvimento.aux) (Capitulos/Cap4-Resultados.aux) (Capitulos/Cap5-Conclusao.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package lastpage Warning: Rerun to get the references right on input line 111.
+
+ )
+(\end occurred inside a group at level 3)
+
+### semi simple group (level 3) entered at line 3 (\begingroup)
+### semi simple group (level 2) entered at line 3 (\begingroup)
+### simple group (level 1) entered at line 106 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 22241 strings out of 476331
+ 371902 string characters out of 5787765
+ 1866660 words of memory out of 5000000
+ 42073 multiletter control sequences out of 15000+600000
+ 563368 words of font info for 142 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 90i,15n,90p,1330b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
+Output written on Monografia.pdf (27 pages, 2470280 bytes).
+PDF statistics:
+ 378 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 31012 words of extra memory for PDF output out of 35830 (max. 10000000)
+
