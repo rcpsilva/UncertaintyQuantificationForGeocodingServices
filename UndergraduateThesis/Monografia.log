@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  18 AUG 2023 18:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  19 AUG 2023 20:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1181,17 +1181,15 @@ Package pdftex.def Info: Figuras/hist5.png  used on input line 104.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14 <./Figuras/hist1.png> <./Figuras/hist2.png> <./Figuras/hist3.png> <./Figuras/hist4.png>]
+[14 <./Figuras/hist1.png> <./Figuras/hist2.png> <./Figuras/hist3.png> <./Figuras/hist4.png>] [15 <./Figuras/hist5.png>]
 
-LaTeX Warning: Reference `fig:grafAltM' on page 15 undefined on input line 118.
+LaTeX Warning: Reference `fig:grafAltM' on page 16 undefined on input line 118.
 
-[15 <./Figuras/hist5.png>]
 <Figuras/graficoAltPontosMapbox.png, id=177, 390.9807pt x 253.6677pt>
 File: Figuras/graficoAltPontosMapbox.png Graphic file (type png)
 <use Figuras/graficoAltPontosMapbox.png>
 Package pdftex.def Info: Figuras/graficoAltPontosMapbox.png  used on input line 122.
 (pdftex.def)             Requested size: 364.00139pt x 236.16785pt.
-
 
 LaTeX Warning: Reference `fig:grafAltH' on page 16 undefined on input line 127.
 
@@ -1203,19 +1201,57 @@ Package pdftex.def Info: Figuras/graficoAltPontosHere.png  used on input line 13
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Reference `fig:grafAltT' on page 16 undefined on input line 136.
+
+
+LaTeX Warning: Reference `fig:grafAltM' on page 16 undefined on input line 136.
+
 <Figuras/graficoAltPontosTomtom.png, id=179, 390.9807pt x 258.0039pt>
 File: Figuras/graficoAltPontosTomtom.png Graphic file (type png)
 <use Figuras/graficoAltPontosTomtom.png>
 Package pdftex.def Info: Figuras/graficoAltPontosTomtom.png  used on input line 139.
 (pdftex.def)             Requested size: 364.00139pt x 240.20491pt.
-)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16 <./Figuras/graficoAltPontosMapbox.png>] [17 <./Figuras/graficoAltPontosHere.png> <./Figuras/graficoAltPontosTomtom.png>]
+[16 <./Figuras/graficoAltPontosMapbox.png>]
+
+LaTeX Warning: Reference `fig:CovErroM' on page 17 undefined on input line 147.
+
+
+LaTeX Warning: Reference `fig:CovErroT' on page 17 undefined on input line 147.
+
+[17 <./Figuras/graficoAltPontosHere.png> <./Figuras/graficoAltPontosTomtom.png>]
+<Figuras/ErroCovM.png, id=196, 412.6617pt x 328.1058pt>
+File: Figuras/ErroCovM.png Graphic file (type png)
+<use Figuras/ErroCovM.png>
+Package pdftex.def Info: Figuras/ErroCovM.png  used on input line 151.
+(pdftex.def)             Requested size: 364.00139pt x 289.41487pt.
+<Figuras/ErroCovT.png, id=197, 412.6617pt x 327.3831pt>
+File: Figuras/ErroCovT.png Graphic file (type png)
+<use Figuras/ErroCovT.png>
+Package pdftex.def Info: Figuras/ErroCovT.png  used on input line 158.
+(pdftex.def)             Requested size: 364.00139pt x 288.77739pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:CovErroH' on page 18 undefined on input line 163.
+
+<Figuras/ErroCovH.png, id=198, 412.6617pt x 327.3831pt>
+File: Figuras/ErroCovH.png Graphic file (type png)
+<use Figuras/ErroCovH.png>
+Package pdftex.def Info: Figuras/ErroCovH.png  used on input line 167.
+(pdftex.def)             Requested size: 364.00139pt x 288.77739pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [18 <./Figuras/ErroCovM.png>] [19 <./Figuras/ErroCovT.png> <./Figuras/ErroCovH.png>]
 \openout2 = `Capitulos/Cap5-Conclusao.aux'.
 
- (Capitulos/Cap5-Conclusao.tex) [18
+ (Capitulos/Cap5-Conclusao.tex) [20
 
 
 
@@ -1247,7 +1283,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 No file Monografia.ind.
-[19
+[21
 
 
 
@@ -1295,17 +1331,17 @@ Package lastpage Warning: Rerun to get the references right on input line 111.
 ### simple group (level 1) entered at line 106 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 22241 strings out of 476331
- 371902 string characters out of 5787765
+ 22274 strings out of 476331
+ 372523 string characters out of 5787765
  1866660 words of memory out of 5000000
- 42073 multiletter control sequences out of 15000+600000
- 563368 words of font info for 142 fonts, out of 8000000 for 9000
+ 42095 multiletter control sequences out of 15000+600000
+ 563474 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,15n,90p,1330b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on Monografia.pdf (27 pages, 2470291 bytes).
+Output written on Monografia.pdf (29 pages, 2515455 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 31012 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 400 PDF objects out of 1000 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
+ 31035 words of extra memory for PDF output out of 35830 (max. 10000000)
 

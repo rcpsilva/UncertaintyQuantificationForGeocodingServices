@@ -61,7 +61,7 @@ Outras métricas interessantes obtidas foram as métricas de média, mediana e d
   \end{tabular}
 \end{table}
 
-\subsection{Distribuição do Erro}
+\section{Distribuição do Erro}
 
 Em seguida, foi realizada a análise da distribuição do erro para cada uma das GeoAPIs. 
 
@@ -108,8 +108,8 @@ Diante disso, decidimos realizar um corte nos dados, limitando o erro em 0.5 km 
 
 De forma geral, apesar do histograma ser uma ferramenta poderosa para análise da distribuição do erro, nesse caso ela não foi tão eficiente por apresentar limitações na presença de valores excessivamente altos. 
 
-\subsection{Distribuição Espacial do Erro}
-Além disso, realizamos uma análise adicional para visualizar como esse erro se comporta no espaço. Para isso, criamos mapas de altitude, onde o erro foi utilizado como medida de altitude. Nessa representação, cores mais próximas do vermelho indicam erros mais altos, enquanto cores mais próximas do azul escuro indicam erros mais baixos. Também plotamos os pontos geocodificados no mapa para avaliar a representatividade das cores. Dessa forma, pudemos verificar se uma determinada área apresenta muitos pontos geocodificados ou se há poucos pontos com erros grandes.
+\section{Distribuição Espacial do Erro}
+Além disso, realizamos uma análise adicional para visualizar como esse erro se comporta no espaço. Para isso, criamos mapas de altitude, onde o erro foi utilizado como medida de altitude. O mapa consiste em linhas de altitude, criadas a partir da interpolação do erro dos pontos. Em seguida essas linhas foram transformadas em um polígono e coloridas de acordo com os valores de altitude. Nessa representação, cores mais próximas do vermelho indicam erros mais altos, enquanto cores mais próximas do azul escuro indicam erros mais baixos. Também plotamos os pontos geocodificados no mapa para avaliar a representatividade das cores. Dessa forma, pudemos verificar se uma determinada área apresenta muitos pontos geocodificados ou se há poucos pontos com erros grandes. Todo esse processo foi realizado utilizando as bibliotecas do python matplotlib, scipy e folium para a criação e vizualização do gráficos; e as biblicotecas pandas e numpy para manipulação de estruturas de dados utilizadas. 
 
 Ao analisar os resultados, observamos que a maioria do mapa apresenta erros menores que 34 km, conforme observado nos histogramas acima. No entanto, identificamos alguns pontos com erros grandes, que serão avaliados individualmente posteriormente. É importante ressaltar que encontramos uma limitação devido à presença de erros exorbitantes, ou outliers, o que restringe nossa capacidade de tirar conclusões significativas. Para obter uma melhor compreensão do contraste e da distribuição geográfica do erro, planejamos repetir o experimento realizando um corte em 34 km.
 
@@ -133,10 +133,38 @@ Já a \ref{fig:grafAltH} demostra a baixa abrangência da geocodificação da He
   \label{fig:grafAltH}
 \end{figure}
 
-PAREI AQUI
+A \ref{fig:grafAltT} mostra é similar a \ref{fig:grafAltM} pois também teve uma taxa de resposta suficientemente grande. A maior parte do gráfico possui uma cor azul escura, o que indica que o erro nessas regiões é menor que 20 km. Porém possui alguns picos escverdeados que mostram um erro bem alto. Em alguns deles não é possível observar uma grande concentração de pontos, o que indica que são poucos pontos com erro grandes. Já no centro da figura, onde há grande concentração de pontos, esses picos também aparecem, o que indica um erro alto nessa região.
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.8\textwidth]{Figuras/graficoAltPontosTomtom.png}
   \caption{Gráfico de altitude do erro (km) da geocodificação da TomTom.}
   \label{fig:grafAltT}
+\end{figure}
+
+\section{Relações entre erro e discrepância}
+Por fim, foi realizada a análise comparativa entre erro e discrepância. A medida escolhida para essa análise foi a covariância. Calculamos a covariância entre a latitude e a longitude para cada ponto utilizando as 3 APIs e depois foi calculada a média das duas covariâncias citadas anteriormente. Foram considerados para análise apenas os pontos em que se tem informação das 3 APIs. Devido ao fato da API Here ter tido uma taxa de resposta tão baixa, a quantidade de pontos obtidas foi também muito baixa.Fizemos então uma análise com apenas 1683 endereços da base. 
+
+Após o calculo da covariância, construímos para cada uma das APIs um gráfico de covariância pelo erro referente. Nos gráficos das figuras \ref{fig:CovErroM} e \ref{fig:CovErroT} não é possível observar uma relação entre as duas medidas. O primeiro mostra que os valores de erro estão concentrados na faixa de 0km a 50km para esses dados. No segundo gráfico há uma variação maior do erro, mas essa variação não reflete na variação da da covariância. Os dados indicam que essa relação não existe, porém não é possível tiral tal conclusão devido a quantidade baixa de dados. 
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{Figuras/ErroCovM.png}
+  \caption{Gráfico covariância por erro da Mapbox}
+  \label{fig:CovErroM}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{Figuras/ErroCovT.png}
+  \caption{Gráfico covariância por erro da TomTom}
+  \label{fig:CovErroT}
+\end{figure}
+
+A \ref{fig:CovErroH} apresenta resultados diferentes dos anteriores. No gráfico pode-se ver uma relação próxima a linear, onde a medida que o erro cresce, a covariância cresce junto. Como os dados de covariância estão concentrados em 0 a 0.02 e os dados de erro em 0km a 100km, as faixas apresentam mais pontos. É um resultado promissor, porém devem ser feitas mais análises devido a quantidade de dados. 
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{Figuras/ErroCovH.png}
+  \caption{Gráfico covariância por erro da Here}
+  \label{fig:CovErroH}
 \end{figure}
