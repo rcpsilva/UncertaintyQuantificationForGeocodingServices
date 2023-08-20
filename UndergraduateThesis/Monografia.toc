@@ -18,9 +18,6 @@
 \contentsline {section}{\numberline {3.4}Distribuição Espacial do Erro}{15}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Relações entre erro e discrepância}{17}{section.3.5}%
 \contentsline {chapter}{\chapternumberline {4}Considerações Finais}{20}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Conclusão}{20}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Trabalhos Futuros}{20}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Publicações Realizadas}{20}{section.4.3}%
 \vspace {\cftbeforepartskip }
 \contentsline {chapter}{Refer\^encias}{21}{chapter*.25}%
 \vspace {\cftbeforepartskip }

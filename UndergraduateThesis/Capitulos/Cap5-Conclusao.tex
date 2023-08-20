@@ -1,30 +1,10 @@
 \chapter{Considerações Finais} \label{consideracoes}
 
-Neste capítulo deve ser explicitado se todos os objetivos descritos na introdução foram atingidos e ressaltar a contribuição do trabalho para o meio acadêmico.
+O presente trabalho apresentou uma análise da qualidade das APIs Mapbox, TomTom e Here para os dados disponibilizados pelo CEM - Centro de estudos da Metrópole \cite{cem}. Devido a problemas no Crawler, que é a aplicação que solicita e coleta a geocodificação, tivemos poucas respostas e estas foram insatisfatórias. A conclusão atual é de que as API cometem muitos erros graves e que não há relação clara entre a discrepância e o erro. 
+Porém, quaisquer conclusões tiradas a partir desse estudo são inviesadas a partir do momento em que não temos dados o suficiente e estes são dados específicos. Há de se lembrar que a base de dados possui apenas endereços de escola, não tenho uma diversadade de imóveis, localizados na região metropolitana de São de Paulo, não tendo uma diversidade de localidades. 
+Sendo assim, é necessária a repetição do experimento com um maior montante de dados. 
 
-São apresentados de forma sucinta os resultados obtidos e um fechamento de todo trabalho desenvolvido.
+Para a próxima etapa do trabalho, iremos repetir os experimentos apresentados com uma nova solicitação de geocodificação além de incluir as APIs faltantes, Google Maps e Open Route Service. Acreditamos que repetindo o experimento possamos ver realmente o comportamento do erro e poderemos comparar os resultados com APIs já consolidadas na academia, a exemplo do Google Maps. Além disso, iremos fazer toda a análise para uma amostra significativa da base de dados da \cite{prodabel}. A amostra conta com 85mil endereços distribuídos no espaço. A expectativa é que com a maior quantidade de endereços poderemos vizualizar o comportamento mais claramente. 
+Em relação a análise de discrepância iremos acrescentar outra medida na análise, a distância para o ponto médio. Acreditamos que essa métrica é promissora para o trabalho. 
 
-
-
-%%====== Section ========%
-\section{Conclusão}\label{conclusao}
-
-Em resumo, nesta seção devem ser apresentadas as considerações finais do trabalho. Faça uma recapitulação a respeito de cada um dos objetivos específicos, sintetize os resultados obtidos e conclua se o objetivo principal do trabalho foi alcançado.
-
-
-%%====== Section ========%
-\section{Trabalhos Futuros}\label{trabalhosFuturos}
-
-Apresente propostas de continuidade do seu trabalho.
-
-%%====== Section ========%
-\section{Publicações Realizadas}\label{publicacoes}
-
-Caso o trabalho tenha originado publicações é válido acrescentar essa informação, visto que pode creditar ainda mais o estudo. Assim, elas devem ser apresentadas na forma de uma subseção do capítulo conclusão. Por exemplo: 
-
-Os trabalhos seguintes, que foram originados das metodologias propostas, foram aceitos para apresentação em conferências nacionais:
-
-\begin{enumerate}
-   \item Autor. Título do Artigo. Cidade: Conferência, Ano.
- \end{enumerate}
-
+Por fim, esclarecemos que o \href{https://chat.openai.com/auth/login?next=%2F}{ChatGPT} foi utilizado durante o trabalho para revisar o texto. O comando "Revise" foi utilizado em textos previamente escritos e depois revisado pelos autores, para garantir a concisão dos dados apresentados. 
