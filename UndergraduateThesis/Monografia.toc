@@ -14,7 +14,7 @@
 \contentsline {section}{\numberline {3.2}Metrícas do Erro}{11}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Distribuição do Erro}{12}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Distribuição Espacial do Erro}{13}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Relações entre erro e discrepância}{16}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Relações entre erro e discrepância}{15}{section.3.5}%
 \contentsline {chapter}{\chapternumberline {4}Considerações Finais}{19}{chapter.4}%
 \vspace {\cftbeforepartskip }
 \contentsline {chapter}{Refer\^encias}{20}{chapter*.26}%
