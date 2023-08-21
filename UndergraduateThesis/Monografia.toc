@@ -7,8 +7,8 @@
 \contentsline {chapter}{\chapternumberline {2}Bases de Dados e Métodos de Geocodificação e Avaliação}{6}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Bases de Dados}{6}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Processo de Geocodificação}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Método de Avaliação}{8}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Erro, Acurácia e Discrepância}{8}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.3}Método de Avaliação}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Erro, Acurácia e Discrepância}{9}{subsection.2.3.1}%
 \contentsline {chapter}{\chapternumberline {3}Resultados}{10}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Distribuição Espacial dos Pontos Geocodificados}{10}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Metrícas do Erro}{12}{section.3.2}%
@@ -17,5 +17,5 @@
 \contentsline {section}{\numberline {3.5}Relações entre erro e discrepância}{16}{section.3.5}%
 \contentsline {chapter}{\chapternumberline {4}Considerações Finais}{19}{chapter.4}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Refer\^encias}{20}{chapter*.25}%
+\contentsline {chapter}{Refer\^encias}{20}{chapter*.26}%
 \vspace {\cftbeforepartskip }
