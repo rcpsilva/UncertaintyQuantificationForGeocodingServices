@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  20 AUG 2023 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  21 AUG 2023 12:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1024,11 +1024,14 @@ LaTeX Warning: Citation `longley2013' on page 2 undefined on input line 29.
 
 LaTeX Warning: Citation `longley2013' on page 2 undefined on input line 38.
 
+
+LaTeX Warning: Reference `fig:incerteza' on page 2 undefined on input line 38.
+
 <Figuras/incertezaLivro.jpeg, id=58, 730.73pt x 421.575pt>
 File: Figuras/incertezaLivro.jpeg Graphic file (type jpg)
 <use Figuras/incertezaLivro.jpeg>
 Package pdftex.def Info: Figuras/incertezaLivro.jpeg  used on input line 42.
-(pdftex.def)             Requested size: 455.0pt x 262.49951pt.
+(pdftex.def)             Requested size: 364.00139pt x 210.00218pt.
 
 LaTeX Warning: Citation `longley2013' on page 2 undefined on input line 43.
 
@@ -1038,138 +1041,125 @@ LaTeX Warning: Citation `longley2013' on page 2 undefined on input line 43.
 
 LaTeX Warning: Citation `terralab' on page 2 undefined on input line 49.
 
-
-LaTeX Warning: Citation `stein2021geoprocessamento' on page 2 undefined on input line 53.
-
 [2]
+
+LaTeX Warning: Citation `stein2021geoprocessamento' on page 3 undefined on input line 53.
+
 
 LaTeX Warning: Citation `Chow2016' on page 3 undefined on input line 55.
 
 
-LaTeX Warning: Citation `Chow2016' on page 3 undefined on input line 56.
+LaTeX Warning: Citation `Chow2016' on page 3 undefined on input line 57.
 
 [3 <./Figuras/incertezaLivro.jpeg>]
 
-LaTeX Warning: Citation `Chow2016' on page 4 undefined on input line 73.
+LaTeX Warning: Citation `Chow2016' on page 4 undefined on input line 74.
 
 
-LaTeX Warning: Citation `Clodoveu2011' on page 4 undefined on input line 77.
+LaTeX Warning: Citation `Clodoveu2011' on page 4 undefined on input line 76.
 
 
-LaTeX Warning: Citation `GCP' on page 4 undefined on input line 77.
+LaTeX Warning: Citation `GCP' on page 4 undefined on input line 76.
 
 
-LaTeX Warning: Citation `Prodabel' on page 4 undefined on input line 77.
+LaTeX Warning: Citation `Prodabel' on page 4 undefined on input line 76.
 
-[4] [5]
-
-LaTeX Warning: Reference `RevisaoBibliografica' on page 6 undefined on input line 119.
-
-
-LaTeX Warning: Reference `desenvolvimento' on page 6 undefined on input line 120.
-
-
-LaTeX Warning: Reference `resultado' on page 6 undefined on input line 121.
-
-
-LaTeX Warning: Reference `conclusao' on page 6 undefined on input line 122.
-
-) [6]
+[4]) [5]
 \openout2 = `Capitulos/Cap3-Desenvolvimento.aux'.
 
  (Capitulos/Cap3-Desenvolvimento.tex
-<Figuras/siteCEM.jpeg, id=97, 1371.1225pt x 631.35875pt>
+<Figuras/siteCEM.jpeg, id=91, 1371.1225pt x 631.35875pt>
 File: Figuras/siteCEM.jpeg Graphic file (type jpg)
 <use Figuras/siteCEM.jpeg>
 Package pdftex.def Info: Figuras/siteCEM.jpeg  used on input line 14.
 (pdftex.def)             Requested size: 455.0pt x 209.51471pt.
- [7
+ [6
 
 
 
 
  <./Figuras/siteCEM.jpeg>]
-<Figuras/siteProdabel.jpeg, id=107, 1371.1225pt x 623.32875pt>
+<Figuras/siteProdabel.jpeg, id=101, 1371.1225pt x 623.32875pt>
 File: Figuras/siteProdabel.jpeg Graphic file (type jpg)
 <use Figuras/siteProdabel.jpeg>
 Package pdftex.def Info: Figuras/siteProdabel.jpeg  used on input line 23.
 (pdftex.def)             Requested size: 455.0pt x 206.84998pt.
-<Figuras/diagrama monografia.drawio.png, id=108, 493.845pt x 416.55624pt>
+<Figuras/diagrama monografia.drawio.png, id=102, 493.845pt x 416.55624pt>
 File: Figuras/diagrama monografia.drawio.png Graphic file (type png)
 <use Figuras/diagrama monografia.drawio.png>
 Package pdftex.def Info: Figuras/diagrama monografia.drawio.png  used on input line 33.
 (pdftex.def)             Requested size: 455.0pt x 383.78937pt.
- [8 <./Figuras/siteProdabel.jpeg>] [9 <./Figuras/diagrama monografia.drawio.png>]) [10]
+ [7 <./Figuras/siteProdabel.jpeg>] [8 <./Figuras/diagrama monografia.drawio.png>]) [9]
 \openout2 = `Capitulos/Cap4-Resultados.aux'.
 
  (Capitulos/Cap4-Resultados.tex
 
-LaTeX Warning: Reference `fig:mapapontos1' on page 11 undefined on input line 9.
+LaTeX Warning: Reference `fig:mapapontos1' on page 10 undefined on input line 9.
 
-<Figuras/mapapontos1.png, id=129, 999.735pt x 451.6875pt>
+<Figuras/mapapontos1.png, id=123, 999.735pt x 451.6875pt>
 File: Figuras/mapapontos1.png Graphic file (type png)
 <use Figuras/mapapontos1.png>
 Package pdftex.def Info: Figuras/mapapontos1.png  used on input line 13.
 (pdftex.def)             Requested size: 455.0pt x 205.57326pt.
 
-LaTeX Warning: Reference `fig:mapapontos2' on page 11 undefined on input line 18.
+LaTeX Warning: Reference `fig:mapapontos2' on page 10 undefined on input line 18.
 
-[11
+[10
 
 
 
 
  <./Figuras/mapapontos1.png>]
-<Figuras/mapapontos2.png, id=139, 999.735pt x 451.6875pt>
+<Figuras/mapapontos2.png, id=132, 999.735pt x 451.6875pt>
 File: Figuras/mapapontos2.png Graphic file (type png)
 <use Figuras/mapapontos2.png>
 Package pdftex.def Info: Figuras/mapapontos2.png  used on input line 22.
 (pdftex.def)             Requested size: 455.0pt x 205.57326pt.
 
 
-LaTeX Warning: Reference `fig:mapapontos3' on page 12 undefined on input line 27.
+LaTeX Warning: Reference `fig:mapapontos3' on page 11 undefined on input line 27.
 
 
-LaTeX Warning: Reference `fig:mapapontos3' on page 12 undefined on input line 27.
+LaTeX Warning: Reference `fig:mapapontos3' on page 11 undefined on input line 27.
 
-<Figuras/mapapontos3.png, id=140, 999.735pt x 451.6875pt>
+<Figuras/mapapontos3.png, id=133, 999.735pt x 451.6875pt>
 File: Figuras/mapapontos3.png Graphic file (type png)
 <use Figuras/mapapontos3.png>
 Package pdftex.def Info: Figuras/mapapontos3.png  used on input line 31.
 (pdftex.def)             Requested size: 455.0pt x 205.57326pt.
-[12 <./Figuras/mapapontos2.png> <./Figuras/mapapontos3.png>]
+[11 <./Figuras/mapapontos2.png> <./Figuras/mapapontos3.png>]
 
-LaTeX Warning: Reference `tab:tabelaDeMetricas' on page 13 undefined on input line 41.
+LaTeX Warning: Reference `tab:tabelaDeMetricas' on page 12 undefined on input line 41.
 
 
-LaTeX Warning: Reference `fig:hist-global' on page 13 undefined on input line 68.
+LaTeX Warning: Reference `fig:hist-global' on page 12 undefined on input line 68.
 
-[13]
-<Figuras/hist1.png, id=156, 419.166pt x 328.8285pt>
+[12]
+<Figuras/hist1.png, id=150, 419.166pt x 328.8285pt>
 File: Figuras/hist1.png Graphic file (type png)
 <use Figuras/hist1.png>
 Package pdftex.def Info: Figuras/hist1.png  used on input line 73.
 (pdftex.def)             Requested size: 204.74861pt x 160.6206pt.
-<Figuras/hist2.png, id=157, 419.8887pt x 328.8285pt>
+<Figuras/hist2.png, id=151, 419.8887pt x 328.8285pt>
 File: Figuras/hist2.png Graphic file (type png)
 <use Figuras/hist2.png>
 Package pdftex.def Info: Figuras/hist2.png  used on input line 79.
 (pdftex.def)             Requested size: 204.74861pt x 160.34966pt.
-<Figuras/hist3.png, id=158, 425.6703pt x 328.8285pt>
+<Figuras/hist3.png, id=152, 425.6703pt x 328.8285pt>
 File: Figuras/hist3.png Graphic file (type png)
 <use Figuras/hist3.png>
 Package pdftex.def Info: Figuras/hist3.png  used on input line 85.
 (pdftex.def)             Requested size: 204.74861pt x 158.17206pt.
-<Figuras/hist4.png, id=159, 416.2752pt x 328.8285pt>
+<Figuras/hist4.png, id=153, 416.2752pt x 328.8285pt>
 File: Figuras/hist4.png Graphic file (type png)
 <use Figuras/hist4.png>
 Package pdftex.def Info: Figuras/hist4.png  used on input line 91.
 (pdftex.def)             Requested size: 204.74861pt x 161.7395pt.
 
 
-LaTeX Warning: Reference `fig:histLimitado' on page 14 undefined on input line 100.
+LaTeX Warning: Reference `fig:histLimitado' on page 13 undefined on input line 100.
 
-<Figuras/hist5.png, id=160, 423.5022pt x 328.8285pt>
+<Figuras/hist5.png, id=154, 423.5022pt x 328.8285pt>
 File: Figuras/hist5.png Graphic file (type png)
 <use Figuras/hist5.png>
 Package pdftex.def Info: Figuras/hist5.png  used on input line 104.
@@ -1177,19 +1167,19 @@ Package pdftex.def Info: Figuras/hist5.png  used on input line 104.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14 <./Figuras/hist1.png> <./Figuras/hist2.png> <./Figuras/hist3.png> <./Figuras/hist4.png>] [15 <./Figuras/hist5.png>]
+[13 <./Figuras/hist1.png> <./Figuras/hist2.png> <./Figuras/hist3.png> <./Figuras/hist4.png>] [14 <./Figuras/hist5.png>]
 
-LaTeX Warning: Reference `fig:grafAltM' on page 16 undefined on input line 118.
+LaTeX Warning: Reference `fig:grafAltM' on page 15 undefined on input line 118.
 
-<Figuras/graficoAltPontosMapbox.png, id=177, 390.9807pt x 253.6677pt>
+<Figuras/graficoAltPontosMapbox.png, id=171, 390.9807pt x 253.6677pt>
 File: Figuras/graficoAltPontosMapbox.png Graphic file (type png)
 <use Figuras/graficoAltPontosMapbox.png>
 Package pdftex.def Info: Figuras/graficoAltPontosMapbox.png  used on input line 122.
 (pdftex.def)             Requested size: 364.00139pt x 236.16785pt.
 
-LaTeX Warning: Reference `fig:grafAltH' on page 16 undefined on input line 127.
+LaTeX Warning: Reference `fig:grafAltH' on page 15 undefined on input line 127.
 
-<Figuras/graficoAltPontosHere.png, id=178, 384.4764pt x 255.8358pt>
+<Figuras/graficoAltPontosHere.png, id=172, 384.4764pt x 255.8358pt>
 File: Figuras/graficoAltPontosHere.png Graphic file (type png)
 <use Figuras/graficoAltPontosHere.png>
 Package pdftex.def Info: Figuras/graficoAltPontosHere.png  used on input line 131.
@@ -1198,12 +1188,12 @@ Package pdftex.def Info: Figuras/graficoAltPontosHere.png  used on input line 13
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:grafAltT' on page 16 undefined on input line 136.
+LaTeX Warning: Reference `fig:grafAltT' on page 15 undefined on input line 136.
 
 
-LaTeX Warning: Reference `fig:grafAltM' on page 16 undefined on input line 136.
+LaTeX Warning: Reference `fig:grafAltM' on page 15 undefined on input line 136.
 
-<Figuras/graficoAltPontosTomtom.png, id=179, 390.9807pt x 258.0039pt>
+<Figuras/graficoAltPontosTomtom.png, id=173, 390.9807pt x 258.0039pt>
 File: Figuras/graficoAltPontosTomtom.png Graphic file (type png)
 <use Figuras/graficoAltPontosTomtom.png>
 Package pdftex.def Info: Figuras/graficoAltPontosTomtom.png  used on input line 139.
@@ -1211,20 +1201,20 @@ Package pdftex.def Info: Figuras/graficoAltPontosTomtom.png  used on input line 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16 <./Figuras/graficoAltPontosMapbox.png>]
+[15 <./Figuras/graficoAltPontosMapbox.png>]
 
-LaTeX Warning: Reference `fig:CovErroM' on page 17 undefined on input line 147.
+LaTeX Warning: Reference `fig:CovErroM' on page 16 undefined on input line 147.
 
 
-LaTeX Warning: Reference `fig:CovErroT' on page 17 undefined on input line 147.
+LaTeX Warning: Reference `fig:CovErroT' on page 16 undefined on input line 147.
 
-[17 <./Figuras/graficoAltPontosHere.png> <./Figuras/graficoAltPontosTomtom.png>]
-<Figuras/ErroCovM.png, id=196, 412.6617pt x 328.1058pt>
+[16 <./Figuras/graficoAltPontosHere.png> <./Figuras/graficoAltPontosTomtom.png>]
+<Figuras/ErroCovM.png, id=189, 412.6617pt x 328.1058pt>
 File: Figuras/ErroCovM.png Graphic file (type png)
 <use Figuras/ErroCovM.png>
 Package pdftex.def Info: Figuras/ErroCovM.png  used on input line 151.
 (pdftex.def)             Requested size: 364.00139pt x 289.41487pt.
-<Figuras/ErroCovT.png, id=197, 412.6617pt x 327.3831pt>
+<Figuras/ErroCovT.png, id=190, 412.6617pt x 327.3831pt>
 File: Figuras/ErroCovT.png Graphic file (type png)
 <use Figuras/ErroCovT.png>
 Package pdftex.def Info: Figuras/ErroCovT.png  used on input line 158.
@@ -1234,9 +1224,9 @@ Package pdftex.def Info: Figuras/ErroCovT.png  used on input line 158.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:CovErroH' on page 18 undefined on input line 163.
+LaTeX Warning: Reference `fig:CovErroH' on page 17 undefined on input line 163.
 
-<Figuras/ErroCovH.png, id=198, 412.6617pt x 327.3831pt>
+<Figuras/ErroCovH.png, id=191, 412.6617pt x 327.3831pt>
 File: Figuras/ErroCovH.png Graphic file (type png)
 <use Figuras/ErroCovH.png>
 Package pdftex.def Info: Figuras/ErroCovH.png  used on input line 167.
@@ -1244,17 +1234,17 @@ Package pdftex.def Info: Figuras/ErroCovH.png  used on input line 167.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [18 <./Figuras/ErroCovM.png>] [19 <./Figuras/ErroCovT.png> <./Figuras/ErroCovH.png>]
+) [17 <./Figuras/ErroCovM.png>] [18 <./Figuras/ErroCovT.png> <./Figuras/ErroCovH.png>]
 \openout2 = `Capitulos/Cap5-Conclusao.aux'.
 
  (Capitulos/Cap5-Conclusao.tex
 
-LaTeX Warning: Citation `cem' on page 20 undefined on input line 3.
+LaTeX Warning: Citation `cem' on page 19 undefined on input line 3.
 
 
-LaTeX Warning: Citation `prodabel' on page 20 undefined on input line 7.
+LaTeX Warning: Citation `prodabel' on page 19 undefined on input line 7.
 
-) [20
+) [19
 
 
 
@@ -1286,7 +1276,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 No file Monografia.ind.
-[21
+[20
 
 
 
@@ -1334,17 +1324,17 @@ Package lastpage Warning: Rerun to get the references right on input line 111.
 ### simple group (level 1) entered at line 106 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 22262 strings out of 476331
- 372325 string characters out of 5787765
+ 22250 strings out of 476331
+ 372179 string characters out of 5787765
  1865660 words of memory out of 5000000
- 42090 multiletter control sequences out of 15000+600000
- 563345 words of font info for 142 fonts, out of 8000000 for 9000
+ 42085 multiletter control sequences out of 15000+600000
+ 563136 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,15n,90p,1330b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,15n,90p,1446b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on Monografia.pdf (29 pages, 2515364 bytes).
+Output written on Monografia.pdf (28 pages, 2513242 bytes).
 PDF statistics:
- 385 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 31011 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
+ 30995 words of extra memory for PDF output out of 35830 (max. 10000000)
 

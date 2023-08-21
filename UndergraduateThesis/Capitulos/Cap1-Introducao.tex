@@ -3,7 +3,7 @@
 % Motivação (Por quê estes problemas/perguntas são relevantes?)
 
 \section{Endereços e Geocodificação}
-
+ 
 \epigraph{Quase tudo o que acontece, acontece em algum lugar. Saber o local onde algo acontece pode ser fundamental.}{\cite{longley2013}}
 
 No livro de \cite{longley2013}, os autores exploram a relação entre a humanidade e a localização. Para eles, é evidente que a maior parte das atividades humanas ocorre no planeta Terra, e, portanto, a vida está profundamente ligada à localização. Assim sendo, compreender e manipular informações geográficas é essencial para qualquer aplicação que envolva a humanidade. Além disso, os autores explicam que decisões importantes podem ter consequências geográficas. Um exemplo disso seria uma transação financeira que, em casos extremos, poderia desencadear uma crise econômica em uma região específica.
@@ -31,29 +31,30 @@ Apesar de todas as vantagens e aplicações, o processo de geocodificação pode
 \begin{itemize}
    \item Erro: a diferença entre o observado e o obtido.
    \item Falta de acurácia: a diferença entre a realidade e nossa representação dela.
-   \item Ambiguidade: quando mais de um valor é igualmente provável.
+   \item Ambiguidade: quando um único valor está presente em mais de um objeto.
    \item Indefinição: a falta de informações necessárias.
 \end{itemize}
 
-Após definir esses termos, os autores definem a incerteza como: "a medida da compreensão do usuário sobre a diferença entre o conteúdo de um conjunto de dados e os fenômenos reais que os dados devem representar" \cite{longley2013}. Em outras palavras, a incerteza é uma medida que descreve o nível de compreensão do usuário em relação ao conjunto de dados obtidos e à realidade que esses dados têm a intenção de representar. A partir dessa perspectiva, a incerteza foi aceita como uma métrica apropriada para avaliar a qualidade dos Sistemas de Informação Geográfica (SIG).
+Após definir esses termos, os autores definem a incerteza como: "a medida da compreensão do usuário sobre a diferença entre o conteúdo de um conjunto de dados e os fenômenos reais que os dados devem representar" \cite{longley2013}. Em outras palavras, a incerteza é uma medida que descreve o nível de compreensão do usuário em relação ao conjunto de dados obtidos e à realidade que esses dados têm a intenção de representar. A \ref{fig:incerteza} apresenta uma visão conceitual da incerteza, onde cada processo muda um pouco a realidade, sendo assim a representação final tem sempre um nível de incerteza. A partir dessa perspectiva, a incerteza foi aceita como uma métrica apropriada para avaliar a qualidade dos Sistemas de Informação Geográfica (SIG).
 
 \begin{figure}[ht]
    \centering
-   \includegraphics[width=\textwidth]{Figuras/incertezaLivro.jpeg}
+   \includegraphics[width=0.8\textwidth]{Figuras/incertezaLivro.jpeg}
    \caption{Retirada do livro \cite{longley2013}. Visão conceitual da incerteza, onde os filtros I1, I2, I3 distorcem a informação original}
    \label{fig:incerteza}
 \end{figure}
 
 \section{APIs de Geocodificação e Análise de qualidade}
 % Revisão da literatura (O que já foi feito sobre o problema e o que falta fazer?)
-tualmente, no TerraLAB - Laboratório de Pesquisa e Capacitação em Software \cite{terralab}, utilizamos informações geográficas para o desenvolvimento de nossas aplicações. Esses aplicativos utilizam endereços geocodificados para criar mapas, rotas, áreas de abrangência, relatar locais, divulgar eventos, entre outras funcionalidades. Isso ressalta a grande importância da geocodificação e como a qualidade desse processo impacta significativamente o que é produzido em nosso laboratório.
+Atualmente, no TerraLAB - Laboratório de Pesquisa e Capacitação em Software \cite{terralab}, utilizamos informações geográficas para o desenvolvimento de nossas aplicações. Esses aplicativos utilizam endereços geocodificados para criar mapas, rotas, áreas de abrangência, relatar locais, divulgar eventos, entre outras funcionalidades. Isso ressalta a grande importância da geocodificação e como a qualidade desse processo impacta significativamente o que é produzido em nosso laboratório.
 
 Para adquirir informações relacionadas a endereços, fazemos uso da geocodificação obtida por meio de APIs online de geocodificação.
 
 Por muitos anos, a principal maneira de obter informações geográficas era através de software SIG. Conforme \cite{stein2021geoprocessamento}, um Sistema de Informação Geográfica (SIG) é um conjunto de ferramentas capazes de analisar e integrar dados geográficos, permitindo acesso fácil a dados para os usuários, sem depender de ferramentas como o GPS.
 
 Segundo \cite{Chow2016}, embora os SIG tenham sido a ferramenta convencional por muitos anos, utilizar esse método para geocodificação requer um profissional capacitado. A ferramenta demanda o pré-processamento dos dados, criação de um localizador de endereços, customização de parâmetros, controle de qualidade e correção manual de falhas. Todo esse processo é custoso para o usuário comum. Por essa razão, a geocodificação utilizando ferramentas online retira do usuário grande parte da responsabilidade, como a manutenção da base, tornando assim o processo de obtenção de informações menos oneroso.
-Apesar de a geocodificação online ser mais simples de utilizar, para que o SIG seja substituído por ela, deve-se considerar sua qualidade em relação à qualidade do SIG. No artigo \cite{Chow2016}, são avaliadas oito ferramentas de geocodificação, sendo duas delas SIGs e as demais ferramentas da internet. As ferramentas utilizadas foram: SRI ArcGIS Address Locator, CoreLogic PxPoint, Google Maps API, Yahoo! PlaceFinder, Microsoft Bing, Geocoder.us, Texas A and M University Geocoder e OpenStreetMap (OSM). Para calcular o erro, uma base de referência foi utilizada, contendo informações descritivas do endereço (rua, número, cidade etc.) e informações geográficas (latitude e longitude). Essa base é considerada a referência, pois os dados de latitude e longitude foram obtidos manualmente (por GPS ou pesquisa manual). Chamaremos essa e outras bases de referência de "base padrão ouro". A base em questão contém 940 endereços do estado do Texas, Estados Unidos da América, sendo que 78 destes são da região Central Texas, região considerada importante para o autor. O erro de cada endereço geocodificado foi calculado da seguinte forma:
+
+Apesar de a geocodificação online ser mais simples de utilizar, para que o SIG seja substituído por ela, deve-se considerar sua qualidade em relação à qualidade do SIG. No artigo \cite{Chow2016}, são avaliadas oito ferramentas de geocodificação, sendo duas delas SIGs e as demais ferramentas da internet. As ferramentas utilizadas foram: SRI ArcGIS Address Locator, CoreLogic PxPoint, Google Maps API, Yahoo! PlaceFinder, Microsoft Bing, Geocoder.us, Texas A and M University Geocoder e OpenStreetMap (OSM). Para calcular o erro, uma base de referência foi utilizada, contendo informações descritivas do endereço (rua, número, cidade etc.) e informações geográficas (latitude e longitude). Essa base é considerada a referência, pois os dados de latitude e longitude foram obtidos manualmente (por GPS ou pesquisa manual). Chamaremos essa e outras bases de referência de "base padrão ouro". A base em questão contém 940 endereços do estado do Texas, Estados Unidos da América (EUA), sendo que 78 destes são da região Central Texas, região considerada importante para o autor. O erro de cada endereço geocodificado foi calculado da seguinte forma:
 
 \begin{align}
    \epsilon_x &= x_{\text{ref}} - x_{\text{geoc}} \\
@@ -72,64 +73,29 @@ O estudo evidenciou que não há diferença significativa entre as ferramentas o
 
 Apesar de \cite{Chow2016} ter apresentado resultados significativos, o estudo apresenta algumas limitações. A principal delas é a quantidade de dados utilizada para a avaliação, além do foco restrito a uma única região (Texas, EUA). O presente trabalho busca abordar essas limitações ao conduzir a análise em uma região diferente do mundo, com ênfase no Brasil, e ampliar a quantidade de dados avaliados. Entretanto, nosso enfoque será exclusivamente em ferramentas de geocodificação online (GeoAPIs), considerando que elas já estão consolidadas no mercado e na academia.
 
-PAREI A REVISÃO AQUI
+Outro estudo importante é \cite{Clodoveu2011}, que faz uma avaliação da qualidade da geocodificação do Google Maps API fornecida pelo Google Cloud Platform \cite{GCP}. Nesse estudo, os autores utilizam uma base padrão ouro com os dados de Belo Horizonte, cidade de Minas Gerais, estado do Brasil para essa avaliação. A base conta com mais de 540 mil endereços da cidade e é mantida pela empresa de informática e informação do município de Belo Horizonte - Prodabel \cite{Prodabel}. A empresa atualiza os dados mensalmente e tem parceria com outras 26 empresas para manter a base o mais correta possível. Ela conta com informações descritivas, sociais e espaciais do endereço. Para medir o erro, foi calculada a distância euclidiana dos pontos geocodificados para os pontos originais. A partir do erro, o estudo faz análises espacias do erro e também relaciona a acurácia descrita pela API com o erro gerado. O estudo mostrou que o Google Maps API tem taxa de acerto de 74,7\%, considerando que acertou se o erro for menor de 150 metros. Outra descoberta foi que o erro é menor nas áreas centrais da cidade, e maior na periferias. Os autores também tentaram fazer uma relação entre erro e renda, porém não foi possível vizualizar nenhuma relação direta.
 
-Outro estudo importante é \cite{Clodoveu2011} que faz uma avaliação da qualidade da geocodificação do Google Maps API fornecida pelo Google Cloud Plataform \cite{GCP}. Nesse estudo, os autores utilizam uma base padrão ouro com os dados de Belo Horizonte, cidade de Minas Gerais, estado do Brasil para essa avaliação. A base conta com mais de 540 mil endereços da cidade e é mantida pela empresa de informática e informação do município de Belo Horizonte - Prodabel \cite{Prodabel}. A empresa atualiza os dados mensalmente
-e tem parceria com outras 26 empresas para manter a base o mais correta possível. Ela conta com informações descritivas, sociais e espaciais do endereço. Para medir o erro, foi calculada a distância euclidiana dos pontos geocodificados para os pontos originais. A partir do erro, o estudo faz análises espacias do erro e também relaciona a acurácia descrita pela API com o erro gerado. O estudo mostrou que o Google Maps API tem taxa de acerto de 74,7\%, considerando que acertou se o erro for menor de 150 metros. Outra descoberta foi que o erro é menor nas áreas centrais da cidade, e maior na periferias. Os autores também tentaram fazer uma relação entre erro e renda, porém não foi possível vizualizar nenhuma relação direta. 
-
-Apesar de descobertas importantes, o estudo é limitado na medida que só analisa uma API de geocodificação. Além de analisar apenas uma cidade brasileira, o que impossibilita a generalização dos resultados. O trabalho pretende trabalhar nessas limitações fazendo a análise de uma amostra da mesma base de dados, porém com outras APIs de geodificação. Além disso, iremos fazer uma análise com uma base da região metropolitana de São Paulo. O que traz uma diversidade para nosso estudo. 
+Apesar das descobertas importantes, o estudo apresenta limitações notáveis. Primeiramente, ele se restringe à análise de apenas uma API de geocodificação. Além disso, o estudo se concentra exclusivamente em uma cidade brasileira, o que restringe a generalização dos resultados. Para abordar essas limitações, nosso trabalho atual visa expandir a análise. Planejamos examinar uma amostra da mesma base de dados, utilizando diferentes APIs de geocodificação. Além disso, nossa pesquisa incluirá uma análise de uma base de dados da região metropolitana de São Paulo, proporcionando uma maior diversidade ao nosso estudo.
 
 \section{Objetivos}
-% Objetivo (O que você pretente atingir?)
-% Objetivos específicos (objetivos intermediários) 
-O principal objetivo deste trabalho é avaliar o erro, a discrepância e a acurácia de cinco APIs utilizadas no laboratório de pesquisa e capacitação em desenvolvimento de software - TerraLAB. As APIs em análise são: Google Maps, TomTom, Open Route Service (ORS), Mapbox e Here. O erro será analisado quanto às respostas fornecidas pelas APIs diferirem do esperado. A discrepância medirá o nível de discordância entre as APIs. Por fim, a acurácia será utilizada para verificar a precisão das respostas fornecidas pelas APIs.
 
-Uma parte essencial do trabalho é compreender os pontos onde essas APIs apresentam falhas, e, portanto, a análise espacial dessas medidas terá grande destaque na pesquisa.
+O principal objetivo deste trabalho é avaliar o erro, a discrepância e a acurácia de cinco APIs utilizadas no laboratório de pesquisa e capacitação em desenvolvimento de software - TerraLAB. As APIs em análise são: Google Maps, TomTom, Open Route Service (ORS), Mapbox e Here. O erro será analisado em relação às respostas fornecidas pelas APIs, verificando o quanto diferem das esperadas. A discrepância medirá o nível de discordância entre as APIs. Por fim, a acurácia será utilizada para verificar a precisão das respostas fornecidas por essas APIs.
+    
+Uma parte essencial deste trabalho é compreender os pontos em que essas APIs apresentam falhas. Portanto, a análise espacial dessas medidas terá grande destaque na pesquisa.
 
 Com isso, gostaríamos de responder as seguintes perguntas:
 \begin{itemize}
-   \item Qual API das utilizadas erra mais?
-   \item Existe algum padrão espacial no erro?
-   \item Alguma medida de variância entre as APIs (discrepância) representa o erro? 
+   \item Qual API das utilizadas apresenta mais erros?
+   \item Existe algum padrão espacial nos erros?
+   \item Alguma medida de variância entre as APIs (discrepância) está relacionada aos erros?
 \end{itemize}
 
-Para chegar a essas  respostas temos alguns objetivos específicos que devem ser atendidos:
+Para alcançar essas respostas, temos objetivos específicos a serem cumpridos:
+
 \begin{itemize}
-   \item Coletar bases de dados padrão ouro;
-   \item Calcular as medidas para avaliação;
-   \item Avaliar as distribuição das medidas; 
-   \item Correlacionar as medidas; 
+   \item Coletar bases de dados padrão-ouro.
+   \item Calcular as medidas para avaliação.
+   \item Avaliar a distribuição das medidas.
+   \item Correlacionar as medidas.
    \item Avaliar de que forma o espaço se relaciona com essas medidas.
 \end{itemize}
-
-
-
-
-
-\section{Organização do Trabalho}
-
-Um parágrafo fazendo uma descrição dos capítulos restantes do documento. 
-
-\subsection{Estrutura da Monografia}
-
-Segue uma \textbf{sugestão} para a estrutura da monografia: 
-
-\begin{description}
-   \item[Capítulo 1:] Introdução.
-   \item[Capítulo \ref{RevisaoBibliografica}:] Revisão Bibliográfica/ Embasamento Teórico (com o referencial teórico e trabalhos relacionados).
-   \item[Capítulo \ref{desenvolvimento}:] Metodologia ou Desenvolvimento (material e métodos).
-   \item[Capítulo \ref{resultado}:] Resultados e Discussões.
-   \item[Capítulo \ref{conclusao}:] Conclusão (e trabalhos futuros).
-\end{description}
-
-
- 
-
-
-
-
-
-
-
-
-
