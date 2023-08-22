@@ -15,23 +15,21 @@
 \usepackage{amsmath,amsthm}     % Símbolos Matemáticos
 \usepackage[portuguese, ruled, linesnumbered,commentsnumbered, algo2e, vlined, lined, boxed, algochapter]{algorithm2e} % Algoritmos 
 \usepackage{hyperref}      % Criação de links.
+
+% Escolha da formatação das referências Bibliográficas: 
+\usepackage[alf,abnt-etal-list=0,abnt-etal-cite=3]{abntex2cite}	% Citações padrão ABNT  (AUTOR, ANO)
+\usepackage{etoolbox}
+%\usepackage[num]{abntex2cite}  % Citações numéricas (1)
+%\citebrackets[] % Usar este comando para a citação numérica aparecer com [].
+
 \usepackage{url} %citar links
 \usepackage{makecell} %Fazer tabelas
 \usepackage{subcaption} 
 \usepackage[font=small]{caption} 
 
-% Escolha da formatação das referências Bibliográficas: 
-\usepackage[alf,abnt-etal-list=0,abnt-etal-cite=3]{abntex2cite}	% Citações padrão ABNT  (AUTOR, ANO)
-\usepackage{etoolbox}
-\usepackage{epigraph}
-%\usepackage[num]{abntex2cite}  % Citações numéricas (1)
-%\citebrackets[] % Usar este comando para a citação numérica aparecer com [].
-
 % Numeração das Figuras e Tabelas
 \counterwithin{figure}{chapter}
 \counterwithin{table}{chapter}
-
-
 
 % Defininção de Cores:
 \definecolor{blue}{RGB}{25,25,112}
