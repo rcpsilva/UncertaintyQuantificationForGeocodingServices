@@ -1114,7 +1114,6 @@ INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-
 INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmb.tfm
 INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\ts1qtm.fd
 INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\ts1qtm.fd
 INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\ts1qtm.fd
@@ -1129,6 +1128,7 @@ INPUT .\Figuras\incertezaLivro.jpeg
 INPUT .\Figuras\incertezaLivro.jpeg
 INPUT .\Figuras\incertezaLivro.jpeg
 INPUT .\Figuras\incertezaLivro.jpeg
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmb.tfm
 INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmri.tfm
 INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmr.tfm
 INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmr.tfm
@@ -1299,7 +1299,6 @@ INPUT .\Monografia.bbl
 INPUT Monografia.bbl
 INPUT .\Monografia.bbl
 INPUT Monografia.bbl
-INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmri.tfm
 OUTPUT Monografia.lof
 OUTPUT Monografia.lot
 OUTPUT Monografia.toc

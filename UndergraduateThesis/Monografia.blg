@@ -1,0 +1,91 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Monografia.aux
+Reallocating 'name_of_file' (item size: 1) to 35 items.
+A level-1 auxiliary file: PreTextuais/FichaCatalografica.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: PreTextuais/Resumo.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: PreTextuais/ListaSiglas.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: Capitulos/Cap1-Introducao.aux
+Reallocating 'name_of_file' (item size: 1) to 35 items.
+A level-1 auxiliary file: Capitulos/Cap3-Desenvolvimento.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: Capitulos/Cap4-Resultados.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: Capitulos/Cap5-Conclusao.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+The style file: abntex2-alf.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Database file #1: abntex2-options.bib
+Database file #2: bibliografia.bib
+Warning--I didn't find a database entry for "longley2013"
+Warning--I didn't find a database entry for "Clodoveu2011"
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--"{Centro" isn't a brace-balanced string for entry cem
+while executing--line 2091 of file abntex2-alf.bst
+Warning--"{Prodabel" isn't a brace-balanced string for entry prodabel
+while executing--line 2091 of file abntex2-alf.bst
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Warning--campo year vazio ou faltando em cem
+Warning--campo year vazio ou faltando em prodabel
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 5 entries,
+            6714 wiz_defined-function locations,
+            1215 strings with 9848 characters,
+and the built_in function-call counts, 5652 in all, are:
+= -- 1024
+> -- 3
+< -- 3
++ -- 190
+- -- 3
+* -- 232
+:= -- 733
+add.period$ -- 6
+call.type$ -- 6
+change.case$ -- 23
+chr.to.int$ -- 15
+cite$ -- 4
+duplicate$ -- 68
+empty$ -- 265
+format.name$ -- 0
+if$ -- 1632
+int.to.chr$ -- 2
+int.to.str$ -- 3
+missing$ -- 63
+newline$ -- 18
+num.names$ -- 0
+pop$ -- 204
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 730
+stack$ -- 1
+substring$ -- 221
+swap$ -- 21
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 124
+warning$ -- 2
+while$ -- 6
+width$ -- 0
+write$ -- 34
+(There were 6 warnings)
