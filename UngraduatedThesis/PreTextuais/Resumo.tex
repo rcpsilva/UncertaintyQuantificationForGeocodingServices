@@ -1,0 +1,39 @@
+%--------------------------------------------------------------------------
+%--------------------- Resumo em Português --------------------------------
+%--------------------------------------------------------------------------
+
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+\begin{resumo}
+
+  As APIs de geocodificação online desempenham um papel significativo em aplicações que requerem informações de localização. Para garantir a qualidade dessas aplicações, é essencial avaliar a precisão das APIs utilizadas. Este estudo tem como objetivo avaliar a qualidade de cinco APIs de geocodificação implementadas no TerraLAB: Google Maps, Mapbox, TomTom, Here e Open Route Service (ORS). A avaliação foi realizada com base no erro de geocodificação em comparação com uma base de dados de referência na região metropolitana de São Paulo.
+  
+  Utilizamos várias métricas para a análise comparativa, incluindo média, desvio padrão, mediana, média aparada em 5\%, taxa de resposta (proporção entre solicitações de geocodificação e respostas) e taxa de acerto (quantidade de endereços com erro menor que 150 metros). Além disso, conduzimos uma análise espacial do erro e investigamos a relação entre discrepância e erro, usando a medida de covariância. Devido a problemas na aplicação que coleta as geocodificações, esta etapa do projeto se concentrou apenas nas APIs Mapbox, TomTom e Here, resultando em um desempenho geral insatisfatório.
+  A maioria das APIs apresentou uma taxa de resposta baixa, com a maior delas ficando abaixo de 90\%, o que impactou a integridade do experimento. Em relação à taxa de acerto, todas as APIs obtiveram valores considerados insatisfatórios pela nossa equipe de pesquisa. Além disso, observamos a ocorrência de erros significativos que prejudicaram a análise espacial. No que diz respeito à relação entre discrepância e erro, não pudemos identificar uma correlação forte, possivelmente devido ao número limitado de geocodificações realizadas.
+  Para a próxima fase do projeto, planejamos repetir a análise com as APIs restantes para os dados de São Paulo e estender a avaliação para os dados de Belo Horizonte.
+  
+
+ \vspace{\onelineskip}
+ \noindent
+ \textbf{Palavras-chave}: GeoAPIs. Qualidade. 
+
+\end{resumo}
+
+%--------------------------------------------------------------------------
+%--------------------- Resumo em Inglês --------------------------------
+%--------------------------------------------------------------------------
+\begin{resumo}[Abstract]
+ \begin{otherlanguage*}{english}
+   Online geocoding APIs play a significant role in applications that require location information. To ensure the quality of these applications, it is essential to assess the accuracy of the APIs used. This study aims to evaluate the quality of five geocoding APIs implemented in TerraLAB: Google Maps, Mapbox, TomTom, Here, and Open Route Service (ORS). The evaluation was conducted based on geocoding error compared to a reference database in the metropolitan region of São Paulo.
+
+    We used various metrics for comparative analysis, including mean, standard deviation, median, trimmed mean at 5\%, response rate (the ratio of geocoding requests to responses), and accuracy rate (the number of addresses with errors less than 150 meters). Additionally, we conducted a spatial analysis of the error and investigated the relationship between discrepancy and error using the covariance measure. Due to issues with the application collecting geocodings, this project phase focused only on the Mapbox, TomTom, and Here APIs, resulting in overall unsatisfactory performance.
+    
+    Most APIs exhibited a low response rate, with the highest among them falling below 90\%, which impacted the experiment's integrity. Regarding the accuracy rate, all APIs obtained values considered unsatisfactory by our research team. Furthermore, we observed significant errors that hindered spatial analysis. Concerning the relationship between discrepancy and error, we could not identify a strong correlation, possibly due to the limited number of geocodings performed.
+    
+    For the next phase of the project, we plan to repeat the analysis with the remaining APIs for São Paulo data and extend the evaluation to Belo Horizonte data.
+
+
+   \vspace{\onelineskip}
+   \noindent 
+   \textbf{Keywords}: GeoAPIs. Quality
+ \end{otherlanguage*}
+\end{resumo}

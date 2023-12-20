@@ -1,0 +1,106 @@
+%================================================================%
+%======  Modelo de Monografia ( UFOP - DECOM) ===================%
+% Proposta de texto em conformidade com normas da ABNT ----------%
+% implementadas pelo projeto abntex2, que pode ser acessado pela %
+% página  http://abntex2.googlecode.com/  -----------------------%
+%================================================================%
+\documentclass[12pt, % tamanho da fonte
+   %openright,	     % capítulos começam em página ímpar
+	oneside,		  % twoside para impressão em frente e verso.  
+	a4paper,			% tamanho do papel. 
+	english,			% Idioma adicional para hifenização
+    brazil,				% Idioma principal 
+    sumario=tradicional % Comente para o sumário ser conforme a opção padrão recomendada pela ABNT NBR 6027:2012.
+	]{abntex2}
+	
+\input{structure} % Estrutura do documento e pacotes usados. Outros pacotes (packages) devem ser  adicionados ao arquivo structure.tex. 
+
+% -- Informações para Capa e Folha de Rosto: ---------------
+\titulo{Avaliação de APIs de Geocodificação em Grandes Cidades Brasileiras} 
+%\subtitulo{subtítulo}
+\autor{Ana Luiza Almeida Soares} \autorcite{Aluno, Nome}
+\local{Ouro Preto} \uf{MG}
+\data{XX de mês de Ano} \ano{2023}
+\orientador{Prof. Dr. Rodrigo Cesar Pedrosa Silva}  % Nome do orientador. Caso seja uma orientadora use o comando ∖orientador[Orientadora:]{Nome}
+\ttorientador{Universidade Federal de Ouro Preto} % Instituição do orientador
+%\coorientador{Mestre Pedro Saint Clair Garcia}   % Nome do coorientador
+\ttcoorientador{Universidade Federal de Ouro Preto} % Instituição do Coorientador
+\instituicao{Universidade Federal de Ouro Preto} \sigla{UFOP}
+\instituto{Instituto de Ciências Exatas e Biológicas}
+\departamento{Departamento de Computação}
+\curso{Ciência da Computação}	
+\tipotrabalho{Monografia} % Monografia (Monografia II)
+\grau{Bacharel em Ciência da Computação}
+
+%------Nomes dos membros da banca.  
+\examinadorum{Prof. Dr. Membro da Banca 1}
+\ttexaminadorum{Universidade Federal de ... - UFXX}
+\examinadordois{Prof. Dr. Membro da Banca  2}
+\ttexaminadordois{Universidade Federal de ... - UFXX}
+%\examinadortres{Prof. Dr. Membro da Banca  3} 
+\ttexaminadortres{Universidade Federal de ... - UFXX}
+%\examinadorquatro{Prof. Dr. Membro da Banca  4}
+\ttexaminadorquatro{Universidade Federal de ... - UFXX}
+
+% ------------------------------------------------------
+\makeindex      
+
+\begin{document} % Início do documento
+
+\frenchspacing  % Retira espaço obsoleto entre as frases.
+
+% ----------------------------------------------------------
+% -- Elementos Pré-Textuais: -------------------------------
+\pagenumbering{roman}
+
+\imprimircapa  % Capa
+\imprimirfolhaderosto % Folha de rosto
+%\include{PreTextuais/FichaCatalografica}
+%\include{PreTextuais/Errata}
+%\include{PreTextuais/FichaAprovacao} 
+%\include{PreTextuais/Dedicatoria}
+%\include{PreTextuais/Agradecimento}
+%\include{PreTextuais/Epigrafe}
+\include{PreTextuais/Resumo} % (Abstract no mesmo arquivo)
+
+% As listas abaixo são opcionais. Caso o trabalho não possua alguma(s) dela(s) basta comentar os seus respectivos comandos.
+
+% Lista de Figuras. 
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*   
+\cleardoublepage
+% lista de Tabelas
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*  
+\cleardoublepage
+% Lista de Algoritmos
+%\pdfbookmark[0]{\listalgorithmcfname}{lof}
+%\listofalgorithmes   
+%\cleardoublepage
+
+% Lista de Siglas e Símbolos. Estas listas são criadas manualmente e seus arquivos estão na pasta PreTextuais.
+\include{PreTextuais/ListaSiglas}
+%\include{PreTextuais/ListaSimbolos}
+
+% Sumário:
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+%% ------------- Capítulos ----------------------%%
+\pagenumbering{arabic} \setcounter{page}{1}
+\textual 
+\include{Capitulos/Cap1-Introducao}
+%\include{Capitulos/Cap2-RevisaoBibliografica}
+\include{Capitulos/Cap3-Desenvolvimento}
+\include{Capitulos/Cap4-Resultados}
+\include{Capitulos/Cap5-Conclusao}
+
+%% -------------- Elementos Pós-Textuais -----------------%%
+\postextual  
+\bibliography{bibliografia} % Referências bibliográficas
+%\include{PosTextuais/Apendice}
+\include{PosTextuais/Anexo}
+\phantompart  \printindex  % Índice Remissivo
+% ----------------------------------------------------------
+\end{document}  % fim do documento
