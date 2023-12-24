@@ -19,10 +19,10 @@
 \contentsline {section}{\numberline {3.5}Experimentos de formatação}{26}{section.3.5}%
 \contentsline {chapter}{\chapternumberline {4}Considerações Finais}{33}{chapter.4}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Refer\^encias}{34}{chapter*.42}%
+\contentsline {chapter}{Refer\^encias}{34}{chapter*.45}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
-\contentsline {part}{Anexos}{36}{section*.43}%
+\contentsline {part}{Anexos}{36}{section*.46}%
 \contentsline {appendix}{\chapternumberline {A}Tabelas dos experimentos de formatação completas}{37}{appendix.anexochapback.1}%
 \contentsline {subsection}{\numberline {A.0.1}Resultado Mapbox}{37}{subsection.anexochapback.1.0.1}%
 \contentsline {subsection}{\numberline {A.0.2}Resultado Google}{37}{subsection.anexochapback.1.0.2}%
