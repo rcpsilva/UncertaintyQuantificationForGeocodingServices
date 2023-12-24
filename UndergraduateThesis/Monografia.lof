@@ -1,0 +1,22 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Adaptada do livro \cite {longley2013}. Visão conceitual da incerteza, onde os filtros I1, I2, I3 distorcem a informação original\relax }}{3}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Mapa de clusters do Centro de Estudos da Metrópole\relax }}{9}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Site da Prodabel para pesquisa de endereços. \relax }}{10}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Gráficos dos endereços da Base de Belo Horizonte e amostragem obtida\relax }}{11}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Esquematização do processo de preparação e geocodificação dos dados\relax }}{12}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Histogramas do erro das 4 APIs para o todos os dados de São Paulo\relax }}{20}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Histogramas do erro das 4 APIs para o todos os dados de Belo Horizonte\relax }}{21}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Histograma comparativo de erro das APIs limitado em 300 metros para os dados de São Paulo\relax }}{22}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Histograma comparativo de erro das APIs limitado em 300 metros para os dados de Belo Horizonte\relax }}{22}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Gráficos de falhas de cada API para os dados de Belo Horizonte\relax }}{24}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Gráficos de falhas de cada API para os dados de Belo São Paulo\relax }}{25}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Gráficos de falhas para o melhor desempenho nos experimentos de cada API para os dados de Belo Horizonte\relax }}{27}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Boxplot de Experimentos por Erro, com todas as APIs avaliadas \relax }}{28}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Boxplot de Experimentos por Erro, com todas as APIs avaliadas e sem Outliers\relax }}{28}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS\relax }}{29}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS e sem Outliers\relax }}{29}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Boxplots de Erro por API para cada uma das APIs avalidas\relax }}{30}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: Mapbox\relax }}{30}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: Google\relax }}{31}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: TomTom\relax }}{31}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: ORS\relax }}{32}{figure.caption.40}%
