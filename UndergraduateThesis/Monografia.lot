@@ -10,8 +10,13 @@
 \contentsline {table}{\numberline {3.3}{\ignorespaces Correlação de Pearson entre Erro e Medidas de Discrepância para São Paulo\relax }}{25}{table.caption.27}%
 \contentsline {table}{\numberline {3.4}{\ignorespaces Correlação de Pearson entre Erro e Medidas de Discrepância para Belo Horizonte\relax }}{26}{table.caption.28}%
 \contentsline {table}{\numberline {3.5}{\ignorespaces Taxa de resposta de cada API por experimento de Belo Horizonte\relax }}{26}{table.caption.29}%
-\contentsline {table}{\numberline {3.6}{\ignorespaces Taxa de acerto de cada API por experimento de Belo Horizonte\relax }}{26}{table.caption.30}%
-\contentsline {table}{\numberline {A.1}{\ignorespaces Tabela de Resultados para Mapbox para a amostra de Belo Horizonte\relax }}{37}{table.caption.47}%
-\contentsline {table}{\numberline {A.2}{\ignorespaces Tabela de Resultados para Google para a amostra de Belo Horizonte\relax }}{37}{table.caption.48}%
-\contentsline {table}{\numberline {A.3}{\ignorespaces Tabela de Resultados para TomTom para a amostra de Belo Horizonte\relax }}{38}{table.caption.49}%
-\contentsline {table}{\numberline {A.4}{\ignorespaces Tabela de Resultados para Open Route Service para amostra de Belo Horizonte\relax }}{38}{table.caption.50}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Taxa de resposta de cada API por experimento de São Paulo\relax }}{26}{table.caption.30}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Taxa de acerto de cada API por experimento de Belo Horizonte\relax }}{27}{table.caption.31}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Taxa de acerto de cada API por experimento de São Paulo\relax }}{27}{table.caption.32}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces Tabela de Resultados para Mapbox para a amostra de Belo Horizonte\relax }}{38}{table.caption.49}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Tabela de Resultados para MapBox para a amostra de São Paulo\relax }}{38}{table.caption.50}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces Tabela de Resultados para Google para a amostra de Belo Horizonte\relax }}{39}{table.caption.51}%
+\contentsline {table}{\numberline {A.4}{\ignorespaces Tabela de Resultados para Google para a amostra de São Paulo\relax }}{39}{table.caption.52}%
+\contentsline {table}{\numberline {A.5}{\ignorespaces Tabela de Resultados para TomTom para a amostra de Belo Horizonte\relax }}{39}{table.caption.53}%
+\contentsline {table}{\numberline {A.6}{\ignorespaces Tabela de Resultados para Open Route Service para amostra de Belo Horizonte\relax }}{40}{table.caption.54}%
+\contentsline {table}{\numberline {A.7}{\ignorespaces Tabela de Resultados para OpenRouteService para a amostra de São Paulo\relax }}{40}{table.caption.55}%
