@@ -12,14 +12,22 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Gráficos de falhas de cada API para os dados de Belo São Paulo\relax }}{25}{figure.caption.26}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: MapBox\relax }}{28}{figure.caption.33}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: Google Maps\relax }}{28}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: TomTom\relax }}{28}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: TomTom\relax }}{29}{figure.caption.35}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Gráficos de falhas para a maior e menor taxas de acerto dos experimentos para os dados de Belo Horizonte: Open Route Service\relax }}{29}{figure.caption.36}%
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Boxplot de Experimentos por Erro, com todas as APIs avaliadas \relax }}{29}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Boxplot de Experimentos por Erro, com todas as APIs avaliadas e sem Outliers\relax }}{29}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Boxplot de Experimentos por Erro, com todas as APIs avaliadas e sem Outliers\relax }}{30}{figure.caption.38}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS\relax }}{30}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS e sem Outliers\relax }}{30}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS e sem Outliers\relax }}{31}{figure.caption.40}%
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Boxplots de Erro por API para cada uma das APIs avalidas\relax }}{31}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: Mapbox\relax }}{31}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: Mapbox\relax }}{32}{figure.caption.42}%
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: Google\relax }}{32}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: TomTom\relax }}{32}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: TomTom\relax }}{33}{figure.caption.44}%
 \contentsline {figure}{\numberline {3.19}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: ORS\relax }}{33}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Boxplot de Experimentos por Erro, com todas as APIs avaliadas para a amostra de São Paulo\relax }}{34}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Boxplot de Experimentos por Erro, com todas as APIs avaliadas e sem Outliers para a amostra de São Paulo\relax }}{34}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS para a amostra de São Paulo\relax }}{35}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS e sem Outliers para a amostra de São Paulo\relax }}{35}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Boxplots de Erro por API para cada uma das APIs avalidas para a amostra de São Paulo\relax }}{36}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: Mapbox\relax }}{36}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: Google\relax }}{37}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: ORS\relax }}{37}{figure.caption.53}%
