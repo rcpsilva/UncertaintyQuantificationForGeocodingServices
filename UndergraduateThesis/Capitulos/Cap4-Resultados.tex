@@ -571,9 +571,9 @@ Os boxplots apresentados anteriormente foram cruciais para avaliar as APIs compa
   \label{fig:boxplot-api-global-sp}
 \end{figure}
 
-Para melhor vizualização, decidimos então retirar os outliers de todas os boxplots. 
+Para aprimorar a visualização, decidimos remover os outliers de todos os boxplots.
 
-As figuras \ref{fig:boxplot-api-mapbox-semout-bh} e \ref{fig:boxplot-api-mapbox-semout-sp} mostram os boxplots do erro da Mapbox para os dados de Belo Horizonte e São Paulo respectivamente.
+As Figuras \ref{fig:boxplot-api-mapbox-semout-bh} e \ref{fig:boxplot-api-mapbox-semout-sp} apresentam os boxplots do erro da Mapbox para os dados de Belo Horizonte e São Paulo, respectivamente. Em ambos os boxplots, o Experimento 1 obteve os melhores resultados para a API MapBox. No entanto, é interessante observar que o Experimento 4 teve um desempenho muito semelhante ao Experimento 1 para ambas as bases. Analisando o boxplot de Belo Horizonte, é possível notar que a adição do bairro resultou em piora nos resultados para todos os experimentos, evidenciando os piores resultados em geral, conforme observado na tabela \ref{tab:txAcerExpAPIBH}. Quanto aos dados de São Paulo, os experimentos que se destacaram negativamente foram o 2, 3 e 5.
 
 \begin{figure}[h]
     \centering
@@ -599,6 +599,15 @@ Boxplot Google sem ouliers:
     \label{fig:boxplot-api-google-semout}
 \end{figure}
 
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{Figuras/boxplotApiGoogleSemOutsp.png}
+  \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: Google}
+  \label{fig:boxplot-api-google-semout-sp}
+\end{figure}
+
+
 Boxplot TomTom sem ouliers:
 
 \begin{figure}[h]
@@ -618,18 +627,6 @@ Boxplot ORS sem ouliers:
 \end{figure}
 
 BOXPLOTS SÃO PAULO
-
-
-Boxplots de API por erro sem completos:
-
-Boxplot Google sem ouliers:
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{Figuras/boxplotApiGoogleSemOutsp.png}
-    \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: Google}
-    \label{fig:boxplot-api-google-semout-sp}
-\end{figure}
 
 Boxplot ORS sem ouliers:
 
