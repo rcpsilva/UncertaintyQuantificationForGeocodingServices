@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.20)  19 JAN 2024 17:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.20)  23 JAN 2024 17:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -844,8 +844,7 @@ File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count377
 \l__pdf_internal_box=\box71
-)
-No file Monografia.aux.
+) (./Monografia.aux)
 \openout1 = `Monografia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -867,7 +866,7 @@ LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 Package hyperref Info: Link coloring ON on input line 48.
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -1390,212 +1389,253 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: Reference `tab:correlationBH' on page 24 undefined on input line 274.
 
 [24 <./Figuras/falhasMapboxBH.png> <./Figuras/falhasGoogleBH.png> <./Figuras/falhasTomtomBH.png> <./Figuras/falhasORSBH.png>] [25 <./Figuras/falhasMapboxSP.png> <./Figuras/falhasGoogleSP.png> <./Figuras/falhasTomtomSP.png> <./Figuras/falhasORSSP.png>]
-<Figuras/expFalhasMapboxmaior.png, id=260, 411.2163pt x 328.8285pt>
-File: Figuras/expFalhasMapboxmaior.png Graphic file (type png)
-<use Figuras/expFalhasMapboxmaior.png>
-Package pdftex.def Info: Figuras/expFalhasMapboxmaior.png  used on input line 418.
-(pdftex.def)             Requested size: 204.74861pt x 163.73146pt.
-<Figuras/expFalhasMapboxmenor.png, id=261, 415.5525pt x 328.8285pt>
-File: Figuras/expFalhasMapboxmenor.png Graphic file (type png)
-<use Figuras/expFalhasMapboxmenor.png>
-Package pdftex.def Info: Figuras/expFalhasMapboxmenor.png  used on input line 424.
-(pdftex.def)             Requested size: 204.74861pt x 162.01547pt.
-<Figuras/expFalhasGooglemaior.png, id=262, 405.4347pt x 328.8285pt>
-File: Figuras/expFalhasGooglemaior.png Graphic file (type png)
-<use Figuras/expFalhasGooglemaior.png>
-Package pdftex.def Info: Figuras/expFalhasGooglemaior.png  used on input line 438.
-(pdftex.def)             Requested size: 204.74861pt x 166.0646pt.
-<Figuras/expFalhasGooglemenor.png, id=263, 409.7709pt x 328.8285pt>
-File: Figuras/expFalhasGooglemenor.png Graphic file (type png)
-<use Figuras/expFalhasGooglemenor.png>
-Package pdftex.def Info: Figuras/expFalhasGooglemenor.png  used on input line 444.
-(pdftex.def)             Requested size: 204.74861pt x 164.30345pt.
-<Figuras/expFalhasTomtommaior.png, id=264, 411.939pt x 328.8285pt>
-File: Figuras/expFalhasTomtommaior.png Graphic file (type png)
-<use Figuras/expFalhasTomtommaior.png>
-Package pdftex.def Info: Figuras/expFalhasTomtommaior.png  used on input line 459.
-(pdftex.def)             Requested size: 204.74861pt x 163.43542pt.
-<Figuras/expFalhasTomtommenor.png, id=265, 411.939pt x 328.8285pt>
-File: Figuras/expFalhasTomtommenor.png Graphic file (type png)
-<use Figuras/expFalhasTomtommenor.png>
-Package pdftex.def Info: Figuras/expFalhasTomtommenor.png  used on input line 465.
-(pdftex.def)             Requested size: 204.74861pt x 163.43542pt.
-<Figuras/expFalhasORSmaior.png, id=266, 474.8139pt x 328.8285pt>
-File: Figuras/expFalhasORSmaior.png Graphic file (type png)
-<use Figuras/expFalhasORSmaior.png>
-Package pdftex.def Info: Figuras/expFalhasORSmaior.png  used on input line 480.
-(pdftex.def)             Requested size: 204.74861pt x 141.79489pt.
-<Figuras/expFalhasORSmenor.png, id=267, 479.1501pt x 328.8285pt>
-File: Figuras/expFalhasORSmenor.png Graphic file (type png)
-<use Figuras/expFalhasORSmenor.png>
-Package pdftex.def Info: Figuras/expFalhasORSmenor.png  used on input line 486.
-(pdftex.def)             Requested size: 204.74861pt x 140.51543pt.
-<Figuras/boxplotExperimento.png, id=268, 761.0031pt x 347.6187pt>
+
+LaTeX Warning: Reference `tab:mapboxBH' on page 26 undefined on input line 300.
+
+
+LaTeX Warning: Reference `tab:mapboxSP' on page 26 undefined on input line 300.
+
+
+LaTeX Warning: Reference `tab:googleBH' on page 26 undefined on input line 300.
+
+
+LaTeX Warning: Reference `tab:googleSP' on page 26 undefined on input line 300.
+
+
+LaTeX Warning: Reference `tab:orsBH' on page 26 undefined on input line 300.
+
+
+LaTeX Warning: Reference `tab:tomtomBH' on page 26 undefined on input line 300.
+
+
+LaTeX Warning: Reference `tab:openrouteserviceSP' on page 26 undefined on input line 300.
+
+
+LaTeX Warning: Reference `anexo_tabelas_completas' on page 26 undefined on input line 300.
+
+
+LaTeX Warning: Reference `tab:txRespExpAPIBH' on page 26 undefined on input line 304.
+
+
+LaTeX Warning: Reference `tab:txRespExpAPISP' on page 26 undefined on input line 304.
+
+
+LaTeX Warning: Reference `tab:txAcerExpAPIBH' on page 26 undefined on input line 362.
+
+[26]
+
+LaTeX Warning: Reference `tab:tabelaFormatos' on page 27 undefined on input line 372.
+
+
+LaTeX Warning: Reference `tab:txAcerExpAPISP' on page 27 undefined on input line 408.
+
+[27]
+
+LaTeX Warning: Reference `fig:boxplot-completo-bh' on page 28 undefined on input line 440.
+
+[28]
+<Figuras/boxplotExperimento.png, id=278, 761.0031pt x 347.6187pt>
 File: Figuras/boxplotExperimento.png Graphic file (type png)
 <use Figuras/boxplotExperimento.png>
-Package pdftex.def Info: Figuras/boxplotExperimento.png  used on input line 501.
+Package pdftex.def Info: Figuras/boxplotExperimento.png  used on input line 444.
 (pdftex.def)             Requested size: 455.0pt x 207.83553pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `fig:boxplot-semout-bh' on page 29 undefined on input line 449.
 
-<Figuras/boxplotExperimentoSemOut.png, id=269, 746.5491pt x 339.669pt>
+<Figuras/boxplotExperimentoSemOut.png, id=279, 746.5491pt x 339.669pt>
 File: Figuras/boxplotExperimentoSemOut.png Graphic file (type png)
 <use Figuras/boxplotExperimentoSemOut.png>
-Package pdftex.def Info: Figuras/boxplotExperimentoSemOut.png  used on input line 510.
+Package pdftex.def Info: Figuras/boxplotExperimentoSemOut.png  used on input line 453.
 (pdftex.def)             Requested size: 455.0pt x 207.02156pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `fig:boxplot-semors-semout-bh' on page 29 undefined on input line 465.
 
-<Figuras/boxplotExperimentoSemORS.png, id=270, 645.3711pt x 339.669pt>
-File: Figuras/boxplotExperimentoSemORS.png Graphic file (type png)
-<use Figuras/boxplotExperimentoSemORS.png>
-Package pdftex.def Info: Figuras/boxplotExperimentoSemORS.png  used on input line 519.
-(pdftex.def)             Requested size: 455.0pt x 239.48222pt.
-[26]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `tab:txAcerExpAPIBH' on page 29 undefined on input line 465.
 
-<Figuras/boxplotExperimentoSemOutSemORS.png, id=279, 603.4545pt x 339.669pt>
+[29 <./Figuras/boxplotExperimento.png> <./Figuras/boxplotExperimentoSemOut.png>]
+<Figuras/boxplotExperimentoSemOutSemORS.png, id=289, 603.4545pt x 339.669pt>
 File: Figuras/boxplotExperimentoSemOutSemORS.png Graphic file (type png)
 <use Figuras/boxplotExperimentoSemOutSemORS.png>
-Package pdftex.def Info: Figuras/boxplotExperimentoSemOutSemORS.png  used on input line 528.
+Package pdftex.def Info: Figuras/boxplotExperimentoSemOutSemORS.png  used on input line 469.
 (pdftex.def)             Requested size: 455.0pt x 256.11423pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/boxplotApiMapbox.png, id=280, 648.2619pt x 386.6445pt>
-File: Figuras/boxplotApiMapbox.png Graphic file (type png)
-<use Figuras/boxplotApiMapbox.png>
-Package pdftex.def Info: Figuras/boxplotApiMapbox.png  used on input line 538.
-(pdftex.def)             Requested size: 204.74861pt x 122.11813pt.
-<Figuras/boxplotApiGoogle.png, id=281, 633.8079pt x 386.6445pt>
-File: Figuras/boxplotApiGoogle.png Graphic file (type png)
-<use Figuras/boxplotApiGoogle.png>
-Package pdftex.def Info: Figuras/boxplotApiGoogle.png  used on input line 544.
-(pdftex.def)             Requested size: 204.74861pt x 124.9028pt.
-<Figuras/boxplotApiTomtom.png, id=282, 648.2619pt x 386.6445pt>
-File: Figuras/boxplotApiTomtom.png Graphic file (type png)
-<use Figuras/boxplotApiTomtom.png>
-Package pdftex.def Info: Figuras/boxplotApiTomtom.png  used on input line 550.
-(pdftex.def)             Requested size: 204.74861pt x 122.11813pt.
-<Figuras/boxplotApiOrs.png, id=283, 648.2619pt x 394.5942pt>
-File: Figuras/boxplotApiOrs.png Graphic file (type png)
-<use Figuras/boxplotApiOrs.png>
-Package pdftex.def Info: Figuras/boxplotApiOrs.png  used on input line 556.
-(pdftex.def)             Requested size: 204.74861pt x 124.62897pt.
-<Figuras/boxplotApiMapboxSemOut.png, id=284, 641.0349pt x 393.8715pt>
-File: Figuras/boxplotApiMapboxSemOut.png Graphic file (type png)
-<use Figuras/boxplotApiMapboxSemOut.png>
-Package pdftex.def Info: Figuras/boxplotApiMapboxSemOut.png  used on input line 569.
-(pdftex.def)             Requested size: 455.0pt x 279.56657pt.
+LaTeX Warning: Reference `fig:boxplot-completo-sp' on page 30 undefined on input line 474.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figuras/boxplotApiGoogleSemOut.png, id=285, 626.5809pt x 391.7034pt>
-File: Figuras/boxplotApiGoogleSemOut.png Graphic file (type png)
-<use Figuras/boxplotApiGoogleSemOut.png>
-Package pdftex.def Info: Figuras/boxplotApiGoogleSemOut.png  used on input line 578.
-(pdftex.def)             Requested size: 455.0pt x 284.44687pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figuras/boxplotApiTomtomSemOut.png, id=286, 606.3453pt x 386.6445pt>
-File: Figuras/boxplotApiTomtomSemOut.png Graphic file (type png)
-<use Figuras/boxplotApiTomtomSemOut.png>
-Package pdftex.def Info: Figuras/boxplotApiTomtomSemOut.png  used on input line 587.
-(pdftex.def)             Requested size: 455.0pt x 290.13605pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figuras/boxplotApiOrsSemOut.png, id=287, 633.8079pt x 386.6445pt>
-File: Figuras/boxplotApiOrsSemOut.png Graphic file (type png)
-<use Figuras/boxplotApiOrsSemOut.png>
-Package pdftex.def Info: Figuras/boxplotApiOrsSemOut.png  used on input line 596.
-(pdftex.def)             Requested size: 455.0pt x 277.57556pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figuras/boxplotExperimentoSP.png, id=288, 761.0031pt x 339.669pt>
+<Figuras/boxplotExperimentoSP.png, id=290, 761.0031pt x 339.669pt>
 File: Figuras/boxplotExperimentoSP.png Graphic file (type png)
 <use Figuras/boxplotExperimentoSP.png>
-Package pdftex.def Info: Figuras/boxplotExperimentoSP.png  used on input line 607.
+Package pdftex.def Info: Figuras/boxplotExperimentoSP.png  used on input line 478.
 (pdftex.def)             Requested size: 455.0pt x 203.08253pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/boxplotExperimentoSemOutSP.png, id=289, 732.8178pt x 339.669pt>
+
+LaTeX Warning: Reference `fig:boxplot-semout-sp' on page 30 undefined on input line 483.
+
+
+LaTeX Warning: Reference `fig:boxplot-semout-bh' on page 30 undefined on input line 483.
+
+<Figuras/boxplotExperimentoSemOutSP.png, id=291, 732.8178pt x 339.669pt>
 File: Figuras/boxplotExperimentoSemOutSP.png Graphic file (type png)
 <use Figuras/boxplotExperimentoSemOutSP.png>
-Package pdftex.def Info: Figuras/boxplotExperimentoSemOutSP.png  used on input line 616.
+Package pdftex.def Info: Figuras/boxplotExperimentoSemOutSP.png  used on input line 488.
 (pdftex.def)             Requested size: 455.0pt x 210.89839pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/boxplotExperimentoSemORSSP.png, id=290, 643.9257pt x 339.669pt>
-File: Figuras/boxplotExperimentoSemORSSP.png Graphic file (type png)
-<use Figuras/boxplotExperimentoSemORSSP.png>
-Package pdftex.def Info: Figuras/boxplotExperimentoSemORSSP.png  used on input line 625.
-(pdftex.def)             Requested size: 455.0pt x 240.01607pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `fig:boxplot-api-global-bh' on page 30 undefined on input line 507.
 
-<Figuras/boxplotExperimentoSemOutSemORSSP.png, id=291, 615.7404pt x 339.669pt>
-File: Figuras/boxplotExperimentoSemOutSemORSSP.png Graphic file (type png)
-<use Figuras/boxplotExperimentoSemOutSemORSSP.png>
-Package pdftex.def Info: Figuras/boxplotExperimentoSemOutSemORSSP.png  used on input line 634.
-(pdftex.def)             Requested size: 455.0pt x 251.00386pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `fig:boxplot-api-global-sp' on page 30 undefined on input line 507.
 
-<Figuras/boxplotApiMapboxSP.png, id=292, 648.2619pt x 339.669pt>
+[30 <./Figuras/boxplotExperimentoSemOutSemORS.png>] [31 <./Figuras/boxplotExperimentoSP.png> <./Figuras/boxplotExperimentoSemOutSP.png>]
+<Figuras/boxplotApiMapbox.png, id=306, 648.2619pt x 386.6445pt>
+File: Figuras/boxplotApiMapbox.png Graphic file (type png)
+<use Figuras/boxplotApiMapbox.png>
+Package pdftex.def Info: Figuras/boxplotApiMapbox.png  used on input line 523.
+(pdftex.def)             Requested size: 204.74861pt x 122.11813pt.
+<Figuras/boxplotApiGoogle.png, id=307, 633.8079pt x 386.6445pt>
+File: Figuras/boxplotApiGoogle.png Graphic file (type png)
+<use Figuras/boxplotApiGoogle.png>
+Package pdftex.def Info: Figuras/boxplotApiGoogle.png  used on input line 529.
+(pdftex.def)             Requested size: 204.74861pt x 124.9028pt.
+<Figuras/boxplotApiTomtom.png, id=308, 648.2619pt x 386.6445pt>
+File: Figuras/boxplotApiTomtom.png Graphic file (type png)
+<use Figuras/boxplotApiTomtom.png>
+Package pdftex.def Info: Figuras/boxplotApiTomtom.png  used on input line 535.
+(pdftex.def)             Requested size: 204.74861pt x 122.11813pt.
+<Figuras/boxplotApiOrs.png, id=309, 648.2619pt x 394.5942pt>
+File: Figuras/boxplotApiOrs.png Graphic file (type png)
+<use Figuras/boxplotApiOrs.png>
+Package pdftex.def Info: Figuras/boxplotApiOrs.png  used on input line 541.
+(pdftex.def)             Requested size: 204.74861pt x 124.62897pt.
+<Figuras/boxplotApiMapboxSP.png, id=310, 648.2619pt x 339.669pt>
 File: Figuras/boxplotApiMapboxSP.png Graphic file (type png)
 <use Figuras/boxplotApiMapboxSP.png>
-Package pdftex.def Info: Figuras/boxplotApiMapboxSP.png  used on input line 644.
+Package pdftex.def Info: Figuras/boxplotApiMapboxSP.png  used on input line 553.
 (pdftex.def)             Requested size: 204.74861pt x 107.28136pt.
-<Figuras/boxplotApiGoogleSP.png, id=293, 648.2619pt x 339.669pt>
+<Figuras/boxplotApiGoogleSP.png, id=311, 648.2619pt x 339.669pt>
 File: Figuras/boxplotApiGoogleSP.png Graphic file (type png)
 <use Figuras/boxplotApiGoogleSP.png>
-Package pdftex.def Info: Figuras/boxplotApiGoogleSP.png  used on input line 650.
+Package pdftex.def Info: Figuras/boxplotApiGoogleSP.png  used on input line 559.
 (pdftex.def)             Requested size: 204.74861pt x 107.28136pt.
-<Figuras/boxplotApiOrsSP.png, id=294, 648.2619pt x 339.669pt>
+<Figuras/boxplotApiOrsSP.png, id=312, 648.2619pt x 339.669pt>
 File: Figuras/boxplotApiOrsSP.png Graphic file (type png)
 <use Figuras/boxplotApiOrsSP.png>
-Package pdftex.def Info: Figuras/boxplotApiOrsSP.png  used on input line 656.
+Package pdftex.def Info: Figuras/boxplotApiOrsSP.png  used on input line 565.
 (pdftex.def)             Requested size: 204.74861pt x 107.28136pt.
-<Figuras/boxplotApiMapboxSemOutsp.png, id=295, 620.0766pt x 339.669pt>
+
+
+LaTeX Warning: Reference `fig:boxplot-api-mapbox-semout-bh' on page 32 undefined on input line 576.
+
+
+LaTeX Warning: Reference `fig:boxplot-api-mapbox-semout-sp' on page 32 undefined on input line 576.
+
+[32 <./Figuras/boxplotApiMapbox.png> <./Figuras/boxplotApiGoogle.png> <./Figuras/boxplotApiTomtom.png> <./Figuras/boxplotApiOrs.png> <./Figuras/boxplotApiMapboxSP.png> <./Figuras/boxplotApiGoogleSP.png> <./Figuras/boxplotApiOrsSP.png>]
+<Figuras/boxplotApiMapboxSemOut.png, id=326, 641.0349pt x 393.8715pt>
+File: Figuras/boxplotApiMapboxSemOut.png Graphic file (type png)
+<use Figuras/boxplotApiMapboxSemOut.png>
+Package pdftex.def Info: Figuras/boxplotApiMapboxSemOut.png  used on input line 580.
+(pdftex.def)             Requested size: 455.0pt x 279.56657pt.
+<Figuras/boxplotApiMapboxSemOutsp.png, id=327, 620.0766pt x 339.669pt>
 File: Figuras/boxplotApiMapboxSemOutsp.png Graphic file (type png)
 <use Figuras/boxplotApiMapboxSemOutsp.png>
-Package pdftex.def Info: Figuras/boxplotApiMapboxSemOutsp.png  used on input line 669.
+Package pdftex.def Info: Figuras/boxplotApiMapboxSemOutsp.png  used on input line 587.
 (pdftex.def)             Requested size: 455.0pt x 249.24686pt.
-[27]
+<Figuras/boxplotApiGoogleSemOut.png, id=328, 626.5809pt x 391.7034pt>
+File: Figuras/boxplotApiGoogleSemOut.png Graphic file (type png)
+<use Figuras/boxplotApiGoogleSemOut.png>
+Package pdftex.def Info: Figuras/boxplotApiGoogleSemOut.png  used on input line 597.
+(pdftex.def)             Requested size: 455.0pt x 284.44687pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/boxplotApiGoogleSemOutsp.png, id=302, 620.0766pt x 346.1733pt>
+<Figuras/boxplotApiTomtomSemOut.png, id=329, 606.3453pt x 386.6445pt>
+File: Figuras/boxplotApiTomtomSemOut.png Graphic file (type png)
+<use Figuras/boxplotApiTomtomSemOut.png>
+Package pdftex.def Info: Figuras/boxplotApiTomtomSemOut.png  used on input line 606.
+(pdftex.def)             Requested size: 455.0pt x 290.13605pt.
+[33 <./Figuras/boxplotApiMapboxSemOut.png> <./Figuras/boxplotApiMapboxSemOutSP.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figuras/boxplotApiOrsSemOut.png, id=339, 633.8079pt x 386.6445pt>
+File: Figuras/boxplotApiOrsSemOut.png Graphic file (type png)
+<use Figuras/boxplotApiOrsSemOut.png>
+Package pdftex.def Info: Figuras/boxplotApiOrsSemOut.png  used on input line 615.
+(pdftex.def)             Requested size: 455.0pt x 277.57556pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figuras/boxplotApiGoogleSemOutsp.png, id=340, 620.0766pt x 346.1733pt>
 File: Figuras/boxplotApiGoogleSemOutsp.png Graphic file (type png)
 <use Figuras/boxplotApiGoogleSemOutsp.png>
-Package pdftex.def Info: Figuras/boxplotApiGoogleSemOutsp.png  used on input line 678.
+Package pdftex.def Info: Figuras/boxplotApiGoogleSemOutsp.png  used on input line 629.
 (pdftex.def)             Requested size: 455.0pt x 254.01965pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figuras/boxplotApiOrsSemOutSP.png, id=303, 620.0766pt x 339.669pt>
+<Figuras/boxplotApiOrsSemOutSP.png, id=341, 620.0766pt x 339.669pt>
 File: Figuras/boxplotApiOrsSemOutSP.png Graphic file (type png)
 <use Figuras/boxplotApiOrsSemOutSP.png>
-Package pdftex.def Info: Figuras/boxplotApiOrsSemOutSP.png  used on input line 687.
+Package pdftex.def Info: Figuras/boxplotApiOrsSemOutSP.png  used on input line 638.
 (pdftex.def)             Requested size: 455.0pt x 249.24686pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [28 <./Figuras/expFalhasMapboxmaior.png> <./Figuras/expFalhasMapboxmenor.png> <./Figuras/expFalhasGooglemaior.png> <./Figuras/expFalhasGooglemenor.png>] [29 <./Figuras/expFalhasTomtommaior.png> <./Figuras/expFalhasTomtommenor.png> <./Figuras/expFalhasORSmaior.png> <./Figuras/expFalhasORSmenor.png> <./Figuras/boxplotExperimento.png>] [30 <./Figuras/boxplotExperimentoSemOut.png> <./Figuras/boxplotExperimentoSemORS.png>] [31 <./Figuras/boxplotExperimentoSemOutSemORS.png> <./Figuras/boxplotApiMapbox.png> <./Figuras/boxplotApiGoogle.png> <./Figuras/boxplotApiTomtom.png> <./Figuras/boxplotApiOrs.png>] [32 <./Figuras/boxplotApiMapboxSemOut.png> <./Figuras/boxplotApiGoogleSemOut.png>] [33 <./Figuras/boxplotApiTomtomSemOut.png> <./Figuras/boxplotApiOrsSemOut.png>] [34 <./Figuras/boxplotExperimentoSP.png> <./Figuras/boxplotExperimentoSemOutSP.png>] [35 <./Figuras/boxplotExperimentoSemORSSP.png> <./Figuras/boxplotExperimentoSemOutSemORSSP.png>] [36 <./Figuras/boxplotApiMapboxSP.png> <./Figuras/boxplotApiGoogleSP.png> <./Figuras/boxplotApiOrsSP.png> <./Figuras/boxplotApiMapboxSemOutSP.png>] [37 <./Figuras/boxplotApiGoogleSemOutSP.png> <./Figuras/boxplotApiOrsSemOutSP.png>]
+<Figuras/expFalhasMapboxmaior.png, id=342, 411.2163pt x 328.8285pt>
+File: Figuras/expFalhasMapboxmaior.png Graphic file (type png)
+<use Figuras/expFalhasMapboxmaior.png>
+Package pdftex.def Info: Figuras/expFalhasMapboxmaior.png  used on input line 650.
+(pdftex.def)             Requested size: 204.74861pt x 163.73146pt.
+<Figuras/expFalhasMapboxmenor.png, id=343, 415.5525pt x 328.8285pt>
+File: Figuras/expFalhasMapboxmenor.png Graphic file (type png)
+<use Figuras/expFalhasMapboxmenor.png>
+Package pdftex.def Info: Figuras/expFalhasMapboxmenor.png  used on input line 656.
+(pdftex.def)             Requested size: 204.74861pt x 162.01547pt.
+<Figuras/expFalhasGooglemaior.png, id=344, 405.4347pt x 328.8285pt>
+File: Figuras/expFalhasGooglemaior.png Graphic file (type png)
+<use Figuras/expFalhasGooglemaior.png>
+Package pdftex.def Info: Figuras/expFalhasGooglemaior.png  used on input line 670.
+(pdftex.def)             Requested size: 204.74861pt x 166.0646pt.
+<Figuras/expFalhasGooglemenor.png, id=345, 409.7709pt x 328.8285pt>
+File: Figuras/expFalhasGooglemenor.png Graphic file (type png)
+<use Figuras/expFalhasGooglemenor.png>
+Package pdftex.def Info: Figuras/expFalhasGooglemenor.png  used on input line 676.
+(pdftex.def)             Requested size: 204.74861pt x 164.30345pt.
+<Figuras/expFalhasTomtommaior.png, id=346, 411.939pt x 328.8285pt>
+File: Figuras/expFalhasTomtommaior.png Graphic file (type png)
+<use Figuras/expFalhasTomtommaior.png>
+Package pdftex.def Info: Figuras/expFalhasTomtommaior.png  used on input line 691.
+(pdftex.def)             Requested size: 204.74861pt x 163.43542pt.
+<Figuras/expFalhasTomtommenor.png, id=347, 411.939pt x 328.8285pt>
+File: Figuras/expFalhasTomtommenor.png Graphic file (type png)
+<use Figuras/expFalhasTomtommenor.png>
+Package pdftex.def Info: Figuras/expFalhasTomtommenor.png  used on input line 697.
+(pdftex.def)             Requested size: 204.74861pt x 163.43542pt.
+<Figuras/expFalhasORSmaior.png, id=348, 474.8139pt x 328.8285pt>
+File: Figuras/expFalhasORSmaior.png Graphic file (type png)
+<use Figuras/expFalhasORSmaior.png>
+Package pdftex.def Info: Figuras/expFalhasORSmaior.png  used on input line 712.
+(pdftex.def)             Requested size: 204.74861pt x 141.79489pt.
+<Figuras/expFalhasORSmenor.png, id=349, 479.1501pt x 328.8285pt>
+File: Figuras/expFalhasORSmenor.png Graphic file (type png)
+<use Figuras/expFalhasORSmenor.png>
+Package pdftex.def Info: Figuras/expFalhasORSmenor.png  used on input line 718.
+(pdftex.def)             Requested size: 204.74861pt x 140.51543pt.
+) [34 <./Figuras/boxplotApiGoogleSemOut.png>] [35 <./Figuras/boxplotApiTomtomSemOut.png> <./Figuras/boxplotApiOrsSemOut.png>] [36 <./Figuras/boxplotApiGoogleSemOutSP.png> <./Figuras/boxplotApiOrsSemOutSP.png>] [37 <./Figuras/expFalhasMapboxmaior.png> <./Figuras/expFalhasMapboxmenor.png> <./Figuras/expFalhasGooglemaior.png> <./Figuras/expFalhasGooglemenor.png> <./Figuras/expFalhasTomtommaior.png> <./Figuras/expFalhasTomtommenor.png>] [38 <./Figuras/expFalhasORSmaior.png> <./Figuras/expFalhasORSmenor.png>]
 \openout2 = `Capitulos/Cap5-Conclusao.aux'.
 
  (./Capitulos/Cap5-Conclusao.tex
 
-LaTeX Warning: Citation `Prodabel' on page 38 undefined on input line 7.
+LaTeX Warning: Citation `Prodabel' on page 39 undefined on input line 7.
 
-) [38
+) [39
 
 
 
@@ -1670,7 +1710,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[39
+[40
 
 
 
@@ -1686,21 +1726,21 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-) [40]
+) [41]
 \openout2 = `PosTextuais/Anexo.aux'.
 
- (./PosTextuais/Anexo.tex [41
+ (./PosTextuais/Anexo.tex [42
 
 
 
 ]
-Overfull \hbox (2.58005pt too wide) in paragraph at lines 124--140
+Overfull \hbox (2.58005pt too wide) in paragraph at lines 125--141
  [][] 
  []
 
-) [42
+) [43
 
-] [43] [44]
+] [44] [45]
 No file Monografia.ind.
 
 AED: lastpage setting LastPage
@@ -1722,18 +1762,18 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 22943 strings out of 478287
- 384050 string characters out of 5849288
- 774190 words of memory out of 5000000
- 40389 multiletter control sequences out of 15000+600000
- 521534 words of font info for 149 fonts, out of 8000000 for 9000
+ 22926 strings out of 478287
+ 383181 string characters out of 5849288
+ 774181 words of memory out of 5000000
+ 40371 multiletter control sequences out of 15000+600000
+ 521743 words of font info for 151 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,15n,93p,1441b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on Monografia.pdf (52 pages, 2702627 bytes).
+Output written on Monografia.pdf (53 pages, 2621004 bytes).
 PDF statistics:
- 664 PDF objects out of 1000 (max. 8388607)
+ 659 PDF objects out of 1000 (max. 8388607)
  481 compressed objects within 5 object streams
- 178 named destinations out of 1000 (max. 500000)
- 31239 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 176 named destinations out of 1000 (max. 500000)
+ 31224 words of extra memory for PDF output out of 35830 (max. 10000000)
 
