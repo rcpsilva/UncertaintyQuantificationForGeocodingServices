@@ -634,9 +634,13 @@ Para concluir a análise dos boxplots, foram gerados dois gráficos para os dado
     \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: ORS}
     \label{fig:boxplot-api-ors-semout-sp}
 \end{figure}
- 
-  
-Falhas Mapbox:
+
+\subsection{Distribuição Espacial das Falhas dos Experimentos de Formatação}
+
+Por fim, realizamos uma análise espacial de falhas para entender de que forma a formatação da entrada pode contribuir para a falha de forma espacial. 
+Para isso, criamos mapas hexagonais de falhas, como feito anteriormente, para cada API. Escolhemos os experimentos com menor e maior taxa de acerto de cada API a fim de visualizar com mais clareza a melhora a partir de formatações diferentes. 
+
+A figura \ref{fig:falhas-exp-mapbox-bh} mostra os mapas de falhas dos experimentos com menor e maior taxa de acerto para os dados de Belo Horizonte e para a API Mapbox. Nessa figura é possível observar que no mapa de maior taxa de acerto há uma maior uniformidade e a maior parte do gráfico tem taxa de falha inferior a 20\%. Já no gráfico de menor taxa de acerto há menor uniformidade e as regiões variam de taxas mais baixas (menor que 20\%) até taxas mais altas (maior que 80\%). É relevanteobservar também que as taxas de falha maiores aparentam estar em regiões similares como bordas, o que nos faz pensar que a alta taxa de erro é ligada a região e não somente a formatação de entrada. Apesar disso, até nessas regiões com mais erro, é possível observar uma melhora significativa a partir da formatação com melhor resultado. 
 
 \begin{figure}[ht]
   \centering
@@ -656,7 +660,9 @@ Falhas Mapbox:
   \label{fig:falhas-exp-mapbox-bh}
 \end{figure}
 
-Falhas Google:
+COLOCAR FALHAS MAPBOX SP
+
+A figura \ref{fig:falhas-exp-google-bh} mostra os gráficos de falhas para os experimentos de maior e menor taxa de acerto da API Google Maps para os dados de Belo Horizonte. Da mesma forma que acontece nos gráficos da Mapbox, os gráficos para o experimento de maior taxa de acerto apresentam uma uniformidade maior em comparação com o de menor taxa de acerto. Além disso, é interessante observar que existem algumas zonas de onde a taxa de falha é grande em ambos os gráficos. Essas zonas são nas fronteiras da cidade e na parte superior do gráfico. Porém, no gráfico de menor taxa de acerto há uma acentuação dessas regiões com altas taxas de acerto, corroborando com a hipotése de que a formatação realmente contribui para a melhora da taxa de falha. 
 
 \begin{figure}[ht]
   \centering
@@ -673,11 +679,12 @@ Falhas Google:
   \end{subfigure}
   
   \caption{Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: Google Maps}
-  \label{fig:falhas-exp-google}
+  \label{fig:falhas-exp-google-bh}
 \end{figure}
 
+COLOCAR FALHAS GOOGLE SP
 
-Falhas TomTom:
+A figura \ref{fig:falhas-exp-tomtom-bh} mostra os gráficos de falha dos experimentos de maior e menor taxa de acerto da API TomTom para os dados de Belo Horizonte. Nessa figura, ao contrário das outras APIs, não é possível notar diferença significativa entre os experimentos com maior e menor taxa de acerto. Isso condiz com as taxas de acerto da TomTom para os experimentos que estavam todas próximas. Em comparação com as outras APIs, os dois gráficos apresentam uma certa uniformidade, com valores abaixo de 40\% de falha. Algumas regiões aparentam taxas maiores, que são as regiões inferior, superior e de fronteira. Em geral, TomTom apresentou resultados medianos em maior parte dos gráficos. 
 
 \begin{figure}[ht]
   \centering
@@ -694,11 +701,12 @@ Falhas TomTom:
   \end{subfigure}
   
   \caption{Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: TomTom}
-  \label{fig:falhas-exp-tomtom}
+  \label{fig:falhas-exp-tomtom-bh}
 \end{figure}
 
+COLOCAR FALHAS TOMTOM SP
 
-Falhas ORS:
+A figura \ref{fig:falhas-exp-ors-bh} mostra os gráficos de falha dos experimentos de maior e menor taxa de acerto da API Open Route Service para os dados de Belo Horizonte. Nessa figura, apesar das outras APIs, há pouca uniformiadade no gráfico de maior taxa, inclusive apresentando muitos valores de taxas altas em praticamente todas as regiões do gráfico. Já o gráfico de menor taxa de acerto, apresenta em quase sua totatalidade valores de taxa de acerto próximos do máximo. Ou seja, para a API TomTom, para esses dados, a formatação de entrada é crucial, pois a depender da escolhida, a API pode errar a maioria das solicitações. Apesar disso, mesmo no experimento de maior taxa, há valores altos de erro, resultado que concorda com os obtidos anteriormente.
 
 \begin{figure}[ht]
   \centering
@@ -715,5 +723,7 @@ Falhas ORS:
   \end{subfigure}
   
   \caption{Gráficos de falhas para a maior e menor taxas de acerto dos experimentos para os dados de Belo Horizonte: Open Route Service}
-  \label{fig:falhas-exp-ors}
+  \label{fig:falhas-exp-ors-bh}
 \end{figure}
+
+COLOCAR FALHAS ORS SP
