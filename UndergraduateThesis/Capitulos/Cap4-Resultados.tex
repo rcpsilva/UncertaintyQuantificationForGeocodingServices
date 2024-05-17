@@ -301,7 +301,7 @@ Após a geocodificação dos experimentos, calculamos o erro para cada endereço
 
 Para uma compreensão mais aprofundada dos resultados e uma análise comparativa, elaboramos duas tabelas para cada base. As tabelas representam a taxa de resposta e a taxa de acerto de cada experimento por API.
 
-As tabelas \ref{tab:txRespExpAPIBH} e \ref{tab:txRespExpAPISP} mostram as taxas de resposta para as bases de Belo Horizonte e São Paulo, respectivamente. Observamos que todos os experimentos apresentaram excelentes resultados em termos de taxa de resposta, todas acima de 95\%. Não foi identificada uma diferença significativa entre as taxas de resposta nos experimentos. No entanto, em relação às APIs, a ORS apresentou uma taxa de resposta ligeiramente inferior em comparação com as outras APIs para os dados de Belo Horizonte. Em relação aos dados de São Paulo, a mesma situação ocorre com a API MapBox. No entanto, os autores não consideram essa diferença significativa devido à sua pequena magnitude.
+As tabelas \ref{tab:txRespExpAPIBH} e \ref{tab:txRespExpAPISP} mostram as taxas de resposta para as bases de Belo Horizonte e São Paulo, respectivamente. Observamos que todos os experimentos apresentaram excelentes resultados em termos de taxa de resposta, a maioria acima de 95\% com exceção ao Mapbox com taxas acima de 84\%. Não foi identificada uma diferença significativa entre as taxas de resposta nos experimentos. No entanto, em relação às APIs, a ORS apresentou uma taxa de resposta ligeiramente inferior em comparação com as outras APIs para os dados de Belo Horizonte. Em relação aos dados de São Paulo, a mesma situação ocorre com a API TomTom. No entanto, os autores não consideram essa diferença significativa devido à sua pequena magnitude.
  
 \begin{table}[!ht]
 \centering
@@ -343,17 +343,17 @@ Experimento & MapBox & Google & TomTom & ORS\\
 \begin{adjustbox}{width=0.7\textwidth}
 \begin{tabular}{|c|c|c|c|c|}
 \hline
-Experimento & MapBox & Google & ORS\\
+Experimento & MapBox & Google & ORS & TomTom\\
 \hline
-1 & 97,50 & 99,98 & 99,86 \\
+1 & 97,50 & 99,98 & 99,86 & 85,48\\
 \hline
-2 & 97,78 & 99,86 & 99,50 \\
+2 & 97,78 & 99,86 & 99,50 & 85,52\\
 \hline
-3 & 99,20 & 99,88 & 99,88 \\
+3 & 99,20 & 99,88 & 99,88 & 85,52\\
 \hline
-4 & 97,84 & 99,88 & 99,00 \\
+4 & 97,84 & 99,88 & 99,00 & 85,48\\
 \hline
-5 & 98,00 & 99,90 & 99,96 \\
+5 & 98,00 & 99,90 & 99,96 & 84,14\\
 \hline
 \end{tabular}
 \end{adjustbox}
@@ -405,7 +405,7 @@ Experimento & MapBox & Google & TomTom & ORS\\
 \end{adjustbox}
 \end{table}
 
-A tabela \ref{tab:txAcerExpAPISP} apresenta a taxa de acerto para os experimentos em São Paulo. Durante a geocodificação, não recebemos resposta da TomTom para os experimentos em São Paulo. Acreditamos que tenha sido um erro no processo de geocodificação e, portanto, procederemos com a análise desconsiderando essa API. Além disso, como mencionado anteriormente, a base de São Paulo não continha informações sobre bairros, resultando na análise apenas dos experimentos de formatação sem bairro.
+A tabela \ref{tab:txAcerExpAPISP} apresenta a taxa de acerto para os experimentos em São Paulo. Como mencionado anteriormente, a base de São Paulo não continha informações sobre bairros, resultando na análise apenas dos experimentos de formatação sem bairro.
 
 Com esses resultados, observamos novamente que as APIs com as maiores taxas de acerto foram MapBox e Google, como visto nos experimentos em Belo Horizonte. No entanto, nos experimentos em São Paulo, a Google teve um desempenho superior, sendo o destaque para essa base. A ORS, por outro lado, teve novamente um desempenho negativo, com taxas de acerto muito baixas, variando de 1\% a 29\%.
 
@@ -419,17 +419,17 @@ Em relação aos experimentos, o Experimento 1 obteve a melhor taxa de acerto pa
   \begin{adjustbox}{width=0.7\textwidth}
   \begin{tabular}{|c|c|c|c|c|}
   \hline
-  Experimento & MapBox & Google & ORS\\
+  Experimento & MapBox & Google & ORS & TomTom\\
   \hline
-  1 & 41,78 & 50,80 & 28,94 \\
+  1 & 41,78 & 50,80 & 28,94 & 44,94\\
   \hline
-  2 & 37,04 & 48,54 & 5,30 \\
+  2 & 37,04 & 48,54 & 5,30 & 44,96\\
   \hline
-  3 & 41,26 & 48,42 & 0,14 \\
+  3 & 41,26 & 48,42 & 0,14 & 45,02\\
   \hline
-  4 & 40,90 & 48,42 & 14,94 \\
+  4 & 40,90 & 48,42 & 14,94 & 44,90\\
   \hline
-  5 & 40,10 & 48,00 & 1,04 \\
+  5 & 40,10 & 48,00 & 1,04 & 44,40\\
   \hline
   \end{tabular}
   \end{adjustbox}
