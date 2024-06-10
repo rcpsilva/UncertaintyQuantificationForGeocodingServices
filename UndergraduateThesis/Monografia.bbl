@@ -10,13 +10,6 @@
 {BEHR, F.-J. \emph{Geocoding: Fundamentals, Techniques, Commercial and Open
   Services}. Schellingstraße 24, D-70174 Stuttgart, Germany: [s.n.], 2010.}
 
-\bibitem[Callegari-Jacques 2007]{callegari2007}
-\abntrefinfo{Callegari-Jacques}{CALLEGARI-JACQUES}{2007}
-{CALLEGARI-JACQUES, S.~M. \emph{Bioestatística: Princípios e Aplicações}.
-  Dados eletrônicos. Porto Alegre: Artmed, 2007. Editado também como livro
-  impresso em 2003.
-ISBN 978-85-363-1144-9.}
-
 \bibitem[Chow, Dede-Bamfo e Dahal 2016]{Chow2016}
 \abntrefinfo{Chow, Dede-Bamfo e Dahal}{CHOW; DEDE-BAMFO; DAHAL}{2016}
 {CHOW, T.~E.; DEDE-BAMFO, N.; DAHAL, K.~R. Geographic disparity of positional
@@ -33,27 +26,9 @@ Dispon{\'\i}vel em:
   \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9671.2011.01274.x}.}
 
 \bibitem[Documentação da Google Maps Geocodin API]{GoogleDoc}
-\abntrefinfo{Documentação\ldots}{DOCUMENTAçãO\ldots}{a}
+\abntrefinfo{Documentação\ldots}{DOCUMENTAçãO\ldots}{}
 {DOCUMENTAçãO da Google Maps Geocodin API.
-  Url{https://developers.google.com/maps/documentation/geocoding?hl=pt-br}.
-Acesso em: [04 nov. 2023].}
-
-\bibitem[Documentação da Mapbox Geocodin API]{MapboxDoc}
-\abntrefinfo{Documentação\ldots}{DOCUMENTAçãO\ldots}{b}
-{DOCUMENTAçãO da Mapbox Geocodin API.
-  Url{https://docs.mapbox.com/api/search/geocoding/}.
-Acesso em: [04 nov. 2023].}
-
-\bibitem[Documentação da Open Route Service Geocodin API]{ORSdoc}
-\abntrefinfo{Documentação\ldots}{DOCUMENTAçãO\ldots}{c}
-{DOCUMENTAçãO da Open Route Service Geocodin API.
-  Url{https://openrouteservice.org/dev/#/api-docs/geocode/search/get}.
-Acesso em: [04 nov. 2023].}
-
-\bibitem[Documentação da TomTom Geocodin API]{TomtomDoc}
-\abntrefinfo{Documentação\ldots}{DOCUMENTAçãO\ldots}{d}
-{DOCUMENTAçãO da TomTom Geocodin API.
-  Url{https://developer.tomtom.com/geocoding-api/documentation/product-information/introduction}.
+  Url{https://developers.google.com/maps/documentation/geocoding}.
 Acesso em: [04 nov. 2023].}
 
 \bibitem[Gilboa et al. 2006]{Gilboa2006}
@@ -69,7 +44,7 @@ Dispon{\'\i}vel em:
 
 \bibitem[Google Cloud Platform]{GCP}
 \abntrefinfo{Google\ldots}{GOOGLE\ldots}{}
-{GOOGLE Cloud Platform. Url{https://cloud.google.com/?hl=pt_br}.
+{GOOGLE Cloud Platform. Url{https://cloud.google.com/}.
 Acesso em: [13 ago. 2023].}
 
 \bibitem[Hay et al. 2009]{Kypri2009}

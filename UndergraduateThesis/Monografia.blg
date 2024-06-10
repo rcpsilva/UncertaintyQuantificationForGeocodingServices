@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Monografia.aux
+A level-1 auxiliary file: PreTextuais/Resumo.aux
+A level-1 auxiliary file: PreTextuais/ListaSiglas.aux
+A level-1 auxiliary file: Capitulos/Cap1-Introducao.aux
+A level-1 auxiliary file: PosTextuais/Anexo.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: abntex2-options.bib
+Database file #2: bibliografia.bib
+Warning--entry type for "stein2021geoprocessamento" isn't style-file defined
+--line 257 of file bibliografia.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo year vazio ou faltando em GoogleDoc
+Warning--campo year vazio ou faltando em GCP
+Warning--campo year vazio ou faltando em Prodabel
+Warning--campo year vazio ou faltando em terralab
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 23 entries,
+            6714 wiz_defined-function locations,
+            1349 strings with 13912 characters,
+and the built_in function-call counts, 37425 in all, are:
+= -- 4593
+> -- 644
+< -- 942
++ -- 1272
+- -- 188
+* -- 2315
+:= -- 4439
+add.period$ -- 88
+call.type$ -- 24
+change.case$ -- 248
+chr.to.int$ -- 69
+cite$ -- 24
+duplicate$ -- 3541
+empty$ -- 1421
+format.name$ -- 948
+if$ -- 7777
+int.to.chr$ -- 2
+int.to.str$ -- 3
+missing$ -- 416
+newline$ -- 121
+num.names$ -- 81
+pop$ -- 522
+preamble$ -- 1
+purify$ -- 90
+quote$ -- 0
+skip$ -- 4111
+stack$ -- 1
+substring$ -- 1626
+swap$ -- 1344
+text.length$ -- 45
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 41
+warning$ -- 4
+while$ -- 141
+width$ -- 0
+write$ -- 343
+(There were 5 warnings)
