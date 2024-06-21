@@ -1,0 +1,159 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Behr 2010]{behr2010}
+\abntrefinfo{Behr}{BEHR}{2010}
+{BEHR, F.-J. \emph{Geocoding: Fundamentals, Techniques, Commercial and Open
+  Services}. Schellingstraße 24, D-70174 Stuttgart, Germany: [s.n.], 2010.}
+
+\bibitem[Chow, Dede-Bamfo e Dahal 2016]{Chow2016}
+\abntrefinfo{Chow, Dede-Bamfo e Dahal}{CHOW; DEDE-BAMFO; DAHAL}{2016}
+{CHOW, T.~E.; DEDE-BAMFO, N.; DAHAL, K.~R. Geographic disparity of positional
+  errors and matching rate of residential addresses among geocoding solutions.
+\emph{Annals of GIS}, Taylor and Francis, v.~22, n.~1, p. 29--42, 2016.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1080/19475683.2015.1085437}.}
+
+\bibitem[Chow, Lin e Chan 2011]{Chow2011}
+\abntrefinfo{Chow, Lin e Chan}{CHOW; LIN; CHAN}{2011}
+{CHOW, T.~E.; LIN, Y.; CHAN, W.-y.~D. The development of a web-based
+  demographic data extraction tool for population monitoring.
+\emph{Transactions in GIS}, v.~15, n.~4, p. 479--494, 2011.
+Dispon{\'\i}vel em:
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9671.2011.01274.x}.}
+
+\bibitem[Documentação da Google Maps Geocodin API]{GoogleDoc}
+\abntrefinfo{Documentação\ldots}{DOCUMENTAçãO\ldots}{}
+{DOCUMENTAçãO da Google Maps Geocodin API.
+  Url{https://developers.google.com/maps/documentation/geocoding}.
+Acesso em: [04 nov. 2023].}
+
+\bibitem[Gilboa et al. 2006]{Gilboa2006}
+\abntrefinfo{Gilboa et al.}{GILBOA et al.}{2006}
+{GILBOA, S.~M.; MENDOLA, P.; OLSHAN, A.~F.; HARNESS, C.; LOOMIS, D.; LANGLOIS,
+  P.~H.; SAVITZ, D.~A.; HERRING, A.~H. Comparison of residential geocoding
+  methods population-based study of air quality and birth defects.
+\emph{Environmental Research}, v.~101, n.~2, p. 256--262, 2006.
+ISSN 0013-9351.
+Womens Occupational and Environmental Health.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/S001393510600020X}.}
+
+\bibitem[Google Cloud Platform]{GCP}
+\abntrefinfo{Google\ldots}{GOOGLE\ldots}{}
+{GOOGLE Cloud Platform. Url{https://cloud.google.com/}.
+Acesso em: [13 ago. 2023].}
+
+\bibitem[Hay et al. 2009]{Kypri2009}
+\abntrefinfo{Hay et al.}{HAY et al.}{2009}
+{HAY, G.; KYPRI, K.; WHIGHAM, P.; LANGLEY, J. Potential biases due to geocoding
+  error in spatial analyses of official data.
+\emph{Health and Place}, v.~15, n.~2, p. 562--567, 2009.
+ISSN 1353-8292.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/S1353829208001081}.}
+
+\bibitem[Jr. e Alencar 2011]{Clodoveu2011}
+\abntrefinfo{Jr. e Alencar}{JR.; ALENCAR}{2011}
+{JR., C.~A. D.; ALENCAR, R.~O. de. Evaluation of the quality of an online
+  geocoding resource in the context of a large brazilian city.
+\emph{Transactions in GIS}, v.~15, n.~6, p. 851--868, 2011.
+Dispon{\'\i}vel em:
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9671.2011.01288.x}.}
+
+\bibitem[Klein 2015]{klein2015}
+\abntrefinfo{Klein}{KLEIN}{2015}
+{KLEIN, C. \emph{Dicionário da língua portuguesa}. 1. ed. São Paulo: Rideel,
+  2015. E-book. Dispon{\'\i}vel em: \url{https://plataforma.bvirtual.com.br}.}
+
+\bibitem[Krieger et al. 2001]{AmericaJournal2001}
+\abntrefinfo{Krieger et al.}{KRIEGER et al.}{2001}
+{KRIEGER, N.; WATERMAN, P.; LEMIEUX, K.; ZIERLER, S.; HOGAN, J.~W. On the wrong
+  side of the tracts? evaluating the accuracy of geocoding in public health
+  research.
+\emph{American Journal of Public Health}, v.~91, n.~7, p. 1114--1116, 2001.
+PMID: 11441740.
+Dispon{\'\i}vel em: \url{https://doi.org/10.2105/AJPH.91.7.1114}.}
+
+\bibitem[{Küçük Matci} e Avdan 2018]{KUCUKMATCI2018}
+\abntrefinfo{{Küçük Matci} e Avdan}{{Küçük Matci}; AVDAN}{2018}
+{{Küçük Matci}, D.; AVDAN, U. Address standardization using the natural
+  language process for improving geocoding results.
+\emph{Computers, Environment and Urban Systems}, v.~70, p.~1--8, 2018.
+ISSN 0198-9715.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/S0198971517300455}.}
+
+\bibitem[Longley et al. 2013]{longley2013}
+\abntrefinfo{Longley et al.}{LONGLEY et al.}{2013}
+{LONGLEY, P.~A.; GOODCHILD, M.~F.; MAGUIRE, D.~J.; RHIND, D.~W. \emph{Sistemas
+  e Ciencia da Informaçao Geografica}. Grupo A, 2013.
+ISBN 9788565837651. Dispon{\'\i}vel em:
+  \url{https://integrada.minhabiblioteca.com.br/\#/books/9788565837651/}.}
+
+\bibitem[Mazumdar et al. 2008]{Mazumdar2008}
+\abntrefinfo{Mazumdar et al.}{MAZUMDAR et al.}{2008}
+{MAZUMDAR, S.; RUSHTON, G.; SMITH, B.~J. et al. Geocoding accuracy and the
+  recovery of relationships between environmental exposures and health.
+\emph{International Journal of Health Geographics}, v.~7, n.~1, p.~13, 2008.
+Dispon{\'\i}vel em:
+  \url{https://ij-healthgeographics.biomedcentral.com/articles/10.1186/1476-072X-7-13}.}
+
+\bibitem[Olligschlaeger 1998]{Olligschlaeger1998}
+\abntrefinfo{Olligschlaeger}{OLLIGSCHLAEGER}{1998}
+{OLLIGSCHLAEGER, A.~M. Artificial neural networks and crime mapping. In:
+  WEISBURD, D.; MCEWEN, T. (Ed.). \emph{Crime Mapping and Crime Prevention}.
+  Monsey, NY: Criminal Justice Press, 1998,  (Crime Prevention Studies, v.~8).
+  p. 313--347.}
+
+\bibitem[Prodabel]{Prodabel}
+\abntrefinfo{Prodabel}{PRODABEL}{}
+{PRODABEL. Url{https://prefeitura.pbh.gov.br/prodabel}.
+Acesso em: [13 ago. 2023].}
+
+\bibitem[Relatório do Experimento de Entradas das APIs]{relatorioDeA}
+\abntrefinfo{Relatório\ldots}{RELATóRIO\ldots}{}
+{RELATóRIO do Experimento de Entradas das APIs.
+  Url{https://github.com/rcpsilva/UncertaintyQuantificationForGeocodingServices/blob/main/UndergraduateThesis/Documentos/Relatorio-testes.pdf}.
+Acesso em: [21 jun. 2024].}
+
+\bibitem[Spiegel e Stephens 2009]{spiegel2009}
+\abntrefinfo{Spiegel e Stephens}{SPIEGEL; STEPHENS}{2009}
+{SPIEGEL, M.~R.; STEPHENS, L.~J. \emph{Estatística}. Grupo A, 2009. E-book.
+ISBN 9788577805204. Dispon{\'\i}vel em:
+  \url{https://integrada.minhabiblioteca.com.br/\#/books/9788577805204/}.}
+
+\bibitem[Stein et al. 2021]{stein2021geoprocessamento}
+\abntrefinfo{Stein et al.}{STEIN et al.}{2021}
+{STEIN, R.~T.; SANTOS, F. M.~d.; REX, F.~E. et al. \emph{Geoprocessamento}.
+  Grupo A, 2021.
+E-book.
+Dispon{\'\i}vel em:
+  \url{https://integrada.minhabiblioteca.com.br/\#/books/9786556902852/}.}
+
+\bibitem[TerraLAB - Laboratório de Capacitação e Desenvolvimento de
+  Software]{terralab}
+\abntrefinfo{TerraLAB\ldots}{TERRALAB\ldots}{}
+{TERRALAB - Laboratório de Capacitação e Desenvolvimento de Software.
+  Url{http://www2.decom.ufop.br/terralab/}.
+Acesso em: [11 ago. 2023].}
+
+\bibitem[Whitsel et al. 2006]{Whitsel2006}
+\abntrefinfo{Whitsel et al.}{WHITSEL et al.}{2006}
+{WHITSEL, E.~A.; QUIBRERA, P.~M.; SMITH, R.~L. et al. Accuracy of commercial
+  geocoding: Assessment and implications.
+\emph{Epidemiologic Perspectives and Innovations}, v.~3, n.~1, p.~8, 2006.
+Dispon{\'\i}vel em:
+  \url{https://epi-perspectives.biomedcentral.com/articles/10.1186/1742-5573-3-8}.}
+
+\bibitem[Zandbergen 2009]{Zamberg2009}
+\abntrefinfo{Zandbergen}{ZANDBERGEN}{2009}
+{ZANDBERGEN, P.~A. Geocoding quality and implications for spatial analysis.
+\emph{Geography Compass}, v.~3, n.~2, p. 647--680, 2009.
+Dispon{\'\i}vel em:
+  \url{https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/j.1749-8198.2008.00205.x}.}
+
+\end{thebibliography}
