@@ -26,6 +26,9 @@ Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "stein2021geoprocessamento" isn't style-file defined
 --line 257 of file bibliografia.bib
+Warning--I didn't find a database entry for "ors"
+Warning--I didn't find a database entry for "maps"
+Warning--I didn't find a database entry for "relatorioDeA"
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -41,7 +44,7 @@ Warning--campo year vazio ou faltando em terralab
 +---------------------------------------------------------+
 You've used 23 entries,
             6714 wiz_defined-function locations,
-            1349 strings with 13912 characters,
+            1353 strings with 13943 characters,
 and the built_in function-call counts, 37425 in all, are:
 = -- 4593
 > -- 644
@@ -80,4 +83,4 @@ warning$ -- 4
 while$ -- 141
 width$ -- 0
 write$ -- 343
-(There were 5 warnings)
+(There were 8 warnings)
