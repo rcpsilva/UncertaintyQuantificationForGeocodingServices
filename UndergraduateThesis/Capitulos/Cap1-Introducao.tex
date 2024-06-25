@@ -33,7 +33,7 @@ Apesar de todas as vantagens e aplicações, o processo de geocodificação pode
    \item Indefinição: a falta de informações necessárias.
 \end{itemize}
 
-Dados estes termos, podemos definir a incerteza como: ``a medida da compreensão do usuário sobre a diferença entre o conteúdo de um conjunto de dados e os fenômenos reais que os dados devem representar'' \cite{longley2013}. Em outras palavras, a incerteza é uma medida que descreve o nível de compreensão do usuário em relação ao conjunto de dados obtidos e à realidade que esses dados têm a intenção de representar. A figura \ref{fig:incerteza} apresenta uma visão conceitual da incerteza, onde cada processo muda um pouco a realidade, sendo assim a representação final tem sempre um nível de incerteza que está relacionado com o filtro aplicado em cada etapa. Por exemplo, a incerteza entre o mundo real e a concepção da realidade está relacionada ao filtro I1 que distorce a realidade para que seja possível a concepção.  A partir dessa perspectiva, a incerteza foi aceita como uma métrica apropriada para avaliar a qualidade dos Sistemas de Informação Geográfica (SIG) \cite{longley2013}.
+Dados estes termos, podemos definir a incerteza como: ``a medida da compreensão do usuário sobre a diferença entre o conteúdo de um conjunto de dados e os fenômenos reais que os dados devem representar'' \cite{longley2013}. Em outras palavras, a incerteza é uma medida que descreve o nível de compreensão do usuário em relação ao conjunto de dados obtidos e à realidade que esses dados têm a intenção de representar. A figura \ref{fig:incerteza} apresenta uma visão conceitual da incerteza, onde cada processo muda um pouco a realidade, sendo assim a representação final tem sempre um nível de incerteza que está relacionado com o filtro aplicado em cada etapa. Por exemplo, a incerteza entre o mundo real e a concepção da realidade está relacionada ao filtro I1 que distorce a realidade para que seja possível a concepção.  A partir desses conceitos, a incerteza foi aceita como uma métrica apropriada para avaliar a qualidade dos Sistemas de Informação Geográfica (SIG) \cite{longley2013}.
 
 \begin{figure}[ht]
    \centering
@@ -42,11 +42,11 @@ Dados estes termos, podemos definir a incerteza como: ``a medida da compreensão
    \label{fig:incerteza}
 \end{figure}
 
-Apesar da incerteza ser uma métrica de importância significativa, sua mensuração é complexa. A incerteza envolve medidas que são subjetivas e podem variar de acordo com cada indivíduo avaliado. Por essa razão, optamos por utilizar a medida de erro para representar a qualidade da geocodificação. Embora essa medida não seja equivalente à incerteza, ela é uma parte integrante da mesma. Dentro das componentes que compõem a incerteza, a medida de erro é a mais objetiva e fácil de mensurar.
+Apesar da incerteza ser uma métrica de importância significativa, sua mensuração é complexa. A incerteza envolve medidas que são subjetivas e podem variar de acordo com cada indivíduo avaliado. 
 
-Diversas organizações como, TerraLAB \cite{terralab}, Open Route Service \cite{ors}, Google Maps \cite{maps}, dentre outras,  utilizam informações geográficas para o desenvolvimento de suas aplicações. Essas aplicações utilizam endereços geocodificados para criar mapas, rotas, áreas de abrangência, relatar locais, divulgar eventos, entre outras funcionalidades. Isso ressalta a grande importância da geocodificação e como a qualidade desse processo impacta significativamente o que é produzido nesses locais.
+%Por essa razão, optamos por utilizar a medida de erro para representar a qualidade da geocodificação. Embora essa medida não seja equivalente à incerteza, ela é uma parte integrante da mesma. Dentro das componentes que compõem a incerteza, a medida de erro é a mais objetiva e fácil de mensurar.
 
-Para adquirir informações relacionadas a endereços, fazemos uso da geocodificação obtida por meio de APIs online de geocodificação.
+Diversas empresas e organizações de renome, como New York Times, CNN, BMW, Toyota, Strava, Microsoft, Uber, Fiat, Jeep, e TerraLAB,  utilizam informações geográficas para o desenvolvimento de suas aplicações \cite{ors, terralab, mapbox, tomtom}. Essas aplicações utilizam endereços geocodificados para criar mapas, rotas, áreas de abrangência, relatar locais, divulgar eventos, entre outras funcionalidades. Isso ressalta a grande importância da geocodificação e como a qualidade desse processo impacta significativamente o que é produzido nesses locais. Para adquirir informações relacionadas a endereços, elas utilizam da geocodificação obtida por meio de APIs online.
 
 \section{APIs de Geocodificação e Análise de qualidade}
 
