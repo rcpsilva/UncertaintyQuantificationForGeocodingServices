@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  25 JUN 2024 12:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  27 JUN 2024 12:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -860,7 +860,7 @@ File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count378
 \l__pdf_internal_box=\box72
-) (Monografia.aux (PreTextuais/Resumo.aux) (PreTextuais/ListaSiglas.aux) (Capitulos/Cap1-Introducao.aux) (PosTextuais/Anexo.aux))
+) (Monografia.aux (PreTextuais/Resumo.aux) (PreTextuais/ListaSiglas.aux) (Capitulos/Cap1-Introducao.aux) (Capitulos/Cap3-Desenvolvimento.aux) (PosTextuais/Anexo.aux))
 \openout1 = `Monografia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -994,7 +994,7 @@ File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
 
 
 {C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
-<Figuras/incertezaMeu.jpeg, id=143, 499.8675pt x 304.13625pt>
+<Figuras/incertezaMeu.jpeg, id=177, 499.8675pt x 304.13625pt>
 File: Figuras/incertezaMeu.jpeg Graphic file (type jpg)
 <use Figuras/incertezaMeu.jpeg>
 Package pdftex.def Info: Figuras/incertezaMeu.jpeg  used on input line 40.
@@ -1017,35 +1017,100 @@ Package hyperref Warning: Suppressing empty link on input line 73.
 
 Package hyperref Warning: Suppressing empty link on input line 73.
 
-[5]
+[5] [6] [7]) [8]
+\openout2 = `Capitulos/Cap3-Desenvolvimento.aux'.
 
-Package hyperref Warning: Suppressing empty link on input line 83.
+ (Capitulos/Cap3-Desenvolvimento.tex
 
-[6] [7]) [8] (Monografia.bbl
-bibitemlist
+Package hyperref Warning: Suppressing empty link on input line 9.
 
-Underfull \hbox (badness 2057) in paragraph at lines 30--33
-[]\T1/qtm/m/n/12 (+20) DOCUMENTAÁ„O da Go-o-gle Maps Ge-o-co-din API. Ur- 
- []
-
+<Figuras/siteCEM.jpeg, id=267, 1371.1225pt x 631.35875pt>
+File: Figuras/siteCEM.jpeg Graphic file (type jpg)
+<use Figuras/siteCEM.jpeg>
+Package pdftex.def Info: Figuras/siteCEM.jpeg  used on input line 13.
+(pdftex.def)             Requested size: 364.00139pt x 167.60791pt.
 [9
 
 
 
+
+ <./Figuras/siteCEM.jpeg>]
+<Figuras/spCompleta.png, id=274, 428.5611pt x 290.5254pt>
+File: Figuras/spCompleta.png Graphic file (type png)
+<use Figuras/spCompleta.png>
+Package pdftex.def Info: Figuras/spCompleta.png  used on input line 22.
+(pdftex.def)             Requested size: 364.00139pt x 246.77486pt.
+
+
+Package hyperref Warning: Suppressing empty link on input line 28.
+
+<Figuras/siteProdabel.jpeg, id=283, 1371.1225pt x 623.32875pt>
+File: Figuras/siteProdabel.jpeg Graphic file (type jpg)
+<use Figuras/siteProdabel.jpeg>
+Package pdftex.def Info: Figuras/siteProdabel.jpeg  used on input line 34.
+(pdftex.def)             Requested size: 364.00139pt x 165.47618pt.
+[10 <./Figuras/spCompleta.png>]
+<Figuras/bhCompleta.png, id=290, 273.1806pt x 328.1058pt>
+File: Figuras/bhCompleta.png Graphic file (type png)
+<use Figuras/bhCompleta.png>
+Package pdftex.def Info: Figuras/bhCompleta.png  used on input line 44.
+(pdftex.def)             Requested size: 204.74861pt x 245.91853pt.
+<Figuras/bhAmostra.png, id=291, 277.5168pt x 328.1058pt>
+File: Figuras/bhAmostra.png Graphic file (type png)
+<use Figuras/bhAmostra.png>
+Package pdftex.def Info: Figuras/bhAmostra.png  used on input line 50.
+(pdftex.def)             Requested size: 204.74861pt x 242.06854pt.
+ [11 <./Figuras/siteProdabel.jpeg> <./Figuras/bhCompleta.png> <./Figuras/bhAmostra.png>]
+<Figuras/diagrama monografia.drawio.png, id=300, 493.845pt x 416.55624pt>
+File: Figuras/diagrama monografia.drawio.png Graphic file (type png)
+<use Figuras/diagrama monografia.drawio.png>
+Package pdftex.def Info: Figuras/diagrama monografia.drawio.png  used on input line 69.
+(pdftex.def)             Requested size: 364.00139pt x 307.03276pt.
+ [12 <./Figuras/diagrama monografia.drawio.png>] [13] [14] [15]
+Overfull \hbox (18.67104pt too wide) in paragraph at lines 212--225
+ [][] 
+ []
+
+[16]
+Overfull \hbox (11.74002pt too wide) in paragraph at lines 294--309
+ [][] 
+ []
+
+) [17] (Monografia.bbl
+bibitemlist
+
+Underfull \hbox (badness 2057) in paragraph at lines 43--46
+[]\T1/qtm/m/n/12 (+20) DOCUMENTAÁ„O da Go-o-gle Maps Ge-o-co-din API. Ur- 
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 49--52
+[]\T1/qtm/m/n/12 (+20) DOCUMENTAÁ„O da Map-box Ge-o-co-din API. Ur- 
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 55--58
+[]\T1/qtm/m/n/12 (+20) DOCUMENTAÁ„O da Open Route Ser-vice Ge-o-co-din API. 
+ []
+
+[18
+
+
+
 ]
-Underfull \hbox (badness 2790) in paragraph at lines 119--122
+Underfull \hbox (badness 2790) in paragraph at lines 150--153
 []\T1/qtm/m/n/12 (+20) RELATÛRIO do Ex-pe-ri-mento de En-tra-das das APIs. 
  []
 
 
-Overfull \hbox (185.71548pt too wide) in paragraph at lines 119--122
+Overfull \hbox (185.71548pt too wide) in paragraph at lines 150--153
 \T1/qtm/m/n/12 (-20) Urlhttps://github.com/rcpsilva/UncertaintyQuantificationForGeocodingServices/blob/main/UndergraduateThesis/Documentos/Relatorio- 
  []
 
-) [10]
+) [19]
 \openout2 = `PosTextuais/Anexo.aux'.
 
- (PosTextuais/Anexo.tex [11
+ (PosTextuais/Anexo.tex [20
 
 
 
@@ -1054,9 +1119,9 @@ Overfull \hbox (2.58005pt too wide) in paragraph at lines 140--156
  [][] 
  []
 
-) [12
+) [21
 
-] [13] [14] (Monografia.ind)
+] [22] [23] (Monografia.ind)
 \tf@lof=\write5
 \openout5 = `Monografia.lof'.
 
@@ -1068,23 +1133,23 @@ Overfull \hbox (2.58005pt too wide) in paragraph at lines 140--156
 
  
 enddocument/afterlastpage: lastpage setting LastPage.
-(Monografia.aux (PreTextuais/Resumo.aux) (PreTextuais/ListaSiglas.aux) (Capitulos/Cap1-Introducao.aux) (PosTextuais/Anexo.aux))
+(Monografia.aux (PreTextuais/Resumo.aux) (PreTextuais/ListaSiglas.aux) (Capitulos/Cap1-Introducao.aux) (Capitulos/Cap3-Desenvolvimento.aux) (PosTextuais/Anexo.aux))
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 22722 strings out of 476331
- 380681 string characters out of 5787765
+ 22911 strings out of 476331
+ 385051 string characters out of 5787765
  1899660 words of memory out of 5000000
- 42586 multiletter control sequences out of 15000+600000
- 554558 words of font info for 128 fonts, out of 8000000 for 9000
+ 42709 multiletter control sequences out of 15000+600000
+ 561001 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,12n,90p,1439b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on Monografia.pdf (22 pages, 210037 bytes).
+ 90i,15n,90p,1439b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
+Output written on Monografia.pdf (31 pages, 1070231 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
- 26262 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 551 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
+ 30436 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -7,6 +7,8 @@ Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: PreTextuais/ListaSiglas.aux
 Reallocating 'name_of_file' (item size: 1) to 30 items.
 A level-1 auxiliary file: Capitulos/Cap1-Introducao.aux
+Reallocating 'name_of_file' (item size: 1) to 35 items.
+A level-1 auxiliary file: Capitulos/Cap3-Desenvolvimento.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Reallocating 'name_of_file' (item size: 1) to 22 items.
@@ -30,7 +32,11 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Warning--campo year vazio ou faltando em cem
 Warning--campo year vazio ou faltando em GoogleDoc
+Warning--campo year vazio ou faltando em MapboxDoc
+Warning--campo year vazio ou faltando em ORSdoc
+Warning--campo year vazio ou faltando em TomtomDoc
 Warning--campo year vazio ou faltando em GCP
 Warning--campo year vazio ou faltando em Prodabel
 Warning--campo year vazio ou faltando em relatorioDeA
@@ -43,45 +49,45 @@ Warning--campo year vazio ou faltando em terralab
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 27 entries,
+You've used 32 entries,
             6714 wiz_defined-function locations,
-            1364 strings with 14331 characters,
-and the built_in function-call counts, 40445 in all, are:
-= -- 5021
-> -- 644
-< -- 942
-+ -- 1326
-- -- 188
-* -- 2439
-:= -- 4766
-add.period$ -- 100
-call.type$ -- 28
-change.case$ -- 276
-chr.to.int$ -- 71
-cite$ -- 32
-duplicate$ -- 3645
-empty$ -- 1665
-format.name$ -- 948
-if$ -- 8657
-int.to.chr$ -- 4
+            1390 strings with 15040 characters,
+and the built_in function-call counts, 45309 in all, are:
+= -- 5766
+> -- 660
+< -- 943
++ -- 1438
+- -- 193
+* -- 2655
+:= -- 5343
+add.period$ -- 118
+call.type$ -- 33
+change.case$ -- 312
+chr.to.int$ -- 76
+cite$ -- 41
+duplicate$ -- 3794
+empty$ -- 1974
+format.name$ -- 971
+if$ -- 10020
+int.to.chr$ -- 7
 int.to.str$ -- 3
-missing$ -- 480
-newline$ -- 141
-num.names$ -- 81
-pop$ -- 614
+missing$ -- 565
+newline$ -- 166
+num.names$ -- 86
+pop$ -- 730
 preamble$ -- 1
-purify$ -- 102
+purify$ -- 117
 quote$ -- 0
-skip$ -- 4508
+skip$ -- 5174
 stack$ -- 1
-substring$ -- 1718
-swap$ -- 1380
+substring$ -- 1882
+swap$ -- 1437
 text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 67
-warning$ -- 8
-while$ -- 149
+type$ -- 119
+warning$ -- 12
+while$ -- 163
 width$ -- 0
-write$ -- 395
-(There were 9 warnings)
+write$ -- 464
+(There were 13 warnings)

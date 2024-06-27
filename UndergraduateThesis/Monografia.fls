@@ -1058,6 +1058,9 @@ INPUT PreTextuais\ListaSiglas.aux
 INPUT .\Capitulos\Cap1-Introducao.aux
 INPUT Capitulos\Cap1-Introducao.aux
 INPUT Capitulos\Cap1-Introducao.aux
+INPUT .\Capitulos\Cap3-Desenvolvimento.aux
+INPUT Capitulos\Cap3-Desenvolvimento.aux
+INPUT Capitulos\Cap3-Desenvolvimento.aux
 INPUT .\PosTextuais\Anexo.aux
 INPUT PosTextuais\Anexo.aux
 INPUT PosTextuais\Anexo.aux
@@ -1207,6 +1210,60 @@ INPUT .\Figuras\incertezaMeu.jpeg
 INPUT .\Figuras\incertezaMeu.jpeg
 INPUT .\Figuras\incertezaMeu.jpeg
 INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmri.tfm
+INPUT .\Capitulos\Cap3-Desenvolvimento.tex
+INPUT .\Capitulos\Cap3-Desenvolvimento.tex
+INPUT .\Capitulos\Cap3-Desenvolvimento.tex
+OUTPUT Capitulos\Cap3-Desenvolvimento.aux
+INPUT .\Capitulos\Cap3-Desenvolvimento.tex
+INPUT .\Capitulos\Cap3-Desenvolvimento.tex
+INPUT .\Capitulos\Cap3-Desenvolvimento.tex
+INPUT Capitulos\Cap3-Desenvolvimento.tex
+INPUT .\Capitulos\Cap3-Desenvolvimento.tex
+INPUT Capitulos\Cap3-Desenvolvimento.tex
+INPUT .\Figuras\siteCEM.jpeg
+INPUT .\Figuras\siteCEM.jpeg
+INPUT Figuras\siteCEM.jpeg
+INPUT .\Figuras\siteCEM.jpeg
+INPUT .\Figuras\siteCEM.jpeg
+INPUT .\Figuras\siteCEM.jpeg
+INPUT .\Figuras\siteCEM.jpeg
+INPUT .\Figuras\spCompleta.png
+INPUT .\Figuras\spCompleta.png
+INPUT Figuras\spCompleta.png
+INPUT .\Figuras\spCompleta.png
+INPUT .\Figuras\spCompleta.png
+INPUT .\Figuras\spCompleta.png
+INPUT .\Figuras\spCompleta.png
+INPUT .\Figuras\siteProdabel.jpeg
+INPUT .\Figuras\siteProdabel.jpeg
+INPUT Figuras\siteProdabel.jpeg
+INPUT .\Figuras\siteProdabel.jpeg
+INPUT .\Figuras\siteProdabel.jpeg
+INPUT .\Figuras\siteProdabel.jpeg
+INPUT .\Figuras\siteProdabel.jpeg
+INPUT .\Figuras\bhCompleta.png
+INPUT .\Figuras\bhCompleta.png
+INPUT Figuras\bhCompleta.png
+INPUT .\Figuras\bhCompleta.png
+INPUT .\Figuras\bhCompleta.png
+INPUT .\Figuras\bhCompleta.png
+INPUT .\Figuras\bhCompleta.png
+INPUT .\Figuras\bhAmostra.png
+INPUT .\Figuras\bhAmostra.png
+INPUT Figuras\bhAmostra.png
+INPUT .\Figuras\bhAmostra.png
+INPUT .\Figuras\bhAmostra.png
+INPUT .\Figuras\bhAmostra.png
+INPUT .\Figuras\bhAmostra.png
+INPUT .\Figuras\diagrama monografia.drawio.png
+INPUT .\Figuras\diagrama monografia.drawio.png
+INPUT Figuras\diagrama monografia.drawio.png
+INPUT .\Figuras\diagrama monografia.drawio.png
+INPUT .\Figuras\diagrama monografia.drawio.png
+INPUT .\Figuras\diagrama monografia.drawio.png
+INPUT .\Figuras\diagrama monografia.drawio.png
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmr.tfm
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qtmr.tfm
 INPUT .\Monografia.bbl
 INPUT Monografia.bbl
 INPUT .\Monografia.bbl
@@ -1237,9 +1294,24 @@ INPUT PreTextuais\ListaSiglas.aux
 INPUT .\Capitulos\Cap1-Introducao.aux
 INPUT Capitulos\Cap1-Introducao.aux
 INPUT Capitulos\Cap1-Introducao.aux
+INPUT .\Capitulos\Cap3-Desenvolvimento.aux
+INPUT Capitulos\Cap3-Desenvolvimento.aux
+INPUT Capitulos\Cap3-Desenvolvimento.aux
 INPUT .\PosTextuais\Anexo.aux
 INPUT PosTextuais\Anexo.aux
 INPUT PosTextuais\Anexo.aux
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qtmb.pfb
 INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qtmb.pfb
 INPUT C:\Users\analu\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qtmr.pfb
