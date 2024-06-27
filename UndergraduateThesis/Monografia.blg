@@ -9,6 +9,10 @@ Reallocating 'name_of_file' (item size: 1) to 30 items.
 A level-1 auxiliary file: Capitulos/Cap1-Introducao.aux
 Reallocating 'name_of_file' (item size: 1) to 35 items.
 A level-1 auxiliary file: Capitulos/Cap3-Desenvolvimento.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: Capitulos/Cap4-Resultados.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: Capitulos/Cap5-Conclusao.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Reallocating 'name_of_file' (item size: 1) to 22 items.
@@ -51,7 +55,7 @@ Warning--campo year vazio ou faltando em terralab
 +---------------------------------------------------------+
 You've used 32 entries,
             6714 wiz_defined-function locations,
-            1390 strings with 15040 characters,
+            1392 strings with 15097 characters,
 and the built_in function-call counts, 45309 in all, are:
 = -- 5766
 > -- 660
