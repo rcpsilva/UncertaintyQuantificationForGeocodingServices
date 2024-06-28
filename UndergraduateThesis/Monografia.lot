@@ -5,11 +5,13 @@
 \contentsline {table}{\numberline {2.4}{\ignorespaces Formato de Entrada das APIs Utilizadas pelo TerraLAB\relax }}{17}{table.caption.17}%
 \contentsline {table}{\numberline {2.5}{\ignorespaces Formato de cada experimento\relax }}{17}{table.caption.18}%
 \contentsline {table}{\numberline {2.6}{\ignorespaces Formato dos experimentos adicionais\relax }}{17}{table.caption.19}%
-\contentsline {table}{\numberline {A.1}{\ignorespaces Tabela de Resultados para Mapbox para a amostra de Belo Horizonte\relax }}{23}{table.caption.23}%
-\contentsline {table}{\numberline {A.2}{\ignorespaces Tabela de Resultados para MapBox para a amostra de São Paulo\relax }}{23}{table.caption.24}%
-\contentsline {table}{\numberline {A.3}{\ignorespaces Tabela de Resultados para Google para a amostra de Belo Horizonte\relax }}{24}{table.caption.25}%
-\contentsline {table}{\numberline {A.4}{\ignorespaces Tabela de Resultados para Google para a amostra de São Paulo\relax }}{24}{table.caption.26}%
-\contentsline {table}{\numberline {A.5}{\ignorespaces Tabela de Resultados para TomTom para a amostra de Belo Horizonte\relax }}{24}{table.caption.27}%
-\contentsline {table}{\numberline {A.6}{\ignorespaces Tabela de Resultados para TomTom para a amostra de São Paulo\relax }}{25}{table.caption.28}%
-\contentsline {table}{\numberline {A.7}{\ignorespaces Tabela de Resultados para Open Route Service para amostra de Belo Horizonte\relax }}{25}{table.caption.29}%
-\contentsline {table}{\numberline {A.8}{\ignorespaces Tabela de Resultados para OpenRouteService para a amostra de São Paulo\relax }}{25}{table.caption.30}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Métricas de Erro para São Paulo\relax }}{19}{table.caption.20}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Métricas de Erro para Belo Horizonte\relax }}{19}{table.caption.21}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces Tabela de Resultados para Mapbox para a amostra de Belo Horizonte\relax }}{25}{table.caption.25}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Tabela de Resultados para MapBox para a amostra de São Paulo\relax }}{25}{table.caption.26}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces Tabela de Resultados para Google para a amostra de Belo Horizonte\relax }}{26}{table.caption.27}%
+\contentsline {table}{\numberline {A.4}{\ignorespaces Tabela de Resultados para Google para a amostra de São Paulo\relax }}{26}{table.caption.28}%
+\contentsline {table}{\numberline {A.5}{\ignorespaces Tabela de Resultados para TomTom para a amostra de Belo Horizonte\relax }}{26}{table.caption.29}%
+\contentsline {table}{\numberline {A.6}{\ignorespaces Tabela de Resultados para TomTom para a amostra de São Paulo\relax }}{27}{table.caption.30}%
+\contentsline {table}{\numberline {A.7}{\ignorespaces Tabela de Resultados para Open Route Service para amostra de Belo Horizonte\relax }}{27}{table.caption.31}%
+\contentsline {table}{\numberline {A.8}{\ignorespaces Tabela de Resultados para OpenRouteService para a amostra de São Paulo\relax }}{27}{table.caption.32}%

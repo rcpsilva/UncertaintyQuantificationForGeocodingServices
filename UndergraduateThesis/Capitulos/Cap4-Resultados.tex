@@ -1,91 +1,98 @@
 \chapter{Resultados} \label{resultado}
 
-% Nós inicialmente analisamos erro e discrepância nos 12.502 endereços de São Paulo. Abaixo estão os totais de geocodificações bem-sucedidas para cada API:
+Nós inicialmente analisamos erro e discrepância nos 12.502 endereços de São Paulo. Abaixo estão os totais de geocodificações bem-sucedidas para cada API:
 
-% \begin{itemize}
-%     \item TomTom: 11.370 endereços.
-%     \item Google Maps: 9.389 endereços.
-%     \item Mapbox: 12.260 endereços.
-%     \item Open Route Service: 12.295 endereços.
-% \end{itemize}
+\begin{itemize}
+    \item TomTom: 11.370 endereços;
+    \item Google Maps: 9.389 endereços;
+    \item Mapbox: 12.260 endereços;
+    \item ORS: 12.295 endereços.
+\end{itemize}
 
-% Então, conduzimos experimentos com o conjunto de dados de Belo Horizonte. Em relação ao número de endereços retornados, Mapbox retornou 84.966, Google retornou 84.941, TomTom retornou 84.981 e ORS retornou 84.864. Vale ressaltar que a amostra original continha 85.000 endereços.
+Então, conduzimos experimentos com o conjunto de dados de Belo Horizonte. Em relação ao número de endereços retornados, as APIs retornaram da base de 85.000:
 
-% Falhas podem ocorrer em qualquer estágio de geocodificação, derivadas de informações incompletas ou ambíguas fornecidas para geocodificação ou dos algoritmos empregados (algoritmos de seleção e classificação de candidatos). Quando falhas ocorrem, a API retorna apenas uma mensagem de erro. Nas próximas seções, os resultados de erro e discrepância são cuidadosamente analisados.
+\begin{itemize}
+    \item TomTom: 84.981 endereços;
+    \item Google: 84.941 endereços;
+    \item Mapbox: 84.966 endereços; 
+    \item ORS: 84.864 endereços.
+\end{itemize}    
 
-% \section{Erro, Taxa de Resposta e Taxa de Precisão}
+Falhas podem ocorrer em qualquer estágio de geocodificação, derivadas de informações incompletas ou ambíguas fornecidas para geocodificação ou dos algoritmos empregados (algoritmos de seleção e classificação de candidatos). Quando falhas ocorrem, a API retorna apenas uma mensagem de erro. Nas próximas seções, os resultados de erro e discrepância são cuidadosamente analisados.
 
-% A próxima etapa foi o calculo do erro para cada um dos pontos, sendo este expresso em quilômetros (Km).
+\section{Erro, Taxa de Resposta e Taxa de Precisão}
 
-% Com o erro de cada um dos pontos, foram calculadas as métricas mencionadas anteriormente. Os resultados bem como suas interpretações são apresentados abaixo.
+A próxima etapa foi o calculo do erro para cada um dos pontos, sendo este expresso em quilômetros (Km).
 
-% A Tabela \ref{tab:tabelaDeMetricasSP} apresenta os resultados calculados para as respostas recebidas da geocodificação da base de São Paulo. Em relação à taxa de resposta, ou seja, o número de endereços que foram geocodificados com sucesso, a Mapbox obteve o melhor resultado, seguida pela ORS, ambas com taxas de resposta superiores a 98\%. Google e TomTom tiveram taxas de resposta de 75\% e 90\%, respectivamente. Esses resultados são considerados satisfatórios e garantem uma boa quantidade de dados para as avaliações subsequentes.
+Com o erro de cada um dos pontos, foram calculadas as métricas mencionadas anteriormente. Os resultados bem como suas interpretações são apresentados abaixo.
 
-% \begin{table}[!ht]
-% \centering
-% \caption{Métricas de Erro para São Paulo}
-% \label{tab:tabelaDeMetricasSP}
-% \begin{adjustbox}{width=0.7\textwidth}
-% \begin{tabular}{|c|c|c|c|}
-% \hline
-% API & Média (km) & Mediana (km) & Desvio Padrão \\
-% \hline
-% Mapbox & 15,3504 & 0,1675 & 83,9394 \\
-% Google Maps & 2,0965 & 0,0555 & 22,0156 \\
-% TomTom & 10,2074 & 0,0638 & 88,0844 \\
-% ORS & 33,9474 & 1,2984 & 103,0119 \\
-% \hline
-% %\multicolumn{4}{c}{} \\ % Espaço em branco entre as tabelas
-% \hline
-% API & Média Ajustada (km) & Taxa de Resposta (\%) & Taxa de Precisão (\%) \\
-% \hline
-% Mapbox & 3,5009 & 98,0565 & 46,5968 \\
-% Google Maps & 0,2327 & 75,0940 & 52,2675 \\
-% TomTom & 0,4768 & 90,9382 & 60,3055 \\
-% ORS & 16,4096 & 98,3364 & 28,6091 \\
-% \hline
-% \end{tabular}
-% \end{adjustbox}
-% \end{table}
+A Tabela \ref{tab:tabelaDeMetricasSP} apresenta os resultados calculados para as respostas recebidas da geocodificação da base de São Paulo. Em relação à taxa de resposta, ou seja, o número de endereços que foram geocodificados com sucesso, a Mapbox obteve o melhor resultado, seguida pela ORS, ambas com taxas de resposta superiores a 98\%. Google e TomTom tiveram taxas de resposta de 75\% e 90\%, respectivamente. Esses resultados são considerados satisfatórios e garantem uma boa quantidade de dados para as avaliações subsequentes.
 
-% Outra métrica importante é a taxa de precisão. Endereços com erros menores que 150 metros (0,15 km) foram considerados precisos. A taxa de precisão foi baixa para a maioria das APIs. A API TomTom teve a maior taxa de precisão, com 60\% de acurácia.
+\begin{table}[!ht]
+    \centering
+    \caption{Métricas de Erro para São Paulo}
+    \label{tab:tabelaDeMetricasSP}
+    \begin{adjustbox}{width=0.7\textwidth}
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    API & Média (km) & Mediana (km) & Desvio Padrão \\
+    \hline
+    Mapbox & 15,3504 & 0,1675 & 83,9394 \\
+    Google Maps & 2,0965 & 0,0555 & 22,0156 \\
+    TomTom & 10,2074 & 0,0638 & 88,0844 \\
+    ORS & 33,9474 & 1,2984 & 103,0119 \\
+    \hline
+    %\multicolumn{4}{c}{} \\ % Espaço em branco entre as tabelas
+    \hline
+    API & Média Aparada em 5\% (km) & Taxa de Resposta (\%) & Taxa de Precisão (\%) \\
+    \hline
+    Mapbox & 3,5009 & 98,0565 & 46,5968 \\
+    Google Maps & 0,2327 & 75,0940 & 52,2675 \\
+    TomTom & 0,4768 & 90,9382 & 60,3055 \\
+    ORS & 16,4096 & 98,3364 & 28,6091 \\
+    \hline
+    \end{tabular}
+    \end{adjustbox}
+\end{table}
 
-% O erro médio foi bastante elevado, variando de 2 km a 33 km. O desvio padrão também foi alto, indicando uma variação considerável no erro. No entanto, a mediana foi bastante baixa, alcançando resultados desejáveis em nossa pesquisa. A média aparada produziu resultados muito bons, indicando a presença de um número significativo de valores atípicos.
+Outra métrica importante é a taxa de precisão. Endereços com erros menores que 150 metros (0,15 km) foram considerados precisos. A taxa de precisão foi baixa para a maioria das APIs. A API TomTom teve a maior taxa de precisão, com 60\% de acurácia.
 
-% Da mesma forma, calculamos o erro para cada ponto geocodificado no banco de dados de Belo Horizonte e computamos as métricas mencionadas anteriormente. A Tabela \ref{tab:tabelaDeMetricasBH} exibe esses resultados.
+O erro médio foi bastante elevado, variando de 2 km a 33 km. O desvio padrão também foi alto, indicando uma variação considerável no erro. No entanto, a mediana foi bastante baixa, alcançando resultados desejáveis em nossa pesquisa. A média aparada produziu resultados muito bons, indicando a presença de um número significativo de valores atípicos.
 
-% \begin{table}[!ht]
-% \centering
-% \caption{Métricas de Erro para Belo Horizonte}
-% \label{tab:tabelaDeMetricasBH}
-% \begin{adjustbox}{width=0.7\textwidth}
-% \begin{tabular}{|c|c|c|c|}
-% \hline
-% API & Média (km) & Mediana (km) & Desvio Padrão \\
-% \hline
-% Mapbox & 3,2857 & 0,0001 & 24,7587 \\
-% Google Maps & 2,4924 & 0,0098 & 5,8465 \\
-% TomTom & 11,2913 & 0,1147 & 56,6424 \\
-% ORS & 6,4828 & 7,5702 & 5,5364 \\
-% \hline
-% %\multicolumn{4}{c}{} \\ % Espaço em branco entre as tabelas
-% \hline
-% API & Média Ajustada (km) & Taxa de Resposta (\%) & Taxa de Precisão (\%) \\
-% \hline
-% Mapbox & 1,0701 & 99,9600 & 76,8235 \\
-% Google Maps & 1,6146 & 99,9306 & 73,6118 \\
-% TomTom & 0,4768 & 99,9776 & 51,7988 \\
-% ORS & 6,2940 & 99,8400 & 25,1835 \\
-% \hline
-% \end{tabular}
-% \end{adjustbox}
-% \end{table}
+Da mesma forma, calculamos o erro para cada ponto geocodificado no banco de dados de Belo Horizonte e computamos as métricas mencionadas anteriormente. A Tabela \ref{tab:tabelaDeMetricasBH} exibe esses resultados.
 
-% Em relação à taxa de resposta, todas as APIs tiveram excelentes resultados, com mais de 99\% de resposta para o banco de dados fornecido. Este é um resultado significativo para a pesquisa, pois as conclusões são mais robustas devido à quantidade de dados analisados.
+\begin{table}[!ht]
+    \centering
+    \caption{Métricas de Erro para Belo Horizonte}
+    \label{tab:tabelaDeMetricasBH}
+    \begin{adjustbox}{width=0.7\textwidth}
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    API & Média (km) & Mediana (km) & Desvio Padrão \\
+    \hline
+    Mapbox & 3,2857 & 0,0001 & 24,7587 \\
+    Google Maps & 2,4924 & 0,0098 & 5,8465 \\
+    TomTom & 11,2913 & 0,1147 & 56,6424 \\
+    ORS & 6,4828 & 7,5702 & 5,5364 \\
+    \hline
+    %\multicolumn{4}{c}{} \\ % Espaço em branco entre as tabelas
+    \hline
+    API & Média Aparada em 5\% (km) & Taxa de Resposta (\%) & Taxa de Precisão (\%) \\
+    \hline
+    Mapbox & 1,0701 & 99,9600 & 76,8235 \\
+    Google Maps & 1,6146 & 99,9306 & 73,6118 \\
+    TomTom & 0,4768 & 99,9776 & 51,7988 \\
+    ORS & 6,2940 & 99,8400 & 25,1835 \\
+    \hline
+    \end{tabular}
+    \end{adjustbox}
+\end{table}
 
-% A taxa de precisão também mostrou resultados satisfatórios, com os melhores resultados vindos da Mapbox e Google Maps, com taxas superiores a 73\%. Este resultado é bastante satisfatório e está alinhado com os resultados obtidos em \cite{Clodoveu2011}. No entanto, TomTom e ORS apresentaram baixas taxas de precisão, sendo que ORS teve uma taxa extremamente baixa de 25\%. É importante observar que um resultado foi considerado preciso se o erro fosse menor ou igual a 150 metros.
+Em relação à taxa de resposta, todas as APIs tiveram excelentes resultados, com mais de 99\% de resposta para o banco de dados fornecido. Este é um resultado significativo para a pesquisa, pois as conclusões são mais robustas devido à quantidade de dados analisados.
 
-% O erro médio apresentou valores muito mais suaves do que os obtidos com o conjunto de dados de São Paulo, embora ainda estivessem elevados, variando de aproximadamente 2 a 11 quilômetros. Os valores medianos foram bastante baixos para a maioria das APIs, e o desvio padrão foi bastante alto. Esse resultado indica que também existem valores de erro muito altos nessa geocodificação. A API ORS apresentou resultados diferentes das outras APIs, com valores altos de média, mediana e desvio padrão, o que provavelmente explica a baixa taxa de precisão.
+A taxa de precisão também mostrou resultados satisfatórios, com os melhores resultados vindos da Mapbox e Google Maps, com taxas superiores a 73\%. Este resultado é bastante satisfatório e está alinhado com os resultados obtidos em \cite{Clodoveu2011}. No entanto, TomTom e ORS apresentaram baixas taxas de precisão, sendo que ORS teve uma taxa extremamente baixa de 25\%. É importante observar que um resultado foi considerado preciso se o erro fosse menor ou igual a 150 metros.
+
+O erro médio apresentou valores muito mais suaves do que os obtidos com o conjunto de dados de São Paulo, embora ainda estivessem elevados, variando de aproximadamente 2 a 11 quilômetros. Os valores medianos foram bastante baixos para a maioria das APIs, e o desvio padrão foi bastante alto. Esse resultado indica que também existem valores de erro muito altos nessa geocodificação. A API ORS apresentou resultados diferentes das outras APIs, com valores altos de média, mediana e desvio padrão, o que provavelmente explica a baixa taxa de precisão.
 
 % \section{Distribuição de Erro}
 

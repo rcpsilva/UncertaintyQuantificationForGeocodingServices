@@ -12,14 +12,15 @@
 \contentsline {subsection}{\numberline {2.3.1}Erro, Taxa de Resposta e Discrepância}{13}{subsection.2.3.1}%
 \contentsline {section}{\numberline {2.4}Experimentos para avaliação da formatação da entrada}{16}{section.2.4}%
 \contentsline {chapter}{\chapternumberline {3}Resultados}{18}{chapter.3}%
-\contentsline {chapter}{\chapternumberline {4}Considerações Finais}{19}{chapter.4}%
+\contentsline {section}{\numberline {3.1}Erro, Taxa de Resposta e Taxa de Precisão}{18}{section.3.1}%
+\contentsline {chapter}{\chapternumberline {4}Considerações Finais}{21}{chapter.4}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Refer\^encias}{20}{chapter*.21}%
+\contentsline {chapter}{Refer\^encias}{22}{chapter*.23}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
-\contentsline {part}{Anexos}{22}{section*.22}%
-\contentsline {appendix}{\chapternumberline {A}Tabelas dos experimentos de formatação completas}{23}{appendix.anexochapback.1}%
-\contentsline {section}{\numberline {A.1}Resultados Mapbox}{23}{section.anexochapback.1.1}%
-\contentsline {section}{\numberline {A.2}Resultados Google}{23}{section.anexochapback.1.2}%
-\contentsline {section}{\numberline {A.3}Resultados TomTom}{23}{section.anexochapback.1.3}%
-\contentsline {section}{\numberline {A.4}Resultados Open Route Service}{23}{section.anexochapback.1.4}%
+\contentsline {part}{Anexos}{24}{section*.24}%
+\contentsline {appendix}{\chapternumberline {A}Tabelas dos experimentos de formatação completas}{25}{appendix.anexochapback.1}%
+\contentsline {section}{\numberline {A.1}Resultados Mapbox}{25}{section.anexochapback.1.1}%
+\contentsline {section}{\numberline {A.2}Resultados Google}{25}{section.anexochapback.1.2}%
+\contentsline {section}{\numberline {A.3}Resultados TomTom}{25}{section.anexochapback.1.3}%
+\contentsline {section}{\numberline {A.4}Resultados Open Route Service}{25}{section.anexochapback.1.4}%
