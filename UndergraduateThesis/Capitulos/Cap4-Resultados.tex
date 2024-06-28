@@ -183,75 +183,75 @@ Para os dados de Belo Horizonte, a API Mapbox teve melhores resultados com uma c
 
 Em geral, embora os histogramas sejam uma ferramenta poderosa para analisar a distribuição de erros, neste caso, eles não se mostraram tão eficazes devido às limitações decorrentes da presença de valores excessivamente altos.
 
-% \section{Distribuição Espacial do Erro}
+\section{Distribuição Espacial do Erro}
 
-% Além disso, realizamos uma análise adicional com o objetivo de verificar o comportamento do erro no espaço. Utilizamos gráficos de classificação hexagonal, empregando a função hexbin da biblioteca matplotlib, que desempenha um papel integral na construção do gráfico. Essa função automatiza o processo, dividindo o espaço em hexágonos de tamanhos uniformes e distribuídos de maneira equitativa. Em seguida, a função hexbin seleciona os pontos de dados contidos em cada hexágono e aplica uma função específica, que é definida como parâmetro da função hexbin. Essa função determina os cálculos realizados com base nos pontos, gerando um valor único. Esse valor é então atribuído ao hexágono correspondente no gráfico, e as cores são mapeadas de acordo com uma escala predefinida.
+Além disso, realizamos uma análise adicional com o objetivo de verificar o comportamento do erro no espaço. Utilizamos gráficos de classificação hexagonal, empregando a função hexbin da biblioteca matplotlib, que desempenha um papel integral na construção do gráfico. Essa função automatiza o processo, dividindo o espaço em hexágonos de tamanhos uniformes e distribuídos de maneira equitativa. Em seguida, a função hexbin seleciona os pontos de dados contidos em cada hexágono e aplica uma função específica, que é definida como parâmetro da função hexbin. Essa função determina os cálculos realizados com base nos pontos, gerando um valor único. Esse valor é então atribuído ao hexágono correspondente no gráfico, e as cores são mapeadas de acordo com uma escala predefinida.
 
-% Para gerar a representação do gráfico introduzimos o conceito de "falha". Quando o erro em um ponto específico é igual ou inferior a 150 metros, atribuímos o valor 0 à falha; caso contrário, designamos o valor 1. A função escolhida para calcular o valor de cada hexágono é a média da falha dos pontos, resultando em uma representação em porcentagem decimal da falha naquela região. Assim, quanto mais escura a cor do gráfico, maior é a falha observada. Para melhor vizualização, também adicionamos o limite da cidade como contorno do gráfico. As figuras \ref{fig:falhas-global-bh} e \ref{fig:falhas-global-sp} apresentam os gráficos de falhas de cada uma das APIs para os dados de Belo Horizonte e São Paulo respectivamente. 
+Para gerar a representação do gráfico introduzimos o conceito de "falha". Quando o erro em um ponto específico é igual ou inferior a 150 metros, atribuímos o valor 0 à falha; caso contrário, designamos o valor 1. A função escolhida para calcular o valor de cada hexágono é a média da falha dos pontos, resultando em uma representação em porcentagem decimal da falha naquela região. Assim, quanto mais escura a cor do gráfico, maior é a média sa falha observada. Para melhor vizualização, também adicionamos o limite da cidade como contorno do gráfico. As figuras \ref{fig:falhas-global-bh} e \ref{fig:falhas-global-sp} apresentam os gráficos de falhas de cada uma das APIs para os dados de Belo Horizonte e São Paulo respectivamente. 
 
-% Para os dados de Belo Horizonte é possível notar que a API com gráfico mais claro, ou seja, menos falhas, é a Mapbox, seguido pela Google. Resultado que vai de encontro com os obtidos nas tabela de métricas \ref{tab:tabelaDeMetricasBH}. Outra informação relevante que é possível observar é que em todas as APIs existe uma concentração maior de falhas próximo aos limites da cidade, como esperado. Outro ponto importante é o gráfico da ORS. A maior parte do gráfico para essa API apresenta cores bem escuras, indicando muitas falhas em toda região da cidade para essa API. Mais especificamente nas regiões superior e inferior do gráfico o valor chega próximo do limite máximo, o que indica que naquela região houve aproximadamente 100\% de falha. Esse resultado, apesar de ruim, está de acordo com os análises sobre a ORS feitas anteriormente. 
+Para os dados de Belo Horizonte é possível notar que a API com gráfico mais claro, ou seja, menos falhas, é a Mapbox, seguido pela Google Maps. Resultado que vai de encontro com os obtidos na tabela de métricas \ref{tab:tabelaDeMetricasBH}. Outra informação relevante que é possível observar é que em todas as APIs existe uma concentração maior de falhas próximo aos limites da cidade, como esperado. Outro ponto importante é o gráfico da ORS. A maior parte do gráfico para essa API apresenta cores bem escuras, indicando muitas falhas em toda região da cidade para essa API. Mais especificamente nas regiões superior e inferior do gráfico o valor chega próximo do limite máximo, o que indica que naquela região houve aproximadamente 100\% de falha. Esse resultado, apesar de ruim, está de acordo com os análises sobre a ORS feitas anteriormente. 
 
-% \begin{figure}[ht]
-%   \centering
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/falhasMapboxBH.png}
-%     \caption{Mapbox}
-%     \label{fig:falhasmapboxB}
-%   \end{subfigure}
-%   \hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/falhasGoogleBH.png}
-%     \caption{Google}
-%     \label{fig:falhasgoogleB}
-%   \end{subfigure}
+\begin{figure}[ht]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/falhasMapboxBH.png}
+    \caption{Mapbox}
+    \label{fig:falhasmapboxB}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/falhasGoogleBH.png}
+    \caption{Google}
+    \label{fig:falhasgoogleB}
+  \end{subfigure}
 
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/falhasTomtomBH.png}
-%     \caption{TomTom}
-%     \label{fig:falhastomtomB}
-%   \end{subfigure}
-%   \hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/falhasORSBH.png}
-%     \caption{ORS}
-%     \label{fig:falhasorsB}
-%   \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/falhasTomtomBH.png}
+    \caption{TomTom}
+    \label{fig:falhastomtomB}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/falhasORSBH.png}
+    \caption{ORS}
+    \label{fig:falhasorsB}
+  \end{subfigure}
   
-%   \caption{Gráficos de falhas de cada API para os dados de Belo Horizonte}
-%   \label{fig:falhas-global-bh}
-% \end{figure}
+  \caption{Gráficos de falhas de cada API para os dados de Belo Horizonte}
+  \label{fig:falhas-global-bh}
+\end{figure}
 
-% Nos gráficos de São Paulo também foi adicionado o contorno da cidade. No entanto, os dados são referentes a região metropolitana, incluindo outras cidades da região. Para essa base é possível notar que as APIs Google Maps e TomTom tem melhores resultados, o que confirma os resultados obtidos na tabela \ref{tab:tabelaDeMetricasSP}. Outro resultado notável é que nos outros municípios o resultado piora em todas as APIs, atingindo valores de falha muito próximo de 1. Por fim, as APIs que foram piores foram Mapbox e ORS. A ORS foi claramente pior, repetindo os resultado de Belo Horizontes observados nos gráficos da figura \ref{fig:falhas-global-bh} e nas tabelas \ref{tab:tabelaDeMetricasBH} e \ref{tab:tabelaDeMetricasSP}.
+Nos gráficos de São Paulo também foi adicionado o contorno da cidade. No entanto, os dados são referentes a região metropolitana, incluindo outras cidades da região. Para essa base é possível notar que as APIs Google Maps e TomTom tem melhores resultados, o que confirma os resultados obtidos na tabela \ref{tab:tabelaDeMetricasSP}. Outro resultado notável é que nos outros municípios o resultado piora em todas as APIs, atingindo valores de falha muito próximo de 1. Por fim, as APIs que foram piores foram Mapbox e ORS. A ORS foi claramente pior, repetindo os resultado de Belo Horizontes observados nos gráficos da figura \ref{fig:falhas-global-bh} e nas tabelas \ref{tab:tabelaDeMetricasBH} e \ref{tab:tabelaDeMetricasSP}.
 
-% \begin{figure}[ht]
-%   \centering
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/falhasMapboxSP.png}
-%     \caption{Mapbox}
-%     \label{fig:falhasmapboxS}
-%   \end{subfigure}
-%   \hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/falhasGoogleSP.png}
-%     \caption{Google}
-%     \label{fig:falhasgoogleS}
-%   \end{subfigure}
+\begin{figure}[ht]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/falhasMapboxSP.png}
+    \caption{Mapbox}
+    \label{fig:falhasmapboxS}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/falhasGoogleSP.png}
+    \caption{Google}
+    \label{fig:falhasgoogleS}
+  \end{subfigure}
 
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/falhasTomtomSP.png}
-%     \caption{TomTom}
-%     \label{fig:falhastomtomS}
-%   \end{subfigure}
-%   \hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/falhasORSSP.png}
-%     \caption{ORS}
-%     \label{fig:falhasorsS}
-%   \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/falhasTomtomSP.png}
+    \caption{TomTom}
+    \label{fig:falhastomtomS}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/falhasORSSP.png}
+    \caption{ORS}
+    \label{fig:falhasorsS}
+  \end{subfigure}
   
-%   \caption{Gráficos de falhas de cada API para os dados de Belo São Paulo}
-%   \label{fig:falhas-global-sp}
-% \end{figure}
+  \caption{Gráficos de falhas de cada API para os dados de Belo São Paulo}
+  \label{fig:falhas-global-sp}
+\end{figure}
 
 % \section{Relações entre erro e discrepância}
 
