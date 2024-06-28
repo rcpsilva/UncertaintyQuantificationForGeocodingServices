@@ -94,95 +94,94 @@ A taxa de precisão também mostrou resultados satisfatórios, com os melhores r
 
 O erro médio apresentou valores muito mais suaves do que os obtidos com o conjunto de dados de São Paulo, embora ainda estivessem elevados, variando de aproximadamente 2 a 11 quilômetros. Os valores medianos foram bastante baixos para a maioria das APIs, e o desvio padrão foi bastante alto. Esse resultado indica que também existem valores de erro muito altos nessa geocodificação. A API ORS apresentou resultados diferentes das outras APIs, com valores altos de média, mediana e desvio padrão, o que provavelmente explica a baixa taxa de precisão.
 
-% \section{Distribuição de Erro}
+\section{Distribuição de Erro}
 
-% Com base nos resultados acima, realizamos uma análise da distribuição de erro para cada uma das GeoAPIs e bases. Para isso, utilizamos histogramas de erro individuais para cada API e os combinamos. As Figuras \ref{fig:hist-global-bh} e \ref{fig:hist-global-sp} mostram os histogramas para cada API e cada base utilizada. No entanto, devido à presença de alguns erros extremos, os histogramas gerais (que continham todo o conjunto de dados) foram são muito representativos, pois a maior parte do erro estava concentrada entre 0 km e 50 km, enquanto existiam erros bem maiores. Esse intervalo é considerado um erro muito grande, tornando desafiador tirar conclusões sólidas. Outra limitação dessa análise, é o fato de que cada API teve um máximo de erro diferente, prejudicando então a comparação entre APIs.
+Com base nos resultados acima, realizamos uma análise da distribuição de erro para cada uma das GeoAPIs e bases. Para isso, utilizamos histogramas de erro individuais para cada API e os combinamos. As Figuras \ref{fig:hist-global-bh} e \ref{fig:hist-global-sp} mostram os histogramas para cada API e cada base utilizada. No entanto, devido à presença de alguns erros extremos, os histogramas gerais (que continham todo o conjunto de dados) não foram muito representativos, pois a maior parte do erro estava concentrada entre 0 km e 50 km, enquanto existiam erros bem maiores. Esse intervalo é considerado um erro muito grande, tornando desafiador tirar conclusões sólidas. Outra limitação dessa análise, é o fato de que cada API teve um máximo de erro diferente, prejudicando então a comparação entre APIs.
 
-% \begin{figure}[ht]
-%   \centering
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/histMapboxSP.png}
-%     \caption{Mapbox}
-%     \label{fig:histmapbox}
-%   \end{subfigure}
-%   \hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/histGoogleSP.png}
-%     \caption{Google}
-%     \label{fig:histgoogle}
-%   \end{subfigure}
+\begin{figure}[ht]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/histMapboxSP.png}
+    \caption{Mapbox}
+    \label{fig:histmapbox}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/histGoogleSP.png}
+    \caption{Google}
+    \label{fig:histgoogle}
+  \end{subfigure}
 
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/histTomtomSP.png}
-%     \caption{TomTom}
-%     \label{fig:histtomtom}
-%   \end{subfigure}
-%   \hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/histOrsSP.png}
-%     \caption{ORS}
-%     \label{fig:histors}
-%   \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/histTomtomSP.png}
+    \caption{TomTom}
+    \label{fig:histtomtom}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/histOrsSP.png}
+    \caption{ORS}
+    \label{fig:histors}
+  \end{subfigure}
   
-%   \caption{Histogramas do erro das 4 APIs para o todos os dados de São Paulo}
-%   \label{fig:hist-global-sp}
-% \end{figure}
+  \caption{Histogramas do erro das 4 APIs para o todos os dados de São Paulo}
+  \label{fig:hist-global-sp}
+\end{figure}
 
 
-% \begin{figure}[ht]
-%   \centering
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/histMapboxBH.png}
-%     \caption{Mapbox}
-%     \label{fig:histmapboxb}
-%   \end{subfigure}
-%   \hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/histGoogleBH.png}
-%     \caption{Google}
-%     \label{fig:histgoogleB}
-%   \end{subfigure}
+\begin{figure}[ht]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/histMapboxBH.png}
+    \caption{Mapbox}
+    \label{fig:histmapboxb}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/histGoogleBH.png}
+    \caption{Google}
+    \label{fig:histgoogleB}
+  \end{subfigure}
 
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/histTomtomBH.png}
-%     \caption{TomTom}
-%     \label{fig:histtomtomB}
-%   \end{subfigure}
-%   \hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/histOrsBH.png}
-%     \caption{ORS}
-%     \label{fig:historsB}
-%   \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/histTomtomBH.png}
+    \caption{TomTom}
+    \label{fig:histtomtomB}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/histOrsBH.png}
+    \caption{ORS}
+    \label{fig:historsB}
+  \end{subfigure}
   
-%   \caption{Histogramas do erro das 4 APIs para o todos os dados de Belo Horizonte}
-%   \label{fig:hist-global-bh}
-% \end{figure}
+  \caption{Histogramas do erro das 4 APIs para o todos os dados de Belo Horizonte}
+  \label{fig:hist-global-bh}
+\end{figure}
 
+Portanto, decidimos cortar os dados, limitando o erro a 300 metros. Repetimos o processo, gerando um único histograma que representa a distribuição de erro para todas as APIs juntas, para cada uma das bases. 
 
-% Portanto, decidimos cortar os dados, limitando o erro a 300 metros. Repetimos o processo, gerando um único histograma que representa a distribuição de erro para todas as APIs juntas, para cada uma das bases. 
+A figura \ref{fig:histLimitadoSP} mostra o histograma resultante para os dados de São Paulo e a figura \ref{fig:histLimitadoBH} mostra o histograma para os dados de Belo Horizonte. 
 
-% A figura \ref{fig:histLimitadoSP} mostra o histograma resultante para os dados de São Paulo e a figura \ref{fig:histLimitadoBH} mostra o histograma para os dados de Belo Horizonte. 
+Em relação aos dados de São Paulo as APIs tiveram resultados similares nessa faixa de valores do erro. Porém as APIs Google Maps e TomTom se destacaram ao conter uma curva mais estreira, ou seja, os valores para essas APIs estão mais concentrados em erro menor que 50 metros. 
 
-% Em relação aos dados de São Paulo as APIs tiveram resultados similares nessa faixa de valores do erro. Porém as APIs Google Maps e TomTom se destacaram ao conter uma curva mais estreira, ou seja, os valores para essa API estão mais concentrados em erro menor que 50 metros. 
+Para os dados de Belo Horizonte, a API Mapbox teve melhores resultados com uma curva bem estreita. Seguida pela Google Maps, que apesar de ter uma curva bem estreita também, apresenta uma diferença significativa para a Mapbox. As outras APIs apresentam curvas mais largas e algo notável é a curva da ORS que está muito distribuída, tendo um aspecto parecido com uma reta em valores de erro superiores a 50 metros. Isso mostra que a ORS apresenta erro similar na maior parte da faixa, o que indica que ela não apresenta bons resultados nem quando há um corte nos dados.
 
-% Para os dados de Belo Horizonte, a API Mapbox teve melhores resultado com uma curva bem estreita. Seguida pela Google Maps, que apesar de ter uma curva bem estreita também, apresenta uma diferença significativa para a Mapbox. As outras APIs apresentam curvas mais largas e algo notável é a curva da mapbox que está muito distribuída, tendo um aspecto parecido com uma reta em valores de erro superiores a 50 metros. Isso mostra que a ORS apresenta erro similar na maior parte da faixa, o que indica que ela não apresenta bons resultados nem quando há um corte nos dados.
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Figuras/histLimitadoSP.png}
+  \caption{Histograma comparativo de erro das APIs limitado em 300 metros para os dados de São Paulo}
+  \label{fig:histLimitadoSP}
+\end{figure}
 
-% \begin{figure}[h]
-%   \centering
-%   \includegraphics[width=0.7\textwidth]{Figuras/histLimitadoSP.png}
-%   \caption{Histograma comparativo de erro das APIs limitado em 300 metros para os dados de São Paulo}
-%   \label{fig:histLimitadoSP}
-% \end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Figuras/histLimitadoBH.png}
+  \caption{Histograma comparativo de erro das APIs limitado em 300 metros para os dados de Belo Horizonte}
+  \label{fig:histLimitadoBH}
+\end{figure}
 
-% \begin{figure}[h]
-%   \centering
-%   \includegraphics[width=0.7\textwidth]{Figuras/histLimitadoBH.png}
-%   \caption{Histograma comparativo de erro das APIs limitado em 300 metros para os dados de Belo Horizonte}
-%   \label{fig:histLimitadoBH}
-% \end{figure}
-
-% Em geral, embora os histogramas sejam uma ferramenta poderosa para analisar a distribuição de erros, neste caso, eles não se mostraram tão eficazes devido às limitações decorrentes da presença de valores excessivamente altos.
+Em geral, embora os histogramas sejam uma ferramenta poderosa para analisar a distribuição de erros, neste caso, eles não se mostraram tão eficazes devido às limitações decorrentes da presença de valores excessivamente altos.
 
 % \section{Distribuição Espacial do Erro}
 
