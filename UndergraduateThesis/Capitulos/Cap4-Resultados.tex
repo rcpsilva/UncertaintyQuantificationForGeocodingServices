@@ -253,51 +253,51 @@ Nos gráficos de São Paulo também foi adicionado o contorno da cidade. No enta
   \label{fig:falhas-global-sp}
 \end{figure}
 
-% \section{Relações entre erro e discrepância}
+\section{Relações entre erro e discrepância}
 
-% Por fim, foi realizada a análise comparativa entre erro e discrepância. As medidas escolhidas para essa análise foram a covariância e a distância para o ponto médio como descrito no capítulo \ref{desenvolvimento}. Foram considerados apenas os endereços em que se tinha informação de todas as APIs. Depois de calcular as métricas para cada um dos pontos foi calculada a correlação de Pearson para cada API e cada base de dados.  
+Então, foi realizada a análise comparativa entre erro e discrepância. As medidas escolhidas para essa análise foram a covariância e a distância para o ponto médio como descrito no capítulo \ref{desenvolvimento}. Foram considerados apenas os endereços em que se tinha informação de todas as APIs. Depois de calcular as métricas para cada um dos pontos foi calculada a correlação de Pearson para cada API e cada base de dados.  
 
-% Realizamos então uma análise com um subconjunto de 8574 endereços do banco de dados de São Paulo. A Tabela \ref{tab:correlationSP} exibe esses resultados. A partir da tabela, pode-se observar que para todas as APIs, as correlações com o erro são positivas. Isso indica que à medida que o erro aumenta, as medidas de discrepância também tendem a aumentar. de acordo com a tabela \ref{tab:correlacaoPearson} a medida de covariância para esses dados apresentou uma correlação regular a forte para a maioria das APIs, variando de 0,53 a 0,67, exceto para o Google Maps, que teve uma correlação fraca. Por outro lado, a medida de distância até o ponto médio obteve uma correlação forte a muito forte para a maioria das APIs, com resultados na faixa de 0,88 a 0,94. Em contrapartida, a API do Google mostrou uma correlação regular muito próxima a fraca, mas houve uma melhoria em comparação com a correlação de covariância.
+Realizamos então uma análise com um subconjunto de 8574 endereços do banco de dados de São Paulo. A Tabela \ref{tab:correlationSP} exibe esses resultados. A partir da tabela, pode-se observar que para todas as APIs, as correlações com o erro são positivas. Isso indica que à medida que o erro aumenta, as medidas de discrepância também tendem a aumentar. de acordo com a tabela \ref{tab:correlacaoPearson} a medida de covariância para esses dados apresentou uma correlação regular a forte para a maioria das APIs, variando de 0,53 a 0,67, exceto para o Google Maps, que teve uma correlação fraca. Por outro lado, a medida de distância até o ponto médio obteve uma correlação forte a muito forte para a maioria das APIs, com resultados na faixa de 0,88 a 0,94. Em contrapartida, a API do Google mostrou uma correlação regular muito próxima a fraca, mas houve uma melhoria em comparação com a correlação de covariância.
 
-% \begin{table}[h]
-% \centering
-% \caption{Correlação  de Pearson entre Erro e Medidas de Discrepância para São Paulo}
-% \label{tab:correlationSP}
-% \begin{adjustbox}{width=0.7\textwidth}
-% \begin{tabular}{|c|c|c|}
-% \hline
-% API & Covariância & Distância até o Ponto Médio \\
-% \hline
-% Mapbox & 0,5387 & 0,8972 \\
-% TomTom & 0,5398 & 0,8858 \\
-% Google & 0,2177 & 0,3615 \\
-% ORS & 0,6649 & 0,9378 \\
-% \hline
-% \end{tabular}
-% \end{adjustbox}
-% \end{table}
+\begin{table}[h]
+    \centering
+    \caption{Correlação  de Pearson entre Erro e Medidas de Discrepância para São Paulo}
+    \label{tab:correlationSP}
+    \begin{adjustbox}{width=0.7\textwidth}
+    \begin{tabular}{|c|c|c|}
+    \hline
+    API & Covariância & Distância até o Ponto Médio \\
+    \hline
+    Mapbox & 0,5387 & 0,8972 \\
+    TomTom & 0,5398 & 0,8858 \\
+    Google & 0,2177 & 0,3615 \\
+    ORS & 0,6649 & 0,9378 \\
+    \hline
+    \end{tabular}
+    \end{adjustbox}
+\end{table}
 
-% Para o conjunto de dados de Belo Horizonte, conduzimos essa análise com 84.752 endereços, o que representa aproximadamente 99,71\% da amostra utilizada. A Tabela \ref{tab:correlationBH} mostra esses resultados. Em geral, a tabela apresenta valores de correlação mais próximos de 0 do que os encontrados na análise dos dados de São Paulo, indicando que a correlação é mais fraca para este conjunto de dados como um todo. Para o Google e o ORS, a covariância mostrou uma correlação fraca, possivelmente indicando nenhuma relação entre erro e covariância para essas APIs. O Mapbox teve uma correlação regular com a covariância, enquanto o TomTom teve uma correlação forte.
+Para o conjunto de dados de Belo Horizonte, conduzimos essa análise com 84.752 endereços, o que representa aproximadamente 99,71\% da amostra utilizada. A Tabela \ref{tab:correlationBH} mostra esses resultados. Em geral, a tabela apresenta valores de correlação mais próximos de 0 do que os encontrados na análise dos dados de São Paulo, indicando que a correlação é mais fraca para este conjunto de dados como um todo. Para o Google e o ORS, a covariância mostrou uma correlação fraca, possivelmente indicando nenhuma relação entre erro e covariância para essas APIs. O Mapbox teve uma correlação regular com a covariância, enquanto o TomTom teve uma correlação forte.
 
-% Para a distância até o ponto médio, tivemos correlações fortes a muito fortes para o Mapbox e o TomTom. O Google e o ORS também apresentaram correlações fracas para a distância do ponto médio. Apesar dos resultados de correlação inferiores em comparação com a análise do conjunto de dados de São Paulo, os resultados de Belo Horizonte parecem confirmar que distância até o ponto médio é uma medida melhor em comparação com a covariância para substituir o erro em situações onde o mesmo não pode ser obtido.
+Para a distância até o ponto médio, tivemos correlações fortes a muito fortes para o Mapbox e o TomTom. O Google e o ORS também apresentaram correlações fracas para a distância do ponto médio. Apesar dos resultados de correlação inferiores em comparação com a análise do conjunto de dados de São Paulo, os resultados de Belo Horizonte parecem confirmar que distância até o ponto médio é uma medida melhor em comparação com a covariância para substituir o erro em situações onde o mesmo não pode ser obtido.
 
-% \begin{table}[!ht]
-% \centering
-% \caption{Correlação de Pearson entre Erro e Medidas de Discrepância para Belo Horizonte}
-% \label{tab:correlationBH}
-% \begin{adjustbox}{width=0.7\textwidth}
-% \begin{tabular}{|c|c|c|}
-% \hline
-% API & Covariância & Distância até o Ponto Médio \\
-% \hline
-% Mapbox & 0,4669 & 0,7764 \\
-% TomTom & 0,7269 & 0,9873 \\
-% Google & 0,0463 & 0,0754 \\
-% ORS & 0,1552 & 0,2775 \\
-% \hline
-% \end{tabular}
-% \end{adjustbox}
-% \end{table}
+\begin{table}[!ht]
+    \centering
+    \caption{Correlação de Pearson entre Erro e Medidas de Discrepância para Belo Horizonte}
+    \label{tab:correlationBH}
+    \begin{adjustbox}{width=0.7\textwidth}
+    \begin{tabular}{|c|c|c|}
+    \hline
+    API & Covariância & Distância até o Ponto Médio \\
+    \hline
+    Mapbox & 0,4669 & 0,7764 \\
+    TomTom & 0,7269 & 0,9873 \\
+    Google & 0,0463 & 0,0754 \\
+    ORS & 0,1552 & 0,2775 \\
+    \hline
+    \end{tabular}
+    \end{adjustbox}
+\end{table}
 
 % \section{Experimentos de Formatação}
 
