@@ -299,149 +299,147 @@ Para a distância até o ponto médio, tivemos correlações fortes a muito fort
     \end{adjustbox}
 \end{table}
 
-% \section{Experimentos de Formatação}
+\section{Experimentos de Formatação}
 
-% Após realizar análises de erro e discrepância nas bases de São Paulo e Belo Horizonte, procedemos com uma amostragem de 5.000 endereços para ambas as bases. O propósito dessa amostragem foi conduzir uma série de experimentos para determinar a melhor formatação de entrada para cada API.
+Após realizar análises de erro e discrepância nas bases de São Paulo e Belo Horizonte, procedemos com uma amostragem de 5.000 endereços para ambas as bases. O propósito dessa amostragem foi conduzir uma série de experimentos para determinar a melhor formatação de entrada para cada API.
 
-% Após a geocodificação dos experimentos, calculamos o erro para cada endereço. Para cada API, computamos a média, mediana, desvio padrão, média aparada em 5\%, taxa de resposta e taxa de acerto, como realizado anteriormente. Os resultados completos podem ser encontrados nas tabelas \ref{tab:mapboxBH}, \ref{tab:mapboxSP}, \ref{tab:googleBH}, \ref{tab:googleSP}, \ref{tab:orsBH}, \ref{tab:tomtomBH}, e \ref{tab:openrouteserviceSP} no anexo \ref{anexo_tabelas_completas} do texto.
+Após a geocodificação dos experimentos, calculamos o erro para cada endereço. Para cada API, computamos a média, mediana, desvio padrão, média aparada em 5\%, taxa de resposta e taxa de acerto, como realizado anteriormente. Os resultados completos podem ser encontrados nas tabelas \ref{tab:mapboxBH}, \ref{tab:mapboxSP}, \ref{tab:googleBH}, \ref{tab:googleSP}, \ref{tab:orsBH}, \ref{tab:tomtomBH}, e \ref{tab:openrouteserviceSP} no anexo \ref{anexo_tabelas_completas} do texto.
 
-% Para uma compreensão mais aprofundada dos resultados e uma análise comparativa, elaboramos duas tabelas para cada base. As tabelas representam a taxa de resposta e a taxa de acerto de cada experimento por API.
+Para uma compreensão mais aprofundada dos resultados e uma análise comparativa, elaboramos duas tabelas para cada base. As tabelas representam a taxa de resposta e a taxa de acerto de cada experimento por API.
 
-% As tabelas \ref{tab:txRespExpAPIBH} e \ref{tab:txRespExpAPISP} mostram as taxas de resposta para as bases de Belo Horizonte e São Paulo, respectivamente. Observamos que todos os experimentos apresentaram excelentes resultados em termos de taxa de resposta, a maioria acima de 95\% com exceção ao Mapbox com taxas acima de 84\%. Não foi identificada uma diferença significativa entre as taxas de resposta nos experimentos. No entanto, em relação às APIs, a ORS apresentou uma taxa de resposta ligeiramente inferior em comparação com as outras APIs para os dados de Belo Horizonte. Em relação aos dados de São Paulo, a mesma situação ocorre com a API TomTom. No entanto, os autores não consideram essa diferença significativa devido à sua pequena magnitude.
+As tabelas \ref{tab:txRespExpAPIBH} e \ref{tab:txRespExpAPISP} mostram as taxas de resposta para as bases de Belo Horizonte e São Paulo, respectivamente. Observamos que todos os experimentos apresentaram excelentes resultados em termos de taxa de resposta, a maioria acima de 95\% com exceção a TomTom com taxas acima de 84\% para os dados de São Paulo. Não foi identificar uma diferença significativa entre as taxas de resposta nos experimentos. No entanto, em relação às APIs, a ORS, em geral, apresentou uma taxa de resposta ligeiramente inferior em comparação com as outras APIs para os dados de Belo Horizonte. Em relação aos dados de São Paulo, a mesma situação ocorre com a API TomTom. No entanto, os autores não consideram essa diferença significativa devido à sua pequena magnitude.
  
-% \begin{table}[!ht]
-% \centering
-% \caption{Taxa de resposta de cada API por experimento de Belo Horizonte}
-% \label{tab:txRespExpAPIBH}
-% \begin{adjustbox}{width=0.7\textwidth}
-% \begin{tabular}{|c|c|c|c|c|}
-% \hline
-% Experimento & MapBox & Google & TomTom & ORS\\
-% \hline
-% 1 & 100,00 & 99,92 & 100,00 & 99,92\\
-% \hline
-% 1b & 99,94 & 99,96 & 99,98 & 95,26 \\
-% \hline
-% 2 & 100,00 & 99,98 & 99,94 & 99,06\\
-% \hline
-% 2b & 99,94 & 99,84 & 99,98 & 95,30\\
-% \hline
-% 3 & 100,00 & 99,92 & 100,00 & 99,04\\
-% \hline
-% 3b & 99,68 & 100,00 & 99,88 & 99,06\\
-% \hline
-% 4 & 100,00 & 99,90 & 99,98 & 100,00\\
-% \hline
-% 4b & 99,92 & 99,92 & 99,98 & 95,12\\
-% \hline
-% 5 & 99,92 & 99,92 & 99,94 & 99,58\\
-% \hline
-% 5b & 99,76 & 99,88 & 99,92 & 99,98\\
-% \hline
-% \end{tabular}
-% \end{adjustbox}
-% \end{table}
+\begin{table}[!ht]
+    \centering
+    \caption{Taxa de resposta de cada API por experimento de Belo Horizonte}
+    \label{tab:txRespExpAPIBH}
+    \begin{adjustbox}{width=0.7\textwidth}
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    Experimento & MapBox & Google & TomTom & ORS\\
+    \hline
+    1 & 100,00 & 99,92 & 100,00 & 99,92\\
+    \hline
+    1b & 99,94 & 99,96 & 99,98 & 95,26 \\
+    \hline
+    2 & 100,00 & 99,98 & 99,94 & 99,06\\
+    \hline
+    2b & 99,94 & 99,84 & 99,98 & 95,30\\
+    \hline
+    3 & 100,00 & 99,92 & 100,00 & 99,04\\
+    \hline
+    3b & 99,68 & 100,00 & 99,88 & 99,06\\
+    \hline
+    4 & 100,00 & 99,90 & 99,98 & 100,00\\
+    \hline
+    4b & 99,92 & 99,92 & 99,98 & 95,12\\
+    \hline
+    5 & 99,92 & 99,92 & 99,94 & 99,58\\
+    \hline
+    5b & 99,76 & 99,88 & 99,92 & 99,98\\
+    \hline
+    \end{tabular}
+    \end{adjustbox}
+\end{table}
 
-% \begin{table}[!ht]
-% \centering
-% \caption{Taxa de resposta de cada API por experimento de São Paulo}
-% \label{tab:txRespExpAPISP}
-% \begin{adjustbox}{width=0.7\textwidth}
-% \begin{tabular}{|c|c|c|c|c|}
-% \hline
-% Experimento & MapBox & Google & ORS & TomTom\\
-% \hline
-% 1 & 97,50 & 99,98 & 99,86 & 85,48\\
-% \hline
-% 2 & 97,78 & 99,86 & 99,50 & 85,52\\
-% \hline
-% 3 & 99,20 & 99,88 & 99,88 & 85,52\\
-% \hline
-% 4 & 97,84 & 99,88 & 99,00 & 85,48\\
-% \hline
-% 5 & 98,00 & 99,90 & 99,96 & 84,14\\
-% \hline
-% \end{tabular}
-% \end{adjustbox}
-% \end{table}
+\begin{table}[!ht]
+    \centering
+    \caption{Taxa de resposta de cada API por experimento de São Paulo}
+    \label{tab:txRespExpAPISP}
+    \begin{adjustbox}{width=0.7\textwidth}
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    Experimento & MapBox & Google & ORS & TomTom\\
+    \hline
+    1 & 97,50 & 99,98 & 99,86 & 85,48\\
+    \hline
+    2 & 97,78 & 99,86 & 99,50 & 85,52\\
+    \hline
+    3 & 99,20 & 99,88 & 99,88 & 85,52\\
+    \hline
+    4 & 97,84 & 99,88 & 99,00 & 85,48\\
+    \hline
+    5 & 98,00 & 99,90 & 99,96 & 84,14\\
+    \hline
+    \end{tabular}
+    \end{adjustbox}
+\end{table}
 
-% A tabela \ref{tab:txAcerExpAPIBH} apresenta a taxa de acerto dos dados de Belo Horizonte. Observa-se que as APIs que alcançaram os melhores resultados foram a Google e MapBox, com destaque para a MapBox, que obteve a melhor taxa de acerto em todos os experimentos. Por outro lado, a ORS teve um impacto negativo, sendo a API com a menor taxa de acerto em relação às outras APIs, com valores baixíssimos variando de 1,40\% a 41\%, resultados que replicam os obtidos nos experimentos anteriores. A API TomTom apresentou um resultado mediano, mantendo taxas acima de 50\% em todos os experimentos.
+A tabela \ref{tab:txAcerExpAPIBH} apresenta a taxa de acerto dos dados de Belo Horizonte. Observa-se que as APIs que alcançaram os melhores resultados foram a Google e MapBox, com destaque para a MapBox, que obteve a melhor taxa de acerto em todos os experimentos. Por outro lado, a ORS teve um impacto negativo, sendo a API com a menor taxa de acerto em relação às outras APIs, com valores baixíssimos variando de 1,40\% a 41\%, resultados que replicam os obtidos nos experimentos anteriores. A API TomTom apresentou um resultado mediano, mantendo taxas acima de 50\% em todos os experimentos.
 
-% Ao comparar os experimentos entre si, nota-se que a melhor taxa de acerto de cada API não foi totalmente consistente, variando para algumas APIs. Os experimentos com as maiores taxas de acerto para cada API foram:
-% \begin{itemize}
-%   \item MapBox: Experimento 1;
-%   \item Google: Experimento 1b;
-%   \item TomTom: Experimento 1b;
-%   \item ORS: Experimento 3.
-% \end{itemize} 
+Ao comparar os experimentos entre si, nota-se que a melhor taxa de acerto de cada API não foi totalmente consistente, variando para algumas APIs. Os experimentos com as maiores taxas de acerto para cada API foram:
+\begin{itemize}
+  \item MapBox: Experimento 1;
+  \item Google: Experimento 1b;
+  \item TomTom: Experimento 1b;
+  \item ORS: Experimento 3.
+\end{itemize} 
 
-% Apesar disso, percebe-se que, para a maioria das APIs, os melhores resultados estão associados a formatos que seguem o padrão do código postal brasileiro \ref{tab:tabelaFormatos}, diferenciando-se apenas pela inclusão ou não do bairro no formato de entrada. Em relação à inclusão do bairro nos experimentos, ocorreu um fenômeno peculiar. Para as APIs MapBox e ORS, a adição do bairro diminuiu a taxa de acerto, ou seja, piorou os resultados. O mesmo não ocorreu com a API Google, que, na maioria dos experimentos, apresentou uma melhoria considerável ao adicionar o bairro. Quanto à API TomTom, houve uma melhoria ao adicionar o bairro a partir do experimento 1, resultando na melhor taxa de acerto; entretanto, para todos os outros experimentos, ocorreu o oposto.
+Apesar disso, percebe-se que, para a maioria das APIs, os melhores resultados estão associados a formatos que seguem o padrão do código postal brasileiro \ref{tab:tabelaFormatos}, diferenciando-se apenas pela inclusão ou não do bairro no formato de entrada. Em relação à inclusão do bairro nos experimentos, ocorreu um fenômeno peculiar. Para as APIs MapBox e ORS, a adição do bairro diminuiu a taxa de acerto, ou seja, piorou os resultados. O mesmo não ocorreu com a API Google, que, na maioria dos experimentos, apresentou uma melhoria considerável ao adicionar o bairro. Quanto à API TomTom, houve uma melhoria ao adicionar o bairro a partir do experimento 1, resultando na melhor taxa de acerto; entretanto, para todos os outros experimentos, ocorreu o oposto.
 
+\begin{table}[!ht]
+    \centering
+    \caption{Taxa de acerto de cada API por experimento de Belo Horizonte}
+    \label{tab:txAcerExpAPIBH}
+    \begin{adjustbox}{width=0.7\textwidth}
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    Experimento & MapBox & Google & TomTom & ORS\\
+    \hline
+    1 & 85,06 & 72,72 & 52,80 & 26,46\\
+    \hline
+    1b & 80,88 & 80,64 & 56,34 & 15,62\\
+    \hline
+    2 & 82,46 & 73,30 & 55,66 & 22,28\\
+    \hline
+    2b & 79,82 & 78,02 & 53,76 & 5,46\\
+    \hline
+    3 & 84,00 & 73,38 & 55,82 & 40,06\\
+    \hline
+    3b & 80,56 & 78,30 & 53,92 & 39,08\\
+    \hline
+    4 & 84,66 & 73,26 & 55,32 & 1,46\\
+    \hline
+    4b & 79,86 & 77,78 & 53,76 & 6,72\\
+    \hline
+    5 & 83,80 & 73,32 & 55,78 & 1,48\\
+    \hline
+    5b & 81,00 & 72,92 & 53,92 & 24,78\\
+    \hline
+    \end{tabular}
+    \end{adjustbox}
+\end{table}
 
-% \begin{table}[!ht]
-% \centering
-% \caption{Taxa de acerto de cada API por experimento de Belo Horizonte}
-% \label{tab:txAcerExpAPIBH}
-% \begin{adjustbox}{width=0.7\textwidth}
-% \begin{tabular}{|c|c|c|c|c|}
-% \hline
-% Experimento & MapBox & Google & TomTom & ORS\\
-% \hline
-% 1 & 85,06 & 72,72 & 52,80 & 26,46\\
-% \hline
-% 1b & 80,88 & 80,64 & 56,34 & 15,62\\
-% \hline
-% 2 & 82,46 & 73,30 & 55,66 & 22,28\\
-% \hline
-% 2b & 79,82 & 78,02 & 53,76 & 5,46\\
-% \hline
-% 3 & 84,00 & 73,38 & 55,82 & 40,06\\
-% \hline
-% 3b & 80,56 & 78,30 & 53,92 & 39,08\\
-% \hline
-% 4 & 84,66 & 73,26 & 55,32 & 1,46\\
-% \hline
-% 4b & 79,86 & 77,78 & 53,76 & 6,72\\
-% \hline
-% 5 & 83,80 & 73,32 & 55,78 & 1,48\\
-% \hline
-% 5b & 81,00 & 72,92 & 53,92 & 24,78\\
-% \hline
-% \end{tabular}
-% \end{adjustbox}
-% \end{table}
+A tabela \ref{tab:txAcerExpAPISP} apresenta a taxa de acerto para os experimentos em São Paulo. Como mencionado anteriormente, a base de São Paulo não continha informações sobre bairros, resultando na análise apenas dos experimentos de formatação sem bairro.
 
-% A tabela \ref{tab:txAcerExpAPISP} apresenta a taxa de acerto para os experimentos em São Paulo. Como mencionado anteriormente, a base de São Paulo não continha informações sobre bairros, resultando na análise apenas dos experimentos de formatação sem bairro.
+Com esses resultados, observamos que as APIs com as maiores taxas de acerto foram Google, TomTom e Mapbox como visto nos experimentos em Belo Horizonte. No entanto, nos experimentos em São Paulo, a Google teve um desempenho superior, sendo o destaque para essa base, seguida pela TomTom e Mapbox. A ORS, por outro lado, teve novamente um desempenho ruim, com taxas de acerto muito baixas, variando de 1\% a 29\%.
 
-% Com esses resultados, observamos novamente que as APIs com as maiores taxas de acerto foram MapBox e Google, como visto nos experimentos em Belo Horizonte. No entanto, nos experimentos em São Paulo, a Google teve um desempenho superior, sendo o destaque para essa base. A ORS, por outro lado, teve novamente um desempenho negativo, com taxas de acerto muito baixas, variando de 1\% a 29\%.
+Em relação aos experimentos, o Experimento 1 obteve a melhor taxa de acerto para quase todas as APIs, reforçando a hipótese de que a melhor formatação de entrada para as requisições de API no território nacional segue o código postal brasileiro. Para a API TomTom no entanto, o experimento com melhor resultado foi o Experimento 2. Porém com um valor bem similar ao Experimento 1. Em geral, para a base de São Paulo, as APIs apresentaram resultados inferiores, porém medianos, o que também foi observado na análise das APIs com a base completa.
 
-% Em relação aos experimentos, o Experimento 1 obteve a melhor taxa de acerto para todas as APIs, reforçando a hipótese de que a melhor formatação de entrada para as requisições de API no território nacional segue o código postal brasileiro. Em geral, para a base de São Paulo, as APIs apresentaram resultados inferiores, porém medianos, o que também foi observado na análise das APIs com a base completa.
+\begin{table}[!ht]
+  \centering
+  \caption{Taxa de acerto de cada API por experimento de São Paulo}
+  \label{tab:txAcerExpAPISP}
+  \begin{adjustbox}{width=0.7\textwidth}
+  \begin{tabular}{|c|c|c|c|c|}
+  \hline
+  Experimento & MapBox & Google & ORS & TomTom\\
+  \hline
+  1 & 41,78 & 50,80 & 28,94 & 44,94\\
+  \hline
+  2 & 37,04 & 48,54 & 5,30 & 44,96\\
+  \hline
+  3 & 41,26 & 48,42 & 0,14 & 45,02\\
+  \hline
+  4 & 40,90 & 48,42 & 14,94 & 44,90\\
+  \hline
+  5 & 40,10 & 48,00 & 1,04 & 44,40\\
+  \hline
+  \end{tabular}
+  \end{adjustbox}
+\end{table}
 
-
-% \begin{table}[!ht]
-%   \centering
-%   \caption{Taxa de acerto de cada API por experimento de São Paulo}
-%   \label{tab:txAcerExpAPISP}
-%   \begin{adjustbox}{width=0.7\textwidth}
-%   \begin{tabular}{|c|c|c|c|c|}
-%   \hline
-%   Experimento & MapBox & Google & ORS & TomTom\\
-%   \hline
-%   1 & 41,78 & 50,80 & 28,94 & 44,94\\
-%   \hline
-%   2 & 37,04 & 48,54 & 5,30 & 44,96\\
-%   \hline
-%   3 & 41,26 & 48,42 & 0,14 & 45,02\\
-%   \hline
-%   4 & 40,90 & 48,42 & 14,94 & 44,90\\
-%   \hline
-%   5 & 40,10 & 48,00 & 1,04 & 44,40\\
-%   \hline
-%   \end{tabular}
-%   \end{adjustbox}
-%   \end{table}
-
-% Após a construção das tabelas, decidimos criar BoxPlots para comparar os resultados dos experimentos e das APIs.
+Após a construção das tabelas, decidimos criar BoxPlots para comparar os resultados dos experimentos e das APIs.
 
 % Para os dados de Belo Horizonte, começamos construindo inicialmente boxplots de experimento por erro, com cada API representada por um boxplot. A Figura \ref{fig:boxplot-completo-bh} mostra esse boxplot. Embora seja possível observar a presença de valores de erro extremos em todas as APIs, chegando a 3000 km, a presença de outliers dificulta uma análise mais detalhada.
 
