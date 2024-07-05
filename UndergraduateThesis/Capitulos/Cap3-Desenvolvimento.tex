@@ -6,7 +6,7 @@ Para atingir os objetivos citados, recorremos a duas bases de dados padrão-ouro
 
 Foram coletadas duas bases de dados distintas para este trabalho.
 
-A primeira base coletada é proveniente do Centro de Estudos da Metrópole (CEM) \cite{cem}. Essa base consiste em 12.502 endereços de escolas públicas e particulares do ensino básico da região metropolitana de São Paulo. A coleta desses dados foi realizada manualmente pelo CEM, utilizando GPS para registrar as coordenadas. Além das informações sobre os endereços, a base também contém uma variedade de informações sobre as escolas, possibilitando diversas análises relacionadas a esses dados. O CEM também disponibilizou um \href{http://200.144.244.241:3002/geolocation}{mapa de cluster} que exibe todas as escolas, facilitando a visualização da localização de cada uma delas e da densidade das escolas em São Paulo e região. A Figura \ref{fig:siteCEM} mostra o mapa de cluster. Nele, é possível visualizar a localização das escolas individualmente (ao dar zoom) e, ao dar zoom-out, a concentração de escolas em determinadas áreas, utilizando um sistema de cores no qual laranja representa muitas escolas, amarelo representa uma quantidade média e verde representa poucas escolas. 
+A primeira base utilizada é proveniente do Centro de Estudos da Metrópole (CEM) \cite{cem}. Essa base consiste em 12.502 endereços de escolas públicas e particulares do ensino básico da região metropolitana de São Paulo. A coleta desses dados foi realizada manualmente pelo CEM, utilizando GPS para registrar as coordenadas. Além das informações sobre os endereços, a base também contém uma variedade de informações sobre as escolas, possibilitando diversas análises relacionadas a esses dados. O CEM também disponibilizou um \href{http://200.144.244.241:3002/geolocation}{mapa de cluster} que exibe todas as escolas, facilitando a visualização da localização de cada uma delas e da densidade das escolas em São Paulo e região. A Figura \ref{fig:siteCEM} mostra o mapa de cluster. Nele, é possível visualizar a localização das escolas individualmente (ao dar zoom) e, ao dar zoom-out, a concentração de escolas em determinadas áreas, utilizando um sistema de cores no qual laranja representa muitas escolas, amarelo representa uma quantidade média e verde representa poucas escolas. 
 
 \begin{figure} 
     \centering
@@ -24,10 +24,10 @@ Apesar de o mapa de cluster ser uma representação útil, resolvemos criar um g
     \label{fig:baseSP}
 \end{figure}
 
+A segunda base de dados utilizada foi fornecida pela \cite{Prodabel}, a empresa de informática e informação da prefeitura de Belo Horizonte. A descoberta dessa base de dados foi possibilitada pelo artigo de referência \cite{Clodoveu2011}. Essa base de dados é mantida e atualizada mensalmente por 27 empresas, tanto públicas quanto privadas, de Belo Horizonte. Essas empresas tem a responsabilidade de relatar quaisquer inconsistências encontradas na base e de fornecer novos dados à medida que os adquiriam. Ela é considerada uma fonte confiável de informações, pois esta em constante atualização e é amplamente utilizada por diversos serviços da prefeitura. Um exemplo notável e
+é o uso da base para georreferenciamento na distribuição de alunos da rede pública. Esse serviço consiste em designar a escola pública para qual aluno irá com base na distância entre a moradia do aluno e a escola. Essa base então é utilizada para selecionar escolas para todos os alunos de forma a diminuir as distâncias entre a escola e os alunos para cada um dos alunos. Sendo assim, é uma base bastante relevante para a cidade de Belo Horizonte \cite{Clodoveu2011}.
 
-A segunda base de dados coletada foi fornecida pela \cite{Prodabel}, a empresa de informática e informação da prefeitura de Belo Horizonte. A descoberta dessa base de dados foi possibilitada pelo artigo de referência \cite{Clodoveu2011}. Essa base de dados era mantida e atualizada mensalmente por 27 empresas, tanto públicas quanto privadas, de Belo Horizonte. Essas empresas tinham a responsabilidade de relatar quaisquer inconsistências encontradas na base e de fornecer novos dados à medida que os adquiriam. Ela é considerada uma fonte confiável de informações, pois estava em constante atualização e era amplamente utilizada por diversos serviços da prefeitura. Um exemplo notável era o uso da base para georreferenciamento na distribuição de alunos da rede pública. Esse serviço consiste em designar a escola pública para qual aluno irá com base na distância entre a moradia do aluno e a escola. Essa base então é utilizada para selecionar escolas para todos os alunos de forma a diminuir as distâncias entre a escola e os alunos para cada um dos alunos. Sendo assim, era uma base bastante relevante para a cidade de Belo Horizonte \cite{Clodoveu2011}.
-
-Na data de coleta, essa base continha um total de 763.229 endereços. A prefeitura disponibiliza um \href{https://bhmap.pbh.gov.br}{site com um mapa} que permite a visualização desses endereços. A Figura \ref{fig:siteProdabel} mostra esse site, e na barra de pesquisa, os usuários podem pesquisar endereços específicos e marcá-los no mapa. É importante notar que, ao contrário da maioria das APIs de geocodificação, todos os endereços foram posicionados em cima dos edifícios representados. A discrepância entre essa abordagem e a prática comum de colocar o endereço na frente do edifício pode causar um pequeno erro de alguns metros na comparação da geocodificação.
+Na data de acesso, essa base continha um total de 763.229 endereços. A prefeitura disponibiliza um \href{https://bhmap.pbh.gov.br}{site com um mapa} que permite a visualização desses endereços. A Figura \ref{fig:siteProdabel} mostra esse site, e na barra de pesquisa, os usuários podem pesquisar endereços específicos e marcá-los no mapa. É importante notar que, ao contrário da maioria das APIs de geocodificação, todos os endereços foram posicionados em cima dos edifícios representados. A discrepância entre essa abordagem e a prática comum de colocar o endereço na frente do edifício pode causar um pequeno erro de alguns metros na comparação da geocodificação.
 
 \begin{figure}
     \centering
@@ -58,7 +58,7 @@ Devido a limitações computacionais tanto dos autores deste trabalho quanto da 
 \section{Processo de Geocodificação}
 \label{processoGeo}
 
-Após a coleta das bases, é necessário prepará-las para a geocodificação. A etapa de preparação de dados envolve a seleção dos campos relevantes da base de dados, como nome da rua, número, bairro, CEP e cidade. Em outras palavras, serão selecionados apenas os campos descritivos do endereço e os campos de localização geográfica do endereço. Após a seleção, os dados foram homogeneizados, substituindo abreviações comuns por suas formas completas correspondentes, e todas as letras foram transformadas em letras maiúsculas. Esta etapa é conduzida pela equipe do TerraLAB e demonstrou-se que as APIs respondem de forma mais eficaz quando não há abreviações e as palavras estão escritas em maiúsculo.
+Após a coleta das bases, é necessário prepará-las para a geocodificação. A etapa de preparação de dados envolve a seleção dos campos relevantes da base de dados, como nome da rua, número, bairro, CEP e cidade. Em outras palavras, serão selecionados apenas os campos descritivos do endereço e os campos de localização geográfica do endereço. Após a seleção, os dados foram homogeneizados, substituindo abreviações comuns por suas formas completas correspondentes, e todas as letras foram transformadas em letras maiúsculas. A tabela \ref{tab:abreviacoes} do anexo \ref{tabela_abrev} contém as abreviações utilizadas no processo de padronização. Quaisquer abreviações não contidas na tabela não são tratadas. 
 
 Para realizar a geocodificação, os endereços previamente preparados são inseridos no banco de dados da aplicação responsável por solicitar e coletar informações de geocodificação. Os endereços são então retirados desse banco para serem geocodificados. É importante destacar que o processo de geocodificação é executado pela equipe de Back-end do TerraLAB, e, portanto, é considerado um processo de "caixa preta".
 
@@ -74,7 +74,7 @@ Após a conclusão da geocodificação, os endereços geocodificados, juntamente
 \section{Método de Avaliação}
 \label{metricasErro}
 
-\subsection{Erro, Taxa de Resposta e Discrepância}
+\subsection{Erro e Taxa de Resposta}
 
 A principal métrica utilizada para avaliar a qualidade da geocodificação é o erro do endereço. Com base nesse erro, calcularemos as medidas estatísticas média, mediana, desvio padrão média aparada em 5\%, para analisar a precisão das GeoAPIs. Esse erro é calculado como a distância entre o ponto de referência e o ponto geocodificado pela GeoAPI, conforme as equações abaixo:
 
@@ -104,7 +104,7 @@ Onde:
     \item $\text{lon}_1$ e $\text{lon}_2$ são as longitudes de $p_1$ e $p_2$, respectivamente.
 \end{itemize}
 
-Além disso, outra métrica utilizada é a taxa de resposta por API. Para alguns endereços da base de dados, as GeoAPIs podem retornar um erro, não fornecendo uma geocodificação válida. Nesse caso, nada é inserido no banco de dados. A taxa de resposta é calculada como a quantidade de endereços geocodificados dividida pela quantidade de endereços originais na base de dados. Esse valor é convertido em uma porcentagem para facilitar a compreensão dos resultados, de acordo com a seguinte fórmula:
+Além disso, outra métrica utilizada para avaliar a qualidede é a taxa de resposta da API. Para alguns endereços da base de dados, as GeoAPIs podem retornar um erro, não fornecendo uma geocodificação válida. A taxa de resposta é calculada como a quantidade de endereços geocodificados dividida pela quantidade de endereços originais na base de dados. Esse valor é convertido em uma porcentagem para facilitar a compreensão dos resultados, de acordo com a seguinte fórmula:
 
 \begin{equation}
 tx_{\text{resposta}} (\%) = \left(\frac{qtd_{\text{Geo}}}{qtd_{\text{Ouro}}}\right) \times 100\%
@@ -117,7 +117,7 @@ Onde:
     \item $qtd_{\text{Geo}}$ é a quantidade de endereços resultantes da geocodificação.
 \end{itemize}
 
-Outra métrica obtida por meio do erro é a taxa de precisão. É definida como a porcentagem de endereços com um erro inferior a 150 metros em relação ao número total de endereços. Esse valor foi escolhido com base na afirmação do artigo \cite{Clodoveu2011}, onde os autores colocaram que  150 metros é aproximadamente o tamanho de um quarteirão em Belo Horizonte. É representada pela seguinte fórmula:
+Outra métrica obtida por meio do erro é a taxa de precisão. É definida como a porcentagem de endereços com um erro inferior a 150 metros em relação ao número total de endereços. Esse valor foi escolhido com base em \cite{Clodoveu2011}, que afirma que  150 metros é aproximadamente o tamanho de um quarteirão em Belo Horizonte. É representada pela seguinte fórmula:
 
 \begin{equation}
 tx_{\text{precisão}} (\%) = \left(\frac{qtd_{\text{certo}}}{qtd_{\text{Ouro}}}\right) \times 100\%
@@ -130,19 +130,9 @@ tx_{\text{precisão}} (\%) = \left(\frac{qtd_{\text{certo}}}{qtd_{\text{Ouro}}}\
      \item $qtd_{\text{Ouro}}$ é a quantidade de endereços da base referência;
  \end{itemize}
 
-Para avaliar a discrepância entre geocodificações, duas métricas serão utilizadas: covariância e distância até o ponto médio. A covariância é o desvio padrão dividido pela média. Em nosso estudo, calculamos a covariância para latitude e longitude, considerando apenas os pontos que possuíam informações de todos os serviços de geocodificação. Em seguida, fazemos a média desses dois valores para representar a covariância do endereço. Na distância até o ponto médio, computamos um ponto médio a partir de todas as geocodificações fornecidas para um endereço e então calculamos a distância euclidiana de uma geocodificação até esse ponto médio.
-
-A covariância é definida como:
- \begin{equation}
-    \text{Covariância} = \frac{1}{n}\sum_{i=1}^{n}(\text{lat}_i - \bar{\text{lat}})(\text{lon}_i - \bar{\text{lon}}) 
- \end{equation}
-
-Onde:
- \begin{itemize}
-     \item $n$ é o número de APIs.
-     \item $\text{lat}_i$ e $\text{lon}_i$ são as latitudes e longitudes de cada API no mesmo endereço, respectivamente.
-     \item $\bar{\text{lat}}$ e $\bar{\text{lon}}$ são as médias das latitudes e longitudes.
- \end{itemize}
+\subsection{Discrepância}
+ 
+Para encontrar uma medida que se compare ao erro utilizando apenas informações fornecidas pela geocodificação, é necessário avaliar a discrepância entre as geocodificações. Para isso, será utilizada a métrica de distância do ponto médio. Na distância até o ponto médio, computamos um ponto médio a partir de todas as geocodificações fornecidas para um endereço e então calculamos a distância euclidiana de uma geocodificação até esse ponto médio.
 
 A distância até o ponto médio é calculada como a distância euclidiana de uma geocodificação até o ponto médio e é definida como:
  \begin{equation}
