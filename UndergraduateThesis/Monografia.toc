@@ -21,9 +21,9 @@
 \contentsline {subsection}{\numberline {3.5.1}Distribuição Espacial das Falhas dos Experimentos de Formatação}{35}{subsection.3.5.1}%
 \contentsline {chapter}{\chapternumberline {4}Considerações Finais}{43}{chapter.4}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Refer\^encias}{44}{chapter*.57}%
+\contentsline {chapter}{Refer\^encias}{45}{chapter*.57}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
-\contentsline {part}{Anexos}{46}{section*.58}%
-\contentsline {appendix}{\chapternumberline {A}Abreviações utilizadas}{47}{appendix.anexochapback.1}%
-\contentsline {appendix}{\chapternumberline {B}Tabelas dos experimentos de formatação completas}{49}{appendix.anexochapback.2}%
+\contentsline {part}{Anexos}{47}{section*.58}%
+\contentsline {appendix}{\chapternumberline {A}Abreviações utilizadas}{48}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {B}Tabelas dos experimentos de formatação completas}{50}{appendix.anexochapback.2}%

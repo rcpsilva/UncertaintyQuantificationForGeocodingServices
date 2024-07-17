@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  17 JUL 2024 10:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.26)  17 JUL 2024 17:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1418,12 +1418,12 @@ Package pdftex.def Info: Figuras/expFalhasORSmenorSP.png  used on input line 803
 ) [38 <./Figuras/boxplotApiTomtomSemOut.png>] [39 <./Figuras/boxplotApiOrsSemOut.png> <./Figuras/boxplotApiOrsSemOutSP.png>] [40 <./Figuras/expFalhasMapboxmaior.png> <./Figuras/expFalhasMapboxmenor.png> <./Figuras/expFalhasMapboxmaiorSP.png> <./Figuras/expFalhasMapboxmenorSP.png> <./Figuras/expFalhasGooglemaior.png> <./Figuras/expFalhasGooglemenor.png>] [41 <./Figuras/expFalhasGooglemaiorSP.png> <./Figuras/expFalhasGooglemenorSP.png> <./Figuras/expFalhasTomtommaior.png> <./Figuras/expFalhasTomtommenor.png> <./Figuras/expFalhasTomtommaiorSP.png> <./Figuras/expFalhasTomtommenorSP.png>] [42 <./Figuras/expFalhasORSmaior.png> <./Figuras/expFalhasORSmenor.png> <./Figuras/expFalhasORSmaiorSP.png> <./Figuras/expFalhasORSmenorSP.png>]
 \openout2 = `Capitulos/Cap5-Conclusao.aux'.
 
- (Capitulos/Cap5-Conclusao.tex) [43
+ (Capitulos/Cap5-Conclusao.tex [43
 
 
 
 
-] (Monografia.bbl
+]) [44] (Monografia.bbl
 bibitemlist
 
 Underfull \hbox (badness 2057) in paragraph at lines 43--46
@@ -1440,7 +1440,7 @@ Underfull \hbox (badness 1655) in paragraph at lines 55--58
 []\T1/qtm/m/n/12 (+20) DOCUMENTAÁ„O da Open Route Ser-vice Ge-o-co-din API. 
  []
 
-[44
+[45
 
 
 
@@ -1454,10 +1454,10 @@ Overfull \hbox (185.71548pt too wide) in paragraph at lines 150--153
 \T1/qtm/m/n/12 (-20) Urlhttps://github.com/rcpsilva/UncertaintyQuantificationForGeocodingServices/blob/main/UndergraduateThesis/Documentos/Relatorio- 
  []
 
-) [45]
+) [46]
 \openout2 = `PosTextuais/Anexo.aux'.
 
- (PosTextuais/Anexo.tex [46
+ (PosTextuais/Anexo.tex [47
 
 
 
@@ -1465,16 +1465,16 @@ Overfull \hbox (185.71548pt too wide) in paragraph at lines 150--153
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[47
+[48
 
-] [48]
+] [49]
 Overfull \hbox (2.58005pt too wide) in paragraph at lines 185--201
  [][] 
  []
 
-) [49
+) [50
 
-] [50] [51] (Monografia.ind)
+] [51] [52] (Monografia.ind)
 \tf@lof=\write5
 \openout5 = `Monografia.lof'.
 
@@ -1495,17 +1495,17 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 23548 strings out of 476331
- 404023 string characters out of 5787765
+ 23550 strings out of 476331
+ 404046 string characters out of 5787765
  1901660 words of memory out of 5000000
- 43196 multiletter control sequences out of 15000+600000
+ 43197 multiletter control sequences out of 15000+600000
  561637 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,15n,90p,1439b,702s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on Monografia.pdf (60 pages, 3256571 bytes).
+Output written on Monografia.pdf (61 pages, 3261449 bytes).
 PDF statistics:
- 983 PDF objects out of 1000 (max. 8388607)
- 190 named destinations out of 1000 (max. 500000)
+ 989 PDF objects out of 1000 (max. 8388607)
+ 191 named destinations out of 1000 (max. 500000)
  30749 words of extra memory for PDF output out of 35830 (max. 10000000)
 
