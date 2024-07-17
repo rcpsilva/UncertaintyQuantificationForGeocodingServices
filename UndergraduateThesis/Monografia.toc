@@ -15,14 +15,15 @@
 \contentsline {chapter}{\chapternumberline {3}Resultados}{18}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Erro, Taxa de Resposta e Taxa de Precisão}{18}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Distribuição de Erro}{20}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Distribuição Espacial do Erro}{21}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Relações entre erro e discrepância}{23}{section.3.4}%
+\contentsline {section}{\numberline {3.3}Distribuição Espacial do Erro}{22}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Relações entre erro e discrepância}{25}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Experimentos de Formatação}{26}{section.3.5}%
-\contentsline {chapter}{\chapternumberline {4}Considerações Finais}{30}{chapter.4}%
+\contentsline {subsection}{\numberline {3.5.1}Distribuição Espacial das Falhas dos Experimentos de Formatação}{35}{subsection.3.5.1}%
+\contentsline {chapter}{\chapternumberline {4}Considerações Finais}{43}{chapter.4}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Refer\^encias}{31}{chapter*.35}%
+\contentsline {chapter}{Refer\^encias}{44}{chapter*.57}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
-\contentsline {part}{Anexos}{33}{section*.36}%
-\contentsline {appendix}{\chapternumberline {A}Abreviações utilizadas}{34}{appendix.anexochapback.1}%
-\contentsline {appendix}{\chapternumberline {B}Tabelas dos experimentos de formatação completas}{36}{appendix.anexochapback.2}%
+\contentsline {part}{Anexos}{46}{section*.58}%
+\contentsline {appendix}{\chapternumberline {A}Abreviações utilizadas}{47}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {B}Tabelas dos experimentos de formatação completas}{49}{appendix.anexochapback.2}%

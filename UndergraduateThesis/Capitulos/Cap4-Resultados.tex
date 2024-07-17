@@ -18,11 +18,13 @@ Então, conduzimos experimentos com o conjunto de dados de Belo Horizonte. Em re
     \item ORS: 84.864 endereços.
 \end{itemize}    
 
-Falhas podem ocorrer em qualquer estágio de geocodificação, derivadas de informações incompletas ou ambíguas fornecidas para geocodificação ou dos algoritmos empregados (algoritmos de seleção e classificação de candidatos). Quando falhas ocorrem, a API retorna apenas uma mensagem de erro. Nas próximas seções, os resultados de erro e discrepância são cuidadosamente analisados.
+Falhas podem ocorrer em qualquer estágio de geocodificação, derivadas de informações incompletas ou ambíguas fornecidas para geocodificação ou dos algoritmos empregados (algoritmos de seleção e classificação de candidatos) como mencionado no capítulo \ref{Introducao}. Quando falhas ocorrem, a API retorna apenas uma mensagem de erro. Nas próximas seções, os resultados de erro e discrepância são cuidadosamente analisados.
 
 \section{Erro, Taxa de Resposta e Taxa de Precisão}
 
-A próxima etapa foi o calculo do erro para cada um dos pontos, sendo este expresso em quilômetros (Km).
+Para avaliar a qualidade das geocodificações fizemos uma análise do erro, taxa de precisão e taxa de resposta das geocodificações obtidas. 
+
+Foi realizado o calculo do erro para cada um dos pontos, sendo este expresso em quilômetros (Km).
 
 Com o erro de cada um dos pontos, foram calculadas as métricas mencionadas anteriormente. Os resultados bem como suas interpretações são apresentados abaixo.
 
@@ -90,13 +92,17 @@ Da mesma forma, calculamos o erro para cada ponto geocodificado no banco de dado
 
 Em relação à taxa de resposta, todas as APIs tiveram excelentes resultados, com mais de 99\% de resposta para o banco de dados fornecido. Este é um resultado significativo para a pesquisa, pois as conclusões são mais robustas devido à quantidade de dados analisados.
 
-A taxa de precisão também mostrou resultados satisfatórios, com os melhores resultados vindos da Mapbox e Google Maps, com taxas superiores a 73\%. Este resultado é bastante satisfatório e está alinhado com os resultados obtidos em \cite{Clodoveu2011}. No entanto, TomTom e ORS apresentaram baixas taxas de precisão, sendo que ORS teve uma taxa extremamente baixa de 25\%. É importante observar que um resultado foi considerado preciso se o erro fosse menor ou igual a 150 metros.
+A taxa de precisão também mostrou resultados satisfatórios, com os melhores resultados vindos da Mapbox e Google Maps, com taxas superiores a 73\%. Este resultado é bastante satisfatório e são taxas com valores semelhante àqueles obtidos em \cite{Clodoveu2011}. No entanto, TomTom e ORS apresentaram baixas taxas de precisão, sendo que ORS teve uma taxa extremamente baixa de 25\%. É importante observar que um resultado foi considerado preciso se o erro fosse menor ou igual a 150 metros.
 
 O erro médio apresentou valores muito mais suaves do que os obtidos com o conjunto de dados de São Paulo, embora ainda estivessem elevados, variando de aproximadamente 2 a 11 quilômetros. Os valores medianos foram bastante baixos para a maioria das APIs, e o desvio padrão foi bastante alto. Esse resultado indica que também existem valores de erro muito altos nessa geocodificação. A API ORS apresentou resultados diferentes das outras APIs, com valores altos de média, mediana e desvio padrão, o que provavelmente explica a baixa taxa de precisão.
 
 \section{Distribuição de Erro}
 
-Com base nos resultados acima, realizamos uma análise da distribuição de erro para cada uma das GeoAPIs e bases. Para isso, utilizamos histogramas de erro individuais para cada API e os combinamos. As Figuras \ref{fig:hist-global-bh} e \ref{fig:hist-global-sp} mostram os histogramas para cada API e cada base utilizada. No entanto, devido à presença de alguns erros extremos, os histogramas gerais (que continham todo o conjunto de dados) não foram muito representativos, pois a maior parte do erro estava concentrada entre 0 km e 50 km, enquanto existiam erros bem maiores. Esse intervalo é considerado um erro muito grande, tornando desafiador tirar conclusões sólidas. Outra limitação dessa análise, é o fato de que cada API teve um máximo de erro diferente, prejudicando então a comparação entre APIs.
+Com base nos resultados acima, realizamos uma análise da distribuição de erro para cada uma das GeoAPIs e bases, com o objetivo de avaliar a qualidade da geocodificação das APIs. Para isso, utilizamos histogramas de erro individuais para cada API e os combinamos. As Figuras \ref{fig:hist-global-bh} e \ref{fig:hist-global-sp} mostram os histogramas para cada API e cada base utilizada, utilizando a escala logarítmica para melhor compreensão. No entanto, devido à presença de alguns erros extremos, os histogramas gerais (que continham todo o conjunto de dados) não foram muito representativos, pois a maior parte do erro estava concentrada entre 0 km e 200 km, enquanto existiam erros bem maiores. Esse intervalo é considerado um erro muito grande, tornando desafiador tirar conclusões sólidas. Outra limitação dessa análise, é o fato de que cada API teve um máximo de erro diferente, prejudicando então a comparação entre APIs. 
+
+Apesar dessas limitações, é possível realizar algumas análises a partir desses gráficos. Para os dados de São Paulo, nota-se que os resultados da Google são mais promissores, com uma concentração maior de valores em até 200 quilômetros. A Mapbox e a TomTom, por outro lado, apresentaram resultados similares, com a TomTom mostrando uma leve melhora.
+
+Para os dados de Belo Horizonte, novamente a Google se destacou nesse gráfico, com valores bem abaixo de 74 quilômetros. A Mapbox também obteve um resultado promissor, seguida pela TomTom. A ORS, por outro lado, apresentou resultados diferentes das outras APIs. A faixa de erro foi até 20 quilômetros e, dentro dessa faixa, ela apresentou uma distribuição uniforme. Com uma faixa tão pequena, não foi possível realizar uma comparação com as outras APIs apenas com esse gráfico, pois não sabemos se, nessa faixa de valores, as outras APIs têm o mesmo comportamento. 
 
 \begin{figure}[ht]
   \centering
@@ -255,9 +261,9 @@ Nos gráficos de São Paulo também foi adicionado o contorno da cidade. No enta
 
 \section{Relações entre erro e discrepância}
 
-Então, foi realizada a análise comparativa entre erro e discrepância. As medidas escolhidas para essa análise foram a covariância e a distância para o ponto médio como descrito no capítulo \ref{desenvolvimento}. Foram considerados apenas os endereços em que se tinha informação de todas as APIs. Depois de calcular as métricas para cada um dos pontos foi calculada a correlação de Pearson para cada API e cada base de dados.  
+Na tentativa de alcançar o nosso segundo objetivo, que é encontrar uma medida de discrepância que avalie a qualidade da geocodificação das APIs, foi realizada uma análise comparativa entre erro e discrepância.A medida escolhida para essa análise foi a distância para o ponto médio como descrito no capítulo \ref{desenvolvimento}. Foram considerados apenas os endereços em que se tinha informação de todas as APIs. Depois de calcular a métrica para cada um dos pontos foi calculada a correlação de Pearson para cada API e cada base de dados.  
 
-Realizamos então uma análise com um subconjunto de 8574 endereços do banco de dados de São Paulo. A Tabela \ref{tab:correlationSP} exibe esses resultados. A partir da tabela, pode-se observar que para todas as APIs, as correlações com o erro são positivas. Isso indica que à medida que o erro aumenta, as medidas de discrepância também tendem a aumentar. de acordo com a tabela \ref{tab:correlacaoPearson} a medida de covariância para esses dados apresentou uma correlação regular a forte para a maioria das APIs, variando de 0,53 a 0,67, exceto para o Google Maps, que teve uma correlação fraca. Por outro lado, a medida de distância até o ponto médio obteve uma correlação forte a muito forte para a maioria das APIs, com resultados na faixa de 0,88 a 0,94. Em contrapartida, a API do Google mostrou uma correlação regular muito próxima a fraca, mas houve uma melhoria em comparação com a correlação de covariância.
+Realizamos então uma análise com um subconjunto de 8574 endereços do banco de dados de São Paulo. A Tabela \ref{tab:correlationSP} exibe esses resultados. A partir da tabela, pode-se observar que para todas as APIs, as correlações com o erro são positivas. Isso indica que à medida que o erro aumenta, a distância do ponto médio também tende a aumentar. De acordo com a tabela \ref{tab:correlacaoPearson} a medida de distância até o ponto médio obteve uma correlação forte a muito forte para a maioria das APIs, com resultados na faixa de 0,88 a 0,94. Em contrapartida, a API do Google mostrou uma correlação regular muito próxima a fraca.
 
 \begin{table}[h]
     \centering
@@ -266,20 +272,18 @@ Realizamos então uma análise com um subconjunto de 8574 endereços do banco de
     \begin{adjustbox}{width=0.7\textwidth}
     \begin{tabular}{|c|c|c|}
     \hline
-    API & Covariância & Distância até o Ponto Médio \\
+    API & Distância até o Ponto Médio \\
     \hline
-    Mapbox & 0,5387 & 0,8972 \\
-    TomTom & 0,5398 & 0,8858 \\
-    Google & 0,2177 & 0,3615 \\
-    ORS & 0,6649 & 0,9378 \\
+    Mapbox & 0,8972 \\
+    TomTom & 0,8858 \\
+    Google & 0,3615 \\
+    ORS & 0,9378 \\
     \hline
     \end{tabular}
     \end{adjustbox}
 \end{table}
 
-Para o conjunto de dados de Belo Horizonte, conduzimos essa análise com 84.752 endereços, o que representa aproximadamente 99,71\% da amostra utilizada. A Tabela \ref{tab:correlationBH} mostra esses resultados. Em geral, a tabela apresenta valores de correlação mais próximos de 0 do que os encontrados na análise dos dados de São Paulo, indicando que a correlação é mais fraca para este conjunto de dados como um todo. Para o Google e o ORS, a covariância mostrou uma correlação fraca, possivelmente indicando nenhuma relação entre erro e covariância para essas APIs. O Mapbox teve uma correlação regular com a covariância, enquanto o TomTom teve uma correlação forte.
-
-Para a distância até o ponto médio, tivemos correlações fortes a muito fortes para o Mapbox e o TomTom. O Google e o ORS também apresentaram correlações fracas para a distância do ponto médio. Apesar dos resultados de correlação inferiores em comparação com a análise do conjunto de dados de São Paulo, os resultados de Belo Horizonte parecem confirmar que distância até o ponto médio é uma medida melhor em comparação com a covariância para substituir o erro em situações onde o mesmo não pode ser obtido.
+Para o conjunto de dados de Belo Horizonte, conduzimos essa análise com 84.752 endereços, o que representa aproximadamente 99,71\% da amostra utilizada. A Tabela \ref{tab:correlationBH} mostra esses resultados. Em geral, a tabela apresenta valores de correlação mais próximos de 0 do que os encontrados na análise dos dados de São Paulo, indicando que a correlação é mais fraca para este conjunto de dados como um todo. Nesses dados tivemos correlações fortes a muito fortes para o Mapbox e o TomTom. O Google e o ORS apresentaram correlações fracas para a distância do ponto médio. Apesar dos resultados de correlação inferiores em comparação com a análise do conjunto de dados de São Paulo, os resultados de Belo Horizonte parecem indicar que a distância até o ponto médio pode ser uma medida substituta do erro em situações onde este não pode ser obtido, para algumas APIs. No entanto, essa medida não é consistente em relação às diferentes APIs, nem em relação às diferentes bases de dados. Portanto, essa medida deve ser utilizada com cautela e mais avaliações são necessárias.
 
 \begin{table}[!ht]
     \centering
@@ -288,12 +292,12 @@ Para a distância até o ponto médio, tivemos correlações fortes a muito fort
     \begin{adjustbox}{width=0.7\textwidth}
     \begin{tabular}{|c|c|c|}
     \hline
-    API & Covariância & Distância até o Ponto Médio \\
+    API & Distância até o Ponto Médio \\
     \hline
-    Mapbox & 0,4669 & 0,7764 \\
-    TomTom & 0,7269 & 0,9873 \\
-    Google & 0,0463 & 0,0754 \\
-    ORS & 0,1552 & 0,2775 \\
+    Mapbox & 0,7764 \\
+    TomTom & 0,9873 \\
+    Google & 0,0754 \\
+    ORS & 0,2775 \\
     \hline
     \end{tabular}
     \end{adjustbox}
@@ -441,293 +445,366 @@ Em relação aos experimentos, o Experimento 1 obteve a melhor taxa de acerto pa
 
 Após a construção das tabelas, decidimos criar BoxPlots para comparar os resultados dos experimentos e das APIs.
 
-% Para os dados de Belo Horizonte, começamos construindo inicialmente boxplots de experimento por erro, com cada API representada por um boxplot. A Figura \ref{fig:boxplot-completo-bh} mostra esse boxplot. Embora seja possível observar a presença de valores de erro extremos em todas as APIs, chegando a 3000 km, a presença de outliers dificulta uma análise mais detalhada.
+Para os dados de Belo Horizonte, começamos construindo inicialmente boxplots de experimento por erro, com cada API representada por um boxplot. A Figura \ref{fig:boxplot-completo-bh} mostra esse boxplot. Embora seja possível observar a presença de valores de erro extremos em todas as APIs, chegando a 3000 km, a presença de outliers dificulta uma análise mais detalhada.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{Figuras/boxplotExperimento.png}
+    \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas}
+    \label{fig:boxplot-completo-bh}
+\end{figure}
+
+Consequentemente, geramos o boxplot sem outliers, representado na Figura \ref{fig:boxplot-semout-bh}. Nela, conseguimos observar claramente o desempenho da ORS, que obteve os piores resultados. Os erros da ORS, sem outliers, ultrapassam 400 km, apesar do boxplot estar contido na faixa de 200 km. De qualquer forma, a presença da ORS prejudica a comparação com as outras APIs, que era o objetivo inicial na criação desses boxplots.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{Figuras/boxplotExperimentoSemOut.png}
+    \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas e sem Outliers}
+    \label{fig:boxplot-semout-bh}
+\end{figure}
 
 % \begin{figure}[h]
-%     \centering
-%     \includegraphics[width=\textwidth]{Figuras/boxplotExperimento.png}
-%     \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas}
-%     \label{fig:boxplot-completo-bh}
+%    \centering
+%    \includegraphics[width=\textwidth]{Figuras/boxplotExperimentoSemORS.png}
+%    \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS}
+%    \label{fig:boxplot-semors-bh}
 % \end{figure}
 
-% Consequentemente, geramos o boxplot sem outliers, representado na Figura \ref{fig:boxplot-semout-bh}. Nela, conseguimos observar claramente o desempenho da ORS, que obteve os piores resultados. Os erros da ORS, sem outliers, ultrapassam 400 km, apesar do boxplot estar contido na faixa de 200 km. De qualquer forma, a presença da ORS prejudica a comparação com as outras APIs, que era o objetivo inicial na criação desses boxplots.
-
-% \begin{figure}[h]
-%     \centering
-%     \includegraphics[width=\textwidth]{Figuras/boxplotExperimentoSemOut.png}
-%     \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas e sem Outliers}
-%     \label{fig:boxplot-semout-bh}
-% \end{figure}
-
-% %\begin{figure}[h]
-% %    \centering
-% %    \includegraphics[width=\textwidth]{Figuras/boxplotExperimentoSemORS.png}
-% %    \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS}
-% %    \label{fig:boxplot-semors-bh}
-% %\end{figure}
-
-% Decidimos então criar um boxplot que não contivesse dados da ORS, como mostrado na Figura \ref{fig:boxplot-semors-semout-bh}. Nesse gráfico, podemos observar que o erro é limitado a 8 km, um resultado consideravelmente melhor do que os obtidos anteriormente. Além disso, notamos que a API TomTom tem uma barra maior, indicando uma faixa de erro maior, conforme esperado de acordo com a tabela \ref{tab:txAcerExpAPIBH}. Observamos também que as APIs Google e MapBox têm barras de tamanho similar, sendo a MapBox ligeiramente menor. Um ponto interessante é que, ao comparar os experimentos, o destaque é o Experimento 1b, com uma barra menor em todas as APIs. Este experimento segue o código postal brasileiro, mas com a adição de bairro, indicando novamente que essa formatação pode gerar bons resultados para geocodificação.
+Decidimos então criar um boxplot que não contivesse dados da ORS, como mostrado na Figura \ref{fig:boxplot-semors-semout-bh}. Nesse gráfico, podemos observar que o erro é limitado a 8 km, um resultado consideravelmente melhor do que os obtidos anteriormente. Além disso, notamos que a API TomTom tem uma barra maior, indicando uma faixa de erro maior, conforme esperado de acordo com a tabela \ref{tab:txAcerExpAPIBH}. Observamos também que as APIs Google e MapBox têm barras de tamanho similar, sendo a MapBox ligeiramente menor. Um ponto interessante é que, ao comparar os experimentos, o destaque é o Experimento 1b, com uma barra menor em todas as APIs. Este experimento segue o código postal brasileiro, mas com a adição de bairro, indicando novamente que essa formatação pode gerar bons resultados para geocodificação.
   
-% \begin{figure}[h]
-%     \centering
-%     \includegraphics[width=\textwidth]{Figuras/boxplotExperimentoSemOutSemORS.png}
-%     \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS e sem Outliers}
-%     \label{fig:boxplot-semors-semout-bh}
-% \end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{Figuras/boxplotExperimentoSemOutSemORS.png}
+    \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS e sem Outliers}
+    \label{fig:boxplot-semors-semout-bh}
+\end{figure}
 
-% Para a base de São Paulo, foram construídos boxplots de forma semelhante. A Figura \ref{fig:boxplot-completo-sp} mostra o boxplot de experimento por erro com todas as APIs, sem remover os outliers. Assim como nos dados de Belo Horizonte, esse boxplot fornece pouca informação útil. É possível observar que, mais uma vez, o erro atinge a faixa de 3.000 km e que a ORS tem uma faixa de erro maior. No entanto, não é possível tirar muitas conclusões devido à presença de outliers.
+Para a base de São Paulo, foram construídos boxplots de forma semelhante. A Figura \ref{fig:boxplot-completo-sp} mostra o boxplot de experimento por erro com todas as APIs, sem remover os outliers. Assim como nos dados de Belo Horizonte, esse boxplot fornece pouca informação útil. É possível observar que, mais uma vez, o erro atinge a faixa de 3.000 km e que a ORS tem uma faixa de erro maior. No entanto, não é possível tirar muitas conclusões devido à presença de outliers.
 
-% \begin{figure}[h]
-%     \centering
-%     \includegraphics[width=\textwidth]{Figuras/boxplotExperimentoSP.png}
-%     \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas para a amostra de São Paulo}
-%     \label{fig:boxplot-completo-sp}
-% \end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{Figuras/boxplotExperimentoSP.png}
+    \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas para a amostra de São Paulo}
+    \label{fig:boxplot-completo-sp}
+\end{figure}
 
-% Posteriormente, geramos boxplots sem outliers. A Figura \ref{fig:boxplot-semout-sp} mostra esse boxplot. Observamos que a ORS teve o pior resultado, mas, ao contrário do boxplot \ref{fig:boxplot-semout-bh}, ainda é possível distinguir os boxplots das outras APIs. Ou seja, o desempenho da ORS não foi tão discrepante como o de Belo Horizonte. Outro ponto importante é que neste boxplot é possível perceber uma grande diferença entre a Google e a Mapbox, com a Google obtendo resultados consideravelmente melhores. Em relação aos experimentos, o Experimento 1 foi o que obteve os melhores resultados. Novamente, o Experimento 1 segue o padrão do código postal do Brasil, o que parece confirmar a hipótese de que essa é a melhor formatação de entrada.
+Posteriormente, geramos boxplots sem outliers. A Figura \ref{fig:boxplot-semout-sp} mostra esse boxplot. Observamos que a ORS teve o pior resultado, mas, ao contrário do boxplot \ref{fig:boxplot-semout-bh}, ainda é possível distinguir os boxplots das outras APIs. Ou seja, o desempenho da ORS não foi tão discrepante como o de Belo Horizonte. Outro ponto importante é que neste boxplot é possível perceber uma grande diferença entre a Google e a Mapbox, com a Google obtendo resultados consideravelmente melhores. Em relação aos experimentos, o Experimento 1 foi o que obteve os melhores resultados. Novamente, o Experimento 1 segue o padrão do código postal do Brasil, o que parece confirmar a hipótese de que essa é a melhor formatação de entrada.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{Figuras/boxplotExperimentoSemOutSP.png}
+    \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas e sem Outliers para a amostra de São Paulo}
+    \label{fig:boxplot-semout-sp}
+\end{figure}
+
+%\begin{figure}[h]
+%    \centering
+%    \includegraphics[width=\textwidth]{Figuras/boxplotExperimentoSemORSSP.png}
+%    \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS para a amostra de São Paulo}
+%    \label{fig:boxplot-semors-sp}
+%\end{figure}
+
+%\begin{figure}[h]
+%    \centering
+%    \includegraphics[width=\textwidth]{Figuras/boxplotExperimentoSemOutSemORSSP.png}
+%    \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS e sem Outliers para a amostra de São Paulo}
+%    \label{fig:boxplot-semors-semout-sp}
+%\end{figure}
+
+Os boxplots apresentados anteriormente foram cruciais para avaliar as APIs comparativamente. No entanto, faltava avaliar o comportamento dos experimentos dentro de cada API. Para isso, foram criados boxplots para cada API, onde o boxplot representa o experimento. As Figuras \ref{fig:boxplot-api-global-bh} e \ref{fig:boxplot-api-global-sp} mostram os boxplots de Belo Horizonte e São Paulo, respectivamente. Assim como nos boxplots anteriores, a presença de outliers prejudica a visualização, mas ainda é possível observar a faixa de erro em cada API. Abaixo, são apresentados os valores máximos de erro:
+
+\begin{itemize}
+  \item MapBox - Belo Horizonte: Acima de 1000 km;
+  \item Google - Belo Horizonte: Acima de 800 km;
+  \item TomTom - Belo Horizonte: Acima de 2000 km;
+  \item ORS - Belo Horizonte: Acima de 1000 km;
+  \item MapBox - São Paulo: Acima de 1500 km;
+  \item Google - São Paulo: Acima de 2500 km;
+  \item ORS - São Paulo: Acima de 3000 km;
+\end{itemize} 
 
 
-% \begin{figure}[h]
-%     \centering
-%     \includegraphics[width=\textwidth]{Figuras/boxplotExperimentoSemOutSP.png}
-%     \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas e sem Outliers para a amostra de São Paulo}
-%     \label{fig:boxplot-semout-sp}
-% \end{figure}
+\begin{figure}[ht]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/boxplotApiMapbox.png}
+    \caption{Mapbox}
+    \label{fig:boxplot-api-mapbox}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/boxplotApiGoogle.png}
+    \caption{Google}
+    \label{fig:boxplot-api-google}
+  \end{subfigure}
 
-% %\begin{figure}[h]
-% %    \centering
-% %    \includegraphics[width=\textwidth]{Figuras/boxplotExperimentoSemORSSP.png}
-% %    \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS para a amostra de São Paulo}
-% %    \label{fig:boxplot-semors-sp}
-% %\end{figure}
-
-% %\begin{figure}[h]
-% %    \centering
-% %    \includegraphics[width=\textwidth]{Figuras/boxplotExperimentoSemOutSemORSSP.png}
-% %    \caption{Boxplot de Experimentos por Erro, com todas as APIs avaliadas exceto ORS e sem Outliers para a amostra de São Paulo}
-% %    \label{fig:boxplot-semors-semout-sp}
-% %\end{figure}
-
-% Os boxplots apresentados anteriormente foram cruciais para avaliar as APIs comparativamente. No entanto, faltava avaliar o comportamento dos experimentos dentro de cada API. Para isso, foram criados boxplots para cada API, onde o boxplot representa o experimento. As Figuras \ref{fig:boxplot-api-global-bh} e \ref{fig:boxplot-api-global-sp} mostram os boxplots de Belo Horizonte e São Paulo, respectivamente. Assim como nos boxplots anteriores, a presença de outliers prejudica a visualização, mas ainda é possível observar a faixa de erro em cada API. Abaixo, são apresentados os valores máximos de erro:
-
-% \begin{itemize}
-%   \item MapBox - Belo Horizonte: Acima de 1000 km;
-%   \item Google - Belo Horizonte: Acima de 800 km;
-%   \item TomTom - Belo Horizonte: Acima de 2000 km;
-%   \item ORS - Belo Horizonte: Acima de 1000 km;
-%   \item MapBox - São Paulo: Acima de 1500 km;
-%   \item Google - São Paulo: Acima de 2500 km;
-%   \item ORS - São Paulo: Acima de 3000 km;
-% \end{itemize} 
-
-
-% \begin{figure}[ht]
-%   \centering
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/boxplotApiMapbox.png}
-%     \caption{Mapbox}
-%     \label{fig:boxplot-api-mapbox}
-%   \end{subfigure}
-%   \hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/boxplotApiGoogle.png}
-%     \caption{Google}
-%     \label{fig:boxplot-api-google}
-%   \end{subfigure}
-
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/boxplotApiTomtom.png}
-%     \caption{TomTom}
-%     \label{fig:boxplot-api-tomtom}
-%   \end{subfigure}
-%   \hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/boxplotApiOrs.png}
-%     \caption{ORS}
-%     \label{fig:boxplot-api-ors}
-%   \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/boxplotApiTomtom.png}
+    \caption{TomTom}
+    \label{fig:boxplot-api-tomtom}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/boxplotApiOrs.png}
+    \caption{ORS}
+    \label{fig:boxplot-api-ors}
+  \end{subfigure}
   
-%   \caption{Boxplots de Erro por API para cada uma das APIs avalidas}
-%   \label{fig:boxplot-api-global-bh}
-% \end{figure}
+  \caption{Boxplots de Erro por API para cada uma das APIs avalidas}
+  \label{fig:boxplot-api-global-bh}
+\end{figure}
 
-% \begin{figure}[ht]
-%   \centering
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/boxplotApiMapboxSP.png}
-%     \caption{Mapbox}
-%     \label{fig:boxplot-api-mapbox-sp}
-%   \end{subfigure}
-%   \hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/boxplotApiGoogleSP.png}
-%     \caption{Google}
-%     \label{fig:boxplot-api-google-sp}
-%   \end{subfigure}
+\begin{figure}[ht]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/boxplotApiMapboxSP.png}
+    \caption{Mapbox}
+    \label{fig:boxplot-api-mapbox-sp}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/boxplotApiGoogleSP.png}
+    \caption{Google}
+    \label{fig:boxplot-api-google-sp}
+  \end{subfigure}
   
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/boxplotApiOrsSP.png}
-%     \caption{ORS}
-%     \label{fig:boxplot-api-ors-sp}
-%   \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/boxplotApiOrsSP.png}
+    \caption{ORS}
+    \label{fig:boxplot-api-ors-sp}
+  \end{subfigure}
   
-%   \caption{Boxplots de Erro por API para cada uma das APIs avalidas para a amostra de São Paulo}
-%   \label{fig:boxplot-api-global-sp}
-% \end{figure}
+  \caption{Boxplots de Erro por API para cada uma das APIs avalidas para a amostra de São Paulo}
+  \label{fig:boxplot-api-global-sp}
+\end{figure}
 
-% Para aprimorar a visualização, decidimos remover os outliers de todos os boxplots.
+Para aprimorar a visualização, decidimos remover os outliers de todos os boxplots.
 
-% As Figuras \ref{fig:boxplot-api-mapbox-semout-bh} e \ref{fig:boxplot-api-mapbox-semout-sp} apresentam os boxplots do erro da Mapbox para os dados de Belo Horizonte e São Paulo, respectivamente. Em ambos os boxplots, o Experimento 1 obteve os melhores resultados para a API MapBox. No entanto, é interessante observar que o Experimento 4 teve um desempenho muito semelhante ao Experimento 1 para ambas as bases. Analisando o boxplot de Belo Horizonte, é possível notar que a adição do bairro resultou em piora nos resultados para todos os experimentos, evidenciando os piores resultados em geral, conforme observado na tabela \ref{tab:txAcerExpAPIBH}. Quanto aos dados de São Paulo, os experimentos que se destacaram negativamente foram o 2, 3 e 5.
+As Figuras \ref{fig:boxplot-api-mapbox-semout-bh} e \ref{fig:boxplot-api-mapbox-semout-sp} apresentam os boxplots do erro da Mapbox para os dados de Belo Horizonte e São Paulo, respectivamente. Em ambos os boxplots, o Experimento 1 obteve os melhores resultados para a API MapBox. No entanto, é interessante observar que o Experimento 4 teve um desempenho muito semelhante ao Experimento 1 para ambas as bases. Analisando o boxplot de Belo Horizonte, é possível notar que a adição do bairro resultou em piora nos resultados para todos os experimentos, evidenciando os piores resultados em geral, conforme observado na tabela \ref{tab:txAcerExpAPIBH}. Quanto aos dados de São Paulo, os experimentos que se destacaram negativamente foram o 2, 3 e 5.
 
-% \begin{figure}[h]
-%     \centering
-%     \includegraphics[width=\textwidth]{Figuras/boxplotApiMapboxSemOut.png}
-%     \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: Mapbox}
-%     \label{fig:boxplot-api-mapbox-semout-bh}
-% \end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{Figuras/boxplotApiMapboxSemOut.png}
+    \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: Mapbox}
+    \label{fig:boxplot-api-mapbox-semout-bh}
+\end{figure}
 
-% \begin{figure}[h]
-%   \centering
-%   \includegraphics[width=\textwidth]{Figuras/boxplotApiMapboxSemOutsp.png}
-%   \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: Mapbox}
-%   \label{fig:boxplot-api-mapbox-semout-sp}
-% \end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{Figuras/boxplotApiMapboxSemOutsp.png}
+  \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: Mapbox}
+  \label{fig:boxplot-api-mapbox-semout-sp}
+\end{figure}
 
-% As Figuras \ref{fig:boxplot-api-google-semout-bh} e \ref{fig:boxplot-api-google-semout-sp} apresentam os boxplots referentes aos dados de Belo Horizonte e São Paulo, respectivamente. Ao analisar os dados de Belo Horizonte, observa-se uma melhora considerável em quase todos os experimentos nos casos em que o bairro foi adicionado. A exceção são os experimentos 5 e 5b, nos quais a diferença não é significativa. O experimento com melhor desempenho para os dados de Belo Horizonte foi o experimento 1b, enquanto para os dados de São Paulo, o destaque foi para o experimento 1. Esses resultados confirmam as conclusões extraídas das tabelas \ref{tab:txAcerExpAPIBH} e \ref{tab:txAcerExpAPISP}, indicando que essa formatação é a mais eficaz.
+As Figuras \ref{fig:boxplot-api-google-semout-bh} e \ref{fig:boxplot-api-google-semout-sp} apresentam os boxplots para a API do Google referentes aos dados de Belo Horizonte e São Paulo, respectivamente. Ao analisar os dados de Belo Horizonte, observa-se uma melhora considerável em quase todos os experimentos nos casos em que o bairro foi adicionado. A exceção são os experimentos 5 e 5b, nos quais a diferença não é significativa. O experimento com melhor desempenho para os dados de Belo Horizonte foi o experimento 1b, enquanto para os dados de São Paulo, o destaque foi para o experimento 1. Esses resultados confirmam as conclusões extraídas das tabelas \ref{tab:txAcerExpAPIBH} e \ref{tab:txAcerExpAPISP}, indicando que essa formatação é a mais eficaz.
 
-% Quanto aos piores resultados, para os dados de Belo Horizonte, as performances mais baixas foram observadas nos casos em que não havia informação de bairro, sem diferenças significativas entre eles. Já para os dados de São Paulo, a pior performance foi no experimento 3.
-
-
-% \begin{figure}[h]
-%     \centering
-%     \includegraphics[width=\textwidth]{Figuras/boxplotApiGoogleSemOut.png}
-%     \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: Google}
-%     \label{fig:boxplot-api-google-semout-bh}
-% \end{figure}
+Quanto aos piores resultados, para os dados de Belo Horizonte, as performances mais baixas foram observadas nos casos em que não havia informação de bairro, sem diferenças significativas entre eles. Já para os dados de São Paulo, a pior performance foi no experimento 3.
 
 
-% \begin{figure}[h]
-%   \centering
-%   \includegraphics[width=\textwidth]{Figuras/boxplotApiGoogleSemOutsp.png}
-%   \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: Google}
-%   \label{fig:boxplot-api-google-semout-sp}
-% \end{figure}
-
-% A Figura \ref{fig:boxplot-api-tomtom-semout-bh} apresenta o boxplot da API TomTom para os dados de Belo Horizonte. Observa-se que o experimento com melhor desempenho foi o 1b, enquanto o pior desempenho ocorreu no experimento 1, contrariando os resultados previamente obtidos. Os demais experimentos apresentaram resultados semelhantes, e não é possível afirmar que há uma melhora ao adicionar o bairro nesses experimentos, exceto nos casos do experimento 1 e 1b, nos quais houve uma melhora significativa ao adicionar o bairro.
-
-% \begin{figure}[h]
-%     \centering
-%     \includegraphics[width=\textwidth]{Figuras/boxplotApiTomtomSemOut.png}
-%     \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: TomTom}
-%     \label{fig:boxplot-api-tomtom-semout-bh}
-% \end{figure}
-
-% Para concluir a análise dos boxplots, foram gerados dois gráficos para os dados de Belo Horizonte, conforme apresentado na Figura \ref{fig:boxplot-api-ors-semout-bhe}, e para os dados de São Paulo, na Figura \ref{fig:boxplot-api-ors-semout-sp}. Ao examinar os dados de Belo Horizonte, observa-se que os experimentos que se destacaram positivamente foram os 1, 1b, 4, 4b, 5 e 5b, com pouca diferença entre eles. Por outro lado, os experimentos 2b e 3b obtiveram os piores resultados para os dados de Belo Horizonte. No contexto dos dados de São Paulo, o experimento 1 se destacou positivamente, enquanto o experimento 2 teve o pior desempenho. Os demais experimentos apresentaram resultados semelhantes.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{Figuras/boxplotApiGoogleSemOut.png}
+    \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: Google}
+    \label{fig:boxplot-api-google-semout-bh}
+\end{figure}
 
 
-% \begin{figure}[h]
-%     \centering
-%     \includegraphics[width=\textwidth]{Figuras/boxplotApiOrsSemOut.png}
-%     \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: ORS}
-%     \label{fig:boxplot-api-ors-semout-bh}
-% \end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{Figuras/boxplotApiGoogleSemOutsp.png}
+  \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: Google}
+  \label{fig:boxplot-api-google-semout-sp}
+\end{figure}
 
-% \begin{figure}[h]
-%     \centering
-%     \includegraphics[width=\textwidth]{Figuras/boxplotApiOrsSemOutSP.png}
-%     \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: ORS}
-%     \label{fig:boxplot-api-ors-semout-sp}
-% \end{figure}
+A Figura \ref{fig:boxplot-api-tomtom-semout-bh} apresenta o boxplot da API TomTom para os dados de Belo Horizonte. Observa-se que o experimento com melhor desempenho foi o 1b, enquanto o pior desempenho ocorreu no experimento 1, contrariando os resultados previamente obtidos. Os demais experimentos apresentaram resultados semelhantes, e não é possível afirmar que há uma melhora ao adicionar o bairro nesses experimentos, exceto nos casos do experimento 1 e 1b, nos quais houve uma melhora significativa ao adicionar o bairro.
 
-% \subsection{Distribuição Espacial das Falhas dos Experimentos de Formatação}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{Figuras/boxplotApiTomtomSemOut.png}
+    \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: TomTom}
+    \label{fig:boxplot-api-tomtom-semout-bh}
+\end{figure}
 
-% Por fim, realizamos uma análise espacial de falhas para entender de que forma a formatação da entrada pode contribuir para a falha de forma espacial. 
-% Para isso, criamos mapas hexagonais de falhas, como feito anteriormente, para cada API. Escolhemos os experimentos com menor e maior taxa de acerto de cada API a fim de visualizar com mais clareza a melhora a partir de formatações diferentes. 
+Para concluir a análise dos boxplots, foram gerados dois gráficos para a API ORS para os dados de Belo Horizonte, conforme apresentado na Figura \ref{fig:boxplot-api-ors-semout-bhe}, e para os dados de São Paulo, na Figura \ref{fig:boxplot-api-ors-semout-sp}. Ao examinar os dados de Belo Horizonte, observa-se que os experimentos que se destacaram positivamente foram os 1, 1b, 4, 4b, 5 e 5b, com pouca diferença entre eles. Por outro lado, os experimentos 2b e 3b obtiveram os piores resultados para os dados de Belo Horizonte. No contexto dos dados de São Paulo, o experimento 1 se destacou positivamente, enquanto o experimento 2 teve o pior desempenho. Os demais experimentos apresentaram resultados semelhantes.
 
-% A figura \ref{fig:falhas-exp-mapbox-bh} mostra os mapas de falhas dos experimentos com menor e maior taxa de acerto para os dados de Belo Horizonte e para a API Mapbox. Nessa figura é possível observar que no mapa de maior taxa de acerto há uma maior uniformidade e a maior parte do gráfico tem taxa de falha inferior a 20\%. Já no gráfico de menor taxa de acerto há menor uniformidade e as regiões variam de taxas mais baixas (menor que 20\%) até taxas mais altas (maior que 80\%). É relevanteobservar também que as taxas de falha maiores aparentam estar em regiões similares como bordas, o que nos faz pensar que a alta taxa de erro é ligada a região e não somente a formatação de entrada. Apesar disso, até nessas regiões com mais erro, é possível observar uma melhora significativa a partir da formatação com melhor resultado. 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{Figuras/boxplotApiOrsSemOut.png}
+    \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: ORS}
+    \label{fig:boxplot-api-ors-semout-bh}
+\end{figure}
 
-% \begin{figure}[ht]
-%   \centering
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/expFalhasMapboxmaior.png}
-%     \caption{Maior Taxa de Acerto}
-%     \label{fig:falhasmapboxBHexpMaior}
-%   \end{subfigure}
-%   %\hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/expFalhasMapboxmenor.png}
-%     \caption{Menor Taxa de Acerto}
-%     \label{fig:falhasmapboxBHexpMenor}
-%   \end{subfigure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{Figuras/boxplotApiOrsSemOutSP.png}
+    \caption{Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: ORS}
+    \label{fig:boxplot-api-ors-semout-sp}
+\end{figure}
+
+\subsection{Distribuição Espacial das Falhas dos Experimentos de Formatação}
+
+Por fim, realizamos uma análise espacial de falhas para entender de que forma a formatação da entrada pode contribuir para a falha de forma espacial. 
+Para isso, criamos mapas hexagonais de falhas, como feito anteriormente, para cada API. Escolhemos os experimentos com menor e maior 
+taxa de acerto de cada API a fim de visualizar com mais clareza a melhora a partir de formatações diferentes. 
+
+A figura \ref{fig:falhas-exp-mapbox-bh} mostra os mapas de falhas dos experimentos com menor e maior taxa de acerto para os dados de Belo Horizonte e para a API Mapbox. Nessa figura é possível observar que no mapa de maior taxa de acerto há uma maior uniformidade e a maior parte do gráfico tem taxa de falha inferior a 20\%. Já no gráfico de menor taxa de acerto há menor uniformidade e as regiões variam de taxas mais baixas (menor que 20\%) até taxas mais altas (maior que 80\%). É relevante observar também que as taxas de falha maiores aparentam estar em regiões similares como bordas, o que nos faz pensar que a alta taxa de erro é ligada a região e não somente a formatação de entrada. Apesar disso, até nessas regiões com mais erro, é possível observar uma melhora significativa a partir da formatação com melhor resultado. 
+
+\begin{figure}[ht]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/expFalhasMapboxmaior.png}
+    \caption{Maior Taxa de Acerto}
+    \label{fig:falhasmapboxBHexpMaior}
+  \end{subfigure}
+  %\hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/expFalhasMapboxmenor.png}
+    \caption{Menor Taxa de Acerto}
+    \label{fig:falhasmapboxBHexpMenor}
+  \end{subfigure}
   
-%   \caption{Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: MapBox}
-%   \label{fig:falhas-exp-mapbox-bh}
-% \end{figure}
+  \caption{Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: MapBox}
+  \label{fig:falhas-exp-mapbox-bh}
+\end{figure}
 
-% COLOCAR FALHAS MAPBOX SP
+A figura \ref{fig:falhas-exp-mapbox-sp} mostra os gráficos de falhas de menor e maior taxa de acerto para a API Mapbox nos dados de São Paulo. Ao contrário dos dados de Belo Horizonte, os dados de São Paulo obtiveram taxas de acerto similares na maior parte das APIs, conforme indicado na tabela \ref{tab:txAcerExpAPISP}. Sendo assim, os gráficos são semelhantes. Apesar disso, é possível notar que o gráfico de maior taxa de acerto apresenta uma melhora em relação ao de menor taxa de acerto, com algumas regiões mais claras, principalmente na parte central do mapa. Isso indica que a formatação de entrada pode impactar a geocodificação da Mapbox.
 
-% A figura \ref{fig:falhas-exp-google-bh} mostra os gráficos de falhas para os experimentos de maior e menor taxa de acerto da API Google Maps para os dados de Belo Horizonte. Da mesma forma que acontece nos gráficos da Mapbox, os gráficos para o experimento de maior taxa de acerto apresentam uma uniformidade maior em comparação com o de menor taxa de acerto. Além disso, é interessante observar que existem algumas zonas de onde a taxa de falha é grande em ambos os gráficos. Essas zonas são nas fronteiras da cidade e na parte superior do gráfico. Porém, no gráfico de menor taxa de acerto há uma acentuação dessas regiões com altas taxas de acerto, corroborando com a hipotése de que a formatação realmente contribui para a melhora da taxa de falha. 
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{Figuras/expFalhasMapboxmaiorSP.png}
+      \caption{Maior Taxa de Acerto}
+      \label{fig:falhasmapboxSPexpMaior}
+    \end{subfigure}
+    %\hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{Figuras/expFalhasMapboxmenorSP.png}
+      \caption{Menor Taxa de Acerto}
+      \label{fig:falhasmapboxSPexpMenor}
+    \end{subfigure}
+    
+    \caption{Gráficos de falhas para a maior e menor taxas de acerto dos experimentos para os dados de São Paulo: MapBox}
+    \label{fig:falhas-exp-mapbox-sp}
+\end{figure}
 
-% \begin{figure}[ht]
-%   \centering
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/expFalhasGooglemaior.png}
-%     \caption{Maior Taxa de Acerto}
-%     \label{fig:falhasgoogleBHexpMaior}
-%   \end{subfigure}
-%   \hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/expFalhasGooglemenor.png}
-%     \caption{Menor Taxa de Acerto}
-%     \label{fig:falhasgoogleBHexpMenor}
-%   \end{subfigure}
+A figura \ref{fig:falhas-exp-google-bh} mostra os gráficos de falhas para os experimentos de maior e menor taxa de acerto da API Google Maps para os dados de Belo Horizonte. Da mesma forma que acontece nos gráficos da Mapbox, os gráficos para o experimento de maior taxa de acerto apresentam uma uniformidade maior em comparação com o de menor taxa de acerto. Além disso, é interessante observar que existem algumas zonas de onde a taxa de falha é grande em ambos os gráficos. Essas zonas são nas fronteiras da cidade e na parte superior do gráfico. Porém, no gráfico de menor taxa de acerto há uma acentuação dessas regiões com altas taxas de acerto, corroborando com a hipotése de que a formatação realmente contribui para a melhora da taxa de falha. 
+
+\begin{figure}[ht]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/expFalhasGooglemaior.png}
+    \caption{Maior Taxa de Acerto}
+    \label{fig:falhasgoogleBHexpMaior}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/expFalhasGooglemenor.png}
+    \caption{Menor Taxa de Acerto}
+    \label{fig:falhasgoogleBHexpMenor}
+  \end{subfigure}
   
-%   \caption{Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: Google Maps}
-%   \label{fig:falhas-exp-google-bh}
-% \end{figure}
+  \caption{Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: Google Maps}
+  \label{fig:falhas-exp-google-bh}
+\end{figure}
 
-% COLOCAR FALHAS GOOGLE SP
+A figura \ref{fig:falhas-exp-google-sp} mostra os gráficos de falhas para os experimentos de menor e maior taxa de acerto da API Google Maps para os dados de São Paulo. Assim como ocorreu com os gráficos da Mapbox na figura \ref{fig:falhas-exp-mapbox-sp} a diferença é pequena, porém é possível notar uma melhora na parte superior do gráfico. Nessa parte, o gráfico de maior taxa de acerto está mais claro. Também é possível notar que as regiões que apresentam falha maior são consistentes nos dois gráficos, porém no grafico com menor taxa de acerto a falha é mais acentuada. O que vai de encontro com os resultados encontrados com os dados de Belo Horizonte para essa API.
 
-% A figura \ref{fig:falhas-exp-tomtom-bh} mostra os gráficos de falha dos experimentos de maior e menor taxa de acerto da API TomTom para os dados de Belo Horizonte. Nessa figura, ao contrário das outras APIs, não é possível notar diferença significativa entre os experimentos com maior e menor taxa de acerto. Isso condiz com as taxas de acerto da TomTom para os experimentos que estavam todas próximas. Em comparação com as outras APIs, os dois gráficos apresentam uma certa uniformidade, com valores abaixo de 40\% de falha. Algumas regiões aparentam taxas maiores, que são as regiões inferior, superior e de fronteira. Em geral, TomTom apresentou resultados medianos em maior parte dos gráficos. 
+A figura \ref{fig:falhas-exp-google-sp} mostra os gráficos de falhas para os experimentos de menor e maior taxa de acerto da API Google Maps para os dados de São Paulo. Assim como ocorreu com os gráficos da Mapbox na figura \ref{fig:falhas-exp-mapbox-sp}, a diferença é pequena, porém é possível notar uma melhora na parte superior do gráfico. Nessa parte, o gráfico de maior taxa de acerto está mais claro. Também é possível notar que as regiões que apresentam maior falha são consistentes nos dois gráficos, porém, no gráfico com menor taxa de acerto, a falha é mais acentuada. Isso está em linha com os resultados encontrados nos dados de Belo Horizonte para essa API.
 
-% \begin{figure}[ht]
-%   \centering
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/expFalhasTomtommaior.png}
-%     \caption{Maior Taxa de Acerto}
-%     \label{fig:falhastomtomBHexpMaior}
-%   \end{subfigure}
-%   \hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/expFalhasTomtommenor.png}
-%     \caption{Menor Taxa de Acerto}
-%     \label{fig:falhastomtomBHexpMenor}
-%   \end{subfigure}
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{Figuras/expFalhasGooglemaiorSP.png}
+      \caption{Maior Taxa de Acerto}
+      \label{fig:falhasgoogleSPexpMaior}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{Figuras/expFalhasGooglemenorSP.png}
+      \caption{Menor Taxa de Acerto}
+      \label{fig:falhasgoogleSPexpMenor}
+    \end{subfigure}
+    
+    \caption{Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de São Paulo: Google Maps}
+    \label{fig:falhas-exp-google-sp}
+\end{figure}
+
+A figura \ref{fig:falhas-exp-tomtom-bh} mostra os gráficos de falha dos experimentos de maior e menor taxa de acerto da API TomTom para os dados de Belo Horizonte. Nessa figura, ao contrário das outras APIs, não é possível notar diferença significativa entre os experimentos com maior e menor taxa de acerto. Isso condiz com as taxas de acerto da TomTom para os experimentos pois estavam todas próximas. Em comparação com as outras APIs, os dois gráficos apresentam uma certa uniformidade, com valores abaixo de 40\% de falha. Algumas regiões aparentam taxas maiores, que são as regiões inferior, superior e de fronteira. Em geral, TomTom apresentou resultados medianos em maior parte dos gráficos. Isso pode indicar que para a API TomTom, a ordem em que os campos da entrada estão não impactam na geocodificação.
+
+\begin{figure}[ht]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/expFalhasTomtommaior.png}
+    \caption{Maior Taxa de Acerto}
+    \label{fig:falhastomtomBHexpMaior}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/expFalhasTomtommenor.png}
+    \caption{Menor Taxa de Acerto}
+    \label{fig:falhastomtomBHexpMenor}
+  \end{subfigure}
   
-%   \caption{Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: TomTom}
-%   \label{fig:falhas-exp-tomtom-bh}
-% \end{figure}
+  \caption{Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: TomTom}
+  \label{fig:falhas-exp-tomtom-bh}
+\end{figure}
 
-% COLOCAR FALHAS TOMTOM SP
+A figura \ref{fig:falhas-exp-tomtom-sp} apresenta os gráficos de falhas para os experimentos de menor e maior taxa de acerto para a API TomTom. Assim como ocorreu para os dados de Belo Horizonte, os gráficos não apresentaram diferença significativa, o que corrobora a hipótese de que esta API não é impactada pela ordem dos campos de entrada da mesma forma que as outras APIs analisadas. Apesar disso, neste gráfico podemos notar que a API apresentou uma melhora em relação aos dados de Belo Horizonte, com uma aparência mais uniforme e com valores menores que 40\%. É possível notar também que algumas regiões apresentam falhas maiores, principalmente as regiões inferior e nas bordas do gráfico.
+ 
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{Figuras/expFalhasTomtommaiorSP.png}
+      \caption{Maior Taxa de Acerto}
+      \label{fig:falhastomtomBHexpMaiorSP}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{Figuras/expFalhasTomtommenorSP.png}
+      \caption{Menor Taxa de Acerto}
+      \label{fig:falhastomtomBHexpMenorSP}
+    \end{subfigure}
+    
+    \caption{Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de São Paulo: TomTom}
+    \label{fig:falhas-exp-tomtom-sp}
+\end{figure}
 
-% A figura \ref{fig:falhas-exp-ors-bh} mostra os gráficos de falha dos experimentos de maior e menor taxa de acerto da API Open Route Service para os dados de Belo Horizonte. Nessa figura, apesar das outras APIs, há pouca uniformiadade no gráfico de maior taxa, inclusive apresentando muitos valores de taxas altas em praticamente todas as regiões do gráfico. Já o gráfico de menor taxa de acerto, apresenta em quase sua totatalidade valores de taxa de acerto próximos do máximo. Ou seja, para a API TomTom, para esses dados, a formatação de entrada é crucial, pois a depender da escolhida, a API pode errar a maioria das solicitações. Apesar disso, mesmo no experimento de maior taxa, há valores altos de erro, resultado que concorda com os obtidos anteriormente.
+A figura \ref{fig:falhas-exp-ors-bh} mostra os gráficos de falha dos experimentos de maior e menor taxa de acerto da API Open Route Service para os dados de Belo Horizonte. Nessa figura, apesar das outras APIs, há pouca uniformiadade no gráfico de maior taxa, inclusive apresentando muitos valores de taxas altas em praticamente todas as regiões do gráfico. Já o gráfico de menor taxa de acerto, apresenta em quase sua totatalidade valores de taxa de falha próximos do máximo. Ou seja, para a API ORS, para esses dados, a formatação de entrada é crucial, pois a depender da escolhida, a API pode errar quase todas as solicitações. Apesar disso, mesmo no experimento de maior taxa, há valores altos de erro, resultado que concorda com os obtidos anteriormente.
 
-% \begin{figure}[ht]
-%   \centering
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/expFalhasORSmaior.png}
-%     \caption{Maior Taxa de Acerto}
-%     \label{fig:falhasorsBHexpMaior}
-%   \end{subfigure}
-%   \hfill
-%   \begin{subfigure}[b]{0.45\textwidth}
-%     \includegraphics[width=\textwidth]{Figuras/expFalhasORSmenor.png}
-%     \caption{Menor Taxa de Acerto}
-%     \label{fig:falhasorsBHexpMenor}
-%   \end{subfigure}
+\begin{figure}[ht]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/expFalhasORSmaior.png}
+    \caption{Maior Taxa de Acerto}
+    \label{fig:falhasorsBHexpMaior}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Figuras/expFalhasORSmenor.png}
+    \caption{Menor Taxa de Acerto}
+    \label{fig:falhasorsBHexpMenor}
+  \end{subfigure}
   
-%   \caption{Gráficos de falhas para a maior e menor taxas de acerto dos experimentos para os dados de Belo Horizonte: Open Route Service}
-%   \label{fig:falhas-exp-ors-bh}
-% \end{figure}
+  \caption{Gráficos de falhas para a maior e menor taxas de acerto dos experimentos para os dados de Belo Horizonte: Open Route Service}
+  \label{fig:falhas-exp-ors-bh}
+\end{figure}
 
-% COLOCAR FALHAS ORS SP
+A figura \ref{fig:falhas-exp-ors-sp} mostra os gráficos de falhas para os experimentos de menor e maior taxa de acerto da API ORS. De forma similar aos dados de Belo Horizonte, é possível visualizar uma melhora significativa no gráfico de maior taxa de acerto em comparação ao de menor taxa de acerto. Nele, existem regiões onde a taxa de falha é menor, ou seja, regiões mais claras. Ao contrário do gráfico de menor taxa de acerto, que apresenta taxas de falhas muito altas em quase todo o gráfico. Apesar disso, o gráfico de maior taxa de acerto apresenta pouca uniformidade em comparação com as outras APIs, o que está de acordo com os resultados obtidos na tabela \ref{tab:txAcerExpAPISP}.
+ 
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{Figuras/expFalhasORSmaiorSP.png}
+      \caption{Maior Taxa de Acerto}
+      \label{fig:falhasorsSPexpMaior}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+      \includegraphics[width=\textwidth]{Figuras/expFalhasORSmenorSP.png}
+      \caption{Menor Taxa de Acerto}
+      \label{fig:falhasorsSPexpMenor}
+    \end{subfigure}
+    
+    \caption{Gráficos de falhas para a maior e menor taxas de acerto dos experimentos para os dados de São Paulo: Open Route Service}
+    \label{fig:falhas-exp-ors-sp}
+\end{figure}
