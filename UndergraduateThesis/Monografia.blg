@@ -31,67 +31,55 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "stein2021geoprocessamento" isn't style-file defined
---line 257 of file bibliografia.bib
+--line 265 of file bibliografia.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
-Warning--campo year vazio ou faltando em cem
-Warning--campo year vazio ou faltando em GoogleDoc
-Warning--campo year vazio ou faltando em MapboxDoc
-Warning--campo year vazio ou faltando em ORSdoc
-Warning--campo year vazio ou faltando em TomtomDoc
-Warning--campo year vazio ou faltando em GCP
-Warning--campo year vazio ou faltando em Prodabel
-Warning--campo year vazio ou faltando em relatorioDeA
-Warning--campo year vazio ou faltando em mapbox
-Warning--campo year vazio ou faltando em ors
-Warning--campo year vazio ou faltando em tomtom
-Warning--campo year vazio ou faltando em terralab
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 32 entries,
+You've used 33 entries,
             6714 wiz_defined-function locations,
-            1392 strings with 15097 characters,
-and the built_in function-call counts, 45309 in all, are:
-= -- 5766
-> -- 660
-< -- 943
-+ -- 1438
-- -- 193
-* -- 2655
-:= -- 5343
-add.period$ -- 118
-call.type$ -- 33
-change.case$ -- 312
-chr.to.int$ -- 76
-cite$ -- 41
-duplicate$ -- 3794
-empty$ -- 1974
-format.name$ -- 971
-if$ -- 10020
-int.to.chr$ -- 7
+            1412 strings with 15692 characters,
+and the built_in function-call counts, 43466 in all, are:
+= -- 4820
+> -- 873
+< -- 984
++ -- 1307
+- -- 263
+* -- 2747
+:= -- 5338
+add.period$ -- 148
+call.type$ -- 34
+change.case$ -- 336
+chr.to.int$ -- 84
+cite$ -- 30
+duplicate$ -- 4027
+empty$ -- 1998
+format.name$ -- 1294
+if$ -- 8997
+int.to.chr$ -- 3
 int.to.str$ -- 3
-missing$ -- 565
-newline$ -- 166
-num.names$ -- 86
-pop$ -- 730
+missing$ -- 608
+newline$ -- 174
+num.names$ -- 151
+pop$ -- 735
 preamble$ -- 1
-purify$ -- 117
+purify$ -- 121
 quote$ -- 0
-skip$ -- 5174
+skip$ -- 4189
 stack$ -- 1
-substring$ -- 1882
-swap$ -- 1437
-text.length$ -- 45
+substring$ -- 1856
+swap$ -- 1565
+text.length$ -- 49
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 119
-warning$ -- 12
-while$ -- 163
+type$ -- 1
+warning$ -- 0
+while$ -- 220
 width$ -- 0
-write$ -- 464
-(There were 13 warnings)
+write$ -- 509
+(There was 1 warning)

@@ -1,5 +1,5 @@
 \babel@toc {brazil}{}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Adaptada do livro \cite {longley2013}. Visão conceitual da incerteza\relax }}{3}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Adaptada do livro \cite {longley2013}. Visão conceitual da incerteza\relax }}{2}{figure.caption.8}%
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Mapa de clusters do Centro de Estudos da Metrópole\relax }}{9}{figure.caption.9}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Gráfico de Endereços da Base de São Paulo e região metropolitana\relax }}{10}{figure.caption.10}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Site da Prodabel para pesquisa de endereços. \relax }}{11}{figure.caption.11}%
@@ -19,13 +19,13 @@
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Boxplots de Erro por API para cada uma das APIs avalidas\relax }}{33}{figure.caption.39}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Boxplots de Erro por API para cada uma das APIs avalidas para a amostra de São Paulo\relax }}{33}{figure.caption.40}%
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: Mapbox\relax }}{34}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: Mapbox\relax }}{35}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: Google\relax }}{36}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: Google\relax }}{37}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: TomTom\relax }}{38}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: ORS\relax }}{39}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: Mapbox\relax }}{34}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: Google\relax }}{35}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: Google\relax }}{36}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: TomTom\relax }}{37}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers: ORS\relax }}{38}{figure.caption.46}%
 \contentsline {figure}{\numberline {3.20}{\ignorespaces Boxplot de Erro por API com todos os experimentos avaliados sem Outliers para a amostra de São Paulo: ORS\relax }}{39}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: MapBox\relax }}{40}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: MapBox\relax }}{39}{figure.caption.48}%
 \contentsline {figure}{\numberline {3.22}{\ignorespaces Gráficos de falhas para a maior e menor taxas de acerto dos experimentos para os dados de São Paulo: MapBox\relax }}{40}{figure.caption.49}%
 \contentsline {figure}{\numberline {3.23}{\ignorespaces Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de Belo Horizonte: Google Maps\relax }}{40}{figure.caption.50}%
 \contentsline {figure}{\numberline {3.24}{\ignorespaces Gráficos de falhas para a maior e menor taxas de acertodos experimentos para os dados de São Paulo: Google Maps\relax }}{41}{figure.caption.51}%

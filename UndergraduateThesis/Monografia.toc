@@ -3,9 +3,9 @@
 \contentsline {chapter}{\chapternumberline {1}Introdução}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Endereços e Geocodificação}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}APIs de Geocodificação e Análise de qualidade}{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}APIs de Geocodificação e formatação das entradas}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.3}APIs de Geocodificação e formatação das entradas}{5}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Objetivos}{6}{section.1.4}%
-\contentsline {chapter}{\chapternumberline {2}Bases de Dados e Métodos de Geocodificação e Avaliação}{9}{chapter.2}%
+\contentsline {chapter}{\chapternumberline {2}Bases de Dados, Métodos de Geocodificação e Formas de Avaliação}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Bases de Dados}{9}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Processo de Geocodificação}{12}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Método de Avaliação}{13}{section.2.3}%
@@ -18,12 +18,12 @@
 \contentsline {section}{\numberline {3.3}Distribuição Espacial do Erro}{22}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Relações entre erro e discrepância}{25}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Experimentos de Formatação}{26}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Distribuição Espacial das Falhas dos Experimentos de Formatação}{35}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.1}Distribuição Espacial das Falhas dos Experimentos de Formatação}{36}{subsection.3.5.1}%
 \contentsline {chapter}{\chapternumberline {4}Considerações Finais}{43}{chapter.4}%
 \vspace {\cftbeforepartskip }
 \contentsline {chapter}{Refer\^encias}{45}{chapter*.57}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
-\contentsline {part}{Anexos}{47}{section*.58}%
-\contentsline {appendix}{\chapternumberline {A}Abreviações utilizadas}{48}{appendix.anexochapback.1}%
-\contentsline {appendix}{\chapternumberline {B}Tabelas dos experimentos de formatação completas}{50}{appendix.anexochapback.2}%
+\contentsline {part}{Anexos}{48}{section*.58}%
+\contentsline {appendix}{\chapternumberline {A}Abreviações utilizadas}{49}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {B}Tabelas dos experimentos de formatação completas}{51}{appendix.anexochapback.2}%

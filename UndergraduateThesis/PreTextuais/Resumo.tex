@@ -25,14 +25,13 @@
 %--------------------------------------------------------------------------
 \begin{resumo}[Abstract]
  \begin{otherlanguage*}{english}
-   Online geocoding APIs play a significant role in applications that require location information. To ensure the quality of these applications, it is essential to assess the accuracy of the APIs used. This study aims to evaluate the quality of five geocoding APIs implemented in TerraLAB: Google Maps, Mapbox, TomTom, Here, and Open Route Service (ORS). The evaluation was conducted based on geocoding error compared to a reference database in the metropolitan region of São Paulo.
+  Online geocoding APIs play a significant role in applications that require location information. To ensure the quality of these applications, it is essential to evaluate the accuracy of the APIs used. This study aims to evaluate the quality of four geocoding APIs: Google Maps, Mapbox, TomTom, and Open Route Service (ORS). For this, two databases were used: the first from Belo Horizonte and the second from the metropolitan region of São Paulo. In addition to assessing the quality of the APIs, the study also aims to find a discrepancy measure comparable to the error and to evaluate the best input formatting for the APIs.
 
-    We used various metrics for comparative analysis, including mean, standard deviation, median, trimmed mean at 5\%, response rate (the ratio of geocoding requests to responses), and accuracy rate (the number of addresses with errors less than 150 meters). Additionally, we conducted a spatial analysis of the error and investigated the relationship between discrepancy and error using the covariance measure. Due to issues with the application collecting geocodings, this project phase focused only on the Mapbox, TomTom, and Here APIs, resulting in overall unsatisfactory performance.
-    
-    Most APIs exhibited a low response rate, with the highest among them falling below 90\%, which impacted the experiment's integrity. Regarding the accuracy rate, all APIs obtained values considered unsatisfactory by our research team. Furthermore, we observed significant errors that hindered spatial analysis. Concerning the relationship between discrepancy and error, we could not identify a strong correlation, possibly due to the limited number of geocodings performed.
-    
-    For the next phase of the project, we plan to repeat the analysis with the remaining APIs for São Paulo data and extend the evaluation to Belo Horizonte data.
-
+  We used several metrics for quality analysis, including mean, standard deviation, median, 5\% trimmed mean, response rate (proportion between geocoding requests and responses), and precision rate (number of addresses with an error less than 150 meters). Additionally, we conducted a spatial error analysis and investigated the relationship between discrepancy and error, using the distance to the midpoint measure.
+  
+  Most APIs showed a high response rate in both databases. Regarding the precision rate, most APIs had medium to high results, except for the ORS API, which had unsatisfactory results in both databases. Concerning the relationship between discrepancy and error, we identified a strong to very strong correlation with all APIs, except for Google Maps, which had a very weak correlation for both databases, and ORS, which had a weak correlation for the São Paulo database.
+  
+  Finally, concerning the input data formatting, we had results indicating that the best input formatting follows the Brazilian postal code, and adding the neighborhood can improve geocoding for some of the evaluated APIs.
 
    \vspace{\onelineskip}
    \noindent 

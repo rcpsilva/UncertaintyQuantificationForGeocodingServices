@@ -17,9 +17,9 @@
   impresso em 2003.
 ISBN 978-85-363-1144-9.}
 
-\bibitem[Centro de Estudos da Metrópole]{cem}
-\abntrefinfo{Centro\ldots}{CENTRO\ldots}{}
-{CENTRO de Estudos da Metrópole.
+\bibitem[CEM 2024]{cem}
+\abntrefinfo{CEM}{CEM}{2024}
+{CEM. \emph{Centro de Estudos da Metrópole}. 2024.
   Url{https://centrodametropole.fflch.usp.br/pt-br}.
 Acesso em: [24 maio. 2024].}
 
@@ -38,29 +38,10 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1080/19475683.2015.1085437}.}
 Dispon{\'\i}vel em:
   \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9671.2011.01274.x}.}
 
-\bibitem[Documentação da Google Maps Geocodin API]{GoogleDoc}
-\abntrefinfo{Documentação\ldots}{DOCUMENTAçãO\ldots}{a}
-{DOCUMENTAçãO da Google Maps Geocodin API.
-  Url{https://developers.google.com/maps/documentation/geocoding}.
-Acesso em: [04 nov. 2023].}
-
-\bibitem[Documentação da Mapbox Geocodin API]{MapboxDoc}
-\abntrefinfo{Documentação\ldots}{DOCUMENTAçãO\ldots}{b}
-{DOCUMENTAçãO da Mapbox Geocodin API.
-  Url{https://docs.mapbox.com/api/search/geocoding/}.
-Acesso em: [04 nov. 2023].}
-
-\bibitem[Documentação da Open Route Service Geocodin API]{ORSdoc}
-\abntrefinfo{Documentação\ldots}{DOCUMENTAçãO\ldots}{c}
-{DOCUMENTAçãO da Open Route Service Geocodin API.
-  Url{https://openrouteservice.org/dev/\#/api-docs/geocode/search/get}.
-Acesso em: [04 nov. 2023].}
-
-\bibitem[Documentação da TomTom Geocodin API]{TomtomDoc}
-\abntrefinfo{Documentação\ldots}{DOCUMENTAçãO\ldots}{d}
-{DOCUMENTAçãO da TomTom Geocodin API.
-  Url{https://developer.tomtom.com/geocoding-api/documentation/product-information/introduction}.
-Acesso em: [04 nov. 2023].}
+\bibitem[GCP 2023]{GCP}
+\abntrefinfo{GCP}{GCP}{2023}
+{GCP. \emph{Google Cloud Platform}. 2023. Url{https://cloud.google.com/}.
+Acesso em: [13 ago. 2023].}
 
 \bibitem[Gilboa et al. 2006]{Gilboa2006}
 \abntrefinfo{Gilboa et al.}{GILBOA et al.}{2006}
@@ -73,10 +54,11 @@ Womens Occupational and Environmental Health.
 Dispon{\'\i}vel em:
   \url{https://www.sciencedirect.com/science/article/pii/S001393510600020X}.}
 
-\bibitem[Google Cloud Platform]{GCP}
-\abntrefinfo{Google\ldots}{GOOGLE\ldots}{}
-{GOOGLE Cloud Platform. Url{https://cloud.google.com/}.
-Acesso em: [13 ago. 2023].}
+\bibitem[Google 2023]{GoogleDoc}
+\abntrefinfo{Google}{GOOGLE}{2023}
+{GOOGLE. \emph{Documentação da Google Maps Geocodin API}. 2023.
+  Url{https://developers.google.com/maps/documentation/geocoding}.
+Acesso em: [04 nov. 2023].}
 
 \bibitem[Hay et al. 2009]{Kypri2009}
 \abntrefinfo{Hay et al.}{HAY et al.}{2009}
@@ -94,6 +76,18 @@ Dispon{\'\i}vel em:
 \emph{Transactions in GIS}, v.~15, n.~6, p. 851--868, 2011.
 Dispon{\'\i}vel em:
   \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9671.2011.01288.x}.}
+
+\bibitem[Kilic e Gulgen 2020]{kilic2020}
+\abntrefinfo{Kilic e Gulgen}{KILIC; GULGEN}{2020}
+{KILIC, B.; GULGEN, F. Accuracy and similarity aspects in online geocoding
+  services: A comparative evaluation for google and bing maps.
+\emph{International Journal of Engineering and Geosciences (IJEG)}, Turkey,
+  v.~5, n.~2, p. 109--119, June 2020.
+ISSN 2548-0960.
+Yildiz Technical University, Civil Engineering Faculty, Department of Geomatic
+  Engineering, Istanbul, Turkey; (fgulgen/batuhank@yildiz.edu.tr); ORCID
+  0000-0002-8754-9017, ORCID 0000-0002-0529-8569.
+Dispon{\'\i}vel em: \url{https://doi.org/10.26833/ijeg.629381}.}
 
 \bibitem[Klein 2015]{klein2015}
 \abntrefinfo{Klein}{KLEIN}{2015}
@@ -125,6 +119,17 @@ Dispon{\'\i}vel em:
 ISBN 9788565837651. Dispon{\'\i}vel em:
   \url{https://integrada.minhabiblioteca.com.br/\#/books/9788565837651/}.}
 
+\bibitem[Mapbox 2023]{MapboxDoc}
+\abntrefinfo{Mapbox}{MAPBOX}{2023}
+{MAPBOX. \emph{Documentação da Mapbox Geocodin API}. 2023.
+  Url{https://docs.mapbox.com/api/search/geocoding/}.
+Acesso em: [04 nov. 2023].}
+
+\bibitem[Mapbox 2024]{mapbox}
+\abntrefinfo{Mapbox}{MAPBOX}{2024}
+{MAPBOX. \emph{Site da Mapbox}. 2024. Url{https://www.mapbox.com/}.
+Acesso em: [25 jun. 2024].}
+
 \bibitem[Mazumdar et al. 2008]{Mazumdar2008}
 \abntrefinfo{Mazumdar et al.}{MAZUMDAR et al.}{2008}
 {MAZUMDAR, S.; RUSHTON, G.; SMITH, B.~J. et al. Geocoding accuracy and the
@@ -140,31 +145,24 @@ Dispon{\'\i}vel em:
   Monsey, NY: Criminal Justice Press, 1998,  (Crime Prevention Studies, v.~8).
   p. 313--347.}
 
-\bibitem[Prodabel]{Prodabel}
-\abntrefinfo{Prodabel}{PRODABEL}{}
-{PRODABEL. Url{https://prefeitura.pbh.gov.br/prodabel}.
+\bibitem[ORS 2023]{ORSdoc}
+\abntrefinfo{ORS}{ORS}{2023}
+{ORS. \emph{Documentação da Open Route Service Geocodin API}. 2023.
+  Url{https://openrouteservice.org/dev/\#/api-docs/geocode/search/get}.
+Acesso em: [04 nov. 2023].}
+
+\bibitem[ORS 2024]{ors}
+\abntrefinfo{ORS}{ORS}{2024}
+{ORS. \emph{Site da Open Route Service}. 2024.
+  Url{https://openrouteservice.org/}.
+Acesso em: [25 jun. 2024].}
+
+\bibitem[Prodabel 2023]{Prodabel}
+\abntrefinfo{Prodabel}{PRODABEL}{2023}
+{PRODABEL. \emph{Prodabel - Empresa de Informática e Informação da
+  Prefeitura de Belo Horizonte}. 2023.
+  Url{https://prefeitura.pbh.gov.br/prodabel}.
 Acesso em: [13 ago. 2023].}
-
-\bibitem[Relatório do Experimento de Entradas das APIs]{relatorioDeA}
-\abntrefinfo{Relatório\ldots}{RELATóRIO\ldots}{}
-{RELATóRIO do Experimento de Entradas das APIs.
-  Url{https://github.com/rcpsilva/UncertaintyQuantificationForGeocodingServices/blob/main/UndergraduateThesis/Documentos/Relatorio-testes.pdf}.
-Acesso em: [21 jun. 2024].}
-
-\bibitem[Site da Mapbox]{mapbox}
-\abntrefinfo{Site\ldots}{SITE\ldots}{a}
-{SITE da Mapbox. Url{https://www.mapbox.com/}.
-Acesso em: [25 jun. 2024].}
-
-\bibitem[Site da Open Route Service]{ors}
-\abntrefinfo{Site\ldots}{SITE\ldots}{b}
-{SITE da Open Route Service. Url{https://openrouteservice.org/}.
-Acesso em: [25 jun. 2024].}
-
-\bibitem[Site da TomTom]{tomtom}
-\abntrefinfo{Site\ldots}{SITE\ldots}{c}
-{SITE da TomTom. Url{https://www.tomtom.com/}.
-Acesso em: [25 jun. 2024].}
 
 \bibitem[Spiegel e Stephens 2009]{spiegel2009}
 \abntrefinfo{Spiegel e Stephens}{SPIEGEL; STEPHENS}{2009}
@@ -180,12 +178,28 @@ E-book.
 Dispon{\'\i}vel em:
   \url{https://integrada.minhabiblioteca.com.br/\#/books/9786556902852/}.}
 
-\bibitem[TerraLAB - Laboratório de Capacitação e Desenvolvimento de
-  Software]{terralab}
-\abntrefinfo{TerraLAB\ldots}{TERRALAB\ldots}{}
-{TERRALAB - Laboratório de Capacitação e Desenvolvimento de Software.
-  Url{http://www2.decom.ufop.br/terralab/}.
+\bibitem[TerraLAB 2024]{relatorioDeA}
+\abntrefinfo{TerraLAB}{TERRALAB}{2024a}
+{TERRALAB. \emph{Relatório do Experimento de Entradas das APIs}. 2024.
+  Url{https://github.com/rcpsilva/UncertaintyQuantificationForGeocodingServices/blob/main/UndergraduateThesis/Documentos/Relatorio-testes.pdf}.
+Acesso em: [21 jun. 2024].}
+
+\bibitem[TerraLAB 2024]{terralab}
+\abntrefinfo{TerraLAB}{TERRALAB}{2024b}
+{TERRALAB. \emph{TerraLAB - Laboratório de Capacitação e Desenvolvimento de
+  Software}. 2024. Url{http://www2.decom.ufop.br/terralab/}.
 Acesso em: [11 ago. 2023].}
+
+\bibitem[TomTom 2023]{TomtomDoc}
+\abntrefinfo{TomTom}{TOMTOM}{2023}
+{TOMTOM. \emph{Documentação da TomTom Geocodin API}. 2023.
+  Url{https://developer.tomtom.com/geocoding-api/documentation/product-information/introduction}.
+Acesso em: [04 nov. 2023].}
+
+\bibitem[TomTom 2024]{tomtom}
+\abntrefinfo{TomTom}{TOMTOM}{2024}
+{TOMTOM. \emph{Site da TomTom}. 2024. Url{https://www.tomtom.com/}.
+Acesso em: [25 jun. 2024].}
 
 \bibitem[Whitsel et al. 2006]{Whitsel2006}
 \abntrefinfo{Whitsel et al.}{WHITSEL et al.}{2006}

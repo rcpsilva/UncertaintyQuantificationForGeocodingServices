@@ -1,6 +1,6 @@
 \chapter{Resultados} \label{resultado}
 
-Nós inicialmente analisamos erro e discrepância nos 12.502 endereços de São Paulo. Abaixo estão os totais de geocodificações bem-sucedidas para cada API:
+Inicialmente analisamos erro e discrepância nos 12.502 endereços de São Paulo. Abaixo estão os totais de geocodificações bem-sucedidas para cada API:
 
 \begin{itemize}
     \item TomTom: 11.370 endereços;
@@ -22,11 +22,7 @@ Falhas podem ocorrer em qualquer estágio de geocodificação, derivadas de info
 
 \section{Erro, Taxa de Resposta e Taxa de Precisão}
 
-Para avaliar a qualidade das geocodificações fizemos uma análise do erro, taxa de precisão e taxa de resposta das geocodificações obtidas. 
-
-Foi realizado o calculo do erro para cada um dos pontos, sendo este expresso em quilômetros (Km).
-
-Com o erro de cada um dos pontos, foram calculadas as métricas mencionadas anteriormente. Os resultados bem como suas interpretações são apresentados abaixo.
+Para avaliar a qualidade das geocodificações fizemos uma análise do erro, taxa de precisão e taxa de resposta das geocodificações obtidas. Foi realizado o calculo do erro para cada um dos pontos, sendo este expresso em quilômetros (Km). Com o erro de cada um dos pontos, foram calculadas as métricas mencionadas anteriormente. Os resultados bem como suas interpretações são apresentados abaixo.
 
 A Tabela \ref{tab:tabelaDeMetricasSP} apresenta os resultados calculados para as respostas recebidas da geocodificação da base de São Paulo. Em relação à taxa de resposta, ou seja, o número de endereços que foram geocodificados com sucesso, a Mapbox obteve o melhor resultado, seguida pela ORS, ambas com taxas de resposta superiores a 98\%. Google e TomTom tiveram taxas de resposta de 75\% e 90\%, respectivamente. Esses resultados são considerados satisfatórios e garantem uma boa quantidade de dados para as avaliações subsequentes.
 
@@ -266,21 +262,19 @@ Na tentativa de alcançar o nosso segundo objetivo, que é encontrar uma medida 
 Realizamos então uma análise com um subconjunto de 8574 endereços do banco de dados de São Paulo. A Tabela \ref{tab:correlationSP} exibe esses resultados. A partir da tabela, pode-se observar que para todas as APIs, as correlações com o erro são positivas. Isso indica que à medida que o erro aumenta, a distância do ponto médio também tende a aumentar. De acordo com a tabela \ref{tab:correlacaoPearson} a medida de distância até o ponto médio obteve uma correlação forte a muito forte para a maioria das APIs, com resultados na faixa de 0,88 a 0,94. Em contrapartida, a API do Google mostrou uma correlação regular muito próxima a fraca.
 
 \begin{table}[h]
-    \centering
-    \caption{Correlação  de Pearson entre Erro e Medidas de Discrepância para São Paulo}
-    \label{tab:correlationSP}
-    \begin{adjustbox}{width=0.7\textwidth}
-    \begin{tabular}{|c|c|c|}
-    \hline
-    API & Distância até o Ponto Médio \\
-    \hline
-    Mapbox & 0,8972 \\
-    TomTom & 0,8858 \\
-    Google & 0,3615 \\
-    ORS & 0,9378 \\
-    \hline
-    \end{tabular}
-    \end{adjustbox}
+  \centering
+  \caption{Correlação de Pearson entre Erro e Medidas de Discrepância para São Paulo}
+  \label{tab:correlationSP}
+  \begin{tabular}{|c|c|}
+  \hline
+  API & Distância até o Ponto Médio \\
+  \hline
+  Mapbox & 0,8972 \\
+  TomTom & 0,8858 \\
+  Google & 0,3615 \\
+  ORS & 0,9378 \\
+  \hline
+  \end{tabular}
 \end{table}
 
 Para o conjunto de dados de Belo Horizonte, conduzimos essa análise com 84.752 endereços, o que representa aproximadamente 99,71\% da amostra utilizada. A Tabela \ref{tab:correlationBH} mostra esses resultados. Em geral, a tabela apresenta valores de correlação mais próximos de 0 do que os encontrados na análise dos dados de São Paulo, indicando que a correlação é mais fraca para este conjunto de dados como um todo. Nesses dados tivemos correlações fortes a muito fortes para o Mapbox e o TomTom. O Google e o ORS apresentaram correlações fracas para a distância do ponto médio. Apesar dos resultados de correlação inferiores em comparação com a análise do conjunto de dados de São Paulo, os resultados de Belo Horizonte parecem indicar que a distância até o ponto médio pode ser uma medida substituta do erro em situações onde este não pode ser obtido, para algumas APIs. No entanto, essa medida não é consistente em relação às diferentes APIs, nem em relação às diferentes bases de dados. Portanto, essa medida deve ser utilizada com cautela e mais avaliações são necessárias.
@@ -289,7 +283,6 @@ Para o conjunto de dados de Belo Horizonte, conduzimos essa análise com 84.752 
     \centering
     \caption{Correlação de Pearson entre Erro e Medidas de Discrepância para Belo Horizonte}
     \label{tab:correlationBH}
-    \begin{adjustbox}{width=0.7\textwidth}
     \begin{tabular}{|c|c|c|}
     \hline
     API & Distância até o Ponto Médio \\
@@ -300,7 +293,6 @@ Para o conjunto de dados de Belo Horizonte, conduzimos essa análise com 84.752 
     ORS & 0,2775 \\
     \hline
     \end{tabular}
-    \end{adjustbox}
 \end{table}
 
 \section{Experimentos de Formatação}
@@ -309,9 +301,9 @@ Após realizar análises de erro e discrepância nas bases de São Paulo e Belo 
 
 Após a geocodificação dos experimentos, calculamos o erro para cada endereço. Para cada API, computamos a média, mediana, desvio padrão, média aparada em 5\%, taxa de resposta e taxa de acerto, como realizado anteriormente. Os resultados completos podem ser encontrados nas tabelas \ref{tab:mapboxBH}, \ref{tab:mapboxSP}, \ref{tab:googleBH}, \ref{tab:googleSP}, \ref{tab:orsBH}, \ref{tab:tomtomBH}, e \ref{tab:openrouteserviceSP} no anexo \ref{anexo_tabelas_completas} do texto.
 
-Para uma compreensão mais aprofundada dos resultados e uma análise comparativa, elaboramos duas tabelas para cada base. As tabelas representam a taxa de resposta e a taxa de acerto de cada experimento por API.
+Para uma compreensão mais aprofundada dos resultados e uma análise comparativa, elaboramos duas tabelas para cada base. As tabelas representam a taxa de resposta e a taxa de acerto de cada experimento por API. Adicionamos também uma linha nas tabelas para mostrar a variação máxima de resultado por API, a fim de avaliar o impacto da formatação para cada API. A variação máxima é calculada como a diferença entre a maior taxa e a menor taxa.
 
-As tabelas \ref{tab:txRespExpAPIBH} e \ref{tab:txRespExpAPISP} mostram as taxas de resposta para as bases de Belo Horizonte e São Paulo, respectivamente. Observamos que todos os experimentos apresentaram excelentes resultados em termos de taxa de resposta, a maioria acima de 95\% com exceção a TomTom com taxas acima de 84\% para os dados de São Paulo. Não foi identificar uma diferença significativa entre as taxas de resposta nos experimentos. No entanto, em relação às APIs, a ORS, em geral, apresentou uma taxa de resposta ligeiramente inferior em comparação com as outras APIs para os dados de Belo Horizonte. Em relação aos dados de São Paulo, a mesma situação ocorre com a API TomTom. No entanto, os autores não consideram essa diferença significativa devido à sua pequena magnitude.
+As tabelas \ref{tab:txRespExpAPIBH} e \ref{tab:txRespExpAPISP} mostram as taxas de resposta para as bases de Belo Horizonte e São Paulo, respectivamente. Observamos que todos os experimentos apresentaram excelentes resultados em termos de taxa de resposta, a maioria acima de 95\% com exceção a TomTom com taxas acima de 84\% para os dados de São Paulo. Não foi identificar uma diferença significativa entre as taxas de resposta nos experimentos. No entanto, em relação às APIs, a ORS, em geral, apresentou uma taxa de resposta ligeiramente inferior em comparação com as outras APIs para os dados de Belo Horizonte. Em relação aos dados de São Paulo, a mesma situação ocorre com a API TomTom. No entanto, os autores não consideram essa diferença significativa devido à sua pequena magnitude. Em relação a variação máxima, houve pouca variação em todos os experimentos e APIs, indicando que a formatação tem pouco ou nenhum impacto na resposta das APIs de geocodificação. 
  
 \begin{table}[!ht]
     \centering
@@ -342,6 +334,8 @@ As tabelas \ref{tab:txRespExpAPIBH} e \ref{tab:txRespExpAPISP} mostram as taxas 
     \hline
     5b & 99,76 & 99,88 & 99,92 & 99,98\\
     \hline
+    Variação Máxima & 0,32 & 0,16 & 0,12 & 4,88\\
+    \hline
     \end{tabular}
     \end{adjustbox}
 \end{table}
@@ -365,11 +359,13 @@ As tabelas \ref{tab:txRespExpAPIBH} e \ref{tab:txRespExpAPISP} mostram as taxas 
     \hline
     5 & 98,00 & 99,90 & 99,96 & 84,14\\
     \hline
+    Variação Máxima & 1,7 & 0,12 & 0,96 & 1,38\\
+    \hline
     \end{tabular}
     \end{adjustbox}
 \end{table}
 
-A tabela \ref{tab:txAcerExpAPIBH} apresenta a taxa de acerto dos dados de Belo Horizonte. Observa-se que as APIs que alcançaram os melhores resultados foram a Google e MapBox, com destaque para a MapBox, que obteve a melhor taxa de acerto em todos os experimentos. Por outro lado, a ORS teve um impacto negativo, sendo a API com a menor taxa de acerto em relação às outras APIs, com valores baixíssimos variando de 1,40\% a 41\%, resultados que replicam os obtidos nos experimentos anteriores. A API TomTom apresentou um resultado mediano, mantendo taxas acima de 50\% em todos os experimentos.
+A tabela \ref{tab:txAcerExpAPIBH} apresenta a taxa de acerto dos dados de Belo Horizonte. Observa-se que as APIs que alcançaram os melhores resultados foram a Google e MapBox, com destaque para a MapBox, que obteve a melhor taxa de acerto em todos os experimentos. Por outro lado, a ORS teve um impacto negativo, sendo a API com a menor taxa de acerto em relação às outras APIs, com valores baixíssimos variando de 1,40\% a 41\%, resultados que replicam os obtidos nos experimentos anteriores. A API TomTom apresentou um resultado mediano, mantendo taxas acima de 50\% em todos os experimentos. Em relação à variação máxima, é possível notar que ela aumentou, comparado com os resultados obtidos nas tabelas \ref{tab:txRespExpAPIBH} e \ref{tab:txRespExpAPISP}, indicando que a formatação pode impactar a taxa de acerto das APIs. A API em que essa variação foi maior foi a ORS, sugerindo que essa API seja mais sensível às modificações de formatação de entrada.
 
 Ao comparar os experimentos entre si, nota-se que a melhor taxa de acerto de cada API não foi totalmente consistente, variando para algumas APIs. Os experimentos com as maiores taxas de acerto para cada API foram:
 \begin{itemize}
@@ -410,13 +406,15 @@ Apesar disso, percebe-se que, para a maioria das APIs, os melhores resultados es
     \hline
     5b & 81,00 & 72,92 & 53,92 & 24,78\\
     \hline
+    Variação Máxima & 5,24 & 7,92 & 3,54 & 38,6\\
+    \hline
     \end{tabular}
     \end{adjustbox}
 \end{table}
 
 A tabela \ref{tab:txAcerExpAPISP} apresenta a taxa de acerto para os experimentos em São Paulo. Como mencionado anteriormente, a base de São Paulo não continha informações sobre bairros, resultando na análise apenas dos experimentos de formatação sem bairro.
 
-Com esses resultados, observamos que as APIs com as maiores taxas de acerto foram Google, TomTom e Mapbox como visto nos experimentos em Belo Horizonte. No entanto, nos experimentos em São Paulo, a Google teve um desempenho superior, sendo o destaque para essa base, seguida pela TomTom e Mapbox. A ORS, por outro lado, teve novamente um desempenho ruim, com taxas de acerto muito baixas, variando de 1\% a 29\%.
+Com esses resultados, observamos que as APIs com as maiores taxas de acerto foram Google, TomTom e Mapbox como visto nos experimentos em Belo Horizonte. No entanto, nos experimentos em São Paulo, a Google teve um desempenho superior, sendo o destaque para essa base, seguida pela TomTom e Mapbox. A ORS, por outro lado, teve novamente um desempenho ruim, com taxas de acerto muito baixas, variando de 1\% a 29\%. Em relação à variação máxima, houve algumas diferenças em comparação com os dados de Belo Horizonte. A variação, em geral, foi mais baixa, indicando que a formatação de entrada tem menos impacto na taxa de acerto para essas APIs. No entanto, ainda houve variações consideráveis, o que reforça a ideia de que buscar uma melhor formatação de entrada pode beneficiar a qualidade da geocodificação. A ORS manteve uma variação máxima alta, o que parece confirmar a hipótese de que essa API é bastante impactada pela formatação de entrada.
 
 Em relação aos experimentos, o Experimento 1 obteve a melhor taxa de acerto para quase todas as APIs, reforçando a hipótese de que a melhor formatação de entrada para as requisições de API no território nacional segue o código postal brasileiro. Para a API TomTom no entanto, o experimento com melhor resultado foi o Experimento 2. Porém com um valor bem similar ao Experimento 1. Em geral, para a base de São Paulo, as APIs apresentaram resultados inferiores, porém medianos, o que também foi observado na análise das APIs com a base completa.
 
@@ -427,17 +425,19 @@ Em relação aos experimentos, o Experimento 1 obteve a melhor taxa de acerto pa
   \begin{adjustbox}{width=0.7\textwidth}
   \begin{tabular}{|c|c|c|c|c|}
   \hline
-  Experimento & MapBox & Google & ORS & TomTom\\
+  Experimento & MapBox & Google & TomTom & ORS\\
   \hline
-  1 & 41,78 & 50,80 & 28,94 & 44,94\\
+  1 & 41,78 & 50,80 & 44,94 & 28,94\\
   \hline
-  2 & 37,04 & 48,54 & 5,30 & 44,96\\
+  2 & 37,04 & 48,54 & 44,96 & 5,30\\
   \hline
-  3 & 41,26 & 48,42 & 0,14 & 45,02\\
+  3 & 41,26 & 48,42 & 45,02 & 0,14\\
   \hline
-  4 & 40,90 & 48,42 & 14,94 & 44,90\\
+  4 & 40,90 & 48,42 & 44,90 & 14,94\\
   \hline
-  5 & 40,10 & 48,00 & 1,04 & 44,40\\
+  5 & 40,10 & 48,00 & 44,40 & 1,04\\
+  \hline
+  Variação Máxima & 4,74 & 2,80 & 0,62 & 28,80\\
   \hline
   \end{tabular}
   \end{adjustbox}
@@ -625,7 +625,7 @@ A Figura \ref{fig:boxplot-api-tomtom-semout-bh} apresenta o boxplot da API TomTo
     \label{fig:boxplot-api-tomtom-semout-bh}
 \end{figure}
 
-Para concluir a análise dos boxplots, foram gerados dois gráficos para a API ORS para os dados de Belo Horizonte, conforme apresentado na Figura \ref{fig:boxplot-api-ors-semout-bhe}, e para os dados de São Paulo, na Figura \ref{fig:boxplot-api-ors-semout-sp}. Ao examinar os dados de Belo Horizonte, observa-se que os experimentos que se destacaram positivamente foram os 1, 1b, 4, 4b, 5 e 5b, com pouca diferença entre eles. Por outro lado, os experimentos 2b e 3b obtiveram os piores resultados para os dados de Belo Horizonte. No contexto dos dados de São Paulo, o experimento 1 se destacou positivamente, enquanto o experimento 2 teve o pior desempenho. Os demais experimentos apresentaram resultados semelhantes.
+Para concluir a análise dos boxplots, foram gerados dois gráficos para a API ORS para os dados de Belo Horizonte, conforme apresentado na Figura \ref{fig:boxplot-api-ors-semout-bh}, e para os dados de São Paulo, na Figura \ref{fig:boxplot-api-ors-semout-sp}. Ao examinar os dados de Belo Horizonte, observa-se que os experimentos que se destacaram positivamente foram os 1, 1b, 4, 4b, 5 e 5b, com pouca diferença entre eles. Por outro lado, os experimentos 2b e 3b obtiveram os piores resultados para os dados de Belo Horizonte. No contexto dos dados de São Paulo, o experimento 1 se destacou positivamente, enquanto o experimento 2 teve o pior desempenho. Os demais experimentos apresentaram resultados semelhantes.
 
 \begin{figure}[h]
     \centering
