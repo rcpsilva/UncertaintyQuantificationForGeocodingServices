@@ -216,4 +216,12 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   \url{https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/j.1749-8198.2008.00205.x}.}
 
+\bibitem[Zhang e Bethard 2024]{zhang2024}
+\abntrefinfo{Zhang e Bethard}{ZHANG; BETHARD}{2024}
+{ZHANG, Z.; BETHARD, S. A survey on geocoding: algorithms and datasets for
+  toponym resolution.
+\emph{Language Resources and Evaluation}, 2024.
+Accepted: 23 February 2024.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1007/s10579-024-09730-2}.}
+
 \end{thebibliography}
