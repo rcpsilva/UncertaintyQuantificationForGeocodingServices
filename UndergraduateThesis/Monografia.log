@@ -1254,4 +1254,196 @@ Package pdftex.def Info: Figuras/boxplotApiGoogleSemOut.png  used on input line 
 (pdftex.def)             Requested size: 455.0pt x 284.44687pt.
 <Figuras/boxplotApiGoogleSemOutsp.png, id=679, 594.7821pt x 344.7279pt>
 File: Figuras/boxplotApiGoogleSemOutsp.png Graphic file (type png)
-<use Figuras/boxplotApiGoogleSemOut
+<use Figuras/boxplotApiGoogleSemOutsp.png>
+Package pdftex.def Info: Figuras/boxplotApiGoogleSemOutsp.png  used on input line 614.
+(pdftex.def)             Requested size: 455.0pt x 263.72124pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figuras/boxplotApiTomtomSemOut.png, id=681, 606.3453pt x 386.6445pt>
+File: Figuras/boxplotApiTomtomSemOut.png Graphic file (type png)
+<use Figuras/boxplotApiTomtomSemOut.png>
+Package pdftex.def Info: Figuras/boxplotApiTomtomSemOut.png  used on input line 623.
+(pdftex.def)             Requested size: 455.0pt x 290.13605pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35 <./Figuras/boxplotApiGoogleSemOut.png>]
+<Figuras/boxplotApiOrsSemOut.png, id=689, 633.8079pt x 386.6445pt>
+File: Figuras/boxplotApiOrsSemOut.png Graphic file (type png)
+<use Figuras/boxplotApiOrsSemOut.png>
+Package pdftex.def Info: Figuras/boxplotApiOrsSemOut.png  used on input line 632.
+(pdftex.def)             Requested size: 455.0pt x 277.57556pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figuras/boxplotApiOrsSemOutSP.png, id=690, 594.7821pt x 338.2236pt>
+File: Figuras/boxplotApiOrsSemOutSP.png Graphic file (type png)
+<use Figuras/boxplotApiOrsSemOutSP.png>
+Package pdftex.def Info: Figuras/boxplotApiOrsSemOutSP.png  used on input line 639.
+(pdftex.def)             Requested size: 455.0pt x 258.74538pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figuras/expFalhasMapboxmaior.png, id=692, 411.2163pt x 328.8285pt>
+File: Figuras/expFalhasMapboxmaior.png Graphic file (type png)
+<use Figuras/expFalhasMapboxmaior.png>
+Package pdftex.def Info: Figuras/expFalhasMapboxmaior.png  used on input line 655.
+(pdftex.def)             Requested size: 204.74861pt x 163.73146pt.
+<Figuras/expFalhasMapboxmenor.png, id=693, 415.5525pt x 328.8285pt>
+File: Figuras/expFalhasMapboxmenor.png Graphic file (type png)
+<use Figuras/expFalhasMapboxmenor.png>
+Package pdftex.def Info: Figuras/expFalhasMapboxmenor.png  used on input line 661.
+(pdftex.def)             Requested size: 204.74861pt x 162.01547pt.
+[36 <./Figuras/boxplotApiGoogleSemOutsp.png>]
+<Figuras/expFalhasMapboxmaiorSP.png, id=701, 411.2163pt x 328.8285pt>
+File: Figuras/expFalhasMapboxmaiorSP.png Graphic file (type png)
+<use Figuras/expFalhasMapboxmaiorSP.png>
+Package pdftex.def Info: Figuras/expFalhasMapboxmaiorSP.png  used on input line 675.
+(pdftex.def)             Requested size: 204.74861pt x 163.73146pt.
+<Figuras/expFalhasMapboxmenorSP.png, id=702, 415.5525pt x 328.8285pt>
+File: Figuras/expFalhasMapboxmenorSP.png Graphic file (type png)
+<use Figuras/expFalhasMapboxmenorSP.png>
+Package pdftex.def Info: Figuras/expFalhasMapboxmenorSP.png  used on input line 681.
+(pdftex.def)             Requested size: 204.74861pt x 162.01547pt.
+<Figuras/expFalhasGooglemaior.png, id=704, 405.4347pt x 328.8285pt>
+File: Figuras/expFalhasGooglemaior.png Graphic file (type png)
+<use Figuras/expFalhasGooglemaior.png>
+Package pdftex.def Info: Figuras/expFalhasGooglemaior.png  used on input line 695.
+(pdftex.def)             Requested size: 204.74861pt x 166.0646pt.
+<Figuras/expFalhasGooglemenor.png, id=705, 409.7709pt x 328.8285pt>
+File: Figuras/expFalhasGooglemenor.png Graphic file (type png)
+<use Figuras/expFalhasGooglemenor.png>
+Package pdftex.def Info: Figuras/expFalhasGooglemenor.png  used on input line 701.
+(pdftex.def)             Requested size: 204.74861pt x 164.30345pt.
+ [37 <./Figuras/boxplotApiTomtomSemOut.png>]
+<Figuras/expFalhasGooglemaiorSP.png, id=715, 405.4347pt x 328.8285pt>
+File: Figuras/expFalhasGooglemaiorSP.png Graphic file (type png)
+<use Figuras/expFalhasGooglemaiorSP.png>
+Package pdftex.def Info: Figuras/expFalhasGooglemaiorSP.png  used on input line 717.
+(pdftex.def)             Requested size: 204.74861pt x 166.0646pt.
+<Figuras/expFalhasGooglemenorSP.png, id=716, 409.7709pt x 328.8285pt>
+File: Figuras/expFalhasGooglemenorSP.png Graphic file (type png)
+<use Figuras/expFalhasGooglemenorSP.png>
+Package pdftex.def Info: Figuras/expFalhasGooglemenorSP.png  used on input line 723.
+(pdftex.def)             Requested size: 204.74861pt x 164.30345pt.
+<Figuras/expFalhasTomtommaior.png, id=718, 411.939pt x 328.8285pt>
+File: Figuras/expFalhasTomtommaior.png Graphic file (type png)
+<use Figuras/expFalhasTomtommaior.png>
+Package pdftex.def Info: Figuras/expFalhasTomtommaior.png  used on input line 737.
+(pdftex.def)             Requested size: 204.74861pt x 163.43542pt.
+<Figuras/expFalhasTomtommenor.png, id=719, 416.2752pt x 328.8285pt>
+File: Figuras/expFalhasTomtommenor.png Graphic file (type png)
+<use Figuras/expFalhasTomtommenor.png>
+Package pdftex.def Info: Figuras/expFalhasTomtommenor.png  used on input line 743.
+(pdftex.def)             Requested size: 204.74861pt x 161.7395pt.
+ [38 <./Figuras/boxplotApiOrsSemOut.png>]
+<Figuras/expFalhasTomtommaiorSP.png, id=726, 411.939pt x 328.8285pt>
+File: Figuras/expFalhasTomtommaiorSP.png Graphic file (type png)
+<use Figuras/expFalhasTomtommaiorSP.png>
+Package pdftex.def Info: Figuras/expFalhasTomtommaiorSP.png  used on input line 757.
+(pdftex.def)             Requested size: 204.74861pt x 163.43542pt.
+<Figuras/expFalhasTomtommenorSP.png, id=727, 416.2752pt x 328.8285pt>
+File: Figuras/expFalhasTomtommenorSP.png Graphic file (type png)
+<use Figuras/expFalhasTomtommenorSP.png>
+Package pdftex.def Info: Figuras/expFalhasTomtommenorSP.png  used on input line 763.
+(pdftex.def)             Requested size: 204.74861pt x 161.7395pt.
+ [39 <./Figuras/boxplotApiOrsSemOutSP.png> <./Figuras/expFalhasMapboxmaior.png> <./Figuras/expFalhasMapboxmenor.png>]
+<Figuras/expFalhasORSmaior.png, id=736, 474.8139pt x 328.8285pt>
+File: Figuras/expFalhasORSmaior.png Graphic file (type png)
+<use Figuras/expFalhasORSmaior.png>
+Package pdftex.def Info: Figuras/expFalhasORSmaior.png  used on input line 777.
+(pdftex.def)             Requested size: 204.74861pt x 141.79489pt.
+<Figuras/expFalhasORSmenor.png, id=737, 479.1501pt x 328.8285pt>
+File: Figuras/expFalhasORSmenor.png Graphic file (type png)
+<use Figuras/expFalhasORSmenor.png>
+Package pdftex.def Info: Figuras/expFalhasORSmenor.png  used on input line 783.
+(pdftex.def)             Requested size: 204.74861pt x 140.51543pt.
+<Figuras/expFalhasORSmaiorSP.png, id=740, 474.8139pt x 328.8285pt>
+File: Figuras/expFalhasORSmaiorSP.png Graphic file (type png)
+<use Figuras/expFalhasORSmaiorSP.png>
+Package pdftex.def Info: Figuras/expFalhasORSmaiorSP.png  used on input line 797.
+(pdftex.def)             Requested size: 204.74861pt x 141.79489pt.
+<Figuras/expFalhasORSmenorSP.png, id=741, 479.1501pt x 328.8285pt>
+File: Figuras/expFalhasORSmenorSP.png Graphic file (type png)
+<use Figuras/expFalhasORSmenorSP.png>
+Package pdftex.def Info: Figuras/expFalhasORSmenorSP.png  used on input line 803.
+(pdftex.def)             Requested size: 204.74861pt x 140.51543pt.
+) [40 <./Figuras/expFalhasMapboxmaiorSP.png> <./Figuras/expFalhasMapboxmenorSP.png> <./Figuras/expFalhasGooglemaior.png> <./Figuras/expFalhasGooglemenor.png>] [41 <./Figuras/expFalhasGooglemaiorSP.png> <./Figuras/expFalhasGooglemenorSP.png> <./Figuras/expFalhasTomtommaior.png> <./Figuras/expFalhasTomtommenor.png> <./Figuras/expFalhasTomtommaiorSP.png> <./Figuras/expFalhasTomtommenorSP.png>] [42 <./Figuras/expFalhasORSmaior.png> <./Figuras/expFalhasORSmenor.png> <./Figuras/expFalhasORSmaiorSP.png> <./Figuras/expFalhasORSmenorSP.png>]
+\openout2 = `Capitulos/Cap5-Conclusao.aux'.
+
+ (Capitulos/Cap5-Conclusao.tex [43
+
+
+
+
+]) [44] (Monografia.bbl
+bibitemlist
+[45
+
+
+
+]
+Overfull \hbox (185.71548pt too wide) in paragraph at lines 183--186
+\T1/qtm/m/n/12 (-20) Urlhttps://github.com/rcpsilva/UncertaintyQuantificationForGeocodingServices/blob/main/UndergraduateThesis/Documentos/Relatorio- 
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 195--198
+[]\T1/qtm/m/n/12 (+20) TOMTOM. \T1/qtm/m/it/12 (+20) Do-cu-men-ta-ção da Tom-Tom Ge-o-co-din API\T1/qtm/m/n/12 (+20) . 2023. 
+ []
+
+[46]) [47]
+\openout2 = `PosTextuais/Anexo.aux'.
+
+ (PosTextuais/Anexo.tex [48
+
+
+
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49
+
+] [50]
+Overfull \hbox (2.58005pt too wide) in paragraph at lines 185--201
+ [][] 
+ []
+
+) [51
+
+] [52] [53] (Monografia.ind)
+\tf@lof=\write5
+\openout5 = `Monografia.lof'.
+
+\tf@lot=\write6
+\openout6 = `Monografia.lot'.
+
+\tf@toc=\write7
+\openout7 = `Monografia.toc'.
+
+ 
+enddocument/afterlastpage: lastpage setting LastPage.
+(Monografia.aux (PreTextuais/Resumo.aux) (PreTextuais/ListaSiglas.aux) (Capitulos/Cap1-Introducao.aux) (Capitulos/Cap3-Desenvolvimento.aux) (Capitulos/Cap4-Resultados.aux) (Capitulos/Cap5-Conclusao.aux) (PosTextuais/Anexo.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 23577 strings out of 476331
+ 404405 string characters out of 5787765
+ 1901660 words of memory out of 5000000
+ 43213 multiletter control sequences out of 15000+600000
+ 562179 words of font info for 147 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 90i,15n,134p,1439b,702s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmb.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/analu/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmri.pfb>
+Output written on Monografia.pdf (62 pages, 3271746 bytes).
+PDF statistics:
+ 1013 PDF objects out of 1200 (max. 8388607)
+ 194 named destinations out of 1000 (max. 500000)
+ 30749 words of extra memory for PDF output out of 35830 (max. 10000000)
+
