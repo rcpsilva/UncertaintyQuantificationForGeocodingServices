@@ -9,7 +9,7 @@ library(lmPerm)
 options(repr.plot.width = 10, repr.plot.height = 6) 
 
 # Load the dataset
-data <- read.csv("C:\\Users\\rcpsi\\source\\repos\\UncertaintyQuantificationForGeocodingServices\\EffectOfStorageOnCost\\tempos_tcc - Página1.csv")
+data <- read.csv("C:\\Users\\rcpsi\\source\\repos\\UncertaintyQuantificationForGeocodingServices\\EffectOfStorageOnCost\\tempos_tcc_sistema.csv")
 # Clean the dataset by converting 'tempo' to numeric and replacing commas with dots
 data$tempo <- as.numeric(gsub(",", ".", data$tempo))
 
@@ -37,6 +37,14 @@ data$operacao <- as.factor(data$operacao)
 #latex_table <- xtable(anova_df)
 #print(latex_table, type = "latex")
 
+
+ggplot(data, aes(x = operacao, y = tempo, colour = sistema, fill = sistema)) + 
+  geom_boxplot(position = position_dodge(width = 0.9)) +
+  stat_summary(fun = median, geom = "point", shape =20, size = 3, color = "black", position = position_dodge(0.9),) +  # Add mean as a point
+  theme_minimal(base_size = 16) +
+  scale_y_continuous(breaks = seq(0, max(data$tempo), by = 20)) +
+  scale_x_discrete(expand = c(0.05, 0.05)) +  # Adjust the space between categories
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  #
 
 
 # Visualize interaction between index, views, tabelas_temporarias, and operacao
