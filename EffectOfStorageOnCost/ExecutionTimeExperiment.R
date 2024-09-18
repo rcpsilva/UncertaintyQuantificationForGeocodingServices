@@ -23,9 +23,9 @@ data$tabelas_temporarias <- as.factor(data$tabelas_temporarias)
 data$operacao <- as.factor(data$operacao)
 
 
-perm_anova <- aovp(tempo ~ index * views * tabelas_temporarias * operacao + iteracao, data = data)
+#perm_anova <- aovp(tempo ~ index * tabelas_temporarias * operacao + iteracao, data = data)
 
-summary(perm_anova)
+#summary(perm_anova)
 
 # Extract the ANOVA table from the summary object
 #anova_table <- summary_perm_anova[[1]]
@@ -43,7 +43,7 @@ summary(perm_anova)
 # We will use facet wrapping to visualize the interactions across different factors
 ggplot(data, aes(x = operacao, y = tempo, colour = index, fill = index)) + 
   geom_boxplot(position = position_dodge(width = 0.9)) +
-  stat_summary(fun = mean, geom = "point", shape =20, size = 3, color = "black", position = position_dodge(0.9),) +  # Add mean as a point
+  stat_summary(fun = median, geom = "point", shape =20, size = 3, color = "black", position = position_dodge(0.9),) +  # Add mean as a point
   theme_minimal(base_size = 16) +
   scale_y_continuous(breaks = seq(0, max(data$tempo), by = 20)) +
   scale_x_discrete(expand = c(0.05, 0.05)) +  # Adjust the space between categories
@@ -67,7 +67,7 @@ ggplot(data, aes(x = operacao, y = tempo, colour = views, fill = views)) +
   scale_x_discrete(expand = c(0.05, 0.05)) +  # Adjust the space between categories
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  #
 
-ggplot(data, aes(x = views, y = tempo, colour = views, fill=views)) + 
+ggplot(data, aes(x = operacao, y = tempo, colour = tabelas_temporarias, fill = tabelas_temporarias)) + 
   geom_boxplot(position = position_dodge(width = 0.9)) +
   stat_summary(fun = mean, geom = "point", shape =20, size = 3, color = "black", position = position_dodge(0.9),) +  # Add mean as a point
   theme_minimal(base_size = 16) +
@@ -75,3 +75,14 @@ ggplot(data, aes(x = views, y = tempo, colour = views, fill=views)) +
   scale_x_discrete(expand = c(0.05, 0.05)) +  # Adjust the space between categories
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  #
 
+
+no_disjoint_data <- data %>% 
+  filter(operacao == "pertinencia" & variacao != "ST_disjoint")
+
+ggplot(no_disjoint_data, aes(x = operacao, y = tempo, colour = index, fill = index)) + 
+  geom_boxplot(position = position_dodge(width = 0.9)) +
+  stat_summary(fun = mean, geom = "point", shape =20, size = 3, color = "black", position = position_dodge(0.9),) +  # Add mean as a point
+  theme_minimal(base_size = 16) +
+  scale_y_continuous(breaks = seq(0, max(data$tempo), by = 20)) +
+  scale_x_discrete(expand = c(0.05, 0.05)) +  # Adjust the space between categories
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  #
