@@ -5,6 +5,8 @@ library(ggplot2)
 library(coin)  # For permutation tests
 library(xtable)
 library(RColorBrewer)  # For custom color palettes
+library(lmPerm)
+options(repr.plot.width = 10, repr.plot.height = 6) 
 
 # Load the dataset
 data <- read.csv("C:\\Users\\rcpsi\\source\\repos\\UncertaintyQuantificationForGeocodingServices\\EffectOfStorageOnCost\\tempos_tcc - Página1.csv")
@@ -20,88 +22,56 @@ data$views <- as.factor(data$views)
 data$tabelas_temporarias <- as.factor(data$tabelas_temporarias)
 data$operacao <- as.factor(data$operacao)
 
-# 1. Run a permutation test for the interaction model
-print("Running permutation test (non-parametric approach).")
-perm_test <- independence_test(tempo ~ index * views * tabelas_temporarias * operacao, data = data)
-print(perm_test)
 
-# Manually extract results for LaTeX output
-perm_results <- data.frame(
-  Statistic = statistic(perm_test),
-  PValue = pvalue(perm_test)
-)
+perm_anova <- aovp(tempo ~ index * views * tabelas_temporarias * operacao + iteracao, data = data)
 
-# Convert results to LaTeX
-perm_latex <- xtable(perm_results, caption = "Permutation Test Results for Interaction Model")
-print(perm_latex, type = "latex")
+summary(perm_anova)
 
-# 2. Visualize the non-parametric results using Violin Plots
-# Automatically generate a color palette that matches the number of levels in each factor
-color_palette <- function(n) {
-  brewer.pal(n, "Set3")
-}
+# Extract the ANOVA table from the summary object
+#anova_table <- summary_perm_anova[[1]]
 
-# Violin plot for Operation types
-ggplot(data, aes(x = operacao, y = tempo, fill = operacao)) + 
-  geom_violin(trim = FALSE, color = "black", size = 0.8) + 
-  stat_summary(fun.data = "mean_sdl", fun.args = list(mult = 1), geom = "pointrange", color = "black") + 
-  theme_minimal() +
-  labs(title = "Effect of Operation Types on Execution Time (Non-parametric)", x = "Operation", y = "Execution Time (s)") +
-  theme(legend.position = "none", text = element_text(size = 14)) +
-  scale_fill_manual(values = color_palette(length(unique(data$operacao))))
+# Convert the ANOVA table to a data frame
+#anova_df <- as.data.frame(anova_table)
 
-# Violin plot for Index types
-ggplot(data, aes(x = index, y = tempo, fill = index)) + 
-  geom_violin(trim = FALSE, color = "black", size = 0.8) + 
-  stat_summary(fun.data = "mean_sdl", fun.args = list(mult = 1), geom = "pointrange", color = "black") + 
-  theme_minimal() +
-  labs(title = "Effect of Index on Execution Time (Non-parametric)", x = "Index", y = "Execution Time (s)") +
-  theme(legend.position = "none", text = element_text(size = 14)) +
-  scale_fill_manual(values = color_palette(length(unique(data$index))))
+# Use xtable to convert the data frame to LaTeX format
+#latex_table <- xtable(anova_df)
+#print(latex_table, type = "latex")
 
-# Violin plot for Views
-ggplot(data, aes(x = views, y = tempo, fill = views)) + 
-  geom_violin(trim = FALSE, color = "black", size = 0.8) + 
-  stat_summary(fun.data = "mean_sdl", fun.args = list(mult = 1), geom = "pointrange", color = "black") + 
-  theme_minimal() +
-  labs(title = "Effect of Views on Execution Time (Non-parametric)", x = "Views", y = "Execution Time (s)") +
-  theme(legend.position = "none", text = element_text(size = 14)) +
-  scale_fill_manual(values = color_palette(length(unique(data$views))))
 
-# Violin plot for Temporary Tables
-ggplot(data, aes(x = tabelas_temporarias, y = tempo, fill = tabelas_temporarias)) + 
-  geom_violin(trim = FALSE, color = "black", size = 0.8) + 
-  stat_summary(fun.data = "mean_sdl", fun.args = list(mult = 1), geom = "pointrange", color = "black") + 
-  theme_minimal() +
-  labs(title = "Effect of Temporary Tables on Execution Time (Non-parametric)", x = "Temporary Tables", y = "Execution Time (s)") +
-  theme(legend.position = "none", text = element_text(size = 14)) +
-  scale_fill_manual(values = color_palette(length(unique(data$tabelas_temporarias))))
 
-# 3. Interaction Plots
+# Visualize interaction between index, views, tabelas_temporarias, and operacao
+# We will use facet wrapping to visualize the interactions across different factors
+ggplot(data, aes(x = operacao, y = tempo, colour = index, fill = index)) + 
+  geom_boxplot(position = position_dodge(width = 0.9)) +
+  stat_summary(fun = mean, geom = "point", shape =20, size = 3, color = "black", position = position_dodge(0.9),) +  # Add mean as a point
+  theme_minimal(base_size = 16) +
+  scale_y_continuous(breaks = seq(0, max(data$tempo), by = 20)) +
+  scale_x_discrete(expand = c(0.05, 0.05)) +  # Adjust the space between categories
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  #
 
-# Interaction between Index and Operation
-ggplot(data, aes(x = operacao, y = tempo, group = index, color = index)) + 
-  stat_summary(fun = "mean", geom = "line", size = 1.2) +
-  stat_summary(fun = "mean", geom = "point", size = 3, shape = 21, fill = "white") +
-  labs(title = "Interaction between Index and Operation", x = "Operation", y = "Mean Execution Time (s)") +
-  theme_minimal() +
-  theme(legend.position = "right", text = element_text(size = 14)) +
-  scale_color_manual(values = color_palette(length(unique(data$index))))
+pertinencia_data <- data %>% filter(operacao == "pertinencia")
 
-# Interaction between Views and Operation
-ggplot(data, aes(x = operacao, y = tempo, group = views, color = views)) + 
-  stat_summary(fun = "mean", geom = "line", size = 1.2) +
-  stat_summary(fun = "mean", geom = "point", size = 3, shape = 21, fill = "white") +
-  labs(title = "Interaction between Views and Operation", x = "Operation", y = "Mean Execution Time (s)") +
-  theme_minimal() +
-  theme(legend.position = "right", text = element_text(size = 14)) +
-  scale_color_manual(values = color_palette(length(unique(data$views))))
+ggplot(pertinencia_data, aes(x = operacao, y = tempo, colour = variacao, fill = variacao)) + 
+  geom_boxplot(position = position_dodge(width = 0.9)) +
+  stat_summary(fun = mean, geom = "point", shape =20, size = 3, color = "black", position = position_dodge(0.9),) +  # Add mean as a point
+  theme_minimal(base_size = 16) +
+  scale_y_continuous(breaks = seq(0, max(data$tempo), by = 20)) +
+  scale_x_discrete(expand = c(0.05, 0.05)) +  # Adjust the space between categories
+  theme(axis.text.x = element_text(angle = 0, hjust = 0.5))  #
 
-# Interaction between Temporary Tables and Operation
-ggplot(data, aes(x = operacao, y = tempo, group = tabelas_temporarias, color = tabelas_temporarias)) + 
-  stat_summary(fun = "mean", geom = "line", size = 1.2) +
-  stat_summary(fun = "mean", geom = "point", size = 3, shape = 21, fill = "white") +
-  labs(title = "Interaction between Temporary Tables and Operation", x = "Operation", y = "Mean Execution Time (s)") +
-  theme_minimal() +
-  theme(legend.position = "right", text = element_text(size = 14)) +
-  scale_color_manual(values = color_palette(length(unique(data$tabelas_temporarias))))
+ggplot(data, aes(x = operacao, y = tempo, colour = views, fill = views)) + 
+  geom_boxplot(position = position_dodge(width = 0.9)) +
+  stat_summary(fun = mean, geom = "point", shape =20, size = 3, color = "black", position = position_dodge(0.9),) +  # Add mean as a point
+  theme_minimal(base_size = 16) +
+  scale_y_continuous(breaks = seq(0, max(data$tempo), by = 20)) +
+  scale_x_discrete(expand = c(0.05, 0.05)) +  # Adjust the space between categories
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  #
+
+ggplot(data, aes(x = views, y = tempo, colour = views, fill=views)) + 
+  geom_boxplot(position = position_dodge(width = 0.9)) +
+  stat_summary(fun = mean, geom = "point", shape =20, size = 3, color = "black", position = position_dodge(0.9),) +  # Add mean as a point
+  theme_minimal(base_size = 16) +
+  scale_y_continuous(breaks = seq(0, max(data$tempo), by = 20)) +
+  scale_x_discrete(expand = c(0.05, 0.05)) +  # Adjust the space between categories
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  #
+
